@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Painel de Navegação Gerencial (P.N.G)"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "5a1568dc-2e99-4d4b-97b0-8d28d38c3d85"
+  }
+}
