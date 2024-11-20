@@ -11,7 +11,7 @@
         {
           "location": {
             "x": 0,
-            "y": 0
+            "y": 48
           },
           "nodeIndex": "hora_din",
           "nodeLineageTag": "d36ca822-6c0d-40ff-be9a-92d6ae71e7c0",
@@ -24,12 +24,25 @@
         {
           "location": {
             "x": 284,
-            "y": 0
+            "y": 48
           },
           "nodeIndex": "Medidas",
           "nodeLineageTag": "5a25b275-a9d4-4792-ac46-d9ac19709c83",
           "size": {
             "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 568,
+            "y": 0
+          },
+          "nodeIndex": "fbase_online_pesados_demanda",
+          "nodeLineageTag": "86f80c0f-1098-475d-857e-3f299ac54dc7",
+          "size": {
+            "height": 200,
             "width": 234
           },
           "zIndex": 0
