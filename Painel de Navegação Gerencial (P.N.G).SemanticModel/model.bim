@@ -12,7 +12,7 @@
       },
       {
         "name": "PBI_QueryOrder",
-        "value": "[\"hora_din\",\"Medidas\",\"fbase_online_pesados_demanda\",\"Arquivo de Amostra\",\"Parâmetro1\",\"Transformar o Arquivo de Exemplo\",\"Transformar Arquivo\"]"
+        "value": "[\"dhora_din\",\"Medidas\",\"fbase_online_pesados_demanda\",\"Arquivo de Amostra\",\"Parâmetro1\",\"Transformar o Arquivo de Exemplo\",\"Transformar Arquivo\",\"fbase_online_pesados_cancelamentos\",\"Arquivo de Amostra (2)\",\"Parâmetro2\",\"Transformar o Arquivo de Exemplo (2)\",\"Transformar Arquivo (2)\",\"Consulta1\",\"dcalendario\",\"fbase_abastecimento_demanda\",\"fbase_abastecimento_cancelamentos\",\"dsetor\"]"
       },
       {
         "name": "__PBI_TimeIntelligenceEnabled",
@@ -121,6 +121,107 @@
         "lineageTag": "f98e5337-3dcd-443a-801e-6ef46c3a7ce1",
         "mAttributes": "[ FunctionQueryBinding = \"{\"\"exemplarFormulaName\"\":\"\"Transformar o Arquivo de Exemplo\"\"}\" ]",
         "queryGroup": "Transformar Arquivo de fbase_online_pesados_demanda\\Consultas Auxiliares"
+      },
+      {
+        "name": "Arquivo de Amostra (2)",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Binary"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Fonte = SharePoint.Contents(\"https://viavarejo.sharepoint.com/sites/grupo_de_dados_wave\", [ApiVersion = 15]),",
+          "    #\"Atualizaes de Relatrios Gerais\" = Fonte{[Name=\"Atualizaes de Relatrios Gerais\"]}[Content],",
+          "    #\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\" = #\"Atualizaes de Relatrios Gerais\"{[Name=\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\"]}[Content],",
+          "    #\"Relatórios históricos\" = #\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\"{[Name=\"Relatórios históricos\"]}[Content],",
+          "    #\"Painel de Navegacao Gerencial - ADMS - Vinicius &  Almeida\" = #\"Relatórios históricos\"{[Name=\"Painel de Navegacao Gerencial - ADMS - Vinicius &  Almeida\"]}[Content],",
+          "    #\"SLA - Leves && Pesados && EAD\" = #\"Painel de Navegacao Gerencial - ADMS - Vinicius &  Almeida\"{[Name=\"SLA - Leves && Pesados && EAD\"]}[Content],",
+          "    #\"Cancelamento All\" = #\"SLA - Leves && Pesados && EAD\"{[Name=\"Cancelamento All\"]}[Content],",
+          "    Navegação1 = #\"Cancelamento All\"{0}[Content]",
+          "in",
+          "    Navegação1"
+        ],
+        "kind": "m",
+        "lineageTag": "a7337b92-4648-430a-823a-538e6bc65bf4",
+        "queryGroup": "Transformar Arquivo de Consulta1\\Consultas Auxiliares"
+      },
+      {
+        "name": "Parâmetro2",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Binary"
+          }
+        ],
+        "expression": "#\"Arquivo de Amostra (2)\" meta [IsParameterQuery=true, BinaryIdentifier=#\"Arquivo de Amostra (2)\", Type=\"Binary\", IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "39133742-5bfb-4ef4-88f0-ef58f785f522",
+        "queryGroup": "Transformar Arquivo de Consulta1\\Consultas Auxiliares"
+      },
+      {
+        "name": "Transformar o Arquivo de Exemplo (2)",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Fonte = Csv.Document(Parâmetro2,[Delimiter=\"\t\", Columns=17, Encoding=1200, QuoteStyle=QuoteStyle.None]),",
+          "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true])",
+          "in",
+          "    #\"Cabeçalhos Promovidos\""
+        ],
+        "kind": "m",
+        "lineageTag": "de8d6c71-5892-4ba1-83a7-07cbdc35def7",
+        "queryGroup": "Transformar Arquivo de Consulta1"
+      },
+      {
+        "name": "Transformar Arquivo (2)",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Function"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Fonte = (Parâmetro2) => let",
+          "        Fonte = Csv.Document(Parâmetro2,[Delimiter=\"\t\", Columns=17, Encoding=1200, QuoteStyle=QuoteStyle.None]),",
+          "        #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true])",
+          "    in",
+          "        #\"Cabeçalhos Promovidos\"",
+          "in",
+          "    Fonte"
+        ],
+        "kind": "m",
+        "lineageTag": "455645b2-64d8-46df-8e90-51003a1608ae",
+        "mAttributes": "[ FunctionQueryBinding = \"{\"\"exemplarFormulaName\"\":\"\"Transformar o Arquivo de Exemplo (2)\"\"}\" ]",
+        "queryGroup": "Transformar Arquivo de Consulta1\\Consultas Auxiliares"
+      },
+      {
+        "name": "Consulta1",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Function"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Fonte = List.Dates",
+          "in",
+          "    Fonte"
+        ],
+        "kind": "m",
+        "lineageTag": "ad0511ee-a594-4749-bfb1-deef04705852"
       }
     ],
     "queryGroups": [
@@ -141,22 +242,30 @@
           }
         ],
         "folder": "Transformar Arquivo de fbase_online_pesados_demanda\\Consultas Auxiliares"
-      }
-    ],
-    "relationships": [
+      },
       {
-        "name": "e155563b-9f81-4e0c-916c-889f77e119ee",
-        "fromColumn": "Último Update oLPN",
-        "fromTable": "fbase_online_pesados_demanda",
-        "joinOnDateBehavior": "datePartOnly",
-        "toColumn": "Date",
-        "toTable": "LocalDateTable_1223dd92-911a-49c0-af6a-3bf9c6c63b85"
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "2"
+          }
+        ],
+        "folder": "Transformar Arquivo de Consulta1"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "0"
+          }
+        ],
+        "folder": "Transformar Arquivo de Consulta1\\Consultas Auxiliares"
       }
     ],
     "sourceQueryCulture": "pt-BR",
     "tables": [
       {
-        "name": "hora_din",
+        "name": "dhora_din",
         "annotations": [
           {
             "name": "PBI_NavigationStepName",
@@ -190,7 +299,7 @@
         "lineageTag": "d36ca822-6c0d-40ff-be9a-92d6ae71e7c0",
         "partitions": [
           {
-            "name": "hora_din",
+            "name": "dhora_din",
             "mode": "import",
             "source": {
               "expression": [
@@ -440,6 +549,7 @@
               }
             ],
             "dataType": "string",
+            "displayFolder": "Outros",
             "isHidden": true,
             "lineageTag": "e74c869a-4bf5-47bb-8ab3-870567adc6ff",
             "sourceColumn": "Coluna 1",
@@ -450,14 +560,16 @@
         "measures": [
           {
             "name": "Current_times",
+            "displayFolder": "Outros",
             "expression": [
               "",
-              "CONCATENATE(\"Última Atualização 🕐\",FORMAT(SELECTEDVALUE(hora_din[hora]),\"HH:MM\") )"
+              "CONCATENATE(\"Última Atualização 🕐\",FORMAT(SELECTEDVALUE(dhora_din[hora]),\"HH:MM\") )"
             ],
             "lineageTag": "63b4c79a-7da9-429b-8dfb-6b4bfaffa2ef"
           },
           {
             "name": "username",
+            "displayFolder": "Outros",
             "expression": [
               "",
               "VAR UsuarioCompleto = USERPRINCIPALNAME()",
@@ -491,32 +603,9 @@
           },
           {
             "name": "hora",
+            "displayFolder": "Outros",
             "expression": "CONCATENATE(\"Horário: \",FORMAT(TIME(HOUR(NOW()),MINUTE(NOW()),0) - TIME(3,0,0),\"HH:MM\"))",
             "lineageTag": "dd911c1f-79a0-4f69-ac4f-e9cc892dd105"
-          },
-          {
-            "name": "username2",
-            "expression": [
-              "",
-              "VAR UsuarioCompleto = USERPRINCIPALNAME()",
-              "VAR UsuarioSemDominio = LEFT(UsuarioCompleto, SEARCH(\"@\", UsuarioCompleto, 1) - 1)",
-              "VAR UsuarioComEspacos = SUBSTITUTE(UsuarioSemDominio, \".\", \" \")",
-              "",
-              "VAR PalavrasSeparadas = SUBSTITUTE(UsuarioComEspacos, \" \", \"|\")",
-              "VAR ListaPalavras = ",
-              "    ADDCOLUMNS(",
-              "        GENERATESERIES(1, PATHLENGTH(PalavrasSeparadas)),",
-              "        \"Palavra\", PATHITEM(PalavrasSeparadas, [Value])",
-              "    )",
-              "VAR NomeCapitalizado = ",
-              "    CONCATENATEX(",
-              "        ListaPalavras,",
-              "        UPPER(LEFT([Palavra], 1)) & LOWER(MID([Palavra], 2, LEN([Palavra]))),",
-              "        \" \"",
-              "    )",
-              "RETURN NomeCapitalizado"
-            ],
-            "lineageTag": "5d7c72f1-2a04-4a75-90cf-4a2046bfa2b4"
           }
         ],
         "partitions": [
@@ -542,11 +631,15 @@
           {
             "name": "PBI_ResultType",
             "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
           }
         ],
         "columns": [
           {
-            "name": "Filial",
+            "name": "filial",
             "annotations": [
               {
                 "name": "SummarizationSetBy",
@@ -556,11 +649,11 @@
             "dataType": "int64",
             "formatString": "0",
             "lineageTag": "c80fcea7-a38b-4b52-9f18-786176ba57b1",
-            "sourceColumn": "Filial",
+            "sourceColumn": "filial",
             "summarizeBy": "sum"
           },
           {
-            "name": "Tipo de pedido.1",
+            "name": "tipo_pedido",
             "annotations": [
               {
                 "name": "SummarizationSetBy",
@@ -569,36 +662,24 @@
             ],
             "dataType": "string",
             "lineageTag": "5ba9c09c-d09b-4b79-b835-3bb6cc48872f",
-            "sourceColumn": "Tipo de pedido.1",
+            "sourceColumn": "tipo_pedido",
             "summarizeBy": "none"
           },
           {
-            "name": "Último Update oLPN",
+            "name": "data",
             "annotations": [
               {
                 "name": "SummarizationSetBy",
                 "value": "Automatic"
               }
             ],
-            "dataType": "dateTime",
-            "formatString": "General Date",
+            "dataType": "string",
             "lineageTag": "0eee35b9-911e-45e9-b6e8-22ed3ad8c657",
-            "sourceColumn": "Último Update oLPN",
-            "summarizeBy": "none",
-            "variations": [
-              {
-                "name": "Variation",
-                "defaultHierarchy": {
-                  "hierarchy": "Hierarquia de datas",
-                  "table": "LocalDateTable_1223dd92-911a-49c0-af6a-3bf9c6c63b85"
-                },
-                "isDefault": true,
-                "relationship": "e155563b-9f81-4e0c-916c-889f77e119ee"
-              }
-            ]
+            "sourceColumn": "data",
+            "summarizeBy": "none"
           },
           {
-            "name": "Qtde. Peças Item",
+            "name": "qtd_pecas",
             "annotations": [
               {
                 "name": "SummarizationSetBy",
@@ -608,11 +689,11 @@
             "dataType": "int64",
             "formatString": "0",
             "lineageTag": "ef40a554-8d9d-4c8a-8cfc-4510a05d418f",
-            "sourceColumn": "Qtde. Peças Item",
+            "sourceColumn": "qtd_pecas",
             "summarizeBy": "sum"
           },
           {
-            "name": "Desc Setor Item",
+            "name": "setor",
             "annotations": [
               {
                 "name": "SummarizationSetBy",
@@ -621,7 +702,34 @@
             ],
             "dataType": "string",
             "lineageTag": "199d567c-cca6-4e80-a3f0-e696bd2a0cd9",
-            "sourceColumn": "Desc Setor Item",
+            "sourceColumn": "setor",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "box",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "54c7d925-566e-4bd3-87b3-21bfae5d25d1",
+            "sourceColumn": "box",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "sep_setor",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "625d98f4-73e0-46e0-ba9c-b539d834565b",
+            "sourceColumn": "sep_setor",
             "summarizeBy": "none"
           }
         ],
@@ -649,9 +757,18 @@
                 "    #\"Colunas Removidas\" = Table.RemoveColumns(#\"Tipo Alterado\",{\"Nome da Origem\", \"Data do Pedido\"}),",
                 "    #\"Dividir Coluna por Delimitador\" = Table.SplitColumn(#\"Colunas Removidas\", \"Tipo de pedido\", Splitter.SplitTextByDelimiter(\" \", QuoteStyle.Csv), {\"Tipo de pedido.1\", \"Tipo de pedido.2\", \"Tipo de pedido.3\", \"Tipo de pedido.4\", \"Tipo de pedido.5\", \"Tipo de pedido.6\"}),",
                 "    #\"Tipo Alterado1\" = Table.TransformColumnTypes(#\"Dividir Coluna por Delimitador\",{{\"Tipo de pedido.1\", type text}, {\"Tipo de pedido.2\", type text}, {\"Tipo de pedido.3\", type text}, {\"Tipo de pedido.4\", type text}, {\"Tipo de pedido.5\", type text}, {\"Tipo de pedido.6\", type text}}),",
-                "    #\"Colunas Removidas1\" = Table.RemoveColumns(#\"Tipo Alterado1\",{\"Tipo de pedido.2\", \"Tipo de pedido.3\", \"Tipo de pedido.4\", \"Tipo de pedido.5\", \"Tipo de pedido.6\", \"Wave\", \"Data locação pedido\", \"Shipment\", \"Filial Destino\", \"Pedido\", \"Status Pedido\", \"Pedido de Venda\", \"oLPN\", \"TOTE\", \"Tarefa\", \"Tarefa Status\", \"Grupo de Tarefa\", \"Item\", \"Descrição\", \"Volume\", \"Status oLPN\", \"Numero da Gaiola\", \"BOX\", \"Marcação de EAD\", \"Data Prevista Entrega\", \"Data Limite Expedição\", \"Inventory Type ID\", \"Cod Setor Item\", \"Local de Picking\", \"Audit Status\"})",
+                "    #\"Colunas Removidas1\" = Table.RemoveColumns(#\"Tipo Alterado1\",{\"Tipo de pedido.2\", \"Tipo de pedido.3\", \"Tipo de pedido.4\", \"Tipo de pedido.5\", \"Tipo de pedido.6\", \"Wave\", \"Data locação pedido\", \"Shipment\", \"Filial Destino\", \"Pedido\", \"Status Pedido\", \"Pedido de Venda\", \"oLPN\", \"TOTE\", \"Tarefa\", \"Tarefa Status\", \"Grupo de Tarefa\", \"Item\", \"Descrição\", \"Volume\", \"Status oLPN\", \"Numero da Gaiola\", \"Marcação de EAD\", \"Data Prevista Entrega\", \"Data Limite Expedição\", \"Inventory Type ID\", \"Cod Setor Item\", \"Local de Picking\", \"Audit Status\"}),",
+                "    #\"Data Extraída\" = Table.TransformColumns(#\"Colunas Removidas1\",{{\"Último Update oLPN\", DateTime.Date, type date}}),",
+                "    #\"Tipo Alterado2\" = Table.TransformColumnTypes(#\"Data Extraída\",{{\"Último Update oLPN\", type text}}),",
+                "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Tipo Alterado2\",{{\"Filial\", \"filial\"}, {\"Tipo de pedido.1\", \"tipo_pedido\"}, {\"Último Update oLPN\", \"data\"}, {\"Qtde. Peças Item\", \"qtd_pecas\"}, {\"Desc Setor Item\", \"setor\"}, {\"BOX\", \"box\"}}),",
+                "    #\"Personalização Adicionada\" = Table.AddColumn(#\"Colunas Renomeadas\", \"sep_setor\", each if [tipo_pedido] = \"S01\" or [tipo_pedido] = \"S04\" then \"entrega a clientes\" ",
+                "else if [tipo_pedido] = \"S05\" or ([box] > 595 and [box] < 638) then \"EAD\" ",
+                "else if [tipo_pedido] = \"S39\" or [tipo_pedido] = \"S39I\" or [tipo_pedido] = \"S39M\" or [tipo_pedido] = \"S39P\" or [tipo_pedido] = \"S39R\" then \"leves\"",
+                "",
+                "else \"Ignorar\"),",
+                "    #\"Tipo Alterado3\" = Table.TransformColumnTypes(#\"Personalização Adicionada\",{{\"sep_setor\", type text}})",
                 "in",
-                "    #\"Colunas Removidas1\""
+                "    #\"Tipo Alterado3\""
               ],
               "type": "m"
             }
@@ -659,210 +776,527 @@
         ]
       },
       {
-        "name": "LocalDateTable_1223dd92-911a-49c0-af6a-3bf9c6c63b85",
+        "name": "fbase_online_pesados_cancelamentos",
         "annotations": [
           {
-            "name": "__PBI_LocalDateTable",
-            "value": "true"
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
           }
         ],
         "columns": [
           {
-            "name": "Date",
+            "name": "filial",
             "annotations": [
               {
                 "name": "SummarizationSetBy",
-                "value": "User"
+                "value": "Automatic"
               }
             ],
-            "dataCategory": "PaddedDateTableDates",
-            "dataType": "dateTime",
-            "formatString": "General Date",
-            "isHidden": true,
-            "isNameInferred": true,
-            "lineageTag": "25b6c51e-8324-4784-9cb1-84c56b516b8b",
-            "sourceColumn": "[Date]",
-            "summarizeBy": "none",
-            "type": "calculatedTableColumn"
-          },
-          {
-            "name": "Ano",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Year"
-              }
-            ],
-            "dataCategory": "Years",
             "dataType": "int64",
-            "expression": "YEAR([Date])",
             "formatString": "0",
-            "isHidden": true,
-            "lineageTag": "49d189fa-7ecd-433d-b0a0-c68c8e08971a",
-            "summarizeBy": "none",
-            "type": "calculated"
+            "lineageTag": "ba4dfaff-2c66-4272-8d21-3404196076e7",
+            "sourceColumn": "filial",
+            "summarizeBy": "sum"
           },
           {
-            "name": "MonthNo",
+            "name": "tipo_pedido",
             "annotations": [
               {
                 "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "MonthNumber"
+                "value": "Automatic"
               }
             ],
-            "dataCategory": "MonthOfYear",
-            "dataType": "int64",
-            "expression": "MONTH([Date])",
-            "formatString": "0",
-            "isHidden": true,
-            "lineageTag": "a1bd6b53-0ee4-48ce-b598-6d17ecaeb248",
-            "summarizeBy": "none",
-            "type": "calculated"
-          },
-          {
-            "name": "Mês",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Month"
-              }
-            ],
-            "dataCategory": "Months",
             "dataType": "string",
-            "expression": "FORMAT([Date], \"MMMM\")",
-            "isHidden": true,
-            "lineageTag": "93e5b7fb-fdf9-43b9-a719-185781648051",
-            "sortByColumn": "MonthNo",
-            "summarizeBy": "none",
-            "type": "calculated"
+            "lineageTag": "95550f0c-bbbd-4e78-876b-a4f326791708",
+            "sourceColumn": "tipo_pedido",
+            "summarizeBy": "none"
           },
           {
-            "name": "QuarterNo",
+            "name": "qtd_pecas",
             "annotations": [
               {
                 "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "QuarterNumber"
+                "value": "Automatic"
               }
             ],
-            "dataCategory": "QuarterOfYear",
             "dataType": "int64",
-            "expression": "INT(([MonthNo] + 2) / 3)",
             "formatString": "0",
-            "isHidden": true,
-            "lineageTag": "7e55aedc-96c5-4790-866c-0a73c8e447c9",
-            "summarizeBy": "none",
-            "type": "calculated"
+            "lineageTag": "b6e3126a-f44f-4167-999c-db43251b6cbe",
+            "sourceColumn": "qtd_pecas",
+            "summarizeBy": "sum"
           },
           {
-            "name": "Trimestre",
+            "name": "data",
             "annotations": [
               {
                 "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Quarter"
+                "value": "Automatic"
               }
             ],
-            "dataCategory": "Quarters",
             "dataType": "string",
-            "expression": "\"Trim \" & [QuarterNo]",
-            "isHidden": true,
-            "lineageTag": "3a72d8c4-5703-4ba5-8a52-a049a8bd2229",
-            "sortByColumn": "QuarterNo",
-            "summarizeBy": "none",
-            "type": "calculated"
+            "lineageTag": "8d30391f-9aaa-4b30-ade7-d7b61ee3f8d3",
+            "sourceColumn": "data",
+            "summarizeBy": "none"
           },
           {
-            "name": "Dia",
+            "name": "user",
             "annotations": [
               {
                 "name": "SummarizationSetBy",
-                "value": "User"
-              },
-              {
-                "name": "TemplateId",
-                "value": "Day"
+                "value": "Automatic"
               }
             ],
-            "dataCategory": "DayOfMonth",
-            "dataType": "int64",
-            "expression": "DAY([Date])",
-            "formatString": "0",
-            "isHidden": true,
-            "lineageTag": "0593a8d9-efb2-4d71-a8de-a0a2772e86c6",
-            "summarizeBy": "none",
-            "type": "calculated"
+            "dataType": "string",
+            "lineageTag": "1b3465b8-7568-4c18-bbcd-068561796cc6",
+            "sourceColumn": "user",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "motivo_cancelamento",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "85d705e4-944c-422c-ac67-f5a4eedac263",
+            "sourceColumn": "motivo_cancelamento",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "sep_setor",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b7684ad8-3aad-4294-b738-b1f27be0eaa2",
+            "sourceColumn": "sep_setor",
+            "summarizeBy": "none"
           }
         ],
-        "hierarchies": [
-          {
-            "name": "Hierarquia de datas",
-            "annotations": [
-              {
-                "name": "TemplateId",
-                "value": "DateHierarchy"
-              }
-            ],
-            "levels": [
-              {
-                "name": "Ano",
-                "column": "Ano",
-                "lineageTag": "496d44ca-e297-4b17-a72e-db63a21b5343",
-                "ordinal": 0
-              },
-              {
-                "name": "Trimestre",
-                "column": "Trimestre",
-                "lineageTag": "55613e03-5d63-49ec-aba1-551f480bbc41",
-                "ordinal": 1
-              },
-              {
-                "name": "Mês",
-                "column": "Mês",
-                "lineageTag": "a675f5f6-44b2-496c-b701-dc04c470d524",
-                "ordinal": 2
-              },
-              {
-                "name": "Dia",
-                "column": "Dia",
-                "lineageTag": "2521b8aa-b393-466c-822a-e8178691510a",
-                "ordinal": 3
-              }
-            ],
-            "lineageTag": "c1d31b1c-1a26-4ab4-b897-46395ec0bbc2"
-          }
-        ],
-        "isHidden": true,
-        "lineageTag": "6fa671ce-9a5c-46e4-bece-59523e972078",
+        "lineageTag": "a8b99b21-7f36-401a-bcb5-8e6f31cd3dfe",
         "partitions": [
           {
-            "name": "LocalDateTable_1223dd92-911a-49c0-af6a-3bf9c6c63b85",
+            "name": "fbase_online_pesados_cancelamentos",
             "mode": "import",
             "source": {
-              "expression": "Calendar(Date(Year(MIN('fbase_online_pesados_demanda'[Último Update oLPN])), 1, 1), Date(Year(MAX('fbase_online_pesados_demanda'[Último Update oLPN])), 12, 31))",
-              "type": "calculated"
+              "expression": [
+                "let",
+                "    Fonte = SharePoint.Contents(\"https://viavarejo.sharepoint.com/sites/grupo_de_dados_wave\", [ApiVersion = 15]),",
+                "    #\"Atualizaes de Relatrios Gerais\" = Fonte{[Name=\"Atualizaes de Relatrios Gerais\"]}[Content],",
+                "    #\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\" = #\"Atualizaes de Relatrios Gerais\"{[Name=\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\"]}[Content],",
+                "    #\"Relatórios históricos\" = #\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\"{[Name=\"Relatórios históricos\"]}[Content],",
+                "    #\"Painel de Navegacao Gerencial - ADMS - Vinicius &  Almeida\" = #\"Relatórios históricos\"{[Name=\"Painel de Navegacao Gerencial - ADMS - Vinicius &  Almeida\"]}[Content],",
+                "    #\"SLA - Leves && Pesados && EAD\" = #\"Painel de Navegacao Gerencial - ADMS - Vinicius &  Almeida\"{[Name=\"SLA - Leves && Pesados && EAD\"]}[Content],",
+                "    #\"Cancelamento All\" = #\"SLA - Leves && Pesados && EAD\"{[Name=\"Cancelamento All\"]}[Content],",
+                "    #\"Arquivos Ocultos Filtrados1\" = Table.SelectRows(#\"Cancelamento All\", each [Attributes]?[Hidden]? <> true),",
+                "    #\"Invocar Função Personalizada1\" = Table.AddColumn(#\"Arquivos Ocultos Filtrados1\", \"Transformar Arquivo (2)\", each #\"Transformar Arquivo (2)\"([Content])),",
+                "    #\"Colunas Renomeadas1\" = Table.RenameColumns(#\"Invocar Função Personalizada1\", {\"Name\", \"Nome da Origem\"}),",
+                "    #\"Outras Colunas Removidas1\" = Table.SelectColumns(#\"Colunas Renomeadas1\", {\"Nome da Origem\", \"Transformar Arquivo (2)\"}),",
+                "    #\"Coluna de Tabela Expandida1\" = Table.ExpandTableColumn(#\"Outras Colunas Removidas1\", \"Transformar Arquivo (2)\", Table.ColumnNames(#\"Transformar Arquivo (2)\"(#\"Arquivo de Amostra (2)\"))),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Coluna de Tabela Expandida1\",{{\"Nome da Origem\", type text}, {\"Filial\", Int64.Type}, {\"Inventory Type ID\", Int64.Type}, {\"Pedido\", type text}, {\"Pedido de Venda\", type text}, {\"Tipo da Ordem \", type text}, {\"Carga\", Int64.Type}, {\"Destinatário\", type any}, {\"item\", Int64.Type}, {\"Descrição do item\", type text}, {\"Qtde Original\", Int64.Type}, {\"Qtde Expedida\", Int64.Type}, {\"Qtde Ajustada\", Int64.Type}, {\"Data integração WMS\", type datetime}, {\"Data do Cancelamento\", type datetime}, {\"Usuário\", type text}, {\"Código Reference Text\", Int64.Type}, {\" Motivo Secondary Reference Text\", type text}}),",
+                "    #\"Colunas Removidas\" = Table.RemoveColumns(#\"Tipo Alterado\",{\"Nome da Origem\", \"Inventory Type ID\", \"Pedido\", \"Pedido de Venda\", \"Carga\", \"Destinatário\", \"item\", \"Descrição do item\", \"Qtde Original\", \"Qtde Expedida\", \"Data integração WMS\", \"Código Reference Text\"}),",
+                "    #\"Dividir Coluna por Delimitador\" = Table.SplitColumn(#\"Colunas Removidas\", \"Tipo da Ordem \", Splitter.SplitTextByDelimiter(\" \", QuoteStyle.Csv), {\"Tipo da Ordem .1\", \"Tipo da Ordem .2\"}),",
+                "    #\"Tipo Alterado1\" = Table.TransformColumnTypes(#\"Dividir Coluna por Delimitador\",{{\"Tipo da Ordem .1\", type text}, {\"Tipo da Ordem .2\", type text}}),",
+                "    #\"Colunas Removidas1\" = Table.RemoveColumns(#\"Tipo Alterado1\",{\"Tipo da Ordem .2\"}),",
+                "    #\"Data Extraída\" = Table.TransformColumns(#\"Colunas Removidas1\",{{\"Data do Cancelamento\", DateTime.Date, type date}}),",
+                "    #\"Tipo Alterado2\" = Table.TransformColumnTypes(#\"Data Extraída\",{{\"Data do Cancelamento\", type text}}),",
+                "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Tipo Alterado2\",{{\"Tipo da Ordem .1\", \"tipo_pedido\"}, {\"Filial\", \"filial\"}, {\"Qtde Ajustada\", \"qtd_pecas\"}, {\"Data do Cancelamento\", \"data\"}, {\"Usuário\", \"user\"}, {\" Motivo Secondary Reference Text\", \"motivo_cancelamento\"}}),",
+                "    #\"Personalização Adicionada\" = Table.AddColumn(#\"Colunas Renomeadas\", \"sep_setor\", each if [tipo_pedido] = \"S01\" or [tipo_pedido] = \"S04\" then \"entrega a clientes\" ",
+                "else if [tipo_pedido] = \"S05\" then \"EAD\" ",
+                "else if [tipo_pedido] = \"S39\" or [tipo_pedido] = \"S39I\" or [tipo_pedido] = \"S39M\" or [tipo_pedido] = \"S39P\" or [tipo_pedido] = \"S39R\" then \"leves\"",
+                "",
+                "else \"Ignorar\"),",
+                "    #\"Tipo Alterado3\" = Table.TransformColumnTypes(#\"Personalização Adicionada\",{{\"sep_setor\", type text}})",
+                "in",
+                "    #\"Tipo Alterado3\""
+              ],
+              "type": "m"
             }
           }
+        ]
+      },
+      {
+        "name": "dcalendario",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
         ],
-        "showAsVariationsOnly": true
+        "columns": [
+          {
+            "name": "calendario",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6ba434b9-983d-4cff-b374-2663f545a55d",
+            "sourceColumn": "calendario",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "1197f072-7ea8-4495-b3ef-f6fe6dec7680",
+            "sourceColumn": "ano",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "25d75c59-c658-4234-9f42-b803bf79a407",
+            "sourceColumn": "mes",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "nome_mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ca9aef72-a781-4ede-a748-af78187cc3a5",
+            "sourceColumn": "nome_mes",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b59f2c62-4d72-44da-b052-259ab536007b",
+            "sourceColumn": "dia",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "nome_dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6947bede-cc0f-432a-ba96-37cdb85edc2b",
+            "sourceColumn": "nome_dia",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "2e7e7449-675a-4349-96ee-221720f731c7",
+        "partitions": [
+          {
+            "name": "dcalendario",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Consulta1(#date(2023, 1, 1), 3650, #duration(1, 0, 0, 0)),",
+                "    #\"Convertido para Tabela\" = Table.FromList(Fonte, Splitter.SplitByNothing(), null, null, ExtraValues.Error),",
+                "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Convertido para Tabela\",{{\"Column1\", \"data\"}}),",
+                "    #\"Ano Inserido\" = Table.AddColumn(#\"Colunas Renomeadas\", \"Ano\", each Date.Year([data]), Int64.Type),",
+                "    #\"Mês Inserido\" = Table.AddColumn(#\"Ano Inserido\", \"Mês\", each Date.Month([data]), Int64.Type),",
+                "    #\"Nome do Mês Inserido\" = Table.AddColumn(#\"Mês Inserido\", \"Nome do Mês\", each Date.MonthName([data]), type text),",
+                "    #\"Dia Inserido\" = Table.AddColumn(#\"Nome do Mês Inserido\", \"Dia\", each Date.Day([data]), Int64.Type),",
+                "    #\"Nome do Dia Inserido\" = Table.AddColumn(#\"Dia Inserido\", \"Nome do Dia\", each Date.DayOfWeekName([data]), type text),",
+                "    #\"Colunas Renomeadas1\" = Table.RenameColumns(#\"Nome do Dia Inserido\",{{\"data\", \"calendario\"}, {\"Ano\", \"ano\"}, {\"Mês\", \"mes\"}, {\"Nome do Mês\", \"nome_mes\"}, {\"Dia\", \"dia\"}, {\"Nome do Dia\", \"nome_dia\"}})",
+                "in",
+                "    #\"Colunas Renomeadas1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "fbase_abastecimento_demanda",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "data",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "22c8301e-260b-4311-b2b8-03272116f16a",
+            "sourceColumn": "data",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "demanda",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "3331b182-3c5a-4201-bffc-60f62133e36d",
+            "sourceColumn": "demanda",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "balanco",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "356a9746-6596-4326-b4bf-a7952030aef4",
+            "sourceColumn": "balanco",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "rejeitados_pcp",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "9bb8d8f0-2c92-4b5a-8d6a-14a6f15d1d4c",
+            "sourceColumn": "rejeitados_pcp",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "rejeitados_dec",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "4491d82b-c111-438f-bf0f-d6f1b76995a9",
+            "sourceColumn": "rejeitados_dec",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "bac877cb-1d33-49dc-9dd2-779a5b2d0365",
+        "partitions": [
+          {
+            "name": "fbase_abastecimento_demanda",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = SharePoint.Contents(\"https://viavarejo.sharepoint.com/sites/grupo_de_dados_wave\", [ApiVersion = 15]),",
+                "    #\"Atualizaes de Relatrios Gerais\" = Fonte{[Name=\"Atualizaes de Relatrios Gerais\"]}[Content],",
+                "    #\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\" = #\"Atualizaes de Relatrios Gerais\"{[Name=\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\"]}[Content],",
+                "    #\"Relatórios históricos\" = #\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\"{[Name=\"Relatórios históricos\"]}[Content],",
+                "    #\"Painel de Navegacao Gerencial - ADMS - Vinicius &  Almeida\" = #\"Relatórios históricos\"{[Name=\"Painel de Navegacao Gerencial - ADMS - Vinicius &  Almeida\"]}[Content],",
+                "    #\"SLA - Abastecimento de Lojas\" = #\"Painel de Navegacao Gerencial - ADMS - Vinicius &  Almeida\"{[Name=\"SLA - Abastecimento de Lojas\"]}[Content],",
+                "    #\"evolucao_diarizada xlsx\" = #\"SLA - Abastecimento de Lojas\"{[Name=\"evolucao_diarizada.xlsx\"]}[Content],",
+                "    #\"Pasta de Trabalho Importada do Excel\" = Excel.Workbook(#\"evolucao_diarizada xlsx\"),",
+                "    Tabela1_Table = #\"Pasta de Trabalho Importada do Excel\"{[Item=\"Tabela1\",Kind=\"Table\"]}[Data],",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(Tabela1_Table,{{\"data\", type text}})",
+                "in",
+                "    #\"Tipo Alterado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "fbase_abastecimento_cancelamentos",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "data",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e4f041a6-9882-4b7a-ad66-f70bb368b99b",
+            "sourceColumn": "data",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "responsavel",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "75c809df-c33b-4c16-8a14-4482ed0a4343",
+            "sourceColumn": "responsavel",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "motivo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "640c4536-f53b-47cc-a5d9-75c1c76b9a8e",
+            "sourceColumn": "motivo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "quantidade",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "80456cbc-c2ad-4ad7-a2b6-da81874586ce",
+            "sourceColumn": "quantidade",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "2ac0c836-c091-405c-b1c3-c2d185419e58",
+        "partitions": [
+          {
+            "name": "fbase_abastecimento_cancelamentos",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = SharePoint.Contents(\"https://viavarejo.sharepoint.com/sites/grupo_de_dados_wave\", [ApiVersion = 15]),",
+                "    #\"Atualizaes de Relatrios Gerais\" = Fonte{[Name=\"Atualizaes de Relatrios Gerais\"]}[Content],",
+                "    #\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\" = #\"Atualizaes de Relatrios Gerais\"{[Name=\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\"]}[Content],",
+                "    #\"Relatórios históricos\" = #\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\"{[Name=\"Relatórios históricos\"]}[Content],",
+                "    #\"Painel de Navegacao Gerencial - ADMS - Vinicius &  Almeida\" = #\"Relatórios históricos\"{[Name=\"Painel de Navegacao Gerencial - ADMS - Vinicius &  Almeida\"]}[Content],",
+                "    #\"SLA - Abastecimento de Lojas\" = #\"Painel de Navegacao Gerencial - ADMS - Vinicius &  Almeida\"{[Name=\"SLA - Abastecimento de Lojas\"]}[Content],",
+                "    #\"evolucao_diarizada xlsx\" = #\"SLA - Abastecimento de Lojas\"{[Name=\"evolucao_diarizada.xlsx\"]}[Content],",
+                "    #\"Pasta de Trabalho Importada do Excel\" = Excel.Workbook(#\"evolucao_diarizada xlsx\"),",
+                "    Tabela13_Table = #\"Pasta de Trabalho Importada do Excel\"{[Item=\"Tabela13\",Kind=\"Table\"]}[Data],",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(Tabela13_Table,{{\"data\", type text}})",
+                "in",
+                "    #\"Tipo Alterado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dsetor",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "sep_setor",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b714a66c-5215-4b5c-9d84-a1ce7b00c72a",
+            "sourceColumn": "sep_setor",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "6d47fd8a-81db-42f0-88c7-d36757dd0c1d",
+        "partitions": [
+          {
+            "name": "dsetor",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i45WcnV0UYrViVZKzSspSk1PVEhUSM7JBHJSwaI5qWWpxUqxsQA=\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [sep_setor = _t]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(Fonte,{{\"sep_setor\", type text}})",
+                "in",
+                "    #\"Tipo Alterado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
       }
     ]
   }
