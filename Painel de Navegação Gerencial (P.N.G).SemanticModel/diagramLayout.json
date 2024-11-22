@@ -4,14 +4,14 @@
     {
       "ordinal": 0,
       "scrollPosition": {
-        "x": 109.02697925009541,
+        "x": 233.85496998571188,
         "y": 0
       },
       "nodes": [
         {
           "location": {
-            "x": 1070.6612789655605,
-            "y": 4.7403034456563233
+            "x": 1171.7877524728956,
+            "y": 0
           },
           "nodeIndex": "Medidas",
           "nodeLineageTag": "5a25b275-a9d4-4792-ac46-d9ac19709c83",
@@ -36,7 +36,7 @@
         },
         {
           "location": {
-            "x": 97.094701006786408,
+            "x": 473.15877436218796,
             "y": 0
           },
           "nodeIndex": "dcalendario",
@@ -63,7 +63,7 @@
         {
           "location": {
             "x": 0,
-            "y": 448.96005957042831
+            "y": 437.89935153056354
           },
           "nodeIndex": "fbase_abastecimento_demanda",
           "nodeLineageTag": "bac877cb-1d33-49dc-9dd2-779a5b2d0365",
@@ -88,7 +88,7 @@
         },
         {
           "location": {
-            "x": 411.98341869086795,
+            "x": 775.40668285785262,
             "y": 0
           },
           "nodeIndex": "dsetor",
@@ -101,7 +101,7 @@
         },
         {
           "location": {
-            "x": 1072.6596109639222,
+            "x": 1175.3661856198091,
             "y": 118.50758614140804
           },
           "nodeIndex": "dhora_din",
@@ -111,6 +111,19 @@
             "width": 234
           },
           "zIndex": 7
+        },
+        {
+          "location": {
+            "x": 1184.4285857717425,
+            "y": 444.72090088266879
+          },
+          "nodeIndex": "fbase_hc_abastecimento",
+          "nodeLineageTag": "231b23e4-3c34-430d-87a1-6e4b22d5ea82",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
         }
       ],
       "name": "Todas as tabelas",
