@@ -12,7 +12,7 @@
       },
       {
         "name": "PBI_QueryOrder",
-        "value": "[\"dhora_din\",\"Medidas\",\"fbase_online_pesados_demanda\",\"Arquivo de Amostra\",\"Parâmetro1\",\"Transformar o Arquivo de Exemplo\",\"Transformar Arquivo\",\"fbase_online_pesados_cancelamentos\",\"Arquivo de Amostra (2)\",\"Parâmetro2\",\"Transformar o Arquivo de Exemplo (2)\",\"Transformar Arquivo (2)\",\"Consulta1\",\"dcalendario\",\"fbase_abastecimento_demanda\",\"fbase_abastecimento_cancelamentos\",\"dsetor\",\"fbase_hc_abastecimento\"]"
+        "value": "[\"dhora_din\",\"Medidas\",\"fbase_online_pesados_abs_demanda\",\"Arquivo de Amostra\",\"Parâmetro1\",\"Transformar o Arquivo de Exemplo\",\"Transformar Arquivo\",\"fbase_online_pesados_abs_cancelamentos\",\"Arquivo de Amostra (2)\",\"Parâmetro2\",\"Transformar o Arquivo de Exemplo (2)\",\"Transformar Arquivo (2)\",\"Consulta1\",\"dcalendario\",\"fbase_abastecimento_demanda\",\"fbase_abastecimento_cancelamentos\",\"dsetor\",\"fbase_hc_abastecimento\"]"
       },
       {
         "name": "__PBI_TimeIntelligenceEnabled",
@@ -2288,25 +2288,25 @@
               "fbase_online_pesados_cancelamento": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_cancelamentos"
+                    "ConceptualEntity": "fbase_online_pesados_abs_cancelamentos"
                   }
                 },
                 "State": "Generated",
                 "Terms": [
                   {
-                    "fbase online pesados cancelamento": {
+                    "fbase online pesados abs cancelamento": {
                       "State": "Generated"
                     }
                   },
                   {
-                    "fbase online pesado cancelamento": {
+                    "fbase online pesado abs cancelamento": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.78
                     }
                   },
                   {
-                    "fbase_online_pesados_cancelamentos": {
+                    "fbase_online_pesados_abs_cancelamentos": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
@@ -2317,7 +2317,7 @@
               "fbase_online_pesados_cancelamento.codigo_cancelamento": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_cancelamentos",
+                    "ConceptualEntity": "fbase_online_pesados_abs_cancelamentos",
                     "ConceptualProperty": "codigo_cancelamento"
                   }
                 },
@@ -2340,7 +2340,7 @@
               "fbase_online_pesados_cancelamento.data": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_cancelamentos",
+                    "ConceptualEntity": "fbase_online_pesados_abs_cancelamentos",
                     "ConceptualProperty": "data"
                   }
                 },
@@ -2429,7 +2429,7 @@
               "fbase_online_pesados_cancelamento.filial": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_cancelamentos",
+                    "ConceptualEntity": "fbase_online_pesados_abs_cancelamentos",
                     "ConceptualProperty": "filial"
                   }
                 },
@@ -2445,7 +2445,7 @@
               "fbase_online_pesados_cancelamento.motivo_cancelamento": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_cancelamentos",
+                    "ConceptualEntity": "fbase_online_pesados_abs_cancelamentos",
                     "ConceptualProperty": "motivo_cancelamento"
                   }
                 },
@@ -2468,7 +2468,7 @@
               "fbase_online_pesados_cancelamento.qtd_peca": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_cancelamentos",
+                    "ConceptualEntity": "fbase_online_pesados_abs_cancelamentos",
                     "ConceptualProperty": "qtd_pecas"
                   }
                 },
@@ -2491,7 +2491,7 @@
               "fbase_online_pesados_cancelamento.sep_setor": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_cancelamentos",
+                    "ConceptualEntity": "fbase_online_pesados_abs_cancelamentos",
                     "ConceptualProperty": "sep_setor"
                   }
                 },
@@ -2517,7 +2517,7 @@
               "fbase_online_pesados_cancelamento.tipo_pedido": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_cancelamentos",
+                    "ConceptualEntity": "fbase_online_pesados_abs_cancelamentos",
                     "ConceptualProperty": "tipo_pedido"
                   }
                 },
@@ -2540,7 +2540,7 @@
               "fbase_online_pesados_cancelamento.user": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_cancelamentos",
+                    "ConceptualEntity": "fbase_online_pesados_abs_cancelamentos",
                     "ConceptualProperty": "user"
                   }
                 },
@@ -2656,25 +2656,25 @@
               "fbase_online_pesados_demanda": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_demanda"
+                    "ConceptualEntity": "fbase_online_pesados_abs_demanda"
                   }
                 },
                 "State": "Generated",
                 "Terms": [
                   {
-                    "fbase online pesados demanda": {
+                    "fbase online pesados abs demanda": {
                       "State": "Generated"
                     }
                   },
                   {
-                    "fbase online pesado demanda": {
+                    "fbase online pesado abs demanda": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.78
                     }
                   },
                   {
-                    "fbase_online_pesados_demanda": {
+                    "fbase_online_pesados_abs_demanda": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
@@ -2685,7 +2685,7 @@
               "fbase_online_pesados_demanda.box": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_demanda",
+                    "ConceptualEntity": "fbase_online_pesados_abs_demanda",
                     "ConceptualProperty": "box"
                   }
                 },
@@ -2801,7 +2801,7 @@
               "fbase_online_pesados_demanda.data": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_demanda",
+                    "ConceptualEntity": "fbase_online_pesados_abs_demanda",
                     "ConceptualProperty": "data"
                   }
                 },
@@ -2890,7 +2890,7 @@
               "fbase_online_pesados_demanda.filial": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_demanda",
+                    "ConceptualEntity": "fbase_online_pesados_abs_demanda",
                     "ConceptualProperty": "filial"
                   }
                 },
@@ -2906,7 +2906,7 @@
               "fbase_online_pesados_demanda.qtd_peca": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_demanda",
+                    "ConceptualEntity": "fbase_online_pesados_abs_demanda",
                     "ConceptualProperty": "qtd_pecas"
                   }
                 },
@@ -2929,7 +2929,7 @@
               "fbase_online_pesados_demanda.sep_setor": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_demanda",
+                    "ConceptualEntity": "fbase_online_pesados_abs_demanda",
                     "ConceptualProperty": "sep_setor"
                   }
                 },
@@ -2955,7 +2955,7 @@
               "fbase_online_pesados_demanda.setor": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_demanda",
+                    "ConceptualEntity": "fbase_online_pesados_abs_demanda",
                     "ConceptualProperty": "setor"
                   }
                 },
@@ -2971,7 +2971,7 @@
               "fbase_online_pesados_demanda.tipo_pedido": {
                 "Definition": {
                   "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_demanda",
+                    "ConceptualEntity": "fbase_online_pesados_abs_demanda",
                     "ConceptualProperty": "tipo_pedido"
                   }
                 },
@@ -3131,6 +3131,39 @@
                   }
                 ]
               },
+              "medida.demanda_entrega_cliente": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "demanda_entrega_cliente"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "demanda entrega cliente": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "demanda_entrega_cliente": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Qtd Total Expedida Dentro do Mês | PIs": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
               "medida.demanda_geral_abastecimento": {
                 "Definition": {
                   "Binding": {
@@ -3154,6 +3187,72 @@
                   },
                   {
                     "Qtd Total Expedida Dentro do Mês | SLA": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.entrega_cliente_s_01": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "entrega_cliente_s01"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "entrega cliente s 01": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "entrega_cliente_s01": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "S01": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.entrega_cliente_s_04": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "entrega_cliente_s04"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "entrega cliente s 04": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "entrega_cliente_s04": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "S04": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -4831,7 +4930,7 @@
               },
               "fbase_online_pesados_cancelamento_has_codigo_cancelamento": {
                 "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_cancelamentos"
+                  "ConceptualEntity": "fbase_online_pesados_abs_cancelamentos"
                 },
                 "Phrasings": [
                   {
@@ -4843,7 +4942,7 @@
                         "Role": "fbase_online_pesados_cancelamento"
                       }
                     },
-                    "ID": "fbase_online_pesados_cancelamentos_have_codigo_cancelamentos",
+                    "ID": "fbase_online_pesados_abs_cancelamentos_have_codigo_cancelamentos",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -4864,7 +4963,7 @@
               },
               "fbase_online_pesados_cancelamento_has_dcalendario": {
                 "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_cancelamentos"
+                  "ConceptualEntity": "fbase_online_pesados_abs_cancelamentos"
                 },
                 "Phrasings": [
                   {
@@ -4876,7 +4975,7 @@
                         "Role": "fbase_online_pesados_cancelamento"
                       }
                     },
-                    "ID": "fbase_online_pesados_cancelamentos_have_dcalendarios",
+                    "ID": "fbase_online_pesados_abs_cancelamentos_have_dcalendarios",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -4889,7 +4988,7 @@
                         "Role": "dcalendario"
                       }
                     },
-                    "ID": "dcalendarios_have_fbase_online_pesados_cancelamentos",
+                    "ID": "dcalendarios_have_fbase_online_pesados_abs_cancelamentos",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -4917,7 +5016,7 @@
               },
               "fbase_online_pesados_cancelamento_has_dsetor": {
                 "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_cancelamentos"
+                  "ConceptualEntity": "fbase_online_pesados_abs_cancelamentos"
                 },
                 "Phrasings": [
                   {
@@ -4929,7 +5028,7 @@
                         "Role": "fbase_online_pesados_cancelamento"
                       }
                     },
-                    "ID": "fbase_online_pesados_cancelamentos_have_dsetors",
+                    "ID": "fbase_online_pesados_abs_cancelamentos_have_dsetors",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -4942,7 +5041,7 @@
                         "Role": "dsetor"
                       }
                     },
-                    "ID": "dsetors_have_fbase_online_pesados_cancelamentos",
+                    "ID": "dsetors_have_fbase_online_pesados_abs_cancelamentos",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -4963,7 +5062,7 @@
               },
               "fbase_online_pesados_cancelamento_has_filial": {
                 "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_cancelamentos"
+                  "ConceptualEntity": "fbase_online_pesados_abs_cancelamentos"
                 },
                 "Phrasings": [
                   {
@@ -4975,7 +5074,7 @@
                         "Role": "fbase_online_pesados_cancelamento"
                       }
                     },
-                    "ID": "fbase_online_pesados_cancelamentos_have_filial",
+                    "ID": "fbase_online_pesados_abs_cancelamentos_have_filial",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -4995,7 +5094,7 @@
                         "Role": "fbase_online_pesados_cancelamento"
                       }
                     },
-                    "ID": "filial_indicates_how_filial_fbase_online_pesados_cancelamentos_are",
+                    "ID": "filial_indicates_how_filial_fbase_online_pesados_abs_cancelamentos_are",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -5016,7 +5115,7 @@
               },
               "fbase_online_pesados_cancelamento_has_motivo_cancelamento": {
                 "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_cancelamentos"
+                  "ConceptualEntity": "fbase_online_pesados_abs_cancelamentos"
                 },
                 "Phrasings": [
                   {
@@ -5028,7 +5127,7 @@
                         "Role": "fbase_online_pesados_cancelamento"
                       }
                     },
-                    "ID": "fbase_online_pesados_cancelamentos_have_motivo_cancelamentos",
+                    "ID": "fbase_online_pesados_abs_cancelamentos_have_motivo_cancelamentos",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -5049,7 +5148,7 @@
               },
               "fbase_online_pesados_cancelamento_has_qtd_peca": {
                 "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_cancelamentos"
+                  "ConceptualEntity": "fbase_online_pesados_abs_cancelamentos"
                 },
                 "Phrasings": [
                   {
@@ -5061,7 +5160,7 @@
                         "Role": "fbase_online_pesados_cancelamento"
                       }
                     },
-                    "ID": "fbase_online_pesados_cancelamentos_have_qtd_pecas",
+                    "ID": "fbase_online_pesados_abs_cancelamentos_have_qtd_pecas",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -5082,7 +5181,7 @@
               },
               "fbase_online_pesados_cancelamento_has_tipo_pedido": {
                 "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_cancelamentos"
+                  "ConceptualEntity": "fbase_online_pesados_abs_cancelamentos"
                 },
                 "Phrasings": [
                   {
@@ -5094,7 +5193,7 @@
                         "Role": "fbase_online_pesados_cancelamento"
                       }
                     },
-                    "ID": "fbase_online_pesados_cancelamentos_have_tipo_pedidos",
+                    "ID": "fbase_online_pesados_abs_cancelamentos_have_tipo_pedidos",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -5115,7 +5214,7 @@
               },
               "fbase_online_pesados_cancelamento_has_user": {
                 "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_cancelamentos"
+                  "ConceptualEntity": "fbase_online_pesados_abs_cancelamentos"
                 },
                 "Phrasings": [
                   {
@@ -5127,12 +5226,12 @@
                         "Role": "fbase_online_pesados_cancelamento"
                       }
                     },
-                    "ID": "fbase_online_pesados_cancelamentos_have_users",
+                    "ID": "fbase_online_pesados_abs_cancelamentos_have_users",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "users_use_fbase_online_pesados_cancelamentos",
+                    "ID": "users_use_fbase_online_pesados_abs_cancelamentos",
                     "State": "Generated",
                     "Verb": {
                       "Object": {
@@ -5160,7 +5259,7 @@
                         "Role": "fbase_online_pesados_cancelamento.user"
                       }
                     },
-                    "ID": "users_have_fbase_online_pesados_cancelamentos",
+                    "ID": "users_have_fbase_online_pesados_abs_cancelamentos",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -5181,7 +5280,7 @@
               },
               "fbase_online_pesados_demanda_has_box": {
                 "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_demanda"
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
                 },
                 "Phrasings": [
                   {
@@ -5193,7 +5292,7 @@
                         "Role": "fbase_online_pesados_demanda"
                       }
                     },
-                    "ID": "fbase_online_pesados_demandas_have_boxes",
+                    "ID": "fbase_online_pesados_abs_demandas_have_boxes",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -5214,7 +5313,7 @@
               },
               "fbase_online_pesados_demanda_has_dcalendario": {
                 "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_demanda"
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
                 },
                 "Phrasings": [
                   {
@@ -5226,7 +5325,7 @@
                         "Role": "fbase_online_pesados_demanda"
                       }
                     },
-                    "ID": "fbase_online_pesados_demandas_have_dcalendarios",
+                    "ID": "fbase_online_pesados_abs_demandas_have_dcalendarios",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -5239,7 +5338,7 @@
                         "Role": "dcalendario"
                       }
                     },
-                    "ID": "dcalendarios_have_fbase_online_pesados_demandas",
+                    "ID": "dcalendarios_have_fbase_online_pesados_abs_demandas",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -5267,7 +5366,7 @@
               },
               "fbase_online_pesados_demanda_has_dsetor": {
                 "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_demanda"
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
                 },
                 "Phrasings": [
                   {
@@ -5279,7 +5378,7 @@
                         "Role": "fbase_online_pesados_demanda"
                       }
                     },
-                    "ID": "fbase_online_pesados_demandas_have_dsetors",
+                    "ID": "fbase_online_pesados_abs_demandas_have_dsetors",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -5292,7 +5391,7 @@
                         "Role": "dsetor"
                       }
                     },
-                    "ID": "dsetors_have_fbase_online_pesados_demandas",
+                    "ID": "dsetors_have_fbase_online_pesados_abs_demandas",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -5313,7 +5412,7 @@
               },
               "fbase_online_pesados_demanda_has_filial": {
                 "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_demanda"
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
                 },
                 "Phrasings": [
                   {
@@ -5325,7 +5424,7 @@
                         "Role": "fbase_online_pesados_demanda"
                       }
                     },
-                    "ID": "fbase_online_pesados_demandas_have_filial",
+                    "ID": "fbase_online_pesados_abs_demandas_have_filial",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -5345,7 +5444,7 @@
                         "Role": "fbase_online_pesados_demanda"
                       }
                     },
-                    "ID": "filial_indicates_how_filial_fbase_online_pesados_demandas_are",
+                    "ID": "filial_indicates_how_filial_fbase_online_pesados_abs_demandas_are",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -5364,9 +5463,108 @@
                 },
                 "State": "Generated"
               },
+              "fbase_online_pesados_demanda_has_medida_demanda_entrega_cliente": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.demanda_entrega_cliente"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_demanda_entrega_cliente",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.demanda_entrega_cliente": {
+                    "Target": {
+                      "Entity": "medida.demanda_entrega_cliente"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_entrega_cliente_s_01": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.entrega_cliente_s_01"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_entrega_cliente_s_01",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.entrega_cliente_s_01": {
+                    "Target": {
+                      "Entity": "medida.entrega_cliente_s_01"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_entrega_cliente_s_04": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.entrega_cliente_s_04"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_entrega_cliente_s_04",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.entrega_cliente_s_04": {
+                    "Target": {
+                      "Entity": "medida.entrega_cliente_s_04"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "fbase_online_pesados_demanda_has_qtd_peca": {
                 "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_demanda"
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
                 },
                 "Phrasings": [
                   {
@@ -5378,7 +5576,7 @@
                         "Role": "fbase_online_pesados_demanda"
                       }
                     },
-                    "ID": "fbase_online_pesados_demandas_have_qtd_pecas",
+                    "ID": "fbase_online_pesados_abs_demandas_have_qtd_pecas",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -5399,7 +5597,7 @@
               },
               "fbase_online_pesados_demanda_has_setor": {
                 "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_demanda"
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
                 },
                 "Phrasings": [
                   {
@@ -5411,7 +5609,7 @@
                         "Role": "fbase_online_pesados_demanda"
                       }
                     },
-                    "ID": "fbase_online_pesados_demandas_have_setors",
+                    "ID": "fbase_online_pesados_abs_demandas_have_setors",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -5432,7 +5630,7 @@
               },
               "fbase_online_pesados_demanda_has_tipo_pedido": {
                 "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_demanda"
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
                 },
                 "Phrasings": [
                   {
@@ -5444,7 +5642,7 @@
                         "Role": "fbase_online_pesados_demanda"
                       }
                     },
-                    "ID": "fbase_online_pesados_demandas_have_tipo_pedidos",
+                    "ID": "fbase_online_pesados_abs_demandas_have_tipo_pedidos",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -5914,14 +6112,14 @@
       {
         "name": "affe8252-f698-be76-c13f-8a5653aa1326",
         "fromColumn": "data",
-        "fromTable": "fbase_online_pesados_cancelamentos",
+        "fromTable": "fbase_online_pesados_abs_cancelamentos",
         "toColumn": "calendario",
         "toTable": "dcalendario"
       },
       {
         "name": "b913a9dd-a3d3-52ca-d3df-c683fae6b24a",
         "fromColumn": "data",
-        "fromTable": "fbase_online_pesados_demanda",
+        "fromTable": "fbase_online_pesados_abs_demanda",
         "toColumn": "calendario",
         "toTable": "dcalendario"
       },
@@ -5935,14 +6133,14 @@
       {
         "name": "3bd66bf7-83a5-5725-4a0c-40ce73328528",
         "fromColumn": "sep_setor",
-        "fromTable": "fbase_online_pesados_cancelamentos",
+        "fromTable": "fbase_online_pesados_abs_cancelamentos",
         "toColumn": "sep_setor",
         "toTable": "dsetor"
       },
       {
         "name": "df8d6344-d0d4-fbfa-c328-ec62084bd2bb",
         "fromColumn": "sep_setor",
-        "fromTable": "fbase_online_pesados_demanda",
+        "fromTable": "fbase_online_pesados_abs_demanda",
         "toColumn": "sep_setor",
         "toTable": "dsetor"
       }
@@ -6111,6 +6309,7 @@
           },
           {
             "name": "sla_abs_tratado",
+            "displayFolder": "Info.Abastecimento",
             "expression": [
               "",
               "",
@@ -6123,6 +6322,7 @@
               "VALUES(dcalendario[nome_mes]))",
               "",
               "VAR a_tratado = UPPER(LEFT(A,1))&LOWER(MID(A,2,LEN(A)))",
+              "",
               "VAR B =",
               "\" SLA - \"&",
               "FORMAT(",
@@ -6132,6 +6332,7 @@
               "1 - DIVIDE([rejeitados_abs],[demanda_geral_abs]),",
               "dcalendario[ano] = YEAR(NOW()) && dcalendario[mes] = MONTH(NOW())),",
               "1 - DIVIDE([rejeitados_abs],[demanda_geral_abs])),\"0.00%\")",
+              "",
               "RETURN a_tratado&B",
               ""
             ],
@@ -6139,19 +6340,16 @@
           },
           {
             "name": "demanda_geral_abs",
+            "displayFolder": "Info.Abastecimento",
             "expression": "SUM(fbase_abastecimento_demanda[balanco])+SUM(fbase_abastecimento_demanda[demanda])",
-            "formatString": "0",
+            "formatString": "#,0",
             "lineageTag": "e219266e-8ca7-43df-b6fe-8f42a03057c8"
           },
           {
             "name": "demanda_balanco_abs",
-            "annotations": [
-              {
-                "name": "PBI_FormatHint",
-                "value": "{\"isGeneralNumber\":true}"
-              }
-            ],
+            "displayFolder": "Info.Abastecimento",
             "expression": "SUM(fbase_hc_abastecimento[balanco_par])+SUM(fbase_abastecimento_demanda[balanco])",
+            "formatString": "#,0",
             "lineageTag": "98faed03-783e-40fe-aece-e724b45c84cd"
           },
           {
@@ -6162,6 +6360,7 @@
                 "value": "{\"isGeneralNumber\":true}"
               }
             ],
+            "displayFolder": "Info.Abastecimento",
             "expression": "SUM(fbase_abastecimento_demanda[rejeitados_dec])",
             "lineageTag": "84a0e0fa-c118-4018-b854-74b5de1d67cc"
           },
@@ -6178,6 +6377,37 @@
               ""
             ],
             "lineageTag": "e142528d-ee09-431c-a2d8-7afc12c3387b"
+          },
+          {
+            "name": "demanda_entrega_cliente",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    SUM(fbase_online_pesados_abs_demanda[qtd_pecas]),",
+              "    fbase_online_pesados_abs_demanda[sep_setor] = \"entrega a clientes\") "
+            ],
+            "formatString": "#,0",
+            "lineageTag": "be194103-bd25-48cb-a590-642f9426cfce"
+          },
+          {
+            "name": "entrega_cliente_s01",
+            "expression": [
+              "",
+              "CALCULATE([demanda_entrega_cliente],",
+              "fbase_online_pesados_abs_demanda[tipo_pedido] = \"S01\")"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "7d00b227-6ca1-4b32-b6f9-3553f5edee55"
+          },
+          {
+            "name": "entrega_cliente_s04",
+            "expression": [
+              "",
+              "CALCULATE([demanda_entrega_cliente],",
+              "fbase_online_pesados_abs_demanda[tipo_pedido] = \"S04\")"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "e2f67340-016e-4631-a5f7-2a0dacb7b6ff"
           }
         ],
         "partitions": [
@@ -6198,7 +6428,7 @@
         ]
       },
       {
-        "name": "fbase_online_pesados_demanda",
+        "name": "fbase_online_pesados_abs_demanda",
         "annotations": [
           {
             "name": "PBI_ResultType",
@@ -6308,7 +6538,7 @@
         "lineageTag": "86f80c0f-1098-475d-857e-3f299ac54dc7",
         "partitions": [
           {
-            "name": "fbase_online_pesados_demanda",
+            "name": "fbase_online_pesados_abs_demanda",
             "mode": "import",
             "source": {
               "expression": [
@@ -6336,12 +6566,12 @@
                 "    #\"Personalização Adicionada\" = Table.AddColumn(#\"Colunas Renomeadas\", \"sep_setor\", each if [tipo_pedido] = \"S01\" or [tipo_pedido] = \"S04\" then \"entrega a clientes\" ",
                 "else if [tipo_pedido] = \"S05\" or ([box] > 595 and [box] < 638) then \"EAD\" ",
                 "else if [tipo_pedido] = \"S39\" or [tipo_pedido] = \"S39I\" or [tipo_pedido] = \"S39M\" or [tipo_pedido] = \"S39P\" or [tipo_pedido] = \"S39R\" then \"leves\"",
-                "",
+                "else if [tipo_pedido] = \"S13\" or [tipo_pedido] = \"S14\" or [tipo_pedido] = \"S46\" or [tipo_pedido] = \"S53\" or [tipo_pedido] = \"S48\" then \"Abastecimento de lojas\"",
+                "else if [tipo_pedido] = \"S53\" then \"Balanco\"",
                 "else \"Ignorar\"),",
-                "    #\"Tipo Alterado3\" = Table.TransformColumnTypes(#\"Personalização Adicionada\",{{\"sep_setor\", type text}}),",
-                "    #\"Linhas Filtradas\" = Table.SelectRows(#\"Tipo Alterado3\", each [sep_setor] <> \"ignorar\")",
+                "    #\"Tipo Alterado3\" = Table.TransformColumnTypes(#\"Personalização Adicionada\",{{\"sep_setor\", type text}})",
                 "in",
-                "    #\"Linhas Filtradas\""
+                "    #\"Tipo Alterado3\""
               ],
               "type": "m"
             }
@@ -6349,7 +6579,7 @@
         ]
       },
       {
-        "name": "fbase_online_pesados_cancelamentos",
+        "name": "fbase_online_pesados_abs_cancelamentos",
         "annotations": [
           {
             "name": "PBI_ResultType",
@@ -6471,7 +6701,7 @@
         "lineageTag": "a8b99b21-7f36-401a-bcb5-8e6f31cd3dfe",
         "partitions": [
           {
-            "name": "fbase_online_pesados_cancelamentos",
+            "name": "fbase_online_pesados_abs_cancelamentos",
             "mode": "import",
             "source": {
               "expression": [
@@ -6501,6 +6731,9 @@
                 "else if [tipo_pedido] = \"S05\"",
                 " then \"EAD\" ",
                 "else if [tipo_pedido] = \"S39\" or [tipo_pedido] = \"S39I\" or [tipo_pedido] = \"S39M\" or [tipo_pedido] = \"S39P\" or [tipo_pedido] = \"S39R\" then \"leves\"",
+                "else if [tipo_pedido] = \"S13\" or [tipo_pedido] = \"S14\" or [tipo_pedido] = \"S46\" or [tipo_pedido] = \"S53\" or [tipo_pedido] = \"S48\" then \"Abastecimento de lojas\"",
+                "else if [tipo_pedido] = \"S53\" then \"Balanco\"",
+                "",
                 "",
                 "else \"Ignorar\"),",
                 "    #\"Tipo Alterado3\" = Table.TransformColumnTypes(#\"Personalização Adicionada\",{{\"sep_setor\", type text}}),",
