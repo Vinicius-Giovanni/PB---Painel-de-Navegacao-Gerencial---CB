@@ -1,5 +1,5 @@
 <h4 align="center"> 
-	🚧  Dashboard Acompanhamento de Expedições - Grupo Casas Bahia ♻️ Em desenvolvimento 🚀 🚧
+	🚧  Dashboard Painel de Navegação Gerencial - Grupo Casas Bahia ♻️ Em desenvolvimento 🚀 🚧
 </h4>
 
 <p align="center">
