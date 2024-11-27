@@ -12,7 +12,7 @@
       },
       {
         "name": "PBI_QueryOrder",
-        "value": "[\"dhora_din\",\"Medidas\",\"fbase_online_pesados_abs_demanda\",\"Arquivo de Amostra\",\"Parâmetro1\",\"Transformar o Arquivo de Exemplo\",\"Transformar Arquivo\",\"fbase_online_pesados_abs_cancelamentos\",\"Arquivo de Amostra (2)\",\"Parâmetro2\",\"Transformar o Arquivo de Exemplo (2)\",\"Transformar Arquivo (2)\",\"Consulta1\",\"dcalendario\",\"fbase_abastecimento_demanda\",\"fbase_abastecimento_cancelamentos\",\"dsetor\",\"fbase_hc_abastecimento\",\"dzona\",\"fbase_expedicoes_abs\"]"
+        "value": "[\"dhora_din\",\"Medidas\",\"fbase_online_pesados_abs_demanda\",\"Arquivo de Amostra\",\"Parâmetro1\",\"Transformar o Arquivo de Exemplo\",\"Transformar Arquivo\",\"fbase_online_pesados_abs_cancelamentos\",\"Arquivo de Amostra (2)\",\"Parâmetro2\",\"Transformar o Arquivo de Exemplo (2)\",\"Transformar Arquivo (2)\",\"Consulta1\",\"dcalendario\",\"fbase_abastecimento_demanda\",\"fbase_abastecimento_cancelamentos\",\"dsetor\",\"fbase_hc_abastecimento\",\"fbase_expedicoes_abs\"]"
       },
       {
         "name": "__PBI_TimeIntelligenceEnabled",
@@ -38,12 +38,6 @@
                     "dcalendario": {
                       "State": "Generated"
                     }
-                  },
-                  {
-                    "dcalendario": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
                   }
                 ]
               },
@@ -59,12 +53,6 @@
                   {
                     "ano": {
                       "State": "Generated"
-                    }
-                  },
-                  {
-                    "ano": {
-                      "State": "Generated",
-                      "Type": "Noun"
                     }
                   }
                 ]
@@ -85,21 +73,8 @@
                     }
                   },
                   {
-                    "calendario": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "date": {
                       "State": "Generated",
-                      "Weight": 0.7
-                    }
-                  },
-                  {
-                    "date": {
-                      "State": "Generated",
-                      "Type": "Noun",
                       "Weight": 0.7
                     }
                   }
@@ -118,12 +93,6 @@
                     "dia": {
                       "State": "Generated"
                     }
-                  },
-                  {
-                    "dia": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
                   }
                 ]
               },
@@ -140,12 +109,6 @@
                     "me": {
                       "State": "Generated"
                     }
-                  },
-                  {
-                    "me": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
                   }
                 ]
               },
@@ -161,12 +124,6 @@
                   {
                     "nome dia": {
                       "State": "Generated"
-                    }
-                  },
-                  {
-                    "nome dia": {
-                      "State": "Generated",
-                      "Type": "Noun"
                     }
                   },
                   {
@@ -193,12 +150,6 @@
                     }
                   },
                   {
-                    "nome me": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "nome_mes": {
                       "State": "Generated",
                       "Type": "Noun",
@@ -218,12 +169,6 @@
                   {
                     "dhora din": {
                       "State": "Generated"
-                    }
-                  },
-                  {
-                    "dhora din": {
-                      "State": "Generated",
-                      "Type": "Noun"
                     }
                   },
                   {
@@ -351,21 +296,8 @@
                     }
                   },
                   {
-                    "hora": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "time": {
                       "State": "Generated",
-                      "Weight": 0.7
-                    }
-                  },
-                  {
-                    "time": {
-                      "State": "Generated",
-                      "Type": "Noun",
                       "Weight": 0.7
                     }
                   }
@@ -382,12 +314,6 @@
                   {
                     "dsetor": {
                       "State": "Generated"
-                    }
-                  },
-                  {
-                    "dsetor": {
-                      "State": "Generated",
-                      "Type": "Noun"
                     }
                   }
                 ]
@@ -407,121 +333,10 @@
                     }
                   },
                   {
-                    "sep setor": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "sep_setor": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
-                    }
-                  }
-                ]
-              },
-              "dzona": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "dzona"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "dzona": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "dzona": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  }
-                ]
-              },
-              "dzona.local": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "dzona",
-                    "ConceptualProperty": "local"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "local": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "local": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "native": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "resident": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "home-grown": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "narrow": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.452
-                    }
-                  }
-                ]
-              },
-              "dzona.zona": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "dzona",
-                    "ConceptualProperty": "zona"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "zona": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "zona": {
-                      "State": "Generated",
-                      "Type": "Noun"
                     }
                   }
                 ]
@@ -537,12 +352,6 @@
                   {
                     "fbase abastecimento cancelamento": {
                       "State": "Generated"
-                    }
-                  },
-                  {
-                    "fbase abastecimento cancelamento": {
-                      "State": "Generated",
-                      "Type": "Noun"
                     }
                   },
                   {
@@ -570,21 +379,8 @@
                     }
                   },
                   {
-                    "data": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "date": {
                       "State": "Generated",
-                      "Weight": 0.7
-                    }
-                  },
-                  {
-                    "date": {
-                      "State": "Generated",
-                      "Type": "Noun",
                       "Weight": 0.7
                     }
                   },
@@ -673,12 +469,6 @@
                     "motivo": {
                       "State": "Generated"
                     }
-                  },
-                  {
-                    "motivo": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
                   }
                 ]
               },
@@ -694,12 +484,6 @@
                   {
                     "quantidade": {
                       "State": "Generated"
-                    }
-                  },
-                  {
-                    "quantidade": {
-                      "State": "Generated",
-                      "Type": "Noun"
                     }
                   }
                 ]
@@ -717,12 +501,6 @@
                     "responsavel": {
                       "State": "Generated"
                     }
-                  },
-                  {
-                    "responsavel": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
                   }
                 ]
               },
@@ -737,12 +515,6 @@
                   {
                     "fbase abastecimento demanda": {
                       "State": "Generated"
-                    }
-                  },
-                  {
-                    "fbase abastecimento demanda": {
-                      "State": "Generated",
-                      "Type": "Noun"
                     }
                   },
                   {
@@ -767,12 +539,6 @@
                     "balanco": {
                       "State": "Generated"
                     }
-                  },
-                  {
-                    "balanco": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
                   }
                 ]
               },
@@ -792,21 +558,8 @@
                     }
                   },
                   {
-                    "data": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "date": {
                       "State": "Generated",
-                      "Weight": 0.7
-                    }
-                  },
-                  {
-                    "date": {
-                      "State": "Generated",
-                      "Type": "Noun",
                       "Weight": 0.7
                     }
                   },
@@ -895,12 +648,6 @@
                     "demanda": {
                       "State": "Generated"
                     }
-                  },
-                  {
-                    "demanda": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
                   }
                 ]
               },
@@ -916,12 +663,6 @@
                   {
                     "rejeitados dec": {
                       "State": "Generated"
-                    }
-                  },
-                  {
-                    "rejeitados dec": {
-                      "State": "Generated",
-                      "Type": "Noun"
                     }
                   },
                   {
@@ -955,12 +696,6 @@
                     }
                   },
                   {
-                    "rejeitados pcp": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "rejeitado pcp": {
                       "State": "Generated",
                       "Type": "Noun",
@@ -987,12 +722,6 @@
                   {
                     "fbase expedicoes abs": {
                       "State": "Generated"
-                    }
-                  },
-                  {
-                    "fbase expedicoes abs": {
-                      "State": "Generated",
-                      "Type": "Noun"
                     }
                   },
                   {
@@ -1024,12 +753,6 @@
                     "crossdocking": {
                       "State": "Generated"
                     }
-                  },
-                  {
-                    "crossdocking": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
                   }
                 ]
               },
@@ -1049,21 +772,8 @@
                     }
                   },
                   {
-                    "data": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "date": {
                       "State": "Generated",
-                      "Weight": 0.7
-                    }
-                  },
-                  {
-                    "date": {
-                      "State": "Generated",
-                      "Type": "Noun",
                       "Weight": 0.7
                     }
                   },
@@ -1152,12 +862,6 @@
                     "polo": {
                       "State": "Generated"
                     }
-                  },
-                  {
-                    "polo": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
                   }
                 ]
               },
@@ -1173,12 +877,6 @@
                   {
                     "2 4hr": {
                       "State": "Generated"
-                    }
-                  },
-                  {
-                    "2 4hr": {
-                      "State": "Generated",
-                      "Type": "Noun"
                     }
                   },
                   {
@@ -1205,12 +903,6 @@
                     }
                   },
                   {
-                    "4 8hr": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "48hrs": {
                       "State": "Generated",
                       "Type": "Noun",
@@ -1233,12 +925,6 @@
                     }
                   },
                   {
-                    "fbase hc abastecimento": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "fbase_hc_abastecimento": {
                       "State": "Generated",
                       "Type": "Noun",
@@ -1247,345 +933,48 @@
                   }
                 ]
               },
-              "fbase_hc_abastecimento.balanco_par": {
+              "fbase_hc_abastecimento.chip_2_4h": {
                 "Definition": {
                   "Binding": {
                     "ConceptualEntity": "fbase_hc_abastecimento",
-                    "ConceptualProperty": "balanco_par"
+                    "ConceptualProperty": "chip_24h"
                   }
                 },
                 "State": "Generated",
                 "Terms": [
                   {
-                    "balanco par": {
+                    "chip 2 4h": {
                       "State": "Generated"
                     }
                   },
                   {
-                    "balanco par": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "balanco_par": {
+                    "chip_24h": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
-                    }
-                  },
-                  {
-                    "balanco parity": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.5
-                    }
-                  },
-                  {
-                    "balanco equivalence": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.5
-                    }
-                  },
-                  {
-                    "balanco equality": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.5
-                    }
-                  },
-                  {
-                    "balanco similarity": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.5
-                    }
-                  },
-                  {
-                    "balanco balance": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.485
-                    }
-                  },
-                  {
-                    "balanco norm": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.475
-                    }
-                  },
-                  {
-                    "balanco average": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.461
-                    }
-                  },
-                  {
-                    "balanco standard": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.461
-                    }
-                  },
-                  {
-                    "balanco mean": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.461
-                    }
-                  },
-                  {
-                    "balanco median": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.461
                     }
                   }
                 ]
               },
-              "fbase_hc_abastecimento.cross_polo_par": {
+              "fbase_hc_abastecimento.chip_geral": {
                 "Definition": {
                   "Binding": {
                     "ConceptualEntity": "fbase_hc_abastecimento",
-                    "ConceptualProperty": "cross_polo_par"
+                    "ConceptualProperty": "chip_geral"
                   }
                 },
                 "State": "Generated",
                 "Terms": [
                   {
-                    "cross polo par": {
+                    "chip geral": {
                       "State": "Generated"
                     }
                   },
                   {
-                    "cross polo par": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "cross_polo_par": {
+                    "chip_geral": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
-                    }
-                  },
-                  {
-                    "par": {
-                      "State": "Generated",
-                      "Weight": 0.97
-                    }
-                  },
-                  {
-                    "par": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.97
-                    }
-                  },
-                  {
-                    "polo par": {
-                      "State": "Generated",
-                      "Weight": 0.97
-                    }
-                  },
-                  {
-                    "polo par": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.97
-                    }
-                  },
-                  {
-                    "cross polo parity": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.508
-                    }
-                  },
-                  {
-                    "cross polo equivalence": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.508
-                    }
-                  },
-                  {
-                    "cross polo equality": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.508
-                    }
-                  },
-                  {
-                    "cross polo similarity": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.508
-                    }
-                  },
-                  {
-                    "polo parity": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.5
-                    }
-                  },
-                  {
-                    "polo equivalence": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.5
-                    }
-                  },
-                  {
-                    "polo equality": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.5
-                    }
-                  },
-                  {
-                    "polo similarity": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.5
-                    }
-                  },
-                  {
-                    "cross polo balance": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.492
-                    }
-                  },
-                  {
-                    "parity": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  }
-                ]
-              },
-              "fbase_hc_abastecimento.cross_polo_salao": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_hc_abastecimento",
-                    "ConceptualProperty": "cross_polo_salao"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "cross polo salao": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "cross polo salao": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "cross_polo_salao": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.99
-                    }
-                  },
-                  {
-                    "symbol polo salao": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.468
-                    }
-                  },
-                  {
-                    "mark polo salao": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.468
-                    }
-                  },
-                  {
-                    "sign polo salao": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.468
                     }
                   }
                 ]
@@ -1606,21 +995,8 @@
                     }
                   },
                   {
-                    "data": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "date": {
                       "State": "Generated",
-                      "Weight": 0.7
-                    }
-                  },
-                  {
-                    "date": {
-                      "State": "Generated",
-                      "Type": "Noun",
                       "Weight": 0.7
                     }
                   },
@@ -1696,6 +1072,22 @@
                   }
                 ]
               },
+              "fbase_hc_abastecimento.filiais": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fbase_hc_abastecimento",
+                    "ConceptualProperty": "filiais"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "filiais": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
               "fbase_hc_abastecimento.hc_1_turno_fast": {
                 "Definition": {
                   "Binding": {
@@ -1708,12 +1100,6 @@
                   {
                     "hc 1 turno fast": {
                       "State": "Generated"
-                    }
-                  },
-                  {
-                    "hc 1 turno fast": {
-                      "State": "Generated",
-                      "Type": "Noun"
                     }
                   },
                   {
@@ -1737,12 +1123,6 @@
                   {
                     "hc 1 turno par": {
                       "State": "Generated"
-                    }
-                  },
-                  {
-                    "hc 1 turno par": {
-                      "State": "Generated",
-                      "Type": "Noun"
                     }
                   },
                   {
@@ -1869,12 +1249,6 @@
                     }
                   },
                   {
-                    "hc 1 turno salao": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "hc_1_turno_salao": {
                       "State": "Generated",
                       "Type": "Noun",
@@ -1898,12 +1272,6 @@
                     }
                   },
                   {
-                    "hc 2 turno fast": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "hc_2_turno_fast": {
                       "State": "Generated",
                       "Type": "Noun",
@@ -1924,12 +1292,6 @@
                   {
                     "hc 2 turno par": {
                       "State": "Generated"
-                    }
-                  },
-                  {
-                    "hc 2 turno par": {
-                      "State": "Generated",
-                      "Type": "Noun"
                     }
                   },
                   {
@@ -2056,12 +1418,6 @@
                     }
                   },
                   {
-                    "hc 2 turno salao": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "hc_2_turno_salao": {
                       "State": "Generated",
                       "Type": "Noun",
@@ -2085,12 +1441,6 @@
                     }
                   },
                   {
-                    "hc 3 turno fast": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "hc_3_turno_fast": {
                       "State": "Generated",
                       "Type": "Noun",
@@ -2111,12 +1461,6 @@
                   {
                     "hc 3 turno par": {
                       "State": "Generated"
-                    }
-                  },
-                  {
-                    "hc 3 turno par": {
-                      "State": "Generated",
-                      "Type": "Noun"
                     }
                   },
                   {
@@ -2232,240 +1576,18 @@
                 "Definition": {
                   "Binding": {
                     "ConceptualEntity": "fbase_hc_abastecimento",
-                    "ConceptualProperty": "hc_3_turno_salao"
+                    "ConceptualProperty": "hc_turno_3_salao"
                   }
                 },
                 "State": "Generated",
                 "Terms": [
                   {
-                    "hc 3 turno salao": {
+                    "hc turno 3 salao": {
                       "State": "Generated"
                     }
                   },
                   {
-                    "hc 3 turno salao": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "hc_3_turno_salao": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.99
-                    }
-                  }
-                ]
-              },
-              "fbase_hc_abastecimento.inclusao_2_4h_par": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_hc_abastecimento",
-                    "ConceptualProperty": "inclusao_24h_par"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "inclusao 2 4h par": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "inclusao 2 4h par": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "inclusao_24h_par": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.99
-                    }
-                  },
-                  {
-                    "inclusao 2 4h parity": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.514
-                    }
-                  },
-                  {
-                    "inclusao 2 4h equivalence": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.514
-                    }
-                  },
-                  {
-                    "inclusao 2 4h equality": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.514
-                    }
-                  },
-                  {
-                    "inclusao 2 4h similarity": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.514
-                    }
-                  },
-                  {
-                    "inclusao 2 4h balance": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.499
-                    }
-                  },
-                  {
-                    "inclusao 2 4h norm": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.489
-                    }
-                  },
-                  {
-                    "inclusao 2 4h average": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.474
-                    }
-                  },
-                  {
-                    "inclusao 2 4h standard": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.474
-                    }
-                  },
-                  {
-                    "inclusao 2 4h mean": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.474
-                    }
-                  },
-                  {
-                    "inclusao 2 4h median": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.474
-                    }
-                  }
-                ]
-              },
-              "fbase_hc_abastecimento.inclusao_2_4h_salao": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_hc_abastecimento",
-                    "ConceptualProperty": "inclusao_24h_salao_"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "inclusao 2 4h salao": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "inclusao 2 4h salao": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "inclusao_24h_salao_": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.99
-                    }
-                  }
-                ]
-              },
-              "fbase_hc_abastecimento.inclusao_cross_par": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_hc_abastecimento",
-                    "ConceptualProperty": "inclusao_cross_par"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "inclusao cross par": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "inclusao cross par": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "inclusao_cross_par": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.99
-                    }
-                  }
-                ]
-              },
-              "fbase_hc_abastecimento.inclusao_cross_salao": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_hc_abastecimento",
-                    "ConceptualProperty": "inclusao_cross_salao"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "inclusao cross salao": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "inclusao cross salao": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "inclusao_cross_salao": {
+                    "hc_turno_3_salao": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
@@ -2477,24 +1599,25 @@
                 "Definition": {
                   "Binding": {
                     "ConceptualEntity": "fbase_hc_abastecimento",
-                    "ConceptualProperty": "qtd_carros"
+                    "ConceptualProperty": "carros_sp"
                   }
                 },
                 "State": "Generated",
                 "Terms": [
                   {
-                    "qtd carro": {
+                    "carros sp": {
                       "State": "Generated"
                     }
                   },
                   {
-                    "qtd carro": {
+                    "carro sp": {
                       "State": "Generated",
-                      "Type": "Noun"
+                      "Type": "Noun",
+                      "Weight": 0.78
                     }
                   },
                   {
-                    "qtd_carros": {
+                    "carros_sp": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
@@ -2506,24 +1629,18 @@
                 "Definition": {
                   "Binding": {
                     "ConceptualEntity": "fbase_hc_abastecimento",
-                    "ConceptualProperty": "qtd_carro_polo"
+                    "ConceptualProperty": "polo_carretas"
                   }
                 },
                 "State": "Generated",
                 "Terms": [
                   {
-                    "qtd carro polo": {
+                    "polo carreta": {
                       "State": "Generated"
                     }
                   },
                   {
-                    "qtd carro polo": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "qtd_carro_polo": {
+                    "polo_carretas": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
@@ -2535,31 +1652,18 @@
                 "Definition": {
                   "Binding": {
                     "ConceptualEntity": "fbase_hc_abastecimento",
-                    "ConceptualProperty": "qtd_carros_balanco"
+                    "ConceptualProperty": "carro_balanco"
                   }
                 },
                 "State": "Generated",
                 "Terms": [
                   {
-                    "qtd carros balanco": {
+                    "carro balanco": {
                       "State": "Generated"
                     }
                   },
                   {
-                    "qtd carros balanco": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "qtd carro balanco": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.78
-                    }
-                  },
-                  {
-                    "qtd_carros_balanco": {
+                    "carro_balanco": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
@@ -2571,127 +1675,21 @@
                 "Definition": {
                   "Binding": {
                     "ConceptualEntity": "fbase_hc_abastecimento",
-                    "ConceptualProperty": "qtd_chip"
+                    "ConceptualProperty": "chip_48h"
                   }
                 },
                 "State": "Generated",
                 "Terms": [
                   {
-                    "qtd chip": {
+                    "chip 4 8h": {
                       "State": "Generated"
                     }
                   },
                   {
-                    "qtd chip": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "qtd_chip": {
+                    "chip_48h": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
-                    }
-                  },
-                  {
-                    "qtd imperfection": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.5
-                    }
-                  },
-                  {
-                    "qtd mark": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.485
-                    }
-                  },
-                  {
-                    "qtd damage": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.485
-                    }
-                  },
-                  {
-                    "qtd flaw": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.485
-                    }
-                  },
-                  {
-                    "qtd blemish": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.485
-                    }
-                  },
-                  {
-                    "qtd morsel": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.475
-                    }
-                  },
-                  {
-                    "qtd piece": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.461
-                    }
-                  },
-                  {
-                    "qtd bit": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.461
-                    }
-                  },
-                  {
-                    "qtd crumb": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.461
-                    }
-                  },
-                  {
-                    "qtd flake": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.461
                     }
                   }
                 ]
@@ -2700,160 +1698,37 @@
                 "Definition": {
                   "Binding": {
                     "ConceptualEntity": "fbase_hc_abastecimento",
-                    "ConceptualProperty": "qtd_chip_cross_polo"
+                    "ConceptualProperty": "chip_cross_polo"
                   }
                 },
                 "State": "Generated",
                 "Terms": [
                   {
-                    "qtd chip cross polo": {
+                    "chip cross polo": {
                       "State": "Generated"
                     }
                   },
                   {
-                    "qtd chip cross polo": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "qtd_chip_cross_polo": {
+                    "chip_cross_polo": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
                     }
                   },
                   {
-                    "qtd imperfection cross polo": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.514
-                    }
-                  },
-                  {
-                    "qtd mark cross polo": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.499
-                    }
-                  },
-                  {
-                    "qtd damage cross polo": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.499
-                    }
-                  },
-                  {
-                    "qtd flaw cross polo": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.499
-                    }
-                  },
-                  {
-                    "qtd blemish cross polo": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.499
-                    }
-                  },
-                  {
-                    "qtd morsel cross polo": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.489
-                    }
-                  },
-                  {
-                    "qtd piece cross polo": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.474
-                    }
-                  },
-                  {
-                    "qtd bit cross polo": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.474
-                    }
-                  },
-                  {
-                    "qtd crumb cross polo": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.474
-                    }
-                  },
-                  {
-                    "qtd flake cross polo": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.474
-                    }
-                  }
-                ]
-              },
-              "fbase_hc_abastecimento.v48h_par4_8h_par": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_hc_abastecimento",
-                    "ConceptualProperty": "48h_par"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "4 8h par": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "4 8h par": {
+                    "cross polo": {
                       "State": "Generated",
-                      "Type": "Noun"
+                      "Weight": 0.97
                     }
                   },
                   {
-                    "48h_par": {
+                    "chip": {
                       "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.99
+                      "Weight": 0.97
                     }
                   },
                   {
-                    "4 8h parity": {
+                    "imperfection cross polo": {
                       "Source": {
                         "Agent": "Thesaurus"
                       },
@@ -2863,37 +1738,7 @@
                     }
                   },
                   {
-                    "4 8h equivalence": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.508
-                    }
-                  },
-                  {
-                    "4 8h equality": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.508
-                    }
-                  },
-                  {
-                    "4 8h similarity": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.508
-                    }
-                  },
-                  {
-                    "4 8h balance": {
+                    "mark cross polo": {
                       "Source": {
                         "Agent": "Thesaurus"
                       },
@@ -2903,7 +1748,47 @@
                     }
                   },
                   {
-                    "4 8h norm": {
+                    "damage cross polo": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "flaw cross polo": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "blemish cross polo": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "imperfection": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "morsel cross polo": {
                       "Source": {
                         "Agent": "Thesaurus"
                       },
@@ -2913,72 +1798,33 @@
                     }
                   },
                   {
-                    "4 8h average": {
+                    "mark": {
                       "Source": {
                         "Agent": "Thesaurus"
                       },
                       "State": "Suggested",
                       "Type": "Noun",
-                      "Weight": 0.468
+                      "Weight": 0.476
                     }
                   },
                   {
-                    "4 8h standard": {
+                    "damage": {
                       "Source": {
                         "Agent": "Thesaurus"
                       },
                       "State": "Suggested",
                       "Type": "Noun",
-                      "Weight": 0.468
+                      "Weight": 0.476
                     }
                   },
                   {
-                    "4 8h mean": {
+                    "flaw": {
                       "Source": {
                         "Agent": "Thesaurus"
                       },
                       "State": "Suggested",
                       "Type": "Noun",
-                      "Weight": 0.468
-                    }
-                  },
-                  {
-                    "4 8h median": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.468
-                    }
-                  }
-                ]
-              },
-              "fbase_hc_abastecimento.v48h_salao4_8h_salao": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_hc_abastecimento",
-                    "ConceptualProperty": "48h_salao"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "4 8h salao": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "4 8h salao": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "48h_salao": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.99
+                      "Weight": 0.476
                     }
                   }
                 ]
@@ -2994,12 +1840,6 @@
                   {
                     "fbase online pesados abs cancelamento": {
                       "State": "Generated"
-                    }
-                  },
-                  {
-                    "fbase online pesados abs cancelamento": {
-                      "State": "Generated",
-                      "Type": "Noun"
                     }
                   },
                   {
@@ -3033,12 +1873,6 @@
                     }
                   },
                   {
-                    "codigo cancelamento": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "codigo_cancelamento": {
                       "State": "Generated",
                       "Type": "Noun",
@@ -3063,21 +1897,8 @@
                     }
                   },
                   {
-                    "data": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "date": {
                       "State": "Generated",
-                      "Weight": 0.7
-                    }
-                  },
-                  {
-                    "date": {
-                      "State": "Generated",
-                      "Type": "Noun",
                       "Weight": 0.7
                     }
                   },
@@ -3166,12 +1987,6 @@
                     "filial": {
                       "State": "Generated"
                     }
-                  },
-                  {
-                    "filial": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
                   }
                 ]
               },
@@ -3187,12 +2002,6 @@
                   {
                     "motivo cancelamento": {
                       "State": "Generated"
-                    }
-                  },
-                  {
-                    "motivo cancelamento": {
-                      "State": "Generated",
-                      "Type": "Noun"
                     }
                   },
                   {
@@ -3219,12 +2028,6 @@
                     }
                   },
                   {
-                    "qtd peca": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "qtd_pecas": {
                       "State": "Generated",
                       "Type": "Noun",
@@ -3245,12 +2048,6 @@
                   {
                     "sep setor": {
                       "State": "Generated"
-                    }
-                  },
-                  {
-                    "sep setor": {
-                      "State": "Generated",
-                      "Type": "Noun"
                     }
                   },
                   {
@@ -3280,12 +2077,6 @@
                     }
                   },
                   {
-                    "tipo pedido": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "tipo_pedido": {
                       "State": "Generated",
                       "Type": "Noun",
@@ -3306,12 +2097,6 @@
                   {
                     "user": {
                       "State": "Generated"
-                    }
-                  },
-                  {
-                    "user": {
-                      "State": "Generated",
-                      "Type": "Noun"
                     }
                   },
                   {
@@ -3430,12 +2215,6 @@
                     }
                   },
                   {
-                    "fbase online pesados abs demanda": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "fbase online pesado abs demanda": {
                       "State": "Generated",
                       "Type": "Noun",
@@ -3463,12 +2242,6 @@
                   {
                     "box": {
                       "State": "Generated"
-                    }
-                  },
-                  {
-                    "box": {
-                      "State": "Generated",
-                      "Type": "Noun"
                     }
                   },
                   {
@@ -3589,21 +2362,8 @@
                     }
                   },
                   {
-                    "data": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "date": {
                       "State": "Generated",
-                      "Weight": 0.7
-                    }
-                  },
-                  {
-                    "date": {
-                      "State": "Generated",
-                      "Type": "Noun",
                       "Weight": 0.7
                     }
                   },
@@ -3695,12 +2455,6 @@
                     }
                   },
                   {
-                    "data limite": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "data_limite": {
                       "State": "Generated",
                       "Type": "Noun",
@@ -3710,13 +2464,6 @@
                   {
                     "date": {
                       "State": "Generated",
-                      "Weight": 0.7
-                    }
-                  },
-                  {
-                    "date": {
-                      "State": "Generated",
-                      "Type": "Noun",
                       "Weight": 0.7
                     }
                   },
@@ -3808,12 +2555,6 @@
                     }
                   },
                   {
-                    "data locacao": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "data_locacao": {
                       "State": "Generated",
                       "Type": "Noun",
@@ -3823,13 +2564,6 @@
                   {
                     "date": {
                       "State": "Generated",
-                      "Weight": 0.7
-                    }
-                  },
-                  {
-                    "date": {
-                      "State": "Generated",
-                      "Type": "Noun",
                       "Weight": 0.7
                     }
                   },
@@ -3918,12 +2652,6 @@
                     "filial": {
                       "State": "Generated"
                     }
-                  },
-                  {
-                    "filial": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
                   }
                 ]
               },
@@ -3939,12 +2667,6 @@
                   {
                     "local de picking": {
                       "State": "Generated"
-                    }
-                  },
-                  {
-                    "local de picking": {
-                      "State": "Generated",
-                      "Type": "Noun"
                     }
                   },
                   {
@@ -4021,12 +2743,6 @@
                     }
                   },
                   {
-                    "qtd peca": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "qtd_pecas": {
                       "State": "Generated",
                       "Type": "Noun",
@@ -4050,12 +2766,6 @@
                     }
                   },
                   {
-                    "salao or par": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "salao_or_par": {
                       "State": "Generated",
                       "Type": "Noun",
@@ -4069,27 +2779,7 @@
                     }
                   },
                   {
-                    "salao": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.97
-                    }
-                  },
-                  {
                     "salao par": {
-                      "State": "Generated",
-                      "Weight": 0.97
-                    }
-                  },
-                  {
-                    "salao par": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.97
-                    }
-                  },
-                  {
-                    "par": {
                       "State": "Generated",
                       "Weight": 0.97
                     }
@@ -4097,7 +2787,6 @@
                   {
                     "par": {
                       "State": "Generated",
-                      "Type": "Noun",
                       "Weight": 0.97
                     }
                   },
@@ -4218,12 +2907,6 @@
                     }
                   },
                   {
-                    "sep setor": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "sep_setor": {
                       "State": "Generated",
                       "Type": "Noun",
@@ -4245,12 +2928,6 @@
                     "setor": {
                       "State": "Generated"
                     }
-                  },
-                  {
-                    "setor": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
                   }
                 ]
               },
@@ -4266,12 +2943,6 @@
                   {
                     "tipo expedicao": {
                       "State": "Generated"
-                    }
-                  },
-                  {
-                    "tipo expedicao": {
-                      "State": "Generated",
-                      "Type": "Noun"
                     }
                   },
                   {
@@ -4298,12 +2969,6 @@
                     }
                   },
                   {
-                    "tipo pedido": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "tipo_pedido": {
                       "State": "Generated",
                       "Type": "Noun",
@@ -4324,12 +2989,6 @@
                   {
                     "4 8hrs 2 4hr": {
                       "State": "Generated"
-                    }
-                  },
-                  {
-                    "4 8hrs 2 4hr": {
-                      "State": "Generated",
-                      "Type": "Noun"
                     }
                   },
                   {
@@ -4360,12 +3019,6 @@
                     "medida": {
                       "State": "Generated"
                     }
-                  },
-                  {
-                    "medida": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
                   }
                 ]
               },
@@ -4384,33 +3037,6 @@
                     }
                   },
                   {
-                    "black abs 2024": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "Black 24 |": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
-                    "Black 24 |": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
                     "black_abs_2024": {
                       "State": "Generated",
                       "Type": "Noun",
@@ -4424,10 +3050,13 @@
                     }
                   },
                   {
-                    "abs 2024": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.97
+                    "Black 24 |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ]
@@ -4447,33 +3076,6 @@
                     }
                   },
                   {
-                    "black abs 2023": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "Black 23|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
-                    "Black 23|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
                     "black_abs_2023": {
                       "State": "Generated",
                       "Type": "Noun",
@@ -4487,10 +3089,79 @@
                     }
                   },
                   {
-                    "abs 2023": {
+                    "Black 23|": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.black_ead_2024": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "black_ead_2024"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "black ead 2024": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "black_ead_2024": {
                       "State": "Generated",
                       "Type": "Noun",
-                      "Weight": 0.97
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Black 24|": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.black_entrega_clientes_2024": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "black_entrega_clientes_2024"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "black entrega clientes 2024": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "black_entrega_clientes_2024": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Black 24|": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ]
@@ -4510,36 +3181,19 @@
                     }
                   },
                   {
-                    "EAD": {
-                      "State": "Generated",
-                      "Type": "Noun"
+                    "Rejeitados|": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   },
                   {
                     "cancelados ead": {
                       "LastModified": "2024-11-26T15:21:50.855Z",
                       "State": "Deleted"
-                    }
-                  },
-                  {
-                    "Rejeitados|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
-                    "Rejeitados|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.9
                     }
                   },
                   {
@@ -4566,37 +3220,20 @@
                     }
                   },
                   {
-                    "cancelados entrega cliente": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "Rejeitados|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
-                    "Rejeitados|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
                     "cancelados_entrega_cliente": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Rejeitados|": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ]
@@ -4616,37 +3253,20 @@
                     }
                   },
                   {
-                    "cancelados on": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "Rejeitados|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
-                    "Rejeitados|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
                     "cancelados_on": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Rejeitados|": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ]
@@ -4663,12 +3283,6 @@
                   {
                     "coluna 1": {
                       "State": "Generated"
-                    }
-                  },
-                  {
-                    "coluna 1": {
-                      "State": "Generated",
-                      "Type": "Noun"
                     }
                   }
                 ],
@@ -4688,33 +3302,6 @@
                   {
                     "cross": {
                       "State": "Generated"
-                    }
-                  },
-                  {
-                    "cross": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "Cross|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
-                    "Cross|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.9
                     }
                   },
                   {
@@ -4746,6 +3333,16 @@
                       "Type": "Noun",
                       "Weight": 0.452
                     }
+                  },
+                  {
+                    "Cross|": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
                   }
                 ]
               },
@@ -4761,12 +3358,6 @@
                   {
                     "current times": {
                       "State": "Generated"
-                    }
-                  },
-                  {
-                    "current times": {
-                      "State": "Generated",
-                      "Type": "Noun"
                     }
                   },
                   {
@@ -4843,29 +3434,12 @@
                     }
                   },
                   {
-                    "EAD": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "Mês|": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
                       },
                       "State": "Suggested",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
-                    "Mês|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
                       "Weight": 0.9
                     }
                   },
@@ -4899,37 +3473,20 @@
                     }
                   },
                   {
-                    "demanda entrega cliente": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "Mês|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
-                    "Mês|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
                     "demanda_entrega_cliente": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Mês|": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ]
@@ -4949,37 +3506,20 @@
                     }
                   },
                   {
-                    "demanda geral abs": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "Mês |": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
-                    "Mês |": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
                     "demanda_geral_abs": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Mês |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ]
@@ -4999,37 +3539,20 @@
                     }
                   },
                   {
-                    "demanda on": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "Mês|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
-                    "Mês|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
                     "demanda_on": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Mês|": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ]
@@ -5049,37 +3572,20 @@
                     }
                   },
                   {
-                    "entrega cliente s 01": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "S01|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
-                    "S01|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
                     "entrega_cliente_s01": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
+                    }
+                  },
+                  {
+                    "S01|": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ]
@@ -5099,37 +3605,20 @@
                     }
                   },
                   {
-                    "entrega cliente s 04": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "S04|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
-                    "S04|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
                     "entrega_cliente_s04": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
+                    }
+                  },
+                  {
+                    "S04|": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ]
@@ -5146,12 +3635,6 @@
                   {
                     "hora": {
                       "State": "Generated"
-                    }
-                  },
-                  {
-                    "hora": {
-                      "State": "Generated",
-                      "Type": "Noun"
                     }
                   }
                 ]
@@ -5171,37 +3654,20 @@
                     }
                   },
                   {
-                    "pi entrega cliente tratado": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "Performance Indicator|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
-                    "Performance Indicator|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
                     "pi_entrega_cliente_tratado": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Performance Indicator|": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ]
@@ -5221,29 +3687,12 @@
                     }
                   },
                   {
-                    "EAD": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "Performance Indicador|": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
                       },
                       "State": "Suggested",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
-                    "Performance Indicador|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
                       "Weight": 0.9
                     }
                   },
@@ -5277,37 +3726,20 @@
                     }
                   },
                   {
-                    "pi online tratado": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "Performance Indicator|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
-                    "Performance Indicator|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
                     "pi_online_tratado": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Performance Indicator|": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ]
@@ -5327,29 +3759,12 @@
                     }
                   },
                   {
-                    "polo": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
                     "Polo|": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
                       },
                       "State": "Suggested",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
-                    "Polo|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
                       "Weight": 0.9
                     }
                   }
@@ -5370,37 +3785,20 @@
                     }
                   },
                   {
-                    "rejeitados abs": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "Rejeitados|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
-                    "Rejeitados|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
                     "rejeitados_abs": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Rejeitados|": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ]
@@ -5420,37 +3818,20 @@
                     }
                   },
                   {
-                    "sla abs tratado": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "Service Level Agreement|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
-                    "Service Level Agreement|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
                     "sla_abs_tratado": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Service Level Agreement|": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ]
@@ -5468,11 +3849,28 @@
                     "teste": {
                       "State": "Generated"
                     }
+                  }
+                ]
+              },
+              "medida.texto_black_friday": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "texto_black_friday"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "texto black friday": {
+                      "State": "Generated"
+                    }
                   },
                   {
-                    "teste": {
+                    "texto_black_friday": {
                       "State": "Generated",
-                      "Type": "Noun"
+                      "Type": "Noun",
+                      "Weight": 0.99
                     }
                   }
                 ]
@@ -5490,12 +3888,6 @@
                     "username": {
                       "State": "Generated"
                     }
-                  },
-                  {
-                    "username": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
                   }
                 ]
               },
@@ -5511,12 +3903,6 @@
                   {
                     "username 2": {
                       "State": "Generated"
-                    }
-                  },
-                  {
-                    "username 2": {
-                      "State": "Generated",
-                      "Type": "Noun"
                     }
                   },
                   {
@@ -5543,37 +3929,20 @@
                     }
                   },
                   {
-                    "24 hrs": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "24H|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
-                    "24H|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
                     "24Hrs": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
+                    }
+                  },
+                  {
+                    "24H|": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ]
@@ -5593,37 +3962,20 @@
                     }
                   },
                   {
-                    "48 hrs": {
-                      "State": "Generated",
-                      "Type": "Noun"
-                    }
-                  },
-                  {
-                    "48H|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
-                    "48H|": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
                     "48Hrs": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
+                    }
+                  },
+                  {
+                    "48H|": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ]
@@ -5890,72 +4242,6 @@
                   "dsetor.sep_setor": {
                     "Target": {
                       "Entity": "dsetor.sep_setor"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "dzona_has_local": {
-                "Binding": {
-                  "ConceptualEntity": "dzona"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "dzona.local"
-                      },
-                      "Subject": {
-                        "Role": "dzona"
-                      }
-                    },
-                    "ID": "dzonas_have_locals",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "dzona": {
-                    "Target": {
-                      "Entity": "dzona"
-                    }
-                  },
-                  "dzona.local": {
-                    "Target": {
-                      "Entity": "dzona.local"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "dzona_has_zona": {
-                "Binding": {
-                  "ConceptualEntity": "dzona"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "dzona.zona"
-                      },
-                      "Subject": {
-                        "Role": "dzona"
-                      }
-                    },
-                    "ID": "dzonas_have_zonas",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "dzona": {
-                    "Target": {
-                      "Entity": "dzona"
-                    }
-                  },
-                  "dzona.zona": {
-                    "Target": {
-                      "Entity": "dzona.zona"
                     }
                   }
                 },
@@ -6879,7 +5165,7 @@
                 },
                 "State": "Generated"
               },
-              "fbase_hc_abastecimento_has_balanco_par": {
+              "fbase_hc_abastecimento_has_chip_2_4h": {
                 "Binding": {
                   "ConceptualEntity": "fbase_hc_abastecimento"
                 },
@@ -6887,13 +5173,13 @@
                   {
                     "Attribute": {
                       "Object": {
-                        "Role": "fbase_hc_abastecimento.balanco_par"
+                        "Role": "fbase_hc_abastecimento.chip_2_4h"
                       },
                       "Subject": {
                         "Role": "fbase_hc_abastecimento"
                       }
                     },
-                    "ID": "fbase_hc_abastecimentos_have_balanco_pars",
+                    "ID": "fbase_hc_abastecimentos_have_chip_2_4hs",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -6904,15 +5190,15 @@
                       "Entity": "fbase_hc_abastecimento"
                     }
                   },
-                  "fbase_hc_abastecimento.balanco_par": {
+                  "fbase_hc_abastecimento.chip_2_4h": {
                     "Target": {
-                      "Entity": "fbase_hc_abastecimento.balanco_par"
+                      "Entity": "fbase_hc_abastecimento.chip_2_4h"
                     }
                   }
                 },
                 "State": "Generated"
               },
-              "fbase_hc_abastecimento_has_cross_polo_par": {
+              "fbase_hc_abastecimento_has_chip_geral": {
                 "Binding": {
                   "ConceptualEntity": "fbase_hc_abastecimento"
                 },
@@ -6920,13 +5206,13 @@
                   {
                     "Attribute": {
                       "Object": {
-                        "Role": "fbase_hc_abastecimento.cross_polo_par"
+                        "Role": "fbase_hc_abastecimento.chip_geral"
                       },
                       "Subject": {
                         "Role": "fbase_hc_abastecimento"
                       }
                     },
-                    "ID": "fbase_hc_abastecimentos_have_cross_polo_par",
+                    "ID": "fbase_hc_abastecimentos_have_chip_gerals",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -6937,42 +5223,9 @@
                       "Entity": "fbase_hc_abastecimento"
                     }
                   },
-                  "fbase_hc_abastecimento.cross_polo_par": {
+                  "fbase_hc_abastecimento.chip_geral": {
                     "Target": {
-                      "Entity": "fbase_hc_abastecimento.cross_polo_par"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_hc_abastecimento_has_cross_polo_salao": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_hc_abastecimento"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_hc_abastecimento.cross_polo_salao"
-                      },
-                      "Subject": {
-                        "Role": "fbase_hc_abastecimento"
-                      }
-                    },
-                    "ID": "fbase_hc_abastecimentos_have_cross_polo_salao",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_hc_abastecimento": {
-                    "Target": {
-                      "Entity": "fbase_hc_abastecimento"
-                    }
-                  },
-                  "fbase_hc_abastecimento.cross_polo_salao": {
-                    "Target": {
-                      "Entity": "fbase_hc_abastecimento.cross_polo_salao"
+                      "Entity": "fbase_hc_abastecimento.chip_geral"
                     }
                   }
                 },
@@ -7059,6 +5312,39 @@
                   "fbase_hc_abastecimento": {
                     "Target": {
                       "Entity": "fbase_hc_abastecimento"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_hc_abastecimento_has_filiais": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_hc_abastecimento"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fbase_hc_abastecimento.filiais"
+                      },
+                      "Subject": {
+                        "Role": "fbase_hc_abastecimento"
+                      }
+                    },
+                    "ID": "fbase_hc_abastecimentos_have_filiaises",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_hc_abastecimento": {
+                    "Target": {
+                      "Entity": "fbase_hc_abastecimento"
+                    }
+                  },
+                  "fbase_hc_abastecimento.filiais": {
+                    "Target": {
+                      "Entity": "fbase_hc_abastecimento.filiais"
                     }
                   }
                 },
@@ -7342,7 +5628,7 @@
                         "Role": "fbase_hc_abastecimento"
                       }
                     },
-                    "ID": "fbase_hc_abastecimentos_have_hc_3_turno_salaos",
+                    "ID": "fbase_hc_abastecimentos_have_hc_turno_3_salaos",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -7356,138 +5642,6 @@
                   "fbase_hc_abastecimento.hc_3_turno_salao": {
                     "Target": {
                       "Entity": "fbase_hc_abastecimento.hc_3_turno_salao"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_hc_abastecimento_has_inclusao_2_4h_par": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_hc_abastecimento"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_hc_abastecimento.inclusao_2_4h_par"
-                      },
-                      "Subject": {
-                        "Role": "fbase_hc_abastecimento"
-                      }
-                    },
-                    "ID": "fbase_hc_abastecimentos_have_inclusao_2_4h_pars",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_hc_abastecimento": {
-                    "Target": {
-                      "Entity": "fbase_hc_abastecimento"
-                    }
-                  },
-                  "fbase_hc_abastecimento.inclusao_2_4h_par": {
-                    "Target": {
-                      "Entity": "fbase_hc_abastecimento.inclusao_2_4h_par"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_hc_abastecimento_has_inclusao_2_4h_salao": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_hc_abastecimento"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_hc_abastecimento.inclusao_2_4h_salao"
-                      },
-                      "Subject": {
-                        "Role": "fbase_hc_abastecimento"
-                      }
-                    },
-                    "ID": "fbase_hc_abastecimentos_have_inclusao_2_4h_salaos",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_hc_abastecimento": {
-                    "Target": {
-                      "Entity": "fbase_hc_abastecimento"
-                    }
-                  },
-                  "fbase_hc_abastecimento.inclusao_2_4h_salao": {
-                    "Target": {
-                      "Entity": "fbase_hc_abastecimento.inclusao_2_4h_salao"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_hc_abastecimento_has_inclusao_cross_par": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_hc_abastecimento"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_hc_abastecimento.inclusao_cross_par"
-                      },
-                      "Subject": {
-                        "Role": "fbase_hc_abastecimento"
-                      }
-                    },
-                    "ID": "fbase_hc_abastecimentos_have_inclusao_cross_par",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_hc_abastecimento": {
-                    "Target": {
-                      "Entity": "fbase_hc_abastecimento"
-                    }
-                  },
-                  "fbase_hc_abastecimento.inclusao_cross_par": {
-                    "Target": {
-                      "Entity": "fbase_hc_abastecimento.inclusao_cross_par"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_hc_abastecimento_has_inclusao_cross_salao": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_hc_abastecimento"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_hc_abastecimento.inclusao_cross_salao"
-                      },
-                      "Subject": {
-                        "Role": "fbase_hc_abastecimento"
-                      }
-                    },
-                    "ID": "fbase_hc_abastecimentos_have_inclusao_cross_salao",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_hc_abastecimento": {
-                    "Target": {
-                      "Entity": "fbase_hc_abastecimento"
-                    }
-                  },
-                  "fbase_hc_abastecimento.inclusao_cross_salao": {
-                    "Target": {
-                      "Entity": "fbase_hc_abastecimento.inclusao_cross_salao"
                     }
                   }
                 },
@@ -7507,7 +5661,7 @@
                         "Role": "fbase_hc_abastecimento"
                       }
                     },
-                    "ID": "fbase_hc_abastecimentos_have_qtd_carros",
+                    "ID": "fbase_hc_abastecimentos_have_carros_sps",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -7540,7 +5694,7 @@
                         "Role": "fbase_hc_abastecimento"
                       }
                     },
-                    "ID": "fbase_hc_abastecimentos_have_qtd_carro_polo",
+                    "ID": "fbase_hc_abastecimentos_have_polo_carretas",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -7573,7 +5727,7 @@
                         "Role": "fbase_hc_abastecimento"
                       }
                     },
-                    "ID": "fbase_hc_abastecimentos_have_qtd_carros_balancos",
+                    "ID": "fbase_hc_abastecimentos_have_carro_balancos",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -7606,7 +5760,7 @@
                         "Role": "fbase_hc_abastecimento"
                       }
                     },
-                    "ID": "fbase_hc_abastecimentos_have_qtd_chips",
+                    "ID": "fbase_hc_abastecimentos_have_chip_4_8hs",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -7639,7 +5793,7 @@
                         "Role": "fbase_hc_abastecimento"
                       }
                     },
-                    "ID": "fbase_hc_abastecimentos_have_qtd_chip_cross_polo",
+                    "ID": "fbase_hc_abastecimentos_have_chip_cross_polo",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -7653,72 +5807,6 @@
                   "fbase_hc_abastecimento.qtd_chip_cross_polo": {
                     "Target": {
                       "Entity": "fbase_hc_abastecimento.qtd_chip_cross_polo"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_hc_abastecimento_has_v48h_par4_8h_par": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_hc_abastecimento"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_hc_abastecimento.v48h_par4_8h_par"
-                      },
-                      "Subject": {
-                        "Role": "fbase_hc_abastecimento"
-                      }
-                    },
-                    "ID": "fbase_hc_abastecimentos_have_4_8h_pars",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_hc_abastecimento": {
-                    "Target": {
-                      "Entity": "fbase_hc_abastecimento"
-                    }
-                  },
-                  "fbase_hc_abastecimento.v48h_par4_8h_par": {
-                    "Target": {
-                      "Entity": "fbase_hc_abastecimento.v48h_par4_8h_par"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_hc_abastecimento_has_v48h_salao4_8h_salao": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_hc_abastecimento"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_hc_abastecimento.v48h_salao4_8h_salao"
-                      },
-                      "Subject": {
-                        "Role": "fbase_hc_abastecimento"
-                      }
-                    },
-                    "ID": "fbase_hc_abastecimentos_have_4_8h_salaos",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_hc_abastecimento": {
-                    "Target": {
-                      "Entity": "fbase_hc_abastecimento"
-                    }
-                  },
-                  "fbase_hc_abastecimento.v48h_salao4_8h_salao": {
-                    "Target": {
-                      "Entity": "fbase_hc_abastecimento.v48h_salao4_8h_salao"
                     }
                   }
                 },
@@ -8477,6 +6565,72 @@
                 },
                 "State": "Generated"
               },
+              "fbase_online_pesados_demanda_has_medida_black_ead_2024": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.black_ead_2024"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_black_ead_2024",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.black_ead_2024": {
+                    "Target": {
+                      "Entity": "medida.black_ead_2024"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_black_entrega_clientes_2024": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.black_entrega_clientes_2024"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_black_entrega_clientes_2024",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.black_entrega_clientes_2024": {
+                    "Target": {
+                      "Entity": "medida.black_entrega_clientes_2024"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "fbase_online_pesados_demanda_has_medida_demanda_ead": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_demanda"
@@ -9066,6 +7220,39 @@
                   "medida.sla_abastecimento_de_lojas": {
                     "Target": {
                       "Entity": "medida.sla_abastecimento_de_lojas"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_texto_black_friday": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.texto_black_friday"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_texto_black_friday",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.texto_black_friday": {
+                    "Target": {
+                      "Entity": "medida.texto_black_friday"
                     }
                   }
                 },
@@ -9895,6 +8082,56 @@
               "RETURN a_tratado&B"
             ],
             "lineageTag": "392e57d9-6b1e-4e11-9679-eaecbb09852f"
+          },
+          {
+            "name": "black_entrega_clientes_2024",
+            "expression": [
+              "",
+              "",
+              "CALCULATE(",
+              "    [demanda_entrega_cliente],",
+              "    FILTER(",
+              "        dcalendario,",
+              "        dcalendario[calendario] >= DATE(2024,11,1) &&",
+              "        dcalendario[calendario] <= DATE(2024,11,30)))"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "53612fc0-06d2-4442-9e6a-fc552c0a8d59"
+          },
+          {
+            "name": "texto_black_friday",
+            "expression": "\"BF\"",
+            "lineageTag": "21a5c3ce-6d07-4df7-b1eb-028803e7df69"
+          },
+          {
+            "name": "black_ead_2024",
+            "expression": [
+              "",
+              "",
+              "CALCULATE(",
+              "    [demanda_ead],",
+              "    FILTER(",
+              "        dcalendario,",
+              "        dcalendario[calendario] >= DATE(2024,11,1) &&",
+              "        dcalendario[calendario] <= DATE(2024,11,30)))"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "21cc73b9-74ad-4c1d-a6ad-24635cf9455a"
+          },
+          {
+            "name": "black_on_2024",
+            "expression": [
+              "",
+              "",
+              "CALCULATE(",
+              "    [demanda_on],",
+              "    FILTER(",
+              "        dcalendario,",
+              "        dcalendario[calendario] >= DATE(2024,11,1) &&",
+              "        dcalendario[calendario] <= DATE(2024,11,30)))"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "77f565d6-2cb9-4150-9dd9-73e54404eff7"
           }
         ],
         "partitions": [
@@ -10844,7 +9081,7 @@
             "summarizeBy": "none"
           },
           {
-            "name": "48h_salao",
+            "name": "chip_48h",
             "annotations": [
               {
                 "name": "SummarizationSetBy",
@@ -10855,47 +9092,13 @@
                 "value": "{\"isGeneralNumber\":true}"
               }
             ],
-            "dataType": "double",
-            "lineageTag": "f5588b02-40e2-4c64-a5e4-1ccc0f683e88",
-            "sourceColumn": "48h_salao",
-            "summarizeBy": "sum"
-          },
-          {
-            "name": "48h_par",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              },
-              {
-                "name": "PBI_FormatHint",
-                "value": "{\"isGeneralNumber\":true}"
-              }
-            ],
-            "dataType": "double",
-            "lineageTag": "51156e9f-5ca3-43dd-860f-0a6126a8f8b9",
-            "sourceColumn": "48h_par",
-            "summarizeBy": "sum"
-          },
-          {
-            "name": "qtd_chip",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              },
-              {
-                "name": "PBI_FormatHint",
-                "value": "{\"isGeneralNumber\":true}"
-              }
-            ],
-            "dataType": "double",
+            "dataType": "int64",
             "lineageTag": "3c5751e4-61af-47f2-954a-4e001eef83ee",
-            "sourceColumn": "qtd_chip",
+            "sourceColumn": "chip_48h",
             "summarizeBy": "sum"
           },
           {
-            "name": "qtd_carros",
+            "name": "carros_sp",
             "annotations": [
               {
                 "name": "SummarizationSetBy",
@@ -10906,13 +9109,13 @@
                 "value": "{\"isGeneralNumber\":true}"
               }
             ],
-            "dataType": "double",
+            "dataType": "int64",
             "lineageTag": "8fcdf47a-2a6a-4838-9107-9a671a0265a9",
-            "sourceColumn": "qtd_carros",
+            "sourceColumn": "carros_sp",
             "summarizeBy": "sum"
           },
           {
-            "name": "qtd_chip_cross_polo",
+            "name": "chip_cross_polo",
             "annotations": [
               {
                 "name": "SummarizationSetBy",
@@ -10923,13 +9126,13 @@
                 "value": "{\"isGeneralNumber\":true}"
               }
             ],
-            "dataType": "double",
+            "dataType": "int64",
             "lineageTag": "9b001bae-6ccc-43c7-8a43-21e8426359ca",
-            "sourceColumn": "qtd_chip_cross_polo",
+            "sourceColumn": "chip_cross_polo",
             "summarizeBy": "sum"
           },
           {
-            "name": "cross_polo_salao",
+            "name": "polo_carretas",
             "annotations": [
               {
                 "name": "SummarizationSetBy",
@@ -10940,47 +9143,13 @@
                 "value": "{\"isGeneralNumber\":true}"
               }
             ],
-            "dataType": "double",
-            "lineageTag": "bf3a51a6-2cd5-43f5-95fb-136f5e2d6154",
-            "sourceColumn": "cross_polo_salao",
-            "summarizeBy": "sum"
-          },
-          {
-            "name": "cross_polo_par",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              },
-              {
-                "name": "PBI_FormatHint",
-                "value": "{\"isGeneralNumber\":true}"
-              }
-            ],
-            "dataType": "double",
-            "lineageTag": "c9655ece-05d9-46dc-9841-888193548534",
-            "sourceColumn": "cross_polo_par",
-            "summarizeBy": "sum"
-          },
-          {
-            "name": "qtd_carro_polo",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              },
-              {
-                "name": "PBI_FormatHint",
-                "value": "{\"isGeneralNumber\":true}"
-              }
-            ],
-            "dataType": "double",
+            "dataType": "int64",
             "lineageTag": "9350e446-1319-46b6-a5c6-22aff60f5285",
-            "sourceColumn": "qtd_carro_polo",
+            "sourceColumn": "polo_carretas",
             "summarizeBy": "sum"
           },
           {
-            "name": "balanco_par",
+            "name": "carro_balanco",
             "annotations": [
               {
                 "name": "SummarizationSetBy",
@@ -10991,94 +9160,9 @@
                 "value": "{\"isGeneralNumber\":true}"
               }
             ],
-            "dataType": "double",
-            "lineageTag": "c4f3420c-e7fb-445c-9ac4-8c8f4a0f014e",
-            "sourceColumn": "balanco_par",
-            "summarizeBy": "sum"
-          },
-          {
-            "name": "qtd_carros_balanco",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              },
-              {
-                "name": "PBI_FormatHint",
-                "value": "{\"isGeneralNumber\":true}"
-              }
-            ],
-            "dataType": "double",
+            "dataType": "int64",
             "lineageTag": "728498d4-2256-48c2-927b-8300095bbad6",
-            "sourceColumn": "qtd_carros_balanco",
-            "summarizeBy": "sum"
-          },
-          {
-            "name": "inclusao_24h_salao_",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              },
-              {
-                "name": "PBI_FormatHint",
-                "value": "{\"isGeneralNumber\":true}"
-              }
-            ],
-            "dataType": "double",
-            "lineageTag": "b9dcfef2-4984-4640-8fb4-2314d9979a04",
-            "sourceColumn": "inclusao_24h_salao_",
-            "summarizeBy": "sum"
-          },
-          {
-            "name": "inclusao_24h_par",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              },
-              {
-                "name": "PBI_FormatHint",
-                "value": "{\"isGeneralNumber\":true}"
-              }
-            ],
-            "dataType": "double",
-            "lineageTag": "f78dce4f-e290-4474-9e93-3a334255965b",
-            "sourceColumn": "inclusao_24h_par",
-            "summarizeBy": "sum"
-          },
-          {
-            "name": "inclusao_cross_salao",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              },
-              {
-                "name": "PBI_FormatHint",
-                "value": "{\"isGeneralNumber\":true}"
-              }
-            ],
-            "dataType": "double",
-            "lineageTag": "9c65d2f7-f834-4c60-87c2-0a640be2ef41",
-            "sourceColumn": "inclusao_cross_salao",
-            "summarizeBy": "sum"
-          },
-          {
-            "name": "inclusao_cross_par",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              },
-              {
-                "name": "PBI_FormatHint",
-                "value": "{\"isGeneralNumber\":true}"
-              }
-            ],
-            "dataType": "double",
-            "lineageTag": "fdc43efd-b26b-4e19-8929-6a7b8a604e34",
-            "sourceColumn": "inclusao_cross_par",
+            "sourceColumn": "carro_balanco",
             "summarizeBy": "sum"
           },
           {
@@ -11093,7 +9177,7 @@
                 "value": "{\"isGeneralNumber\":true}"
               }
             ],
-            "dataType": "double",
+            "dataType": "int64",
             "lineageTag": "6d2686a8-4890-4fd1-a200-8f1101328bd8",
             "sourceColumn": "hc_1_turno_salao",
             "summarizeBy": "sum"
@@ -11110,7 +9194,7 @@
                 "value": "{\"isGeneralNumber\":true}"
               }
             ],
-            "dataType": "double",
+            "dataType": "int64",
             "lineageTag": "c33a6a8a-1552-4712-9b89-1ff6b8357784",
             "sourceColumn": "hc_1_turno_par",
             "summarizeBy": "sum"
@@ -11127,7 +9211,7 @@
                 "value": "{\"isGeneralNumber\":true}"
               }
             ],
-            "dataType": "double",
+            "dataType": "int64",
             "lineageTag": "9328e563-8772-4594-aaf5-36134f40fbb2",
             "sourceColumn": "hc_1_turno_fast",
             "summarizeBy": "sum"
@@ -11144,7 +9228,7 @@
                 "value": "{\"isGeneralNumber\":true}"
               }
             ],
-            "dataType": "double",
+            "dataType": "int64",
             "lineageTag": "8e15b81f-73ba-4619-90a5-fccd4114d97e",
             "sourceColumn": "hc_2_turno_salao",
             "summarizeBy": "sum"
@@ -11161,7 +9245,7 @@
                 "value": "{\"isGeneralNumber\":true}"
               }
             ],
-            "dataType": "double",
+            "dataType": "int64",
             "lineageTag": "a5d97870-0b8f-4f4c-9a4e-277ab1891106",
             "sourceColumn": "hc_2_turno_par",
             "summarizeBy": "sum"
@@ -11178,13 +9262,13 @@
                 "value": "{\"isGeneralNumber\":true}"
               }
             ],
-            "dataType": "double",
+            "dataType": "int64",
             "lineageTag": "0755fa58-fbdc-4afe-b4ed-568a5b959217",
             "sourceColumn": "hc_2_turno_fast",
             "summarizeBy": "sum"
           },
           {
-            "name": "hc_3_turno_salao",
+            "name": "hc_turno_3_salao",
             "annotations": [
               {
                 "name": "SummarizationSetBy",
@@ -11195,9 +9279,9 @@
                 "value": "{\"isGeneralNumber\":true}"
               }
             ],
-            "dataType": "double",
+            "dataType": "int64",
             "lineageTag": "0d6df92c-4d82-4847-b75b-e09f5584cf6f",
-            "sourceColumn": "hc_3_turno_salao",
+            "sourceColumn": "hc_turno_3_salao",
             "summarizeBy": "sum"
           },
           {
@@ -11212,7 +9296,7 @@
                 "value": "{\"isGeneralNumber\":true}"
               }
             ],
-            "dataType": "double",
+            "dataType": "int64",
             "lineageTag": "4d4a987d-246d-43ba-8cc4-6ce7b365e9bc",
             "sourceColumn": "hc_3_turno_fast",
             "summarizeBy": "sum"
@@ -11229,9 +9313,51 @@
                 "value": "{\"isGeneralNumber\":true}"
               }
             ],
-            "dataType": "double",
+            "dataType": "int64",
             "lineageTag": "4b169450-aaf0-4bf9-bf0d-b316880f3d8e",
             "sourceColumn": "hc_3_turno_par",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "chip_geral",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "349060b7-cf91-48a0-a59f-6e9f9a6cb89a",
+            "sourceColumn": "chip_geral",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "filiais",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3bc85028-bbb8-490e-83fd-82d93e771a08",
+            "sourceColumn": "filiais",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "chip_24h",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "6e7f6a0d-4ece-49f9-837b-ad40cffcc4c9",
+            "sourceColumn": "chip_24h",
             "summarizeBy": "sum"
           }
         ],
@@ -11252,88 +9378,12 @@
                 "    #\"HC Abastecimento de Lojas - ADMs - Vinicius & Emerson xlsx\" = #\"SLA - Abastecimento de Lojas\"{[Name=\"HC Abastecimento de Lojas - ADMs - Vinicius & Emerson.xlsx\"]}[Content],",
                 "    #\"Pasta de Trabalho Importada do Excel\" = Excel.Workbook(#\"HC Abastecimento de Lojas - ADMs - Vinicius & Emerson xlsx\"),",
                 "    base_Table = #\"Pasta de Trabalho Importada do Excel\"{[Item=\"base\",Kind=\"Table\"]}[Data],",
-                "    #\"Colunas Renomeadas\" = Table.RenameColumns(base_Table,{{\"DATA PICKING\", \"data\"}}),",
-                "    #\"Colunas Removidas\" = Table.RemoveColumns(#\"Colunas Renomeadas\",{\"DATA ENTREGA\"}),",
-                "    #\"Colunas Renomeadas1\" = Table.RenameColumns(#\"Colunas Removidas\",{{\"48H0QTDE PEÇAS SALÃO SP\", \"48h_salao\"}, {\"48H0QTDE PEÇAS PAR SP\", \"48h_par\"}}),",
-                "    #\"Colunas Removidas1\" = Table.RemoveColumns(#\"Colunas Renomeadas1\",{\"QTDE ITENS SALÃO SP\", \"QTDE ITENS PAR SP\", \"QTDE CHIP GERAL\"}),",
-                "    #\"Colunas Renomeadas2\" = Table.RenameColumns(#\"Colunas Removidas1\",{{\"CHIP 48H SP\", \"qtd_chip\"}}),",
-                "    #\"Colunas Removidas2\" = Table.RemoveColumns(#\"Colunas Renomeadas2\",{\"CUBAGEM SALÃO SP\", \"CUBAGEM PAR SP\"}),",
-                "    #\"Colunas Renomeadas3\" = Table.RenameColumns(#\"Colunas Removidas2\",{{\"QTDE CARRO SP\", \"qtd_carros\"}}),",
-                "    #\"Colunas Removidas3\" = Table.RemoveColumns(#\"Colunas Renomeadas3\",{\"QTDE FILIAIS SP\", \"QTDE BOX SP\"}),",
-                "    #\"Colunas Renomeadas4\" = Table.RenameColumns(#\"Colunas Removidas3\",{{\"CHIP CROSS/POLO\", \"qtd_chip_cross_polo\"}, {\"CROSS/POLO SALÃO\", \"cross_polo_salao\"}, {\"CROSS/POLO PAR\", \"cross_polo_par\"}, {\"QTDE POLO/CARRETAS\", \"qtd_carro_polo\"}, {\"BALANÇO PAR\", \"balanco_par\"}, {\"CARROS 0 BALANÇO\", \"qtd_carros_balanco\"}, {\"INCLUSÃO 24H0SALÃO SP\", \"inclusao_24h_salao_\"}, {\"INCLUSÃO 24H0PAR SP\", \"inclusao_24h_par\"}, {\"CHIP 24H SP\", \"chip_24h\"}, {\"INCLUSÃO CROSS0SALÃO\", \"inclusao_cross_salao\"}, {\"INCLUSÃO CROSS0PAR\", \"inclusao_cross_par\"}}),",
-                "    #\"Colunas Removidas4\" = Table.RemoveColumns(#\"Colunas Renomeadas4\",{\"DEMANDA TOTAL 0 SALÃO\", \"DEMANDA TOTAL 0 PAR\", \"DEMANDA TOTAL 0 GERAL\"}),",
-                "    #\"Colunas Renomeadas5\" = Table.RenameColumns(#\"Colunas Removidas4\",{{\"HC 1ºTURNO 0 SALÃO\", \"hc_1_turno_salao\"}, {\"HC 1ºTURNO 0 PAR\", \"hc_1_turno_par\"}, {\"HC FAST LOG 1ºT\", \"hc_1_turno_fast\"}, {\"HC 2ºTURNO 0 SALÃO\", \"hc_2_turno_salao\"}, {\"HC 2ºTURNO 0 PAR\", \"hc_2_turno_par\"}, {\"HC FAST LOG 2ºT\", \"hc_2_turno_fast\"}, {\"HC 3ºTURNO 0 SALÃO\", \"hc_3_turno_salao\"}, {\"HC FAST LOG 3ºT\", \"hc_3_turno_fast\"}, {\"HC 3ºTURNO 0 PAR\", \"hc_3_turno_par\"}}),",
-                "    #\"Colunas Removidas5\" = Table.RemoveColumns(#\"Colunas Renomeadas5\",{\"chip_24h\"}),",
-                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Colunas Removidas5\",{{\"data\", type date}})",
+                "    #\"Colunas Removidas\" = Table.RemoveColumns(base_Table,{\"DATA ENTREGA\", \"48H0QTDE PEÇAS SALÃO SP\", \"48H0QTDE PEÇAS PAR SP\", \"QTDE ITENS SALÃO SP\", \"QTDE ITENS PAR SP\", \"CUBAGEM SALÃO SP\", \"CUBAGEM PAR SP\", \"QTDE BOX SP\", \"CROSS/POLO SALÃO\", \"CROSS/POLO PAR\", \"BALANÇO PAR\", \"INCLUSÃO 24H0SALÃO SP\", \"INCLUSÃO 24H0PAR SP\", \"INCLUSÃO CROSS0SALÃO\", \"INCLUSÃO CROSS0PAR\", \"DEMANDA TOTAL 0 SALÃO\", \"DEMANDA TOTAL 0 PAR\", \"DEMANDA TOTAL 0 GERAL\"}),",
+                "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Colunas Removidas\",{{\"DATA PICKING\", \"data\"}, {\"QTDE CHIP GERAL\", \"chip_geral\"}, {\"CHIP 48H SP\", \"chip_48h\"}, {\"QTDE CARRO SP\", \"carros_sp\"}, {\"QTDE FILIAIS SP\", \"filiais\"}, {\"CHIP CROSS/POLO\", \"chip_cross_polo\"}, {\"QTDE POLO/CARRETAS\", \"polo_carretas\"}, {\"CARROS 0 BALANÇO\", \"carro_balanco\"}, {\"CHIP 24H SP\", \"chip_24h\"}, {\"HC 1ºTURNO 0 SALÃO\", \"hc_1_turno_salao\"}, {\"HC 1ºTURNO 0 PAR\", \"hc_1_turno_par\"}, {\"HC FAST LOG 1ºT\", \"hc_1_turno_fast\"}, {\"HC 2ºTURNO 0 SALÃO\", \"hc_2_turno_salao\"}, {\"HC 2ºTURNO 0 PAR\", \"hc_2_turno_par\"}, {\"HC FAST LOG 2ºT\", \"hc_2_turno_fast\"}, {\"HC 3ºTURNO 0 SALÃO\", \"hc_turno_3_salao\"}, {\"HC FAST LOG 3ºT\", \"hc_3_turno_fast\"}, {\"HC 3ºTURNO 0 PAR\", \"hc_3_turno_par\"}}),",
+                "    #\"Valor Substituído\" = Table.ReplaceValue(#\"Colunas Renomeadas\",null,0,Replacer.ReplaceValue,{\"chip_geral\", \"chip_48h\", \"carros_sp\", \"filiais\", \"chip_cross_polo\", \"polo_carretas\", \"carro_balanco\", \"chip_24h\", \"hc_1_turno_salao\", \"hc_1_turno_par\", \"hc_1_turno_fast\", \"hc_2_turno_salao\", \"hc_2_turno_par\", \"hc_2_turno_fast\", \"hc_turno_3_salao\", \"hc_3_turno_fast\", \"hc_3_turno_par\"}),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Valor Substituído\",{{\"chip_geral\", Int64.Type}, {\"chip_48h\", Int64.Type}, {\"carros_sp\", Int64.Type}, {\"filiais\", Int64.Type}, {\"chip_cross_polo\", Int64.Type}, {\"polo_carretas\", Int64.Type}, {\"carro_balanco\", Int64.Type}, {\"chip_24h\", Int64.Type}, {\"hc_1_turno_salao\", Int64.Type}, {\"hc_1_turno_par\", Int64.Type}, {\"hc_1_turno_fast\", Int64.Type}, {\"hc_2_turno_salao\", Int64.Type}, {\"hc_2_turno_par\", Int64.Type}, {\"hc_2_turno_fast\", Int64.Type}, {\"hc_turno_3_salao\", Int64.Type}, {\"hc_3_turno_fast\", Int64.Type}, {\"hc_3_turno_par\", Int64.Type}})",
                 "in",
                 "    #\"Tipo Alterado\""
-              ],
-              "type": "m"
-            }
-          }
-        ]
-      },
-      {
-        "name": "dzona",
-        "annotations": [
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navegação"
-          },
-          {
-            "name": "PBI_ResultType",
-            "value": "Table"
-          }
-        ],
-        "columns": [
-          {
-            "name": "local",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "0ea5f6b5-3b2a-4ca3-8315-1d056b9a9598",
-            "sourceColumn": "local",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "zona",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "34301117-4bd9-4cda-b0c1-163fb0d9e05b",
-            "sourceColumn": "zona",
-            "summarizeBy": "none"
-          }
-        ],
-        "excludeFromModelRefresh": true,
-        "lineageTag": "33a104cb-649d-4acb-90c8-08fa6ca5962c",
-        "partitions": [
-          {
-            "name": "dzona",
-            "mode": "import",
-            "source": {
-              "expression": [
-                "let",
-                "    Fonte = SharePoint.Contents(\"https://viavarejo.sharepoint.com/sites/grupo_de_dados_wave\", [ApiVersion = 15]),",
-                "    #\"Atualizaes de Relatrios Gerais\" = Fonte{[Name=\"Atualizaes de Relatrios Gerais\"]}[Content],",
-                "    #\"Relatórios estáticos - ADMs - Vinicius & Almeida\" = #\"Atualizaes de Relatrios Gerais\"{[Name=\"Relatórios estáticos - ADMs - Vinicius & Almeida\"]}[Content],",
-                "    #\"Zona - Produtividade de Picking - ADMs - Almeida\" = #\"Relatórios estáticos - ADMs - Vinicius & Almeida\"{[Name=\"Zona - Produtividade de Picking - ADMs - Almeida\"]}[Content],",
-                "    #\"Locais - Zonas xlsx\" = #\"Zona - Produtividade de Picking - ADMs - Almeida\"{[Name=\"Locais - Zonas.xlsx\"]}[Content],",
-                "    #\"Pasta de Trabalho Importada do Excel\" = Excel.Workbook(#\"Locais - Zonas xlsx\"),",
-                "    in_Sheet = #\"Pasta de Trabalho Importada do Excel\"{[Item=\"in\",Kind=\"Sheet\"]}[Data],",
-                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(in_Sheet, [PromoteAllScalars=true]),",
-                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\",{{\"Local\", type text}, {\"Zona\", type text}}),",
-                "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Tipo Alterado\",{{\"Local\", \"local\"}, {\"Zona\", \"zona\"}})",
-                "in",
-                "    #\"Colunas Renomeadas\""
               ],
               "type": "m"
             }
