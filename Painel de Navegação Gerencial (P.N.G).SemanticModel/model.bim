@@ -12,7 +12,7 @@
       },
       {
         "name": "PBI_QueryOrder",
-        "value": "[\"dhora_din\",\"Medidas\",\"fbase_online_pesados_abs_demanda\",\"Arquivo de Amostra\",\"Parâmetro1\",\"Transformar o Arquivo de Exemplo\",\"Transformar Arquivo\",\"fbase_online_pesados_abs_cancelamentos\",\"Arquivo de Amostra (2)\",\"Parâmetro2\",\"Transformar o Arquivo de Exemplo (2)\",\"Transformar Arquivo (2)\",\"Consulta1\",\"dcalendario\",\"fbase_abastecimento_demanda\",\"fbase_abastecimento_cancelamentos\",\"dsetor\",\"fbase_hc_abastecimento\",\"fbase_expedicoes_abs\"]"
+        "value": "[\"dhora_din\",\"Medidas\",\"fbase_online_pesados_abs_demanda\",\"Arquivo de Amostra\",\"Parâmetro1\",\"Transformar o Arquivo de Exemplo\",\"Transformar Arquivo\",\"fbase_online_pesados_abs_cancelamentos\",\"Arquivo de Amostra (2)\",\"Parâmetro2\",\"Transformar o Arquivo de Exemplo (2)\",\"Transformar Arquivo (2)\",\"Consulta1\",\"dcalendario\",\"fbase_abastecimento_demanda\",\"fbase_abastecimento_cancelamentos\",\"dsetor\",\"fbase_hc_abastecimento\",\"fbase_expedicoes_abs\",\"dzona\",\"dhora\",\"dvalor_monetario\"]"
       },
       {
         "name": "__PBI_TimeIntelligenceEnabled",
@@ -154,6 +154,182 @@
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "dhora": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dhora"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dhora": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "dhora.am_pm": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dhora",
+                    "ConceptualProperty": "am_pm"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "am pm": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "am_pm": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "dhora.hora": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dhora",
+                    "ConceptualProperty": "hora"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "hora": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "time": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  }
+                ]
+              },
+              "dhora.hora_num": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dhora",
+                    "ConceptualProperty": "hora_num"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "hora num": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "hora_num": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "hora number": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "dhora.minuto_num": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dhora",
+                    "ConceptualProperty": "minuto_num"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "minuto num": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "minuto_num": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "minuto number": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "dhora.segundo_num": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dhora",
+                    "ConceptualProperty": "segundo_num"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "segundo num": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "segundo_num": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "segundo number": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "dhora.turno": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dhora",
+                    "ConceptualProperty": "turno"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "turno": {
+                      "State": "Generated"
                     }
                   }
                 ]
@@ -337,6 +513,357 @@
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "dzona": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dzona"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dzona": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "dzona.local": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dzona",
+                    "ConceptualProperty": "local"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "local": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "native": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "resident": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "home-grown": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "narrow": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "dzona.local_picking": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dzona",
+                    "ConceptualProperty": "local_picking"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "local picking": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "local_picking": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "picking": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "local selection": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "local preference": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "selection": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "preference": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "local option": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "local alternative": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "local pick": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "option": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "alternative": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "pick": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "Zona |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dzona.salao_or_par": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dzona",
+                    "ConceptualProperty": "salao_or_par"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "salao or par": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "salao_or_par": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "salao": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "salao par": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "par": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "salao parity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "salao equivalence": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "salao equality": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "salao similarity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "parity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "equivalence": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "equality": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "similarity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "salao balance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "balance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
                     }
                   }
                 ]
@@ -1990,6 +2517,92 @@
                   }
                 ]
               },
+              "fbase_online_pesados_cancelamento.item": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fbase_online_pesados_abs_cancelamentos",
+                    "ConceptualProperty": "item"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "item": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "product": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "element": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "entry": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "article": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "object": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "piece": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "token": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
               "fbase_online_pesados_cancelamento.motivo_cancelamento": {
                 "Definition": {
                   "Binding": {
@@ -2197,6 +2810,29 @@
                       "State": "Suggested",
                       "Type": "Noun",
                       "Weight": 0.466
+                    }
+                  }
+                ]
+              },
+              "fbase_online_pesados_cancelamento.valor_monetario": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fbase_online_pesados_abs_cancelamentos",
+                    "ConceptualProperty": "valor_monetario"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "valor monetario": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "valor_monetario": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
                     }
                   }
                 ]
@@ -2655,6 +3291,92 @@
                   }
                 ]
               },
+              "fbase_online_pesados_demanda.item": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fbase_online_pesados_abs_demanda",
+                    "ConceptualProperty": "Item"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "item": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "product": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "element": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "entry": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "article": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "object": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "piece": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "token": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
               "fbase_online_pesados_demanda.local_de_picking": {
                 "Definition": {
                   "Binding": {
@@ -2726,7 +3448,10 @@
                       "Weight": 0.492
                     }
                   }
-                ]
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
               },
               "fbase_online_pesados_demanda.qtd_peca": {
                 "Definition": {
@@ -2931,6 +3656,29 @@
                   }
                 ]
               },
+              "fbase_online_pesados_demanda.setor_tratado": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fbase_online_pesados_abs_demanda",
+                    "ConceptualProperty": "setor_tratado"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "setor tratado": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "setor_tratado": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
               "fbase_online_pesados_demanda.tipo_expedicao": {
                 "Definition": {
                   "Binding": {
@@ -3007,6 +3755,29 @@
                   }
                 ]
               },
+              "fbase_online_pesados_demanda.valor_monetario": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fbase_online_pesados_abs_demanda",
+                    "ConceptualProperty": "valor_monetario"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "valor monetario": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "valor_monetario": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
               "medida": {
                 "Definition": {
                   "Binding": {
@@ -3018,6 +3789,155 @@
                   {
                     "medida": {
                       "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medida.MoM": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "%MoM"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "%MoM": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage mom": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "pct mom": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "% ma": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "% mommy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "% mamma": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "% mama": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "% mammy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "% momma": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "% mother": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "% mum": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "medida.ano_tratado": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "ano_tratado"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ano tratado": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "ano_tratado": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Ano |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ]
@@ -3058,6 +3978,16 @@
                       "State": "Suggested",
                       "Weight": 0.9
                     }
+                  },
+                  {
+                    "Black 2024 |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
                   }
                 ]
               },
@@ -3089,7 +4019,17 @@
                     }
                   },
                   {
-                    "Black 23|": {
+                    "Black 23 |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Black 2023 |": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -3122,7 +4062,7 @@
                     }
                   },
                   {
-                    "Black 24|": {
+                    "Black 24 |": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -3155,7 +4095,40 @@
                     }
                   },
                   {
-                    "Black 24|": {
+                    "Black 24 |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.black_on_2024": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "black_on_2024"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "black on 2024": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "black_on_2024": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Black 24 |": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -3335,7 +4308,7 @@
                     }
                   },
                   {
-                    "Cross|": {
+                    "Cross |": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -3419,6 +4392,39 @@
                   }
                 ]
               },
+              "medida.demanda_abs_olpn": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "demanda_abs_olpn"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "demanda abs olpn": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "demanda_abs_olpn": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Qtd.Peças Movimentada |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
               "medida.demanda_ead": {
                 "Definition": {
                   "Binding": {
@@ -3434,7 +4440,7 @@
                     }
                   },
                   {
-                    "Mês|": {
+                    "Mês |": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -3480,7 +4486,7 @@
                     }
                   },
                   {
-                    "Mês|": {
+                    "Mês |": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -3521,6 +4527,16 @@
                       "State": "Suggested",
                       "Weight": 0.9
                     }
+                  },
+                  {
+                    "Peças Expedidas |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
                   }
                 ]
               },
@@ -3546,7 +4562,40 @@
                     }
                   },
                   {
-                    "Mês|": {
+                    "Mês |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.dia_tratado": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "dia_tratado"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dia tratado": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dia_tratado": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Dia |": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -3579,7 +4628,7 @@
                     }
                   },
                   {
-                    "S01|": {
+                    "S01 |": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -3612,7 +4661,7 @@
                     }
                   },
                   {
-                    "S04|": {
+                    "S04 |": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -3635,6 +4684,85 @@
                   {
                     "hora": {
                       "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medida.mes_atual": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "mes_atual"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mes atual": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "mes_atual": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.mes_passado": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "mes_passado"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mes passado": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "mes_passado": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.mes_tratado": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "mes_tratado"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mes tratado": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "mes_tratado": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Mês |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ]
@@ -3759,7 +4887,7 @@
                     }
                   },
                   {
-                    "Polo|": {
+                    "Polo |": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -3936,7 +5064,7 @@
                     }
                   },
                   {
-                    "24H|": {
+                    "24H |": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -3969,7 +5097,223 @@
                     }
                   },
                   {
-                    "48H|": {
+                    "48H |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.valor_monetario": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "valor_monetario"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "valor monetario": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "valor_monetario": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "R$ |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.valor_monetario_mes_atual": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "valor_monetario_mes_atual"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "valor monetario mes atual": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "valor_monetario_mes_atual": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.valor_monetario_mo_M": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "valor_monetario_MoM"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "valor monetario mo M": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "valor_monetario_MoM": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.year_over_year_abs": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "year_over_year_abs"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "year over year abs": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "year_over_year_abs": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "abs": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "year abs": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "over year abs": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "yr over year abs": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.771
+                    }
+                  },
+                  {
+                    "over yr abs": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "year over yr abs": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "yr abs": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "Year-over-Year |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.year_over_year_abs1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "%year_over_year_abs"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "%year_over_year_abs": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage year_over_year_ab": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "pct year_over_year_ab": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "% Year-over-Year |": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -4214,6 +5558,204 @@
                 },
                 "State": "Generated"
               },
+              "dhora_has_am_pm": {
+                "Binding": {
+                  "ConceptualEntity": "dhora"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dhora.am_pm"
+                      },
+                      "Subject": {
+                        "Role": "dhora"
+                      }
+                    },
+                    "ID": "dhoras_have_am_pm",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dhora": {
+                    "Target": {
+                      "Entity": "dhora"
+                    }
+                  },
+                  "dhora.am_pm": {
+                    "Target": {
+                      "Entity": "dhora.am_pm"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dhora_has_hora": {
+                "Binding": {
+                  "ConceptualEntity": "dhora"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dhora.hora"
+                      },
+                      "Subject": {
+                        "Role": "dhora"
+                      }
+                    },
+                    "ID": "dhoras_have_horas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dhora": {
+                    "Target": {
+                      "Entity": "dhora"
+                    }
+                  },
+                  "dhora.hora": {
+                    "Target": {
+                      "Entity": "dhora.hora"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dhora_has_hora_num": {
+                "Binding": {
+                  "ConceptualEntity": "dhora"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dhora.hora_num"
+                      },
+                      "Subject": {
+                        "Role": "dhora"
+                      }
+                    },
+                    "ID": "dhoras_have_hora_nums",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dhora": {
+                    "Target": {
+                      "Entity": "dhora"
+                    }
+                  },
+                  "dhora.hora_num": {
+                    "Target": {
+                      "Entity": "dhora.hora_num"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dhora_has_minuto_num": {
+                "Binding": {
+                  "ConceptualEntity": "dhora"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dhora.minuto_num"
+                      },
+                      "Subject": {
+                        "Role": "dhora"
+                      }
+                    },
+                    "ID": "dhoras_have_minuto_nums",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dhora": {
+                    "Target": {
+                      "Entity": "dhora"
+                    }
+                  },
+                  "dhora.minuto_num": {
+                    "Target": {
+                      "Entity": "dhora.minuto_num"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dhora_has_segundo_num": {
+                "Binding": {
+                  "ConceptualEntity": "dhora"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dhora.segundo_num"
+                      },
+                      "Subject": {
+                        "Role": "dhora"
+                      }
+                    },
+                    "ID": "dhoras_have_segundo_nums",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dhora": {
+                    "Target": {
+                      "Entity": "dhora"
+                    }
+                  },
+                  "dhora.segundo_num": {
+                    "Target": {
+                      "Entity": "dhora.segundo_num"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dhora_has_turno": {
+                "Binding": {
+                  "ConceptualEntity": "dhora"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dhora.turno"
+                      },
+                      "Subject": {
+                        "Role": "dhora"
+                      }
+                    },
+                    "ID": "dhoras_have_turnos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dhora": {
+                    "Target": {
+                      "Entity": "dhora"
+                    }
+                  },
+                  "dhora.turno": {
+                    "Target": {
+                      "Entity": "dhora.turno"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "dsetor_has_sep_setor": {
                 "Binding": {
                   "ConceptualEntity": "dsetor"
@@ -4242,6 +5784,105 @@
                   "dsetor.sep_setor": {
                     "Target": {
                       "Entity": "dsetor.sep_setor"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dzona_has_local": {
+                "Binding": {
+                  "ConceptualEntity": "dzona"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dzona.local"
+                      },
+                      "Subject": {
+                        "Role": "dzona"
+                      }
+                    },
+                    "ID": "dzonas_have_locals",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dzona": {
+                    "Target": {
+                      "Entity": "dzona"
+                    }
+                  },
+                  "dzona.local": {
+                    "Target": {
+                      "Entity": "dzona.local"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dzona_has_local_picking": {
+                "Binding": {
+                  "ConceptualEntity": "dzona"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dzona.local_picking"
+                      },
+                      "Subject": {
+                        "Role": "dzona"
+                      }
+                    },
+                    "ID": "dzonas_have_local_picking",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dzona": {
+                    "Target": {
+                      "Entity": "dzona"
+                    }
+                  },
+                  "dzona.local_picking": {
+                    "Target": {
+                      "Entity": "dzona.local_picking"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dzona_has_salao_or_par": {
+                "Binding": {
+                  "ConceptualEntity": "dzona"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dzona.salao_or_par"
+                      },
+                      "Subject": {
+                        "Role": "dzona"
+                      }
+                    },
+                    "ID": "dzonas_have_salao_or_par",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dzona": {
+                    "Target": {
+                      "Entity": "dzona"
+                    }
+                  },
+                  "dzona.salao_or_par": {
+                    "Target": {
+                      "Entity": "dzona.salao_or_par"
                     }
                   }
                 },
@@ -4716,6 +6357,72 @@
                 },
                 "State": "Generated"
               },
+              "fbase_abastecimento_demanda_has_medida_year_over_year_abs": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_abastecimento_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.year_over_year_abs"
+                      },
+                      "Subject": {
+                        "Role": "fbase_abastecimento_demanda"
+                      }
+                    },
+                    "ID": "fbase_abastecimento_demandas_have_year_over_year_abs1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_abastecimento_demanda": {
+                    "Target": {
+                      "Entity": "fbase_abastecimento_demanda"
+                    }
+                  },
+                  "medida.year_over_year_abs": {
+                    "Target": {
+                      "Entity": "medida.year_over_year_abs"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_abastecimento_demanda_has_medida_year_over_year_abs1": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_abastecimento_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.year_over_year_abs1"
+                      },
+                      "Subject": {
+                        "Role": "fbase_abastecimento_demanda"
+                      }
+                    },
+                    "ID": "fbase_abastecimento_demandas_have_year_over_year_abs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_abastecimento_demanda": {
+                    "Target": {
+                      "Entity": "fbase_abastecimento_demanda"
+                    }
+                  },
+                  "medida.year_over_year_abs1": {
+                    "Target": {
+                      "Entity": "medida.year_over_year_abs1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "fbase_abastecimento_demanda_has_rejeitados_dec": {
                 "Binding": {
                   "ConceptualEntity": "fbase_abastecimento_demanda"
@@ -4962,39 +6669,6 @@
                   "medida.polo": {
                     "Target": {
                       "Entity": "medida.polo"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_expedicoes_abs_has_medida_teste": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_expedicoes_abs"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "medida.teste"
-                      },
-                      "Subject": {
-                        "Role": "fbase_expedicoes_abs"
-                      }
-                    },
-                    "ID": "fbase_expedicoes_abs_have_teste",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_expedicoes_abs": {
-                    "Target": {
-                      "Entity": "fbase_expedicoes_abs"
-                    }
-                  },
-                  "medida.teste": {
-                    "Target": {
-                      "Entity": "medida.teste"
                     }
                   }
                 },
@@ -6030,6 +7704,39 @@
                 },
                 "State": "Generated"
               },
+              "fbase_online_pesados_cancelamento_has_item": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_cancelamentos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fbase_online_pesados_cancelamento.item"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_cancelamento"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_cancelamentos_have_items",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_cancelamento": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_cancelamento"
+                    }
+                  },
+                  "fbase_online_pesados_cancelamento.item": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_cancelamento.item"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "fbase_online_pesados_cancelamento_has_medida_cancelados_ead": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_cancelamentos"
@@ -6294,6 +8001,39 @@
                 },
                 "State": "Generated"
               },
+              "fbase_online_pesados_cancelamento_has_valor_monetario": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_cancelamentos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fbase_online_pesados_cancelamento.valor_monetario"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_cancelamento"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_cancelamentos_have_valor_monetarios",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_cancelamento": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_cancelamento"
+                    }
+                  },
+                  "fbase_online_pesados_cancelamento.valor_monetario": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_cancelamento.valor_monetario"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "fbase_online_pesados_demanda_has_box": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_demanda"
@@ -6479,6 +8219,52 @@
                 },
                 "State": "Generated"
               },
+              "fbase_online_pesados_demanda_has_dzona": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dzona"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_dzonas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fbase_online_pesados_demanda"
+                      },
+                      "Subject": {
+                        "Role": "dzona"
+                      }
+                    },
+                    "ID": "dzonas_have_fbase_online_pesados_abs_demandas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dzona": {
+                    "Target": {
+                      "Entity": "dzona"
+                    }
+                  },
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "fbase_online_pesados_demanda_has_filial": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_demanda"
@@ -6532,7 +8318,7 @@
                 },
                 "State": "Generated"
               },
-              "fbase_online_pesados_demanda_has_local_de_picking": {
+              "fbase_online_pesados_demanda_has_item": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_demanda"
                 },
@@ -6540,13 +8326,13 @@
                   {
                     "Attribute": {
                       "Object": {
-                        "Role": "fbase_online_pesados_demanda.local_de_picking"
+                        "Role": "fbase_online_pesados_demanda.item"
                       },
                       "Subject": {
                         "Role": "fbase_online_pesados_demanda"
                       }
                     },
-                    "ID": "fbase_online_pesados_abs_demandas_have_local_de_picking",
+                    "ID": "fbase_online_pesados_abs_demandas_have_items",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -6557,9 +8343,9 @@
                       "Entity": "fbase_online_pesados_demanda"
                     }
                   },
-                  "fbase_online_pesados_demanda.local_de_picking": {
+                  "fbase_online_pesados_demanda.item": {
                     "Target": {
-                      "Entity": "fbase_online_pesados_demanda.local_de_picking"
+                      "Entity": "fbase_online_pesados_demanda.item"
                     }
                   }
                 },
@@ -6626,6 +8412,72 @@
                   "medida.black_entrega_clientes_2024": {
                     "Target": {
                       "Entity": "medida.black_entrega_clientes_2024"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_black_on_2024": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.black_on_2024"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_black_on_2024",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.black_on_2024": {
+                    "Target": {
+                      "Entity": "medida.black_on_2024"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_demanda_abs_olpn": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.demanda_abs_olpn"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_demanda_abs_olpn",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.demanda_abs_olpn": {
+                    "Target": {
+                      "Entity": "medida.demanda_abs_olpn"
                     }
                   }
                 },
@@ -6796,6 +8648,138 @@
                 },
                 "State": "Generated"
               },
+              "fbase_online_pesados_demanda_has_medida_teste": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.teste"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_teste",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.teste": {
+                    "Target": {
+                      "Entity": "medida.teste"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_valor_monetario": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.valor_monetario"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_valor_monetario",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.valor_monetario": {
+                    "Target": {
+                      "Entity": "medida.valor_monetario"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_valor_monetario_mes_atual": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.valor_monetario_mes_atual"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_valor_monetario_mes_atual",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.valor_monetario_mes_atual": {
+                    "Target": {
+                      "Entity": "medida.valor_monetario_mes_atual"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_valor_monetario_mo_M": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.valor_monetario_mo_M"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_valor_monetario_mo_M",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.valor_monetario_mo_M": {
+                    "Target": {
+                      "Entity": "medida.valor_monetario_mo_M"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "fbase_online_pesados_demanda_has_qtd_peca": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_demanda"
@@ -6928,6 +8912,39 @@
                 },
                 "State": "Generated"
               },
+              "fbase_online_pesados_demanda_has_setor_tratado": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fbase_online_pesados_demanda.setor_tratado"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_setor_tratados",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "fbase_online_pesados_demanda.setor_tratado": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda.setor_tratado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "fbase_online_pesados_demanda_has_tipo_expedicao": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_demanda"
@@ -7027,6 +9044,105 @@
                 },
                 "State": "Generated"
               },
+              "fbase_online_pesados_demanda_has_valor_monetario": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fbase_online_pesados_demanda.valor_monetario"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_valor_monetarios",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "fbase_online_pesados_demanda.valor_monetario": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda.valor_monetario"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_MoM": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.MoM"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_MoM",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.MoM": {
+                    "Target": {
+                      "Entity": "medida.MoM"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_ano_tratado": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.ano_tratado"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_ano_tratado",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.ano_tratado": {
+                    "Target": {
+                      "Entity": "medida.ano_tratado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "medida_has_current_times": {
                 "Binding": {
                   "ConceptualEntity": "Medidas"
@@ -7060,6 +9176,39 @@
                 },
                 "State": "Generated"
               },
+              "medida_has_dia_tratado": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.dia_tratado"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_dia_tratado",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.dia_tratado": {
+                    "Target": {
+                      "Entity": "medida.dia_tratado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "medida_has_hora": {
                 "Binding": {
                   "ConceptualEntity": "Medidas"
@@ -7088,6 +9237,105 @@
                   "medida.hora": {
                     "Target": {
                       "Entity": "medida.hora"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_mes_atual": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.mes_atual"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_mes_atual",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.mes_atual": {
+                    "Target": {
+                      "Entity": "medida.mes_atual"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_mes_passado": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.mes_passado"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_mes_passado",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.mes_passado": {
+                    "Target": {
+                      "Entity": "medida.mes_passado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_mes_tratado": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.mes_tratado"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_mes_tratado",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.mes_tratado": {
+                    "Target": {
+                      "Entity": "medida.mes_tratado"
                     }
                   }
                 },
@@ -7519,6 +9767,41 @@
         ],
         "kind": "m",
         "lineageTag": "ad0511ee-a594-4749-bfb1-deef04705852"
+      },
+      {
+        "name": "dvalor_monetario",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Fonte = SharePoint.Contents(\"https://viavarejo.sharepoint.com/sites/grupo_de_dados_wave\", [ApiVersion = 15]),",
+          "    #\"Atualizaes de Relatrios Gerais\" = Fonte{[Name=\"Atualizaes de Relatrios Gerais\"]}[Content],",
+          "    #\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\" = #\"Atualizaes de Relatrios Gerais\"{[Name=\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\"]}[Content],",
+          "    #\"Relatórios históricos\" = #\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\"{[Name=\"Relatórios históricos\"]}[Content],",
+          "    #\"Painel de Navegacao Gerencial - ADMS - Vinicius &  Almeida\" = #\"Relatórios históricos\"{[Name=\"Painel de Navegacao Gerencial - ADMS - Vinicius &  Almeida\"]}[Content],",
+          "    #\"SLA - Abastecimento de Lojas\" = #\"Painel de Navegacao Gerencial - ADMS - Vinicius &  Almeida\"{[Name=\"SLA - Abastecimento de Lojas\"]}[Content],",
+          "    #\"valores xlsx\" = #\"SLA - Abastecimento de Lojas\"{[Name=\"valores.xlsx\"]}[Content],",
+          "    #\"Pasta de Trabalho Importada do Excel\" = Excel.Workbook(#\"valores xlsx\"),",
+          "    Planilha1_Sheet = #\"Pasta de Trabalho Importada do Excel\"{[Item=\"Planilha1\",Kind=\"Sheet\"]}[Data],",
+          "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Planilha1_Sheet, [PromoteAllScalars=true]),",
+          "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\",{{\"SKU\", Int64.Type}, {\"SETOR\", type text}, {\"CUSTO UNIT FORN\", type number}}),",
+          "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Tipo Alterado\",{{\"SKU\", \"sku\"}}),",
+          "    #\"Colunas Removidas\" = Table.RemoveColumns(#\"Colunas Renomeadas\",{\"SETOR\"}),",
+          "    #\"Colunas Renomeadas1\" = Table.RenameColumns(#\"Colunas Removidas\",{{\"CUSTO UNIT FORN\", \"valor_monetario\"}}),",
+          "    #\"Duplicatas Removidas\" = Table.Distinct(#\"Colunas Renomeadas1\", {\"sku\"})",
+          "in",
+          "    #\"Duplicatas Removidas\""
+        ],
+        "kind": "m",
+        "lineageTag": "fa793fd6-e619-4369-b947-507abc2b15ee"
       }
     ],
     "queryGroups": [
@@ -7608,6 +9891,13 @@
         "fromTable": "fbase_expedicoes_abs",
         "toColumn": "calendario",
         "toTable": "dcalendario"
+      },
+      {
+        "name": "b39750b7-7974-5f41-2fe3-127b2274a6e0",
+        "fromColumn": "local_de_picking",
+        "fromTable": "fbase_online_pesados_abs_demanda",
+        "toColumn": "local",
+        "toTable": "dzona"
       }
     ],
     "sourceQueryCulture": "pt-BR",
@@ -7819,17 +10109,10 @@
           },
           {
             "name": "teste",
-            "annotations": [
-              {
-                "name": "PBI_FormatHint",
-                "value": "{\"isGeneralNumber\":true}"
-              }
-            ],
             "expression": [
               "",
               "",
-              "    SUM(fbase_expedicoes_abs[24hrs])+SUM(fbase_expedicoes_abs[48hrs])",
-              ""
+              "VALUES(fbase_online_pesados_abs_demanda[setor])"
             ],
             "lineageTag": "e142528d-ee09-431c-a2d8-7afc12c3387b"
           },
@@ -8085,6 +10368,7 @@
           },
           {
             "name": "black_entrega_clientes_2024",
+            "displayFolder": "Entrega Cliente",
             "expression": [
               "",
               "",
@@ -8100,11 +10384,13 @@
           },
           {
             "name": "texto_black_friday",
+            "displayFolder": "Outros",
             "expression": "\"BF\"",
             "lineageTag": "21a5c3ce-6d07-4df7-b1eb-028803e7df69"
           },
           {
             "name": "black_ead_2024",
+            "displayFolder": "EAD",
             "expression": [
               "",
               "",
@@ -8120,6 +10406,7 @@
           },
           {
             "name": "black_on_2024",
+            "displayFolder": "Online",
             "expression": [
               "",
               "",
@@ -8132,6 +10419,165 @@
             ],
             "formatString": "#,0",
             "lineageTag": "77f565d6-2cb9-4150-9dd9-73e54404eff7"
+          },
+          {
+            "name": "demanda_abs_olpn",
+            "displayFolder": "Info.Abastecimento",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    SUM(fbase_online_pesados_abs_demanda[qtd_pecas]),",
+              "    dsetor[sep_setor] = \"Abastecimento de lojas\")"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "fa0e80cd-0759-4ed6-9bea-7fb7ca9e0e0b"
+          },
+          {
+            "name": "valor_monetario",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"es-BR\"}"
+              }
+            ],
+            "displayFolder": "Info.Geral",
+            "expression": "SUM(fbase_online_pesados_abs_demanda[valor_monetario])",
+            "formatString": "\"R$\"#,0.00;-\"R$\"#,0.00;\"R$\"#,0.00",
+            "lineageTag": "5d00778d-bed3-4690-b55e-4d429f0db3ee"
+          },
+          {
+            "name": "valor_monetario_mes_atual",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"es-BR\"}"
+              }
+            ],
+            "displayFolder": "Info.Geral",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    [valor_monetario],",
+              "    dcalendario[mes] = MONTH(NOW()))"
+            ],
+            "formatString": "\"R$\"#,0.00;-\"R$\"#,0.00;\"R$\"#,0.00",
+            "lineageTag": "7a5fec66-95f7-453c-a826-07c7ef2c1de3"
+          },
+          {
+            "name": "valor_monetario_MoM",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"es-BR\"}"
+              }
+            ],
+            "displayFolder": "Info.Geral",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    [valor_monetario],",
+              "    dcalendario[mes] = MONTH(NOW()) - 1)"
+            ],
+            "formatString": "\"R$\"#,0.00;-\"R$\"#,0.00;\"R$\"#,0.00",
+            "lineageTag": "a3f356bb-af3e-4ccb-a760-2bc979283cce"
+          },
+          {
+            "name": "mes_atual",
+            "displayFolder": "Info.Geral",
+            "expression": [
+              "",
+              "UPPER(LEFT(FORMAT(TODAY(), \"MMMM\"), 1)) & MID(FORMAT(TODAY(), \"MMMM\"), 2, LEN(FORMAT(TODAY(), \"MMMM\")))",
+              "",
+              ""
+            ],
+            "lineageTag": "e0c18f1b-922d-4fe3-9d17-483d2ab003ab"
+          },
+          {
+            "name": "mes_passado",
+            "displayFolder": "Info.Geral",
+            "expression": [
+              "UPPER(LEFT(FORMAT(EDATE(TODAY(), -1), \"MMMM\"), 1)) & MID(FORMAT(EDATE(TODAY(), -1), \"MMMM\"), 2, LEN(FORMAT(EDATE(TODAY(), -1), \"MMMM\")))",
+              ""
+            ],
+            "lineageTag": "4c95b173-f1bb-40b4-b917-23444ec4ece7"
+          },
+          {
+            "name": "%MoM",
+            "displayFolder": "Info.Geral",
+            "expression": [
+              "",
+              "",
+              "VAR A1 = [valor_monetario_mes_atual]",
+              "",
+              "VAR A2 = [valor_monetario_MoM]",
+              "",
+              "VAR A3 = FORMAT(DIVIDE(A1,A2), \"0%\")",
+              "",
+              "VAR B = ",
+              "IF(",
+              "    A1 > A2 , A3&\"⬆️\",",
+              "    IF(",
+              "        A1 < A2 ,A3&\"⬇️\",",
+              "        IF( A1 = A2 , A3&\" 🔶\")))",
+              "RETURN B",
+              "    "
+            ],
+            "lineageTag": "dadfc091-fee9-489f-b8ae-3c5a9a6fffa1"
+          },
+          {
+            "name": "mes_tratado",
+            "expression": [
+              "",
+              "",
+              "VAR A = SELECTEDVALUE(dcalendario[nome_mes])",
+              "",
+              "VAR B = UPPER(LEFT(A,1))&LOWER(MID(A,2,LEN(A)))",
+              "",
+              "RETURN B"
+            ],
+            "lineageTag": "fedad70c-bc0b-4b40-a9cc-f8e65fc40700"
+          },
+          {
+            "name": "dia_tratado",
+            "expression": [
+              "",
+              "",
+              "VAR A = SELECTEDVALUE(dcalendario[nome_dia])",
+              "",
+              "VAR B = UPPER(LEFT(A,1))&LOWER(MID(A,2,LEN(A)))",
+              "",
+              "RETURN B"
+            ],
+            "lineageTag": "2791c19f-cf34-4596-bb9d-acc10b5e8923"
+          },
+          {
+            "name": "ano_tratado",
+            "expression": "SELECTEDVALUE(dcalendario[ano])",
+            "formatString": "0",
+            "lineageTag": "f833ae66-506f-467f-93a2-7c15a87e707c"
+          },
+          {
+            "name": "year_over_year_abs",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    [demanda_geral_abs],",
+              "    SAMEPERIODLASTYEAR(dcalendario[calendario]))"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "bb6a3d96-3bb1-441d-9411-c3ad1ce1960e"
+          },
+          {
+            "name": "%year_over_year_abs",
+            "expression": [
+              "",
+              "",
+              "IF(",
+              "    [demanda_geral_abs]>[year_over_year_abs],",
+              "    FORMAT(1 - DIVIDE([year_over_year_abs],[demanda_geral_abs]),\"0.00%\")&\" ⬆️\",",
+              "    FORMAT(DIVIDE([year_over_year_abs],[demanda_geral_abs]) - 1,\"0.00%\")&\" ⬇️\")"
+            ],
+            "lineageTag": "a1c6b328-56d1-42cc-b1c5-a06b350a943a"
           }
         ],
         "partitions": [
@@ -8350,6 +10796,50 @@
             "lineageTag": "ecf0b04c-c12c-4f4c-bc06-f7765133bf6f",
             "sourceColumn": "48hrs_24hrs",
             "summarizeBy": "none"
+          },
+          {
+            "name": "Item",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "023b0eb0-302c-4159-8087-bafecc3bcd3c",
+            "sourceColumn": "Item",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "valor_monetario",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "91a2de51-2cf2-4bef-9f01-36e17e62f4eb",
+            "sourceColumn": "valor_monetario",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "setor_tratado",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a64b08b4-d415-4389-9eb8-7021e3a8d46f",
+            "sourceColumn": "setor_tratado",
+            "summarizeBy": "none"
           }
         ],
         "lineageTag": "86f80c0f-1098-475d-857e-3f299ac54dc7",
@@ -8376,7 +10866,7 @@
                 "    #\"Colunas Removidas\" = Table.RemoveColumns(#\"Tipo Alterado\",{\"Nome da Origem\", \"Data do Pedido\"}),",
                 "    #\"Dividir Coluna por Delimitador\" = Table.SplitColumn(#\"Colunas Removidas\", \"Tipo de pedido\", Splitter.SplitTextByDelimiter(\" \", QuoteStyle.Csv), {\"Tipo de pedido.1\", \"Tipo de pedido.2\", \"Tipo de pedido.3\", \"Tipo de pedido.4\", \"Tipo de pedido.5\", \"Tipo de pedido.6\"}),",
                 "    #\"Tipo Alterado1\" = Table.TransformColumnTypes(#\"Dividir Coluna por Delimitador\",{{\"Tipo de pedido.1\", type text}, {\"Tipo de pedido.2\", type text}, {\"Tipo de pedido.3\", type text}, {\"Tipo de pedido.4\", type text}, {\"Tipo de pedido.5\", type text}, {\"Tipo de pedido.6\", type text}}),",
-                "    #\"Colunas Removidas1\" = Table.RemoveColumns(#\"Tipo Alterado1\",{\"Tipo de pedido.2\", \"Tipo de pedido.3\", \"Tipo de pedido.4\", \"Tipo de pedido.5\", \"Tipo de pedido.6\", \"Wave\", \"Shipment\", \"Filial Destino\", \"Pedido\", \"Status Pedido\", \"Pedido de Venda\", \"oLPN\", \"TOTE\", \"Tarefa\", \"Tarefa Status\", \"Grupo de Tarefa\", \"Item\", \"Descrição\", \"Volume\", \"Status oLPN\", \"Numero da Gaiola\", \"Marcação de EAD\", \"Data Prevista Entrega\", \"Inventory Type ID\", \"Cod Setor Item\", \"Audit Status\"}),",
+                "    #\"Colunas Removidas1\" = Table.RemoveColumns(#\"Tipo Alterado1\",{\"Tipo de pedido.2\", \"Tipo de pedido.3\", \"Tipo de pedido.4\", \"Tipo de pedido.5\", \"Tipo de pedido.6\", \"Wave\", \"Shipment\", \"Filial Destino\", \"Pedido\", \"Status Pedido\", \"Pedido de Venda\", \"oLPN\", \"TOTE\", \"Tarefa\", \"Tarefa Status\", \"Grupo de Tarefa\", \"Descrição\", \"Volume\", \"Status oLPN\", \"Numero da Gaiola\", \"Marcação de EAD\", \"Data Prevista Entrega\", \"Inventory Type ID\", \"Cod Setor Item\", \"Audit Status\"}),",
                 "    #\"Tipo Alterado2\" = Table.TransformColumnTypes(#\"Colunas Removidas1\",{{\"Data locação pedido\", type date}, {\"Último Update oLPN\", type date}, {\"Data Limite Expedição\", type date}}),",
                 "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Tipo Alterado2\",{{\"Filial\", \"filial\"}, {\"Tipo de pedido.1\", \"tipo_pedido\"}, {\"Último Update oLPN\", \"data\"}, {\"Qtde. Peças Item\", \"qtd_pecas\"}, {\"Desc Setor Item\", \"setor\"}, {\"BOX\", \"box\"}, {\"Local de Picking\", \"local_de_picking\"}, {\"Data locação pedido\", \"data_locacao\"}, {\"Data Limite Expedição\", \"data_limite\"}}),",
                 "    sep_setor = Table.AddColumn(#\"Colunas Renomeadas\", \"sep_setor\", each if [tipo_pedido] = \"S01\" or [tipo_pedido] = \"S04\" then \"entrega a clientes\" ",
@@ -8401,9 +10891,24 @@
                 "else null),",
                 "    tipo_expedicao = Table.AddColumn(#\"48hrs_24hrs\", \"tipo_expedicao\", each if List.Contains({267,269,270,271,272,273,274,275},[box]) then \"crossdocking\"",
                 "else if List.Contains({276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322},[box]) then \"polo\" else \"\"),",
-                "    #\"Tipo Alterado3\" = Table.TransformColumnTypes(tipo_expedicao,{{\"sep_setor\", type text}, {\"salao_or_par\", type text}, {\"48hrs_24hrs\", type text}, {\"data_limite\", type date}, {\"data_locacao\", type date}, {\"data\", type date}, {\"tipo_expedicao\", type text}})",
+                "    #\"Tipo Alterado3\" = Table.TransformColumnTypes(tipo_expedicao,{{\"sep_setor\", type text}, {\"salao_or_par\", type text}, {\"48hrs_24hrs\", type text}, {\"data_limite\", type date}, {\"data_locacao\", type date}, {\"data\", type date}, {\"tipo_expedicao\", type text}}),",
+                "    #\"Consultas Mescladas\" = Table.NestedJoin(#\"Tipo Alterado3\", {\"Item\"}, dvalor_monetario, {\"sku\"}, \"dvalor_monetario\", JoinKind.LeftOuter),",
+                "    #\"dvalor_monetario Expandido\" = Table.ExpandTableColumn(#\"Consultas Mescladas\", \"dvalor_monetario\", {\"valor_monetario\"}, {\"dvalor_monetario.valor_monetario\"}),",
+                "    #\"Personalização Adicionada\" = Table.AddColumn(#\"dvalor_monetario Expandido\", \"valor_monetario\", each [qtd_pecas]*[dvalor_monetario.valor_monetario]),",
+                "    #\"Colunas Removidas2\" = Table.RemoveColumns(#\"Personalização Adicionada\",{\"dvalor_monetario.valor_monetario\"}),",
+                "    #\"Tipo Alterado4\" = Table.TransformColumnTypes(#\"Colunas Removidas2\",{{\"valor_monetario\", type number}}),",
+                "    #\"Personalização Adicionada1\" = Table.AddColumn(#\"Tipo Alterado4\", \"setor_tratado\", each if List.Contains({\"CAMEBA\", \"CASA E CONSTRUCAO\", \"COPA E SALA DE JANTAR\", \"UTILIDADES DOMESTICAS\", \"WEARABLES\"}, [setor]) then \"CASA E CONSTRUÇÃO\"",
+                "else if List.Contains({\"BRINQUEDOS/PEDAL\", \"DISNEY SUPER LOJA\", \"DVDS E BLU-RAY\"}, [setor]) then \"BRINQUEDOS\"",
+                "else if List.Contains({\"BORAVAREJAR\", \"DECORACOES\", \"PAPELARIA\"}, [setor]) then \"DECORAÇÕES\"",
+                "else if List.Contains({\"LAVADORAS\", \"QUEIMADORES\", \"REFRIGERACAO\", \"SAZONAIS PORTATEIS\", \"TVS\"}, [setor]) then \"ELETRODOMESTICOS\"",
+                "else if List.Contains({\"ACESSORIOS E INOVACOES\", \"GAMES\", \"INFORMATICA\", \"PORTATEIS\", \"TABLETS\", \"TABLETS, IMPRESSAO E MONI\", \"TELEFONIA CELULAR\"}, [setor]) then \"ELETRONICOS\"",
+                "else if List.Contains({\"COLCHOES\", \"ESTOFADOS\"}, [setor]) then \"ESTOFADOS\"",
+                "else if List.Contains({\"MOVEIS DE COZINHA\", \"MOVEIS DE QUARTO\", \"MOVEIS INFANTIS\", \"MOVEIS PARA ESCRITORIO\", \"MOVEIS PLANEJADOS\", \"MOVEIS SALA DE ESTAR\"}, [setor]) then \"MOVEIS\"",
+                "else if List.Contains({\"MALAS / MOCHILAS / ACESSO\", \"MODA\"}, [setor]) then \"TECIDOS\"",
+                "else [setor]),",
+                "    #\"Tipo Alterado5\" = Table.TransformColumnTypes(#\"Personalização Adicionada1\",{{\"setor_tratado\", type text}})",
                 "in",
-                "    #\"Tipo Alterado3\""
+                "    #\"Tipo Alterado5\""
               ],
               "type": "m"
             }
@@ -8533,6 +11038,37 @@
             "lineageTag": "cd1c83fe-3252-4471-a2e2-f06622222095",
             "sourceColumn": "motivo_cancelamento",
             "summarizeBy": "none"
+          },
+          {
+            "name": "item",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "bea521d1-7337-4f93-ab46-7df4871a2086",
+            "sourceColumn": "item",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "valor_monetario",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "ea6887da-6233-4dee-8fb7-1a6a5475c6d8",
+            "sourceColumn": "valor_monetario",
+            "summarizeBy": "sum"
           }
         ],
         "lineageTag": "a8b99b21-7f36-401a-bcb5-8e6f31cd3dfe",
@@ -8556,7 +11092,7 @@
                 "    #\"Outras Colunas Removidas1\" = Table.SelectColumns(#\"Colunas Renomeadas1\", {\"Nome da Origem\", \"Transformar Arquivo (2)\"}),",
                 "    #\"Coluna de Tabela Expandida1\" = Table.ExpandTableColumn(#\"Outras Colunas Removidas1\", \"Transformar Arquivo (2)\", Table.ColumnNames(#\"Transformar Arquivo (2)\"(#\"Arquivo de Amostra (2)\"))),",
                 "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Coluna de Tabela Expandida1\",{{\"Nome da Origem\", type text}, {\"Filial\", Int64.Type}, {\"Inventory Type ID\", Int64.Type}, {\"Pedido\", type text}, {\"Pedido de Venda\", type text}, {\"Tipo da Ordem \", type text}, {\"Carga\", Int64.Type}, {\"Destinatário\", type any}, {\"item\", Int64.Type}, {\"Descrição do item\", type text}, {\"Qtde Original\", Int64.Type}, {\"Qtde Expedida\", Int64.Type}, {\"Qtde Ajustada\", Int64.Type}, {\"Data integração WMS\", type datetime}, {\"Data do Cancelamento\", type datetime}, {\"Usuário\", type text}, {\"Código Reference Text\", Int64.Type}, {\" Motivo Secondary Reference Text\", type text}}),",
-                "    #\"Colunas Removidas\" = Table.RemoveColumns(#\"Tipo Alterado\",{\"Nome da Origem\", \"Inventory Type ID\", \"Pedido\", \"Pedido de Venda\", \"Carga\", \"Destinatário\", \"item\", \"Descrição do item\", \"Qtde Original\", \"Qtde Expedida\", \"Data integração WMS\"}),",
+                "    #\"Colunas Removidas\" = Table.RemoveColumns(#\"Tipo Alterado\",{\"Nome da Origem\", \"Inventory Type ID\", \"Pedido\", \"Pedido de Venda\", \"Carga\", \"Destinatário\", \"Descrição do item\", \"Qtde Original\", \"Qtde Expedida\", \"Data integração WMS\"}),",
                 "    #\"Dividir Coluna por Delimitador\" = Table.SplitColumn(#\"Colunas Removidas\", \"Tipo da Ordem \", Splitter.SplitTextByDelimiter(\" \", QuoteStyle.Csv), {\"Tipo da Ordem .1\", \"Tipo da Ordem .2\"}),",
                 "    #\"Tipo Alterado1\" = Table.TransformColumnTypes(#\"Dividir Coluna por Delimitador\",{{\"Tipo da Ordem .1\", type text}, {\"Tipo da Ordem .2\", type text}}),",
                 "    #\"Colunas Removidas1\" = Table.RemoveColumns(#\"Tipo Alterado1\",{\"Tipo da Ordem .2\"}),",
@@ -8636,9 +11172,14 @@
                 "    #\"Colunas Renomeadas2\" = Table.RenameColumns(#\"Colunas Removidas2\",{{\"motivo_cancelamento.1\", \"motivo_cancelamento\"}}),",
                 "    #\"Tipo Alterado4\" = Table.TransformColumnTypes(#\"Colunas Renomeadas2\",{{\"motivo_cancelamento\", type text}}),",
                 "    #\"Erros Substituídos\" = Table.ReplaceErrorValues(#\"Tipo Alterado4\", {{\"codigo_cancelamento\", \"\"}}),",
-                "    #\"Erros Substituídos1\" = Table.ReplaceErrorValues(#\"Erros Substituídos\", {{\"motivo_cancelamento\", \"\"}})",
+                "    #\"Erros Substituídos1\" = Table.ReplaceErrorValues(#\"Erros Substituídos\", {{\"motivo_cancelamento\", \"\"}}),",
+                "    #\"Consultas Mescladas\" = Table.NestedJoin(#\"Erros Substituídos1\", {\"item\"}, dvalor_monetario, {\"sku\"}, \"dvalor_monetario\", JoinKind.LeftOuter),",
+                "    #\"dvalor_monetario Expandido\" = Table.ExpandTableColumn(#\"Consultas Mescladas\", \"dvalor_monetario\", {\"valor_monetario\"}, {\"dvalor_monetario.valor_monetario\"}),",
+                "    #\"Personalização Adicionada2\" = Table.AddColumn(#\"dvalor_monetario Expandido\", \"valor_monetario\", each [qtd_pecas]*[dvalor_monetario.valor_monetario]),",
+                "    #\"Tipo Alterado6\" = Table.TransformColumnTypes(#\"Personalização Adicionada2\",{{\"valor_monetario\", type number}}),",
+                "    #\"Colunas Removidas3\" = Table.RemoveColumns(#\"Tipo Alterado6\",{\"dvalor_monetario.valor_monetario\"})",
                 "in",
-                "    #\"Erros Substituídos1\""
+                "    #\"Colunas Removidas3\""
               ],
               "type": "m"
             }
@@ -8789,10 +11330,6 @@
           {
             "name": "PBI_ResultType",
             "value": "Table"
-          },
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navegação"
           }
         ],
         "columns": [
@@ -8912,10 +11449,6 @@
           {
             "name": "PBI_ResultType",
             "value": "Table"
-          },
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navegação"
           }
         ],
         "columns": [
@@ -9052,10 +11585,6 @@
       {
         "name": "fbase_hc_abastecimento",
         "annotations": [
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navegação"
-          },
           {
             "name": "PBI_ResultType",
             "value": "Table"
@@ -9394,10 +11923,6 @@
         "name": "fbase_expedicoes_abs",
         "annotations": [
           {
-            "name": "PBI_NavigationStepName",
-            "value": "Navegação"
-          },
-          {
             "name": "PBI_ResultType",
             "value": "Table"
           }
@@ -9512,6 +12037,222 @@
                 "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Colunas Renomeadas\",{{\"data\", type date}})",
                 "in",
                 "    #\"Tipo Alterado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dzona",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "local",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "11259c35-ed86-4e45-821a-6cb416994966",
+            "sourceColumn": "local",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "local_picking",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8790f454-2aa2-440a-9e4d-93330da28443",
+            "sourceColumn": "local_picking",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "salao_or_par",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "40090198-eddc-4de5-9256-fabc99fb9b79",
+            "sourceColumn": "salao_or_par",
+            "summarizeBy": "none"
+          }
+        ],
+        "excludeFromModelRefresh": true,
+        "lineageTag": "6a1cdcae-83b5-40ce-8cb7-935cc0abb05e",
+        "partitions": [
+          {
+            "name": "dzona",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = SharePoint.Contents(\"https://viavarejo.sharepoint.com/sites/grupo_de_dados_wave\", [ApiVersion = 15]),",
+                "    #\"Atualizaes de Relatrios Gerais\" = Fonte{[Name=\"Atualizaes de Relatrios Gerais\"]}[Content],",
+                "    #\"Relatórios estáticos - ADMs - Vinicius & Almeida\" = #\"Atualizaes de Relatrios Gerais\"{[Name=\"Relatórios estáticos - ADMs - Vinicius & Almeida\"]}[Content],",
+                "    #\"Zona - Produtividade de Picking - ADMs - Almeida\" = #\"Relatórios estáticos - ADMs - Vinicius & Almeida\"{[Name=\"Zona - Produtividade de Picking - ADMs - Almeida\"]}[Content],",
+                "    #\"Locais - Zonas xlsx\" = #\"Zona - Produtividade de Picking - ADMs - Almeida\"{[Name=\"Locais - Zonas.xlsx\"]}[Content],",
+                "    #\"Pasta de Trabalho Importada do Excel\" = Excel.Workbook(#\"Locais - Zonas xlsx\"),",
+                "    in_Sheet = #\"Pasta de Trabalho Importada do Excel\"{[Item=\"in\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(in_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\",{{\"Local\", type text}, {\"Zona\", type text}}),",
+                "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Tipo Alterado\",{{\"Local\", \"local\"}, {\"Zona\", \"local_picking\"}}),",
+                "    #\"Duplicatas Removidas\" = Table.Distinct(#\"Colunas Renomeadas\", {\"local\"}),",
+                "    #\"Personalização Adicionada\" = Table.AddColumn(#\"Duplicatas Removidas\", \"salao_or_par\", each if List.Contains({\"Z220\",\"Z221\",\"Z222\",\"Z223\",\"Z224\"},[local_picking]) then \"P.A.R\" else \"SALÃO\"),",
+                "    #\"Tipo Alterado1\" = Table.TransformColumnTypes(#\"Personalização Adicionada\",{{\"salao_or_par\", type text}})",
+                "in",
+                "    #\"Tipo Alterado1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dhora",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "hora",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Time"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Time",
+            "lineageTag": "a9a0a382-1bce-4fa0-9139-ae0a59813293",
+            "sourceColumn": "hora",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "hora_num",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "a676ac1c-05d8-43c2-b9c6-0b50fb2e46de",
+            "sourceColumn": "hora_num",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "minuto_num",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "94406f59-4c61-4afa-b193-74c73c534b40",
+            "sourceColumn": "minuto_num",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "segundo_num",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "daf45d7c-422b-4526-aa83-aa31363ffd47",
+            "sourceColumn": "segundo_num",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "am_pm",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "94d0996b-ee47-4eb7-aae1-80c0ddbcc7d3",
+            "sourceColumn": "am_pm",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "turno",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "99c7716a-e6ca-413b-b754-6aca345c8179",
+            "sourceColumn": "turno",
+            "summarizeBy": "none"
+          }
+        ],
+        "excludeFromModelRefresh": true,
+        "lineageTag": "3e8ad17a-5c83-4333-b9a4-28c6f86569ac",
+        "partitions": [
+          {
+            "name": "dhora",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Lista = {0..86399},",
+                "    ConverteParaTabela = Table.FromList(Lista, Splitter.SplitByNothing(), null, null, ExtraValues.Error),",
+                "    AlteraTipo = Table.TransformColumnTypes(ConverteParaTabela,{{\"Column1\", Int64.Type}}),",
+                "    AlteraNomeCol = Table.RenameColumns(AlteraTipo,{{\"Column1\",\"Segundo\"}}),",
+                "    ColDuracao = Table.AddColumn(AlteraNomeCol,\"Duração\", each #duration(0,0,0,[Segundo]), type duration),",
+                "    ColHora = Table.AddColumn(ColDuracao,\"Hora\", each #time(Duration.Hours([Duração]),Duration.Minutes([Duração]),Duration.Seconds([Duração]))),",
+                "    RemoveCols = Table.RemoveColumns(ColHora,{\"Duração\",\"Segundo\"}),",
+                "    CollHoraNum = Table.AddColumn(RemoveCols, \"Hora Num\", each Time.Hour([Hora]), Int64.Type),",
+                "    ColMinutoNum = Table.AddColumn(CollHoraNum,\"Minuto Num\", each Time.Minute([Hora]), Int64.Type),",
+                "    ColSegundoNum = Table.AddColumn(ColMinutoNum,\"Segundo Num\", each Time.Second([Hora]), Int64.Type),",
+                "    ColAMPM = Table.AddColumn(ColSegundoNum, \"AMPM\", each if [Hora Num] < 12 then \"AM\" else \"PM\", type text),",
+                "    #\"Personalização Adicionada\" = Table.AddColumn(ColAMPM, \"ColTurno\", each if [Hora] >= #time(6, 0, 0) and [Hora] <= #time(14, 20, 59) then \"1º Turno\"",
+                "else if [Hora] >= #time(14, 21, 0) and [Hora] <= #time(22, 41, 59) then \"2º Turno\" ",
+                "else \"3º Turno\"),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Personalização Adicionada\",{{\"Hora\", type time}, {\"ColTurno\", type text}}),",
+                "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Tipo Alterado\",{{\"Hora\", \"hora\"}, {\"Hora Num\", \"hora_num\"}, {\"Minuto Num\", \"minuto_num\"}, {\"Segundo Num\", \"segundo_num\"}, {\"AMPM\", \"am_pm\"}, {\"ColTurno\", \"turno\"}})",
+                "in",
+                "    #\"Colunas Renomeadas\""
               ],
               "type": "m"
             }
