@@ -4392,6 +4392,103 @@
                   }
                 ]
               },
+              "medida.day_over_day_abs": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "day_over_day_abs"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "day over day abs": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "day_over_day_abs": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "abs": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "day abs": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "over day abs": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "Day-Over-Day |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.day_over_day_abs1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "%day_over_day_abs"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "%day_over_day_abs": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage day_over_day_ab": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "pct day_over_day_ab": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "% Day-Over-Day |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
               "medida.demanda_abs_olpn": {
                 "Definition": {
                   "Binding": {
@@ -4757,6 +4854,143 @@
                   },
                   {
                     "Mês |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.month_over_month_abs": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "month_over_month_abs"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month over month abs": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "month_over_month_abs": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "abs": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "month abs": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "over month abs": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "mth over month abs": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.771
+                    }
+                  },
+                  {
+                    "over mth abs": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "month over mth abs": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "mth abs": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "Month-Over-Month |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.month_over_month_abs1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "%month_over_month_abs"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "%month_over_month_abs": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage month_over_month_ab": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "pct month_over_month_ab": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "% Month-Over-Month |": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -6291,6 +6525,39 @@
                 },
                 "State": "Generated"
               },
+              "fbase_abastecimento_demanda_has_medida_day_over_day_abs": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_abastecimento_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.day_over_day_abs"
+                      },
+                      "Subject": {
+                        "Role": "fbase_abastecimento_demanda"
+                      }
+                    },
+                    "ID": "fbase_abastecimento_demandas_have_day_over_day_abs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_abastecimento_demanda": {
+                    "Target": {
+                      "Entity": "fbase_abastecimento_demanda"
+                    }
+                  },
+                  "medida.day_over_day_abs": {
+                    "Target": {
+                      "Entity": "medida.day_over_day_abs"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "fbase_abastecimento_demanda_has_medida_demanda_geral_abastecimento": {
                 "Binding": {
                   "ConceptualEntity": "fbase_abastecimento_demanda"
@@ -6319,6 +6586,39 @@
                   "medida.demanda_geral_abastecimento": {
                     "Target": {
                       "Entity": "medida.demanda_geral_abastecimento"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_abastecimento_demanda_has_medida_month_over_month_abs": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_abastecimento_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.month_over_month_abs"
+                      },
+                      "Subject": {
+                        "Role": "fbase_abastecimento_demanda"
+                      }
+                    },
+                    "ID": "fbase_abastecimento_demandas_have_month_over_month_abs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_abastecimento_demanda": {
+                    "Target": {
+                      "Entity": "fbase_abastecimento_demanda"
+                    }
+                  },
+                  "medida.month_over_month_abs": {
+                    "Target": {
+                      "Entity": "medida.month_over_month_abs"
                     }
                   }
                 },
@@ -6371,7 +6671,7 @@
                         "Role": "fbase_abastecimento_demanda"
                       }
                     },
-                    "ID": "fbase_abastecimento_demandas_have_year_over_year_abs1",
+                    "ID": "fbase_abastecimento_demandas_have_year_over_year_abs",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -6385,39 +6685,6 @@
                   "medida.year_over_year_abs": {
                     "Target": {
                       "Entity": "medida.year_over_year_abs"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_abastecimento_demanda_has_medida_year_over_year_abs1": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_abastecimento_demanda"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "medida.year_over_year_abs1"
-                      },
-                      "Subject": {
-                        "Role": "fbase_abastecimento_demanda"
-                      }
-                    },
-                    "ID": "fbase_abastecimento_demandas_have_year_over_year_abs",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_abastecimento_demanda": {
-                    "Target": {
-                      "Entity": "fbase_abastecimento_demanda"
-                    }
-                  },
-                  "medida.year_over_year_abs1": {
-                    "Target": {
-                      "Entity": "medida.year_over_year_abs1"
                     }
                   }
                 },
@@ -9176,6 +9443,39 @@
                 },
                 "State": "Generated"
               },
+              "medida_has_day_over_day_abs1": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.day_over_day_abs1"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_day_over_day_abs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.day_over_day_abs1": {
+                    "Target": {
+                      "Entity": "medida.day_over_day_abs1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "medida_has_dia_tratado": {
                 "Binding": {
                   "ConceptualEntity": "Medidas"
@@ -9336,6 +9636,39 @@
                   "medida.mes_tratado": {
                     "Target": {
                       "Entity": "medida.mes_tratado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_month_over_month_abs1": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.month_over_month_abs1"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_month_over_month_abs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.month_over_month_abs1": {
+                    "Target": {
+                      "Entity": "medida.month_over_month_abs1"
                     }
                   }
                 },
@@ -9567,6 +9900,39 @@
                   "medida.username_2": {
                     "Target": {
                       "Entity": "medida.username_2"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_year_over_year_abs1": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.year_over_year_abs1"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_year_over_year_abs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.year_over_year_abs1": {
+                    "Target": {
+                      "Entity": "medida.year_over_year_abs1"
                     }
                   }
                 },
@@ -10562,7 +10928,7 @@
               "",
               "CALCULATE(",
               "    [demanda_geral_abs],",
-              "    SAMEPERIODLASTYEAR(dcalendario[calendario]))"
+              "    DATEADD(dcalendario[calendario], -1, YEAR))"
             ],
             "formatString": "#,0",
             "lineageTag": "bb6a3d96-3bb1-441d-9411-c3ad1ce1960e"
@@ -10578,6 +10944,52 @@
               "    FORMAT(DIVIDE([year_over_year_abs],[demanda_geral_abs]) - 1,\"0.00%\")&\" ⬇️\")"
             ],
             "lineageTag": "a1c6b328-56d1-42cc-b1c5-a06b350a943a"
+          },
+          {
+            "name": "month_over_month_abs",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    [demanda_geral_abs],",
+              "    DATEADD(dcalendario[calendario], -1, MONTH))"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "04f0f2b0-0098-4edd-a6af-6d1bc61bcb12"
+          },
+          {
+            "name": "%month_over_month_abs",
+            "expression": [
+              "",
+              "",
+              "IF(",
+              "    [demanda_geral_abs]>[month_over_month_abs],",
+              "    FORMAT(1 - DIVIDE([month_over_month_abs],[demanda_geral_abs]),\"0.00%\")&\" ⬆️\",",
+              "    FORMAT(DIVIDE([month_over_month_abs],[demanda_geral_abs]) - 1,\"0.00%\")&\" ⬇️\")"
+            ],
+            "lineageTag": "13251fed-44b0-453d-adaf-396c2bb1205e"
+          },
+          {
+            "name": "day_over_day_abs",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    [demanda_geral_abs],",
+              "    DATEADD(dcalendario[calendario], -1, DAY))"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "a5ec4188-2689-4eb8-8569-a1c5caf67548"
+          },
+          {
+            "name": "%day_over_day_abs",
+            "expression": [
+              "",
+              "",
+              "IF(",
+              "    [demanda_geral_abs]>[day_over_day_abs],",
+              "    FORMAT(1 - DIVIDE([day_over_day_abs],[demanda_geral_abs]),\"0.00%\")&\" ⬆️\",",
+              "    FORMAT(DIVIDE([day_over_day_abs],[demanda_geral_abs]) - 1,\"0.00%\")&\" ⬇️\")"
+            ],
+            "lineageTag": "82247a7d-83c1-4d0a-970c-5482a373c69c"
           }
         ],
         "partitions": [
