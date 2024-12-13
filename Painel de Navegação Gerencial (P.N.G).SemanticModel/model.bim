@@ -5405,7 +5405,7 @@
                     }
                   },
                   {
-                    "% Capacidade": {
+                    "% Pçs X Cap": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -5451,7 +5451,7 @@
                     }
                   },
                   {
-                    "% Dia x Semana": {
+                    "% Dia x Sem.": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -11138,6 +11138,29 @@
             ],
             "formatString": "0%;-0%;0%",
             "lineageTag": "8fb3cea2-9c7a-486b-a274-9f8e83850cdf"
+          },
+          {
+            "name": "TextoFormatado",
+            "expression": [
+              "",
+              "IF(",
+              "    [%_cap_pesados] > 1,",
+              "    \"<b><span style='color:red'>\" & FORMAT([%_cap_pesados], \"0.00%\") & \"</span></b>\",",
+              "    FORMAT([%_cap_pesados], \"0.00%\")",
+              ")",
+              ""
+            ],
+            "lineageTag": "ada24f26-0750-41d1-9e3a-541a061048a5"
+          },
+          {
+            "name": "format_fundo",
+            "expression": [
+              "",
+              "",
+              "IF([%_cap_pesados] > 1,  \"#EE7F7F\", \"\"",
+              ") "
+            ],
+            "lineageTag": "7a64c298-4011-4a8e-8e16-e7bc2541124e"
           }
         ],
         "partitions": [
@@ -11162,7 +11185,7 @@
         "annotations": [
           {
             "name": "PBI_ResultType",
-            "value": "Table"
+            "value": "Exception"
           },
           {
             "name": "PBI_NavigationStepName",
@@ -11498,7 +11521,7 @@
         "annotations": [
           {
             "name": "PBI_ResultType",
-            "value": "Table"
+            "value": "Exception"
           },
           {
             "name": "PBI_NavigationStepName",
