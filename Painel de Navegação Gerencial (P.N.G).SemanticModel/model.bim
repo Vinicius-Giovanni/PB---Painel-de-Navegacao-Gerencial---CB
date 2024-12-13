@@ -155,6 +155,16 @@
                       "Type": "Noun",
                       "Weight": 0.99
                     }
+                  },
+                  {
+                    "Mes": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
                   }
                 ]
               },
@@ -169,6 +179,22 @@
                 "Terms": [
                   {
                     "periodo": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "dcalendario.semana": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dcalendario",
+                    "ConceptualProperty": "semana"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "semana": {
                       "State": "Generated"
                     }
                   }
@@ -729,6 +755,16 @@
                       "State": "Suggested",
                       "Type": "Noun",
                       "Weight": 0.476
+                    }
+                  },
+                  {
+                    "Zona |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ]
@@ -3659,6 +3695,16 @@
                       "Type": "Noun",
                       "Weight": 0.99
                     }
+                  },
+                  {
+                    "Setor": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
                   }
                 ]
               },
@@ -3744,6 +3790,16 @@
                       "Type": "Noun",
                       "Weight": 0.99
                     }
+                  },
+                  {
+                    "Expedição": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
                   }
                 ]
               },
@@ -3811,122 +3867,6 @@
                   {
                     "medida": {
                       "State": "Generated"
-                    }
-                  }
-                ]
-              },
-              "medida.MoM": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "Medidas",
-                    "ConceptualProperty": "%MoM"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "%MoM": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "percentage mom": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.6
-                    }
-                  },
-                  {
-                    "pct mom": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.582
-                    }
-                  },
-                  {
-                    "% ma": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.5
-                    }
-                  },
-                  {
-                    "% mommy": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.5
-                    }
-                  },
-                  {
-                    "% mamma": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.5
-                    }
-                  },
-                  {
-                    "% mama": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.5
-                    }
-                  },
-                  {
-                    "% mammy": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.5
-                    }
-                  },
-                  {
-                    "% momma": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.5
-                    }
-                  },
-                  {
-                    "% mother": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.485
-                    }
-                  },
-                  {
-                    "% mum": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.485
                     }
                   }
                 ]
@@ -4531,6 +4471,16 @@
                       "Type": "Noun",
                       "Weight": 0.99
                     }
+                  },
+                  {
+                    "Qtd.Peças Movimentada |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
                   }
                 ]
               },
@@ -4682,6 +4632,39 @@
                   }
                 ]
               },
+              "medida.demanda_pesados": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "demanda_pesados"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "demanda pesados": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "demanda_pesados": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Pçs": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
               "medida.dia_tratado": {
                 "Definition": {
                   "Binding": {
@@ -4711,29 +4694,6 @@
                       },
                       "State": "Suggested",
                       "Weight": 0.9
-                    }
-                  }
-                ]
-              },
-              "medida.dod_monetario_abs": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "Medidas",
-                    "ConceptualProperty": "dod_monetario_abs"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "dod monetario abs": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "dod_monetario_abs": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.99
                     }
                   }
                 ]
@@ -4905,29 +4865,6 @@
                       },
                       "State": "Suggested",
                       "Weight": 0.9
-                    }
-                  }
-                ]
-              },
-              "medida.mo_M_monetario_abs": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "Medidas",
-                    "ConceptualProperty": "MoM_monetario_abs"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "mo M monetario abs": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "MoM_monetario_abs": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.99
                     }
                   }
                 ]
@@ -5282,6 +5219,29 @@
                   }
                 ]
               },
+              "medida.teste_1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "teste1"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "teste 1": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "teste1": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
               "medida.texto_black_friday": {
                 "Definition": {
                   "Binding": {
@@ -5410,29 +5370,88 @@
                   }
                 ]
               },
-              "medida.valor_monetario": {
+              "medida.v__cap_entrega_cap_entrega": {
                 "Definition": {
                   "Binding": {
                     "ConceptualEntity": "Medidas",
-                    "ConceptualProperty": "valor_monetario"
+                    "ConceptualProperty": "%_cap_pesados"
                   }
                 },
                 "State": "Generated",
                 "Terms": [
                   {
-                    "valor monetario": {
+                    "%_cap_pesados": {
                       "State": "Generated"
                     }
                   },
                   {
-                    "valor_monetario": {
-                      "State": "Generated",
+                    "percentage _cap_pesado": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
                       "Type": "Noun",
-                      "Weight": 0.99
+                      "Weight": 0.6
                     }
                   },
                   {
-                    "R$ |": {
+                    "pct _cap_pesado": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "% Capacidade": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.v__dia_x_semana_dia_x_semana": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "%_dia_x_semana"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "%_dia_x_semana": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage _dia_x_semana": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "pct _dia_x_semana": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "% Dia x Semana": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -5580,29 +5599,17 @@
                   }
                 ]
               },
-              "medida.yoy_monetario_abs": {
+              "medidas.valor_monetario": {
                 "Definition": {
                   "Binding": {
                     "ConceptualEntity": "Medidas",
-                    "ConceptualProperty": "yoy_monetario_abs"
+                    "ConceptualProperty": "valor_monetario"
                   }
                 },
                 "State": "Generated",
                 "Terms": [
                   {
-                    "yoy monetario abs": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "yoy_monetario_abs": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.99
-                    }
-                  },
-                  {
-                    "R$ Year-Over-Year |": {
+                    "R$ |": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -5842,6 +5849,39 @@
                   "dcalendario.periodo": {
                     "Target": {
                       "Entity": "dcalendario.periodo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dcalendario_has_semana": {
+                "Binding": {
+                  "ConceptualEntity": "dcalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dcalendario.semana"
+                      },
+                      "Subject": {
+                        "Role": "dcalendario"
+                      }
+                    },
+                    "ID": "dcalendarios_have_semanas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dcalendario": {
+                    "Target": {
+                      "Entity": "dcalendario"
+                    }
+                  },
+                  "dcalendario.semana": {
+                    "Target": {
+                      "Entity": "dcalendario.semana"
                     }
                   }
                 },
@@ -8937,7 +8977,7 @@
                 },
                 "State": "Generated"
               },
-              "fbase_online_pesados_demanda_has_medida_dod_monetario_abs": {
+              "fbase_online_pesados_demanda_has_medida_demanda_pesados": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_demanda"
                 },
@@ -8945,13 +8985,13 @@
                   {
                     "Attribute": {
                       "Object": {
-                        "Role": "medida.dod_monetario_abs"
+                        "Role": "medida.demanda_pesados"
                       },
                       "Subject": {
                         "Role": "fbase_online_pesados_demanda"
                       }
                     },
-                    "ID": "fbase_online_pesados_abs_demandas_have_dod_monetario_abs",
+                    "ID": "fbase_online_pesados_abs_demandas_have_demanda_pesados",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -8962,9 +9002,9 @@
                       "Entity": "fbase_online_pesados_demanda"
                     }
                   },
-                  "medida.dod_monetario_abs": {
+                  "medida.demanda_pesados": {
                     "Target": {
-                      "Entity": "medida.dod_monetario_abs"
+                      "Entity": "medida.demanda_pesados"
                     }
                   }
                 },
@@ -9036,39 +9076,6 @@
                 },
                 "State": "Generated"
               },
-              "fbase_online_pesados_demanda_has_medida_mo_M_monetario_abs": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "medida.mo_M_monetario_abs"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_demanda"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demandas_have_mo_M_monetario_abs",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_demanda": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_demanda"
-                    }
-                  },
-                  "medida.mo_M_monetario_abs": {
-                    "Target": {
-                      "Entity": "medida.mo_M_monetario_abs"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
               "fbase_online_pesados_demanda_has_medida_teste": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_demanda"
@@ -9102,7 +9109,7 @@
                 },
                 "State": "Generated"
               },
-              "fbase_online_pesados_demanda_has_medida_valor_monetario": {
+              "fbase_online_pesados_demanda_has_medida_teste_1": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_demanda"
                 },
@@ -9110,13 +9117,13 @@
                   {
                     "Attribute": {
                       "Object": {
-                        "Role": "medida.valor_monetario"
+                        "Role": "medida.teste_1"
                       },
                       "Subject": {
                         "Role": "fbase_online_pesados_demanda"
                       }
                     },
-                    "ID": "fbase_online_pesados_abs_demandas_have_valor_monetario",
+                    "ID": "fbase_online_pesados_abs_demandas_have_teste_1",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -9127,15 +9134,15 @@
                       "Entity": "fbase_online_pesados_demanda"
                     }
                   },
-                  "medida.valor_monetario": {
+                  "medida.teste_1": {
                     "Target": {
-                      "Entity": "medida.valor_monetario"
+                      "Entity": "medida.teste_1"
                     }
                   }
                 },
                 "State": "Generated"
               },
-              "fbase_online_pesados_demanda_has_medida_valor_monetario_mes_atual": {
+              "fbase_online_pesados_demanda_has_medida_v__dia_x_semana_dia_x_semana": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_demanda"
                 },
@@ -9143,13 +9150,13 @@
                   {
                     "Attribute": {
                       "Object": {
-                        "Role": "medida.valor_monetario_mes_atual"
+                        "Role": "medida.v__dia_x_semana_dia_x_semana"
                       },
                       "Subject": {
                         "Role": "fbase_online_pesados_demanda"
                       }
                     },
-                    "ID": "fbase_online_pesados_abs_demandas_have_valor_monetario_mes_atual",
+                    "ID": "fbase_online_pesados_abs_demandas_have__dia_x_semana",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -9160,75 +9167,9 @@
                       "Entity": "fbase_online_pesados_demanda"
                     }
                   },
-                  "medida.valor_monetario_mes_atual": {
+                  "medida.v__dia_x_semana_dia_x_semana": {
                     "Target": {
-                      "Entity": "medida.valor_monetario_mes_atual"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_demanda_has_medida_valor_monetario_mo_M": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "medida.valor_monetario_mo_M"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_demanda"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demandas_have_valor_monetario_mo_M",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_demanda": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_demanda"
-                    }
-                  },
-                  "medida.valor_monetario_mo_M": {
-                    "Target": {
-                      "Entity": "medida.valor_monetario_mo_M"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_demanda_has_medida_yoy_monetario_abs": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "medida.yoy_monetario_abs"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_demanda"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demandas_have_yoy_monetario_abs",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_demanda": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_demanda"
-                    }
-                  },
-                  "medida.yoy_monetario_abs": {
-                    "Target": {
-                      "Entity": "medida.yoy_monetario_abs"
+                      "Entity": "medida.v__dia_x_semana_dia_x_semana"
                     }
                   }
                 },
@@ -9559,39 +9500,6 @@
                   "fbase_online_pesados_demanda.valor_monetario": {
                     "Target": {
                       "Entity": "fbase_online_pesados_demanda.valor_monetario"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "medida_has_MoM": {
-                "Binding": {
-                  "ConceptualEntity": "Medidas"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "medida.MoM"
-                      },
-                      "Subject": {
-                        "Role": "medida"
-                      }
-                    },
-                    "ID": "medidas_have_MoM",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "medida": {
-                    "Target": {
-                      "Entity": "medida"
-                    }
-                  },
-                  "medida.MoM": {
-                    "Target": {
-                      "Entity": "medida.MoM"
                     }
                   }
                 },
@@ -10120,6 +10028,39 @@
                   "medida.username_2": {
                     "Target": {
                       "Entity": "medida.username_2"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_v__cap_entrega_cap_entrega": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.v__cap_entrega_cap_entrega"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have__cap_pesados",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.v__cap_entrega_cap_entrega": {
+                    "Target": {
+                      "Entity": "medida.v__cap_entrega_cap_entrega"
                     }
                   }
                 },
@@ -10710,7 +10651,7 @@
               "",
               "CALCULATE(",
               "    SUM(fbase_online_pesados_abs_demanda[qtd_pecas]),",
-              "    fbase_online_pesados_abs_demanda[sep_setor] = \"entrega a clientes\") "
+              "    fbase_online_pesados_abs_demanda[sep_setor] = \"Entrega a Clientes\") "
             ],
             "formatString": "#,0",
             "lineageTag": "be194103-bd25-48cb-a590-642f9426cfce"
@@ -11020,19 +10961,6 @@
             "lineageTag": "fa0e80cd-0759-4ed6-9bea-7fb7ca9e0e0b"
           },
           {
-            "name": "valor_monetario",
-            "annotations": [
-              {
-                "name": "PBI_FormatHint",
-                "value": "{\"currencyCulture\":\"es-BR\"}"
-              }
-            ],
-            "displayFolder": "Info.Geral",
-            "expression": "SUM(fbase_online_pesados_abs_demanda[valor_monetario])",
-            "formatString": "\"R$\"#,0.00;-\"R$\"#,0.00;\"R$\"#,0.00",
-            "lineageTag": "5d00778d-bed3-4690-b55e-4d429f0db3ee"
-          },
-          {
             "name": "mes_atual",
             "displayFolder": "Info.Geral",
             "expression": [
@@ -11051,29 +10979,6 @@
               ""
             ],
             "lineageTag": "4c95b173-f1bb-40b4-b917-23444ec4ece7"
-          },
-          {
-            "name": "%MoM",
-            "displayFolder": "Info.Geral",
-            "expression": [
-              "",
-              "",
-              "VAR A1 = [valor_monetario_mes_atual]",
-              "",
-              "VAR A2 = [valor_monetario_MoM]",
-              "",
-              "VAR A3 = FORMAT(DIVIDE(A1,A2), \"0%\")",
-              "",
-              "VAR B = ",
-              "IF(",
-              "    A1 > A2 , A3&\"⬆️\",",
-              "    IF(",
-              "        A1 < A2 ,A3&\"⬇️\",",
-              "        IF( A1 = A2 , A3&\" 🔶\")))",
-              "RETURN B",
-              "    "
-            ],
-            "lineageTag": "dadfc091-fee9-489f-b8ae-3c5a9a6fffa1"
           },
           {
             "name": "mes_tratado",
@@ -11186,72 +11091,53 @@
             "lineageTag": "82247a7d-83c1-4d0a-970c-5482a373c69c"
           },
           {
-            "name": "yoy_monetario_abs",
-            "annotations": [
-              {
-                "name": "PBI_FormatHint",
-                "value": "{\"isGeneralNumber\":true}"
-              }
-            ],
-            "displayFolder": "Info.Abastecimento",
+            "name": "demanda_pesados",
             "expression": [
               "",
               "CALCULATE(",
-              "    [valor_monetario],",
-              "    DATEADD(dcalendario[calendario], -1, YEAR))"
+              "    SUM(fbase_online_pesados_abs_demanda[qtd_pecas]),",
+              "    fbase_online_pesados_abs_demanda[sep_setor] = \"entrega a clientes\" || fbase_online_pesados_abs_demanda[sep_setor] = \"EAD\") "
             ],
-            "lineageTag": "0dc03043-ec25-41ff-95f4-dc5743feda9c"
+            "formatString": "#,0",
+            "lineageTag": "c978aa95-ad1a-4b3d-b8d4-50fdb21a53ad"
           },
           {
-            "name": "MoM_monetario_abs",
-            "annotations": [
-              {
-                "name": "PBI_FormatHint",
-                "value": "{\"isGeneralNumber\":true}"
-              }
-            ],
-            "displayFolder": "Info.Abastecimento",
-            "expression": [
-              "",
-              "CALCULATE(",
-              "    [valor_monetario],",
-              "    DATEADD(dcalendario[calendario], -1, MONTH))"
-            ],
-            "lineageTag": "33cbc6f3-3ec1-4239-9af5-074edf9389bf"
+            "name": "teste1",
+            "expression": "[demanda_ead]/([demanda_ead]+[demanda_entrega_cliente])",
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "0f99b2fa-ae9d-454b-9c25-1afef4ac135a"
           },
           {
-            "name": "dod_monetario_abs",
-            "annotations": [
-              {
-                "name": "PBI_FormatHint",
-                "value": "{\"isGeneralNumber\":true}"
-              }
-            ],
-            "displayFolder": "Info.Abastecimento",
+            "name": "%_cap_pesados",
             "expression": [
               "",
-              "CALCULATE(",
-              "    [valor_monetario],",
-              "    DATEADD(dcalendario[calendario], -1, DAY))"
+              "",
+              "IF( ",
+              "    (SELECTEDVALUE(dcalendario[calendario]) >= DATE(2024,10,1)) && (SELECTEDVALUE(dcalendario[calendario]) <= DATE(2024,12,31)),",
+              "    SUM(fbase_online_pesados_abs_demanda[qtd_pecas])/6000,",
+              "    SUM(fbase_online_pesados_abs_demanda[qtd_pecas])/3000)",
+              "",
+              " "
             ],
-            "lineageTag": "c37a77e9-a039-4403-bd62-07744a852266"
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "b46bd144-2f1b-49c2-a35e-fde8eb241e61"
           },
           {
-            "name": "valor_monetario_mes_atual_abs",
-            "annotations": [
-              {
-                "name": "PBI_FormatHint",
-                "value": "{\"isGeneralNumber\":true}"
-              }
-            ],
+            "name": "%_dia_x_semana",
             "expression": [
               "",
+              "",
+              "[demanda_pesados]",
+              "",
+              "/",
+              "",
               "CALCULATE(",
-              "    [valor_monetario],",
-              "    dcalendario[mes] = MONTH(NOW()),",
-              "    fbase_online_pesados_abs_demanda[sep_setor] = \"Abastecimento de Lojas\")"
+              "    [demanda_pesados],",
+              "    dcalendario[semana] = SELECTEDVALUE(dcalendario[semana]),",
+              "    ALL(dcalendario[dia]))"
             ],
-            "lineageTag": "9b929bff-c399-4dcc-89f9-5a47efa3a08c"
+            "formatString": "0%;-0%;0%",
+            "lineageTag": "8fb3cea2-9c7a-486b-a274-9f8e83850cdf"
           }
         ],
         "partitions": [
@@ -11557,10 +11443,14 @@
                 "    #\"Colunas Removidas1\" = Table.RemoveColumns(#\"Tipo Alterado1\",{\"Tipo de pedido.2\", \"Tipo de pedido.3\", \"Tipo de pedido.4\", \"Tipo de pedido.5\", \"Tipo de pedido.6\", \"Wave\", \"Shipment\", \"Filial Destino\", \"Status Pedido\", \"Pedido de Venda\", \"oLPN\", \"TOTE\", \"Tarefa\", \"Tarefa Status\", \"Grupo de Tarefa\", \"Descrição\", \"Volume\", \"Status oLPN\", \"Numero da Gaiola\", \"Marcação de EAD\", \"Data Prevista Entrega\", \"Inventory Type ID\", \"Cod Setor Item\", \"Audit Status\"}),",
                 "    #\"Tipo Alterado2\" = Table.TransformColumnTypes(#\"Colunas Removidas1\",{{\"Data locação pedido\", type date}, {\"Último Update oLPN\", type date}, {\"Data Limite Expedição\", type date}}),",
                 "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Tipo Alterado2\",{{\"Filial\", \"filial\"}, {\"Tipo de pedido.1\", \"tipo_pedido\"}, {\"Último Update oLPN\", \"data\"}, {\"Qtde. Peças Item\", \"qtd_pecas\"}, {\"Desc Setor Item\", \"setor\"}, {\"BOX\", \"box\"}, {\"Local de Picking\", \"local_de_picking\"}, {\"Data locação pedido\", \"data_locacao\"}, {\"Data Limite Expedição\", \"data_limite\"}}),",
-                "    sep_setor = Table.AddColumn(#\"Colunas Renomeadas\", \"sep_setor\", each if [tipo_pedido] = \"S01\" or [tipo_pedido] = \"S04\" then \"entrega a clientes\" ",
-                "else if [tipo_pedido] = \"S05\" or ([box] > 595 and [box] < 638) then \"EAD\" ",
+                "    sep_setor = Table.AddColumn(#\"Colunas Renomeadas\", \"sep_setor\", each if [tipo_pedido] = \"S01\" or [tipo_pedido] = \"S04\" or [tipo_pedido] = \"S02\" then \"Entrega a Clientes\" ",
+                "else if [tipo_pedido] = \"S05\" then \"EAD\" ",
+                "else if [tipo_pedido] = \"S13\" and ([box] > 595 and [box] < 638) then \"EAD\"",
+                "else if [tipo_pedido] = \"S14\" and ([box] > 595 and [box] < 638) then \"EAD\"",
+                "else if [tipo_pedido] = \"S46\" and ([box] > 595 and [box] < 638) then \"EAD\"",
+                "else if [tipo_pedido] = \"S53\" and ([box] > 595 and [box] < 638) then \"EAD\"",
                 "else if [tipo_pedido] = \"S39\" or [tipo_pedido] = \"S39I\" or [tipo_pedido] = \"S39M\" or [tipo_pedido] = \"S39P\" or [tipo_pedido] = \"S39R\" then \"leves\"",
-                "else if [tipo_pedido] = \"S13\" or [tipo_pedido] = \"S14\" or [tipo_pedido] = \"S46\" or [tipo_pedido] = \"S53\" or [tipo_pedido] = \"S48\" then \"Abastecimento de lojas\"",
+                "else if [tipo_pedido] = \"S13\" or [tipo_pedido] = \"S14\" or [tipo_pedido] = \"S46\" or [tipo_pedido] = \"S48\" then \"Abastecimento de lojas\"",
                 "else if [tipo_pedido] = \"S53\" then \"Balanco\"",
                 "else \"Ignorar\"),",
                 "    salao_or_par = Table.AddColumn(sep_setor, \"salao_or_par\", each if [local_de_picking] = \"\" then \"Vazio\"",
@@ -11670,7 +11560,7 @@
               }
             ],
             "dataType": "dateTime",
-            "formatString": "Long Date",
+            "formatString": "Short Date",
             "lineageTag": "8d30391f-9aaa-4b30-ade7-d7b61ee3f8d3",
             "sourceColumn": "data",
             "summarizeBy": "none"
@@ -11996,6 +11886,20 @@
             "lineageTag": "8bdd6d52-7c8d-4490-8e76-2c8b4ec52dd3",
             "sourceColumn": "periodos",
             "summarizeBy": "none"
+          },
+          {
+            "name": "semana",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "d05ddd94-a3f3-42e8-8d10-d36f91fabe66",
+            "sourceColumn": "semana",
+            "summarizeBy": "sum"
           }
         ],
         "excludeFromModelRefresh": true,
@@ -12015,7 +11919,8 @@
                 "    #\"Nome do Mês Inserido\" = Table.AddColumn(#\"Mês Inserido\", \"Nome do Mês\", each Date.MonthName([data]), type text),",
                 "    #\"Dia Inserido\" = Table.AddColumn(#\"Nome do Mês Inserido\", \"Dia\", each Date.Day([data]), Int64.Type),",
                 "    #\"Nome do Dia Inserido\" = Table.AddColumn(#\"Dia Inserido\", \"Nome do Dia\", each Date.DayOfWeekName([data]), type text),",
-                "    #\"Colunas Renomeadas1\" = Table.RenameColumns(#\"Nome do Dia Inserido\",{{\"data\", \"calendario\"}, {\"Ano\", \"ano\"}, {\"Mês\", \"mes\"}, {\"Nome do Mês\", \"nome_mes\"}, {\"Dia\", \"dia\"}, {\"Nome do Dia\", \"nome_dia\"}}),",
+                "    #\"Semana do Mês Inserida\" = Table.AddColumn(#\"Nome do Dia Inserido\", \"Semana do Mês\", each Date.WeekOfMonth([data]), Int64.Type),",
+                "    #\"Colunas Renomeadas1\" = Table.RenameColumns(#\"Semana do Mês Inserida\",{{\"data\", \"calendario\"}, {\"Ano\", \"ano\"}, {\"Mês\", \"mes\"}, {\"Nome do Mês\", \"nome_mes\"}, {\"Dia\", \"dia\"}, {\"Nome do Dia\", \"nome_dia\"}, {\"Semana do Mês\", \"semana\"}}),",
                 "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Colunas Renomeadas1\",{{\"calendario\", type date}}),",
                 "    #\"Personalização Adicionada\" = Table.AddColumn(#\"Tipo Alterado\", \"periodos\", each if [calendario] >= #date(2023, 10,1) and [calendario] <= #date(2023,11,30) then \"Black 2023\"",
                 "else if [calendario] >= #date(2024, 10,1) and [calendario] <= #date(2024,11,30) then \"Black 2024\"",
