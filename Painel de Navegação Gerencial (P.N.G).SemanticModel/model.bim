@@ -868,27 +868,6 @@
                   }
                 ]
               },
-              "dzona.local_picking": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "dzona",
-                    "ConceptualProperty": "local_picking"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "Zona |": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
-                  }
-                ]
-              },
               "dzona.zona": {
                 "Definition": {
                   "Binding": {
@@ -901,6 +880,16 @@
                   {
                     "zona": {
                       "State": "Generated"
+                    }
+                  },
+                  {
+                    "Zona |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ]
@@ -3315,6 +3304,22 @@
                   }
                 ]
               },
+              "fbase_online_pesados_demanda.descrição": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fbase_online_pesados_abs_demanda",
+                    "ConceptualProperty": "Descrição"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "descrição": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
               "fbase_online_pesados_demanda.filial": {
                 "Definition": {
                   "Binding": {
@@ -3414,6 +3419,16 @@
                       "Type": "Noun",
                       "Weight": 0.714
                     }
+                  },
+                  {
+                    "SKU": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
                   }
                 ]
               },
@@ -3486,6 +3501,16 @@
                       "State": "Suggested",
                       "Type": "Noun",
                       "Weight": 0.492
+                    }
+                  },
+                  {
+                    "Local de Coleta": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ],
@@ -3745,6 +3770,132 @@
                   }
                 ]
               },
+              "fbase_online_pesados_demanda.status_oLPN": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fbase_online_pesados_abs_demanda",
+                    "ConceptualProperty": "Status oLPN"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "status oLPN": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "category olpn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "importance olpn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "prestige olpn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "prominence olpn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "condition olpn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "class olpn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "grade olpn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "level olpn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "position olpn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "rank olpn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "Status": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
               "fbase_online_pesados_demanda.tipo_expedicao": {
                 "Definition": {
                   "Binding": {
@@ -3965,16 +4116,6 @@
                       "Type": "Noun",
                       "Weight": 0.99
                     }
-                  },
-                  {
-                    "Ano |": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
                   }
                 ]
               },
@@ -4014,16 +4155,6 @@
                       "State": "Suggested",
                       "Weight": 0.9
                     }
-                  },
-                  {
-                    "Black 2024 |": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
                   }
                 ]
               },
@@ -4056,16 +4187,6 @@
                   },
                   {
                     "Black 23 |": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
-                    "Black 2023 |": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -4208,6 +4329,75 @@
                   }
                 ]
               },
+              "medida.boxs_pesados": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "boxs_pesados"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "boxs pesados": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "boxs_pesados": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.boxs_pesados_ead": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "boxs_pesados_ead"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "boxs pesados ead": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "boxs_pesados_ead": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.boxs_pesados_geal": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "boxs_pesados_geal"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "boxs pesados geal": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "boxs_pesados_geal": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
               "medida.cancelados_ead": {
                 "Definition": {
                   "Binding": {
@@ -4331,6 +4521,29 @@
                 "Visibility": {
                   "Value": "Hidden"
                 }
+              },
+              "medida.comp_valor_pesados": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "comp_valor_pesados"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "comp valor pesados": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "comp_valor_pesados": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
               },
               "medida.cross": {
                 "Definition": {
@@ -4461,6 +4674,222 @@
                   }
                 ]
               },
+              "medida.data_selecionada": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "data_selecionada"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "data selecionada": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "data_selecionada": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "information selecionada": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "fact selecionada": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "info selecionada": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "statistic selecionada": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "document selecionada": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "figure selecionada": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "record selecionada": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "medida.data_selecionada_qtd_pesados": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "data_selecionada_qtd_pesados"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "data selecionada qtd pesados": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "data_selecionada_qtd_pesados": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "information selecionada qtd pesado": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "fact selecionada qtd pesado": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "info selecionada qtd pesado": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "statistic selecionada qtd pesado": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "document selecionada qtd pesado": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "figure selecionada qtd pesado": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "record selecionada qtd pesado": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "Qtd Pçs |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Pçs": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Qtd Pçs": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
               "medida.day_over_day_abs": {
                 "Definition": {
                   "Binding": {
@@ -4499,16 +4928,6 @@
                       "State": "Generated",
                       "Weight": 0.97
                     }
-                  },
-                  {
-                    "Day-Over-Day |": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
                   }
                 ]
               },
@@ -4545,16 +4964,6 @@
                       "Type": "Noun",
                       "Weight": 0.582
                     }
-                  },
-                  {
-                    "% Day-Over-Day |": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
                   }
                 ]
               },
@@ -4577,16 +4986,6 @@
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
-                    }
-                  },
-                  {
-                    "Day-Over-Day |": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
                     }
                   }
                 ]
@@ -4624,15 +5023,64 @@
                       "Type": "Noun",
                       "Weight": 0.582
                     }
+                  }
+                ]
+              },
+              "medida.day_over_day_pesados_monetario": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "day_over_day_pesados_monetario"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "day over day pesados monetario": {
+                      "State": "Generated"
+                    }
                   },
                   {
-                    "% Day-Over-Day |": {
+                    "day_over_day_pesados_monetario": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.day_over_day_pesados_monetario1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "%day_over_day_pesados_monetario"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "%day_over_day_pesados_monetario": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage day_over_day_pesados_monetario": {
                       "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
+                        "Agent": "Thesaurus"
                       },
                       "State": "Suggested",
-                      "Weight": 0.9
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "pct day_over_day_pesados_monetario": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
                     }
                   }
                 ]
@@ -4657,16 +5105,6 @@
                       "Type": "Noun",
                       "Weight": 0.99
                     }
-                  },
-                  {
-                    "Qtd.Peças Movimentada |": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
                   }
                 ]
               },
@@ -4686,6 +5124,16 @@
                   },
                   {
                     "Mês |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Pçs Exp. EAD |": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -4739,6 +5187,16 @@
                       "State": "Suggested",
                       "Weight": 0.9
                     }
+                  },
+                  {
+                    "Pçs Exp. Entrega Cliente |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
                   }
                 ]
               },
@@ -4765,16 +5223,6 @@
                   },
                   {
                     "Mês |": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
-                  },
-                  {
-                    "Peças Expedidas |": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -4840,7 +5288,7 @@
                     }
                   },
                   {
-                    "Peças Expedidas |": {
+                    "Pçs Exp. |": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -4860,7 +5308,7 @@
                     }
                   },
                   {
-                    "Qtd Pçs |": {
+                    "Pçs em Movimento |": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -4891,9 +5339,65 @@
                       "Type": "Noun",
                       "Weight": 0.99
                     }
+                  }
+                ]
+              },
+              "medida.do_D_pesados": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "DoD_pesados"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "do D pesados": {
+                      "State": "Generated"
+                    }
                   },
                   {
-                    "Dia |": {
+                    "DoD_pesados": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Pçs Exp. Dia Passado |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.do_D_pesados_monetario": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "DoD_pesados_monetario"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "do D pesados monetario": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "DoD_pesados_monetario": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "R$ Valor Dia Passado |": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -4999,6 +5503,29 @@
                   }
                 ]
               },
+              "medida.format_fundov_2": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "format_fundov2"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "format fundov 2": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "format_fundov2": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
               "medida.hora": {
                 "Definition": {
                   "Binding": {
@@ -5034,16 +5561,6 @@
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
-                    }
-                  },
-                  {
-                    "Mês |": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
                     }
                   }
                 ]
@@ -5091,9 +5608,65 @@
                       "Type": "Noun",
                       "Weight": 0.99
                     }
+                  }
+                ]
+              },
+              "medida.mo_M": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "MoM_pesados"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mo M pesados": {
+                      "State": "Generated"
+                    }
                   },
                   {
-                    "Mês |": {
+                    "MoM_pesados": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Pçs Exp. Mês Passado |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.mo_M_pesados_monetario": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "MoM_pesados_monetario"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mo M pesados monetario": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "MoM_pesados_monetario": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "R$ Valor Mês Passado |": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -5182,16 +5755,6 @@
                       "Type": "Noun",
                       "Weight": 0.6
                     }
-                  },
-                  {
-                    "Month-Over-Month |": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
                   }
                 ]
               },
@@ -5227,16 +5790,6 @@
                       "State": "Suggested",
                       "Type": "Noun",
                       "Weight": 0.582
-                    }
-                  },
-                  {
-                    "% Month-Over-Month |": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
                     }
                   }
                 ]
@@ -5281,16 +5834,6 @@
                       "Type": "Noun",
                       "Weight": 0.617
                     }
-                  },
-                  {
-                    "Month-Over-Month": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
                   }
                 ]
               },
@@ -5327,15 +5870,84 @@
                       "Type": "Noun",
                       "Weight": 0.582
                     }
+                  }
+                ]
+              },
+              "medida.month_over_month_pesados_monetario": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "month_over_month_pesados_monetario"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month over month pesados monetario": {
+                      "State": "Generated"
+                    }
                   },
                   {
-                    "% Month-Over-Month": {
+                    "month_over_month_pesados_monetario": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "mth over month pesado monetario": {
                       "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
+                        "Agent": "Thesaurus"
                       },
                       "State": "Suggested",
-                      "Weight": 0.9
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "month over mth pesado monetario": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.624
+                    }
+                  }
+                ]
+              },
+              "medida.month_over_month_pesados_monetario1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "%month_over_month_pesados_monetario"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "%month_over_month_pesados_monetario": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage month_over_month_pesados_monetario": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "pct month_over_month_pesados_monetario": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
                     }
                   }
                 ]
@@ -5553,29 +6165,6 @@
                   }
                 ]
               },
-              "medida.teste_1": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "Medidas",
-                    "ConceptualProperty": "teste1"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "teste 1": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "teste1": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.99
-                    }
-                  }
-                ]
-              },
               "medida.texto_black_friday": {
                 "Definition": {
                   "Binding": {
@@ -5618,6 +6207,129 @@
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.titulo_valor_din": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "titulo_valor_din"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "titulo valor din": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "titulo_valor_din": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "titulo valor hubbub": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "titulo valor ruckus": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "titulo valor hullabaloo": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "titulo valor commotion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "titulo valor disturbance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "titulo valor pandemonium": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "titulo valor tumult": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "titulo valor rumpus": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "titulo valor noise": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "titulo valor racket": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
                     }
                   }
                 ]
@@ -5842,6 +6554,16 @@
                     }
                   },
                   {
+                    "% Box Util. |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
                     "% Ocup.": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
@@ -5945,6 +6667,138 @@
                   }
                 ]
               },
+              "medida.valor_monetario": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "valor_monetario"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "valor monetario": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "valor_monetario": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "R$ Valor Atual |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "R$ Valor |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.valor_pesados_hj": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "valor_pesados_hj"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "valor pesados hj": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "valor_pesados_hj": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.valor_pesados_ontem": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "valor_pesados_ontem"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "valor pesados ontem": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "valor_pesados_ontem": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.vol_pesados": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "vol_pesados"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "vol pesados": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "vol_pesados": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Vol. M³ |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Vol. M³": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
               "medida.year_over_year_abs": {
                 "Definition": {
                   "Binding": {
@@ -6023,16 +6877,6 @@
                       "Type": "Noun",
                       "Weight": 0.6
                     }
-                  },
-                  {
-                    "Year-over-Year |": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
                   }
                 ]
               },
@@ -6068,16 +6912,6 @@
                       "State": "Suggested",
                       "Type": "Noun",
                       "Weight": 0.582
-                    }
-                  },
-                  {
-                    "% Year-over-Year |": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
                     }
                   }
                 ]
@@ -6122,16 +6956,6 @@
                       "Type": "Noun",
                       "Weight": 0.617
                     }
-                  },
-                  {
-                    "Year-Over-Year |": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
                   }
                 ]
               },
@@ -6168,9 +6992,111 @@
                       "Type": "Noun",
                       "Weight": 0.582
                     }
+                  }
+                ]
+              },
+              "medida.year_over_year_pesados_monetario": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "year_over_year_pesados_monetario"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "year over year pesados monetario": {
+                      "State": "Generated"
+                    }
                   },
                   {
-                    "% Year-Over-Year |": {
+                    "year_over_year_pesados_monetario": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "yr over year pesado monetario": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "year over yr pesado monetario": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.624
+                    }
+                  }
+                ]
+              },
+              "medida.year_over_year_pesados_monetario1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "%year_over_year_pesados_monetario"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "%year_over_year_pesados_monetario": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage year_over_year_pesados_monetario": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "pct year_over_year_pesados_monetario": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "medida.yo_Y_pesados": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "YoY_pesados"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "yo Y pesados": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "YoY_pesados": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Pçs Exp. Ano Passado |": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -6181,17 +7107,29 @@
                   }
                 ]
               },
-              "medidas.valor_monetario": {
+              "medida.yo_Y_pesados_monetario": {
                 "Definition": {
                   "Binding": {
                     "ConceptualEntity": "Medidas",
-                    "ConceptualProperty": "valor_monetario"
+                    "ConceptualProperty": "YoY_pesados_monetario"
                   }
                 },
                 "State": "Generated",
                 "Terms": [
                   {
-                    "R$ |": {
+                    "yo Y pesados monetario": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "YoY_pesados_monetario": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "R$ Valor Ano Passado |": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -6299,39 +7237,6 @@
                   "dbox.desc_1": {
                     "Target": {
                       "Entity": "dbox.desc_1"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "dbox_has_medida_v__box_box": {
-                "Binding": {
-                  "ConceptualEntity": "dbox"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "medida.v__box_box"
-                      },
-                      "Subject": {
-                        "Role": "dbox"
-                      }
-                    },
-                    "ID": "dboxes_have__box",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "dbox": {
-                    "Target": {
-                      "Entity": "dbox"
-                    }
-                  },
-                  "medida.v__box_box": {
-                    "Target": {
-                      "Entity": "medida.v__box_box"
                     }
                   }
                 },
@@ -9374,6 +10279,39 @@
                 },
                 "State": "Generated"
               },
+              "fbase_online_pesados_demanda_has_descrição": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fbase_online_pesados_demanda.descrição"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_descriçãos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "fbase_online_pesados_demanda.descrição": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda.descrição"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "fbase_online_pesados_demanda_has_dzona": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_demanda"
@@ -9638,6 +10576,105 @@
                 },
                 "State": "Generated"
               },
+              "fbase_online_pesados_demanda_has_medida_boxs_pesados": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.boxs_pesados"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_boxs_pesados",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.boxs_pesados": {
+                    "Target": {
+                      "Entity": "medida.boxs_pesados"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_boxs_pesados_ead": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.boxs_pesados_ead"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_boxs_pesados_ead",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.boxs_pesados_ead": {
+                    "Target": {
+                      "Entity": "medida.boxs_pesados_ead"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_boxs_pesados_geal": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.boxs_pesados_geal"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_boxs_pesados_geal",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.boxs_pesados_geal": {
+                    "Target": {
+                      "Entity": "medida.boxs_pesados_geal"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "fbase_online_pesados_demanda_has_medida_day_over_day_pesados": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_demanda"
@@ -9666,6 +10703,39 @@
                   "medida.day_over_day_pesados": {
                     "Target": {
                       "Entity": "medida.day_over_day_pesados"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_day_over_day_pesados_monetario": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.day_over_day_pesados_monetario"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_day_over_day_pesados_monetario",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.day_over_day_pesados_monetario": {
+                    "Target": {
+                      "Entity": "medida.day_over_day_pesados_monetario"
                     }
                   }
                 },
@@ -9935,6 +11005,39 @@
                 },
                 "State": "Generated"
               },
+              "fbase_online_pesados_demanda_has_medida_month_over_month_pesados_monetario": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.month_over_month_pesados_monetario"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_month_over_month_pesados_monetario",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.month_over_month_pesados_monetario": {
+                    "Target": {
+                      "Entity": "medida.month_over_month_pesados_monetario"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "fbase_online_pesados_demanda_has_medida_teste": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_demanda"
@@ -9963,72 +11066,6 @@
                   "medida.teste": {
                     "Target": {
                       "Entity": "medida.teste"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_demanda_has_medida_teste_1": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "medida.teste_1"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_demanda"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demandas_have_teste_1",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_demanda": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_demanda"
-                    }
-                  },
-                  "medida.teste_1": {
-                    "Target": {
-                      "Entity": "medida.teste_1"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_demanda_has_medida_v__box_box": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "medida.v__box_box"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_demanda"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demandas_have__box",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_demanda": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_demanda"
-                    }
-                  },
-                  "medida.v__box_box": {
-                    "Target": {
-                      "Entity": "medida.v__box_box"
                     }
                   }
                 },
@@ -10067,6 +11104,138 @@
                 },
                 "State": "Generated"
               },
+              "fbase_online_pesados_demanda_has_medida_valor_monetario": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.valor_monetario"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_valor_monetario",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.valor_monetario": {
+                    "Target": {
+                      "Entity": "medida.valor_monetario"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_valor_pesados_hj": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.valor_pesados_hj"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_valor_pesados_hj",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.valor_pesados_hj": {
+                    "Target": {
+                      "Entity": "medida.valor_pesados_hj"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_valor_pesados_ontem": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.valor_pesados_ontem"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_valor_pesados_ontem",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.valor_pesados_ontem": {
+                    "Target": {
+                      "Entity": "medida.valor_pesados_ontem"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_vol_pesados": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.vol_pesados"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_vol_pesados",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.vol_pesados": {
+                    "Target": {
+                      "Entity": "medida.vol_pesados"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "fbase_online_pesados_demanda_has_medida_year_over_year_pesados": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_demanda"
@@ -10095,6 +11264,39 @@
                   "medida.year_over_year_pesados": {
                     "Target": {
                       "Entity": "medida.year_over_year_pesados"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_year_over_year_pesados_monetario": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.year_over_year_pesados_monetario"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_year_over_year_pesados_monetario",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.year_over_year_pesados_monetario": {
+                    "Target": {
+                      "Entity": "medida.year_over_year_pesados_monetario"
                     }
                   }
                 },
@@ -10298,6 +11500,39 @@
                 },
                 "State": "Generated"
               },
+              "fbase_online_pesados_demanda_has_status_oLPN": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fbase_online_pesados_demanda.status_oLPN"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_status_oLPNs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "fbase_online_pesados_demanda.status_oLPN": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda.status_oLPN"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "fbase_online_pesados_demanda_has_tipo_expedicao": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_demanda"
@@ -10414,6 +11649,33 @@
                     "ID": "fbase_online_pesados_abs_demandas_have_valor_monetarios",
                     "State": "Generated",
                     "Weight": 0.99
+                  },
+                  {
+                    "Adjective": {
+                      "Adjectives": [
+                        {
+                          "expensive": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Antonyms": [
+                        {
+                          "cheap": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Measurement": {
+                        "Role": "fbase_online_pesados_demanda.valor_monetario"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "valor_monetario_indicates_how_expensive_fbase_online_pesados_abs_demandas_are",
+                    "State": "Generated",
+                    "Weight": 0.99
                   }
                 ],
                 "Roles": {
@@ -10496,6 +11758,39 @@
                 },
                 "State": "Generated"
               },
+              "medida_has_comp_valor_pesados": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.comp_valor_pesados"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_comp_valor_pesados",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.comp_valor_pesados": {
+                    "Target": {
+                      "Entity": "medida.comp_valor_pesados"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "medida_has_current_times": {
                 "Binding": {
                   "ConceptualEntity": "Medidas"
@@ -10524,6 +11819,72 @@
                   "medida.current_times": {
                     "Target": {
                       "Entity": "medida.current_times"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_data_selecionada": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.data_selecionada"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_data_selecionada",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.data_selecionada": {
+                    "Target": {
+                      "Entity": "medida.data_selecionada"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_data_selecionada_qtd_pesados": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.data_selecionada_qtd_pesados"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_data_selecionada_qtd_pesados",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.data_selecionada_qtd_pesados": {
+                    "Target": {
+                      "Entity": "medida.data_selecionada_qtd_pesados"
                     }
                   }
                 },
@@ -10595,6 +11956,39 @@
                 },
                 "State": "Generated"
               },
+              "medida_has_day_over_day_pesados_monetario1": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.day_over_day_pesados_monetario1"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_day_over_day_pesados_monetario",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.day_over_day_pesados_monetario1": {
+                    "Target": {
+                      "Entity": "medida.day_over_day_pesados_monetario1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "medida_has_dia_tratado": {
                 "Binding": {
                   "ConceptualEntity": "Medidas"
@@ -10628,6 +12022,72 @@
                 },
                 "State": "Generated"
               },
+              "medida_has_do_D_pesados": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.do_D_pesados"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_do_D_pesados",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.do_D_pesados": {
+                    "Target": {
+                      "Entity": "medida.do_D_pesados"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_do_D_pesados_monetario": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.do_D_pesados_monetario"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_do_D_pesados_monetario",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.do_D_pesados_monetario": {
+                    "Target": {
+                      "Entity": "medida.do_D_pesados_monetario"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "medida_has_format_fundo": {
                 "Binding": {
                   "ConceptualEntity": "Medidas"
@@ -10656,6 +12116,39 @@
                   "medida.format_fundo": {
                     "Target": {
                       "Entity": "medida.format_fundo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_format_fundov_2": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.format_fundov_2"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_format_fundov_2",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.format_fundov_2": {
+                    "Target": {
+                      "Entity": "medida.format_fundov_2"
                     }
                   }
                 },
@@ -10793,6 +12286,72 @@
                 },
                 "State": "Generated"
               },
+              "medida_has_mo_M": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.mo_M"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_mo_M_pesados",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.mo_M": {
+                    "Target": {
+                      "Entity": "medida.mo_M"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_mo_M_pesados_monetario": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.mo_M_pesados_monetario"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_mo_M_pesados_monetario",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.mo_M_pesados_monetario": {
+                    "Target": {
+                      "Entity": "medida.mo_M_pesados_monetario"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "medida_has_month_over_month_abs1": {
                 "Binding": {
                   "ConceptualEntity": "Medidas"
@@ -10854,6 +12413,39 @@
                   "medida.month_over_month_pesados1": {
                     "Target": {
                       "Entity": "medida.month_over_month_pesados1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_month_over_month_pesados_monetario1": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.month_over_month_pesados_monetario1"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_month_over_month_pesados_monetario",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.month_over_month_pesados_monetario1": {
+                    "Target": {
+                      "Entity": "medida.month_over_month_pesados_monetario1"
                     }
                   }
                 },
@@ -11057,6 +12649,39 @@
                 },
                 "State": "Generated"
               },
+              "medida_has_titulo_valor_din": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.titulo_valor_din"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_titulo_valor_din",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.titulo_valor_din": {
+                    "Target": {
+                      "Entity": "medida.titulo_valor_din"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "medida_has_username": {
                 "Binding": {
                   "ConceptualEntity": "Medidas"
@@ -11118,6 +12743,39 @@
                   "medida.username_2": {
                     "Target": {
                       "Entity": "medida.username_2"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_v__box_box": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.v__box_box"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have__box",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.v__box_box": {
+                    "Target": {
+                      "Entity": "medida.v__box_box"
                     }
                   }
                 },
@@ -11217,6 +12875,105 @@
                   "medida.year_over_year_pesados1": {
                     "Target": {
                       "Entity": "medida.year_over_year_pesados1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_year_over_year_pesados_monetario1": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.year_over_year_pesados_monetario1"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_year_over_year_pesados_monetario",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.year_over_year_pesados_monetario1": {
+                    "Target": {
+                      "Entity": "medida.year_over_year_pesados_monetario1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_yo_Y_pesados": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.yo_Y_pesados"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_yo_Y_pesados",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.yo_Y_pesados": {
+                    "Target": {
+                      "Entity": "medida.yo_Y_pesados"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_yo_Y_pesados_monetario": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.yo_Y_pesados_monetario"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_yo_Y_pesados_monetario",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.yo_Y_pesados_monetario": {
+                    "Target": {
+                      "Entity": "medida.yo_Y_pesados_monetario"
                     }
                   }
                 },
@@ -11521,11 +13278,11 @@
         ],
         "expression": [
           "let",
-          "    Fonte = (Parâmetro3) => let",
-          "        Fonte = Csv.Document(Parâmetro3,[Delimiter=\"\t\", Columns=31, Encoding=1200, QuoteStyle=QuoteStyle.None]),",
-          "        #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true])",
-          "    in",
-          "        #\"Cabeçalhos Promovidos\"",
+          "    Fonte = (Parâmetro3 as binary) => let",
+          "    Fonte = Csv.Document(Parâmetro3,[Delimiter=\"\t\", Columns=31, Encoding=1200, QuoteStyle=QuoteStyle.None]),",
+          "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true])",
+          "in",
+          "    #\"Cabeçalhos Promovidos\"",
           "in",
           "    Fonte"
         ],
@@ -12330,6 +14087,7 @@
           },
           {
             "name": "demanda_pesados",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "CALCULATE(",
@@ -12340,13 +14098,8 @@
             "lineageTag": "c978aa95-ad1a-4b3d-b8d4-50fdb21a53ad"
           },
           {
-            "name": "teste1",
-            "expression": "[demanda_ead]/([demanda_ead]+[demanda_entrega_cliente])",
-            "formatString": "0.00%;-0.00%;0.00%",
-            "lineageTag": "0f99b2fa-ae9d-454b-9c25-1afef4ac135a"
-          },
-          {
             "name": "%_cap_pesados",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -12362,6 +14115,7 @@
           },
           {
             "name": "%_dia_x_semana",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -12379,6 +14133,7 @@
           },
           {
             "name": "TextoFormatado",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "IF(",
@@ -12392,6 +14147,7 @@
           },
           {
             "name": "format_fundo",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -12408,6 +14164,7 @@
                 "value": "{\"isGeneralNumber\":true}"
               }
             ],
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -12422,6 +14179,7 @@
           },
           {
             "name": "month_over_month_pesados",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "CALCULATE(",
@@ -12433,6 +14191,7 @@
           },
           {
             "name": "year_over_year_pesados",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "CALCULATE(",
@@ -12444,6 +14203,7 @@
           },
           {
             "name": "day_over_day_pesados",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "CALCULATE(",
@@ -12455,6 +14215,7 @@
           },
           {
             "name": "%day_over_day_pesados",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -12467,6 +14228,7 @@
           },
           {
             "name": "%month_over_month_pesados",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -12479,6 +14241,7 @@
           },
           {
             "name": "%year_over_year_pesados",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -12491,13 +14254,389 @@
           },
           {
             "name": "%_box",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
-              "SUM(fbase_online_pesados_abs_demanda[Volume])/SUM(dbox[cubage_m3])"
+              "[vol_pesados]",
+              "/SELECTEDVALUE(dbox[cubage_m3])"
             ],
             "formatString": "0.00%;-0.00%;0.00%",
             "lineageTag": "d1e48b84-8bd4-4a90-8b33-5ea6d6f4c871"
+          },
+          {
+            "name": "data_selecionada",
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "",
+              "VAR dia = ",
+              "",
+              "IF(",
+              "    NOT(ISFILTERED(dcalendario[dia])),",
+              "    \"\",",
+              "    SELECTEDVALUE(dcalendario[dia]))",
+              "",
+              "VAR mes = ",
+              "",
+              "IF(",
+              "    NOT(ISFILTERED(dcalendario[nome_mes])),",
+              "    \"\",",
+              "    SELECTEDVALUE(dcalendario[nome_mes]))",
+              "",
+              "VAR ano = ",
+              "",
+              "IF(",
+              "    NOT(ISFILTERED(dcalendario[ano])),",
+              "    \"\",",
+              "    SELECTEDVALUE(dcalendario[ano]))",
+              "",
+              "RETURN",
+              "IF(",
+              "    NOT(ISFILTERED(dcalendario)),",
+              "    \"Considerando o período completo\",",
+              "dia&\" \"&mes&\" \"&ano)"
+            ],
+            "lineageTag": "2b7d384b-b816-4c11-8f89-5c07a6d5e278"
+          },
+          {
+            "name": "data_selecionada_qtd_pesados",
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "",
+              "IF(",
+              "    SELECTEDVALUE(dcalendario[calendario]) = TODAY(),",
+              "    CALCULATE(",
+              "        [demanda_pesados],",
+              "        fbase_online_pesados_abs_demanda[Status oLPN] <> \"Shipped\" ),",
+              "        [demanda_pesados])"
+            ],
+            "formatString": "0",
+            "lineageTag": "bdc17fa9-5a5d-4df6-bf71-3d3737796c61"
+          },
+          {
+            "name": "format_fundov2",
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "",
+              "IF([%_box] > 1,  \"#EE7F7F\", \"\"",
+              ") "
+            ],
+            "lineageTag": "c2b22210-28f1-4a11-aabe-81411782e292"
+          },
+          {
+            "name": "vol_pesados",
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "",
+              "CALCULATE(",
+              "    SUM(fbase_online_pesados_abs_demanda[Volume]),",
+              "        fbase_online_pesados_abs_demanda[sep_setor] = \"Entrega a Clientes\" || fbase_online_pesados_abs_demanda[sep_setor] = \"EAD\") "
+            ],
+            "formatString": "0.00",
+            "lineageTag": "16a7ba53-1e63-43f8-bf7c-28598c62f877"
+          },
+          {
+            "name": "valor_monetario",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"es-BR\"}"
+              }
+            ],
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "",
+              "CALCULATE(",
+              "    SUM(fbase_online_pesados_abs_demanda[valor_monetario]),",
+              "    fbase_online_pesados_abs_demanda[sep_setor] = \"Entrega a Clientes\" || fbase_online_pesados_abs_demanda[sep_setor] = \"EAD\")"
+            ],
+            "formatString": "\"R$\"#,0.00;-\"R$\"#,0.00;\"R$\"#,0.00",
+            "lineageTag": "bb1421ac-4621-4be4-9c37-0c9fed9e8caa"
+          },
+          {
+            "name": "valor_pesados_hj",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"es-BR\"}"
+              }
+            ],
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "",
+              "CALCULATE(",
+              "    [valor_monetario],",
+              "    DATEADD(dcalendario[calendario], 0, DAY),",
+              "    fbase_online_pesados_abs_demanda[Status oLPN] <> \"Shipped\")",
+              ""
+            ],
+            "formatString": "\"R$\"#,0.00;-\"R$\"#,0.00;\"R$\"#,0.00",
+            "lineageTag": "b474d135-b7d5-4346-9522-e43bb812d0a0"
+          },
+          {
+            "name": "valor_pesados_ontem",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"es-BR\"}"
+              }
+            ],
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "",
+              "CALCULATE(",
+              "    [valor_monetario],",
+              "    DATEADD(dcalendario[calendario], -1, DAY))"
+            ],
+            "formatString": "\"R$\"#,0.00;-\"R$\"#,0.00;\"R$\"#,0.00",
+            "lineageTag": "56e27e22-834f-426b-8877-a03c827dca8f"
+          },
+          {
+            "name": "comp_valor_pesados",
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "",
+              "VAR A = ",
+              "IF([valor_pesados_hj]>[valor_pesados_ontem],",
+              "\"⬆️\",\"⬇️\")",
+              "",
+              "VAR B = ",
+              "[valor_pesados_hj]/[valor_pesados_ontem]",
+              "",
+              "RETURN",
+              "FORMAT(B,\"0.00%\")&\" \"&A"
+            ],
+            "lineageTag": "85ee28b4-0a29-45ef-9b5a-a9cc3655140c"
+          },
+          {
+            "name": "titulo_valor_din",
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "",
+              "IF([valor_pesados_hj]>[valor_pesados_ontem],\"Superior⬆️\",\"Inferior⬇️\")",
+              ""
+            ],
+            "lineageTag": "b643dcbc-b765-4382-ba0a-160f84b34584"
+          },
+          {
+            "name": "MoM_pesados",
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "[month_over_month_pesados]&\" | \"&[%month_over_month_pesados]"
+            ],
+            "lineageTag": "e44f2607-cef7-4b46-ae29-77c3e4c2d80e"
+          },
+          {
+            "name": "YoY_pesados",
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "",
+              "[year_over_year_pesados]&\" | \"&[%year_over_year_pesados]"
+            ],
+            "lineageTag": "a35f436f-f539-45ab-85bd-54a6708a7203"
+          },
+          {
+            "name": "DoD_pesados",
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "",
+              "[day_over_day_pesados]&\" | \"&[%day_over_day_pesados]"
+            ],
+            "lineageTag": "312d31d6-61a1-485b-a087-18cd09045438"
+          },
+          {
+            "name": "day_over_day_pesados_monetario",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"es-BR\"}"
+              }
+            ],
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    [valor_monetario],",
+              "    DATEADD(dcalendario[calendario], -1, DAY))"
+            ],
+            "formatString": "\"R$\"#,0.00;-\"R$\"#,0.00;\"R$\"#,0.00",
+            "lineageTag": "ddd9c8c2-8e90-475f-84b2-f1c9ecfb6f82"
+          },
+          {
+            "name": "%day_over_day_pesados_monetario",
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "",
+              "IF(",
+              "    [valor_monetario]>[day_over_day_pesados_monetario],",
+              "    FORMAT(1 - DIVIDE([day_over_day_pesados_monetario],[valor_monetario]),\"0.00%\")&\" ⬆️\",",
+              "    FORMAT(DIVIDE([day_over_day_pesados_monetario],[valor_monetario]) - 1,\"0.00%\")&\" ⬇️\")"
+            ],
+            "lineageTag": "6e54d71e-fc2d-44e3-b8b6-7ea932060720"
+          },
+          {
+            "name": "DoD_pesados_monetario",
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "",
+              "FORMAT([day_over_day_pesados_monetario], \"R$ #,##0.00\") &\" | \"&[%day_over_day_pesados_monetario]"
+            ],
+            "lineageTag": "d6a1dc3a-3915-454d-8713-e5cb460b0366"
+          },
+          {
+            "name": "month_over_month_pesados_monetario",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    [valor_monetario],",
+              "    DATEADD(dcalendario[calendario], -1, MONTH))"
+            ],
+            "lineageTag": "9450549c-c6a5-4fea-9f62-68f48183a47c"
+          },
+          {
+            "name": "%month_over_month_pesados_monetario",
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "",
+              "IF(",
+              "    [valor_monetario]>[month_over_month_pesados_monetario],",
+              "    FORMAT(1 - DIVIDE([month_over_month_pesados_monetario],[valor_monetario]),\"0.00%\")&\" ⬆️\",",
+              "    FORMAT(DIVIDE([month_over_month_pesados_monetario],[valor_monetario]) - 1,\"0.00%\")&\" ⬇️\")"
+            ],
+            "lineageTag": "1eb62188-8663-4cc5-847e-280bb78d5eb2"
+          },
+          {
+            "name": "MoM_pesados_monetario",
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "",
+              "FORMAT([month_over_month_pesados_monetario], \"R$ #,##0.00\") &\" | \"&[%month_over_month_pesados_monetario]"
+            ],
+            "lineageTag": "0f6e3984-a9ca-4759-9d1d-eb93b22d4fc5"
+          },
+          {
+            "name": "year_over_year_pesados_monetario",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    [valor_monetario],",
+              "    DATEADD(dcalendario[calendario], -1, YEAR))"
+            ],
+            "lineageTag": "7c2b64f2-c52d-40e2-a440-9a994cdd6f04"
+          },
+          {
+            "name": "%year_over_year_pesados_monetario",
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "",
+              "IF(",
+              "    [valor_monetario]>[year_over_year_pesados_monetario],",
+              "    FORMAT(1 - DIVIDE([year_over_year_pesados_monetario],[valor_monetario]),\"0.00%\")&\" ⬆️\",",
+              "    FORMAT(DIVIDE([year_over_year_pesados_monetario],[valor_monetario]) - 1,\"0.00%\")&\" ⬇️\")"
+            ],
+            "lineageTag": "be251f68-8d5c-4631-b013-d94028fe6b64"
+          },
+          {
+            "name": "YoY_pesados_monetario",
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "",
+              "FORMAT([year_over_year_pesados_monetario], \"R$ #,##0.00\") &\" | \"&[%year_over_year_pesados_monetario]"
+            ],
+            "lineageTag": "0e7b5060-53a9-4244-8995-cba7c7892b36"
+          },
+          {
+            "name": "boxs_pesados",
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "",
+              "VAR A = ",
+              "CALCULATE(",
+              "DISTINCTCOUNT(fbase_online_pesados_abs_demanda[box]),",
+              "fbase_online_pesados_abs_demanda[sep_setor] = \"Entrega a Clientes\")",
+              "",
+              "VAR B = ",
+              "CALCULATE(",
+              "   SUM(fbase_online_pesados_abs_demanda[Volume]),",
+              "    fbase_online_pesados_abs_demanda[sep_setor] = \"Entrega a Clientes\")",
+              "RETURN",
+              "\"Box: \"&A&\" | \"&FORMAT(B,\"0.00\")&\" M³\"",
+              ""
+            ],
+            "lineageTag": "c9059389-66fd-4025-945b-c48bbbb760b7"
+          },
+          {
+            "name": "boxs_pesados_ead",
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "",
+              "VAR A = ",
+              "CALCULATE(",
+              "DISTINCTCOUNT(fbase_online_pesados_abs_demanda[box]),",
+              "fbase_online_pesados_abs_demanda[sep_setor] = \"EAD\")",
+              "",
+              "VAR B = ",
+              "CALCULATE(",
+              "    SUM(fbase_online_pesados_abs_demanda[Volume]),",
+              "    fbase_online_pesados_abs_demanda[sep_setor] = \"EAD\")",
+              "RETURN",
+              "\"Box: \"&A&\" | \"&FORMAT(B,\"0.00\")&\" M³\""
+            ],
+            "lineageTag": "0600e5dc-b2b6-4c9f-853b-6a4a3f1651b0"
+          },
+          {
+            "name": "boxs_pesados_geal",
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "",
+              "VAR A = ",
+              "CALCULATE(",
+              "DISTINCTCOUNT(fbase_online_pesados_abs_demanda[box]),",
+              "fbase_online_pesados_abs_demanda[sep_setor] = \"EAD\" || fbase_online_pesados_abs_demanda[sep_setor] = \"Entrega a Clientes\")",
+              "",
+              "VAR B = ",
+              "CALCULATE(",
+              "    [vol_pesados],",
+              "    fbase_online_pesados_abs_demanda[sep_setor] = \"EAD\" || fbase_online_pesados_abs_demanda[sep_setor] = \"Entrega a Clientes\")",
+              "RETURN",
+              "\"Box: \"&A&\" | \"&FORMAT(B,\"0.00\")&\" M³\" "
+            ],
+            "lineageTag": "da2d0ba0-f131-4b2c-961d-1d28a81b245a"
           }
         ],
         "partitions": [
@@ -12740,10 +14879,11 @@
               },
               {
                 "name": "PBI_FormatHint",
-                "value": "{\"isGeneralNumber\":true}"
+                "value": "{\"currencyCulture\":\"es-BR\"}"
               }
             ],
             "dataType": "double",
+            "formatString": "\"R$\"#,0.00;-\"R$\"#,0.00;\"R$\"#,0.00",
             "lineageTag": "91a2de51-2cf2-4bef-9f01-36e17e62f4eb",
             "sourceColumn": "valor_monetario",
             "summarizeBy": "sum"
@@ -12791,6 +14931,32 @@
             "lineageTag": "7992f415-e350-4b7d-9b1b-1a910e2372e1",
             "sourceColumn": "Volume",
             "summarizeBy": "sum"
+          },
+          {
+            "name": "Status oLPN",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b67f7a71-cc6e-4ced-bad9-16f25a3cde0e",
+            "sourceColumn": "Status oLPN",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Descrição",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1b7f30ef-60bf-46be-8b89-d2c11d8a412a",
+            "sourceColumn": "Descrição",
+            "summarizeBy": "none"
           }
         ],
         "lineageTag": "86f80c0f-1098-475d-857e-3f299ac54dc7",
@@ -12817,7 +14983,7 @@
                 "    #\"Colunas Removidas\" = Table.RemoveColumns(#\"Tipo Alterado\",{\"Nome da Origem\", \"Data do Pedido\"}),",
                 "    #\"Dividir Coluna por Delimitador\" = Table.SplitColumn(#\"Colunas Removidas\", \"Tipo de pedido\", Splitter.SplitTextByDelimiter(\" \", QuoteStyle.Csv), {\"Tipo de pedido.1\", \"Tipo de pedido.2\", \"Tipo de pedido.3\", \"Tipo de pedido.4\", \"Tipo de pedido.5\", \"Tipo de pedido.6\"}),",
                 "    #\"Tipo Alterado1\" = Table.TransformColumnTypes(#\"Dividir Coluna por Delimitador\",{{\"Tipo de pedido.1\", type text}, {\"Tipo de pedido.2\", type text}, {\"Tipo de pedido.3\", type text}, {\"Tipo de pedido.4\", type text}, {\"Tipo de pedido.5\", type text}, {\"Tipo de pedido.6\", type text}}),",
-                "    #\"Colunas Removidas1\" = Table.RemoveColumns(#\"Tipo Alterado1\",{\"Tipo de pedido.2\", \"Tipo de pedido.3\", \"Tipo de pedido.4\", \"Tipo de pedido.5\", \"Tipo de pedido.6\", \"Wave\", \"Shipment\", \"Filial Destino\", \"Status Pedido\", \"Pedido de Venda\", \"oLPN\", \"TOTE\", \"Tarefa\", \"Tarefa Status\", \"Grupo de Tarefa\", \"Descrição\", \"Status oLPN\", \"Numero da Gaiola\", \"Marcação de EAD\", \"Data Prevista Entrega\", \"Inventory Type ID\", \"Cod Setor Item\", \"Audit Status\"}),",
+                "    #\"Colunas Removidas1\" = Table.RemoveColumns(#\"Tipo Alterado1\",{\"Tipo de pedido.2\", \"Tipo de pedido.3\", \"Tipo de pedido.4\", \"Tipo de pedido.5\", \"Tipo de pedido.6\", \"Wave\", \"Shipment\", \"Filial Destino\", \"Status Pedido\", \"Pedido de Venda\", \"oLPN\", \"TOTE\", \"Tarefa\", \"Tarefa Status\", \"Grupo de Tarefa\", \"Numero da Gaiola\", \"Marcação de EAD\", \"Data Prevista Entrega\", \"Inventory Type ID\", \"Cod Setor Item\", \"Audit Status\"}),",
                 "    #\"Tipo Alterado2\" = Table.TransformColumnTypes(#\"Colunas Removidas1\",{{\"Data locação pedido\", type date}, {\"Último Update oLPN\", type date}, {\"Data Limite Expedição\", type date}}),",
                 "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Tipo Alterado2\",{{\"Filial\", \"filial\"}, {\"Tipo de pedido.1\", \"tipo_pedido\"}, {\"Último Update oLPN\", \"data\"}, {\"Qtde. Peças Item\", \"qtd_pecas\"}, {\"Desc Setor Item\", \"setor\"}, {\"BOX\", \"box\"}, {\"Local de Picking\", \"local_de_picking\"}, {\"Data locação pedido\", \"data_locacao\"}, {\"Data Limite Expedição\", \"data_limite\"}}),",
                 "    sep_setor = Table.AddColumn(#\"Colunas Renomeadas\", \"sep_setor\", each if [tipo_pedido] = \"S01\" or [tipo_pedido] = \"S04\" or [tipo_pedido] = \"S02\" then \"Entrega a Clientes\" ",
@@ -13316,7 +15482,7 @@
         "annotations": [
           {
             "name": "PBI_ResultType",
-            "value": "Exception"
+            "value": "Table"
           },
           {
             "name": "PBI_NavigationStepName",
