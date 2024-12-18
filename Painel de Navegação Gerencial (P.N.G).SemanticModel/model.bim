@@ -209,6 +209,16 @@
                       "Type": "Noun",
                       "Weight": 0.609
                     }
+                  },
+                  {
+                    "Tipo Exp | Hora": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
                   }
                 ]
               },
@@ -250,6 +260,26 @@
                   {
                     "setor": {
                       "State": "Generated"
+                    }
+                  },
+                  {
+                    "Setor | Tipo | Porta | Box": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Setor | Tipo Exp": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ]
@@ -3304,6 +3334,22 @@
                   }
                 ]
               },
+              "fbase_online_pesados_demanda.dbox_porta": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fbase_online_pesados_abs_demanda",
+                    "ConceptualProperty": "dbox.porta"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dbox.porta": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
               "fbase_online_pesados_demanda.descrição": {
                 "Definition": {
                   "Binding": {
@@ -3332,6 +3378,29 @@
                   {
                     "filial": {
                       "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "fbase_online_pesados_demanda.hora": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fbase_online_pesados_abs_demanda",
+                    "ConceptualProperty": "hora"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "hora": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "time": {
+                      "State": "Generated",
+                      "Weight": 0.7
                     }
                   }
                 ]
@@ -4091,7 +4160,31 @@
                 "Terms": [
                   {
                     "medida": {
+                      "State": "Generated",
+                      "Weight": 0.87
+                    }
+                  }
+                ]
+              },
+              "medida.EAD_fixo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "EAD_fixo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "EAD fixo": {
                       "State": "Generated"
+                    }
+                  },
+                  {
+                    "EAD_fixo": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
                     }
                   }
                 ]
@@ -4339,12 +4432,12 @@
                 "State": "Generated",
                 "Terms": [
                   {
-                    "boxs pesados": {
+                    "boxs pesados entrega cliente": {
                       "State": "Generated"
                     }
                   },
                   {
-                    "boxs_pesados": {
+                    "boxs_pesados_entrega_cliente": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
@@ -4375,6 +4468,29 @@
                   }
                 ]
               },
+              "medida.boxs_pesados_fracionado": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "boxs_pesados_fracionado"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "boxs pesados fracionado": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "boxs_pesados_fracionado": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
               "medida.boxs_pesados_geal": {
                 "Definition": {
                   "Binding": {
@@ -4391,6 +4507,52 @@
                   },
                   {
                     "boxs_pesados_geal": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.boxs_pesados_pp": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "boxs_pesados_pp"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "boxs pesados pp": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "boxs_pesados_pp": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.boxs_pesados_ribeirao": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "boxs_pesados_ribeirao"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "boxs pesados ribeirao": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "boxs_pesados_ribeirao": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
@@ -5526,6 +5688,22 @@
                   }
                 ]
               },
+              "medida.fracionado": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "fracionado"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fracionado": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
               "medida.hora": {
                 "Definition": {
                   "Binding": {
@@ -5537,6 +5715,22 @@
                 "Terms": [
                   {
                     "hora": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medida.medida": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Medida"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "medida": {
                       "State": "Generated"
                     }
                   }
@@ -5952,6 +6146,52 @@
                   }
                 ]
               },
+              "medida.pesados_ead_fixo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "pesados_ead_fixo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "pesados ead fixo": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "pesados_ead_fixo": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.pesados_fixo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "pesados_fixo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "pesados fixo": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "pesados_fixo": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
               "medida.pi_entrega_cliente_tratado": {
                 "Definition": {
                   "Binding": {
@@ -6083,6 +6323,29 @@
                   }
                 ]
               },
+              "medida.porta_porta_fixo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "porta_porta_fixo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "porta porta fixo": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "porta_porta_fixo": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
               "medida.rejeitados_abastecimento": {
                 "Definition": {
                   "Binding": {
@@ -6112,6 +6375,29 @@
                       },
                       "State": "Suggested",
                       "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.ribeirao_fixo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "ribeirao_fixo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ribeirao fixo": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "ribeirao_fixo": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
                     }
                   }
                 ]
@@ -7237,6 +7523,39 @@
                   "dbox.desc_1": {
                     "Target": {
                       "Entity": "dbox.desc_1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dbox_has_medida_v__box_box": {
+                "Binding": {
+                  "ConceptualEntity": "dbox"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.v__box_box"
+                      },
+                      "Subject": {
+                        "Role": "dbox"
+                      }
+                    },
+                    "ID": "dboxes_have__box",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dbox": {
+                    "Target": {
+                      "Entity": "dbox"
+                    }
+                  },
+                  "medida.v__box_box": {
+                    "Target": {
+                      "Entity": "medida.v__box_box"
                     }
                   }
                 },
@@ -10226,6 +10545,39 @@
                 },
                 "State": "Generated"
               },
+              "fbase_online_pesados_demanda_has_dbox_porta": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fbase_online_pesados_demanda.dbox_porta"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_dbox_portas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "fbase_online_pesados_demanda.dbox_porta": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda.dbox_porta"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "fbase_online_pesados_demanda_has_dcalendario": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_demanda"
@@ -10411,6 +10763,39 @@
                 },
                 "State": "Generated"
               },
+              "fbase_online_pesados_demanda_has_hora": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fbase_online_pesados_demanda.hora"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_horas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "fbase_online_pesados_demanda.hora": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda.hora"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "fbase_online_pesados_demanda_has_item": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_demanda"
@@ -10576,105 +10961,6 @@
                 },
                 "State": "Generated"
               },
-              "fbase_online_pesados_demanda_has_medida_boxs_pesados": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "medida.boxs_pesados"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_demanda"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demandas_have_boxs_pesados",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_demanda": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_demanda"
-                    }
-                  },
-                  "medida.boxs_pesados": {
-                    "Target": {
-                      "Entity": "medida.boxs_pesados"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_demanda_has_medida_boxs_pesados_ead": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "medida.boxs_pesados_ead"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_demanda"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demandas_have_boxs_pesados_ead",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_demanda": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_demanda"
-                    }
-                  },
-                  "medida.boxs_pesados_ead": {
-                    "Target": {
-                      "Entity": "medida.boxs_pesados_ead"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_demanda_has_medida_boxs_pesados_geal": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "medida.boxs_pesados_geal"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_demanda"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demandas_have_boxs_pesados_geal",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_demanda": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_demanda"
-                    }
-                  },
-                  "medida.boxs_pesados_geal": {
-                    "Target": {
-                      "Entity": "medida.boxs_pesados_geal"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
               "fbase_online_pesados_demanda_has_medida_day_over_day_pesados": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_demanda"
@@ -10703,39 +10989,6 @@
                   "medida.day_over_day_pesados": {
                     "Target": {
                       "Entity": "medida.day_over_day_pesados"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_demanda_has_medida_day_over_day_pesados_monetario": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "medida.day_over_day_pesados_monetario"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_demanda"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demandas_have_day_over_day_pesados_monetario",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_demanda": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_demanda"
-                    }
-                  },
-                  "medida.day_over_day_pesados_monetario": {
-                    "Target": {
-                      "Entity": "medida.day_over_day_pesados_monetario"
                     }
                   }
                 },
@@ -11005,39 +11258,6 @@
                 },
                 "State": "Generated"
               },
-              "fbase_online_pesados_demanda_has_medida_month_over_month_pesados_monetario": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "medida.month_over_month_pesados_monetario"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_demanda"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demandas_have_month_over_month_pesados_monetario",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_demanda": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_demanda"
-                    }
-                  },
-                  "medida.month_over_month_pesados_monetario": {
-                    "Target": {
-                      "Entity": "medida.month_over_month_pesados_monetario"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
               "fbase_online_pesados_demanda_has_medida_teste": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_demanda"
@@ -11071,6 +11291,39 @@
                 },
                 "State": "Generated"
               },
+              "fbase_online_pesados_demanda_has_medida_v__box_box": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.v__box_box"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have__box",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.v__box_box": {
+                    "Target": {
+                      "Entity": "medida.v__box_box"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "fbase_online_pesados_demanda_has_medida_v__dia_x_semana_dia_x_semana": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_demanda"
@@ -11099,105 +11352,6 @@
                   "medida.v__dia_x_semana_dia_x_semana": {
                     "Target": {
                       "Entity": "medida.v__dia_x_semana_dia_x_semana"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_demanda_has_medida_valor_monetario": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "medida.valor_monetario"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_demanda"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demandas_have_valor_monetario",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_demanda": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_demanda"
-                    }
-                  },
-                  "medida.valor_monetario": {
-                    "Target": {
-                      "Entity": "medida.valor_monetario"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_demanda_has_medida_valor_pesados_hj": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "medida.valor_pesados_hj"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_demanda"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demandas_have_valor_pesados_hj",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_demanda": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_demanda"
-                    }
-                  },
-                  "medida.valor_pesados_hj": {
-                    "Target": {
-                      "Entity": "medida.valor_pesados_hj"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_demanda_has_medida_valor_pesados_ontem": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "medida.valor_pesados_ontem"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_demanda"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demandas_have_valor_pesados_ontem",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_demanda": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_demanda"
-                    }
-                  },
-                  "medida.valor_pesados_ontem": {
-                    "Target": {
-                      "Entity": "medida.valor_pesados_ontem"
                     }
                   }
                 },
@@ -11264,39 +11418,6 @@
                   "medida.year_over_year_pesados": {
                     "Target": {
                       "Entity": "medida.year_over_year_pesados"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_demanda_has_medida_year_over_year_pesados_monetario": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "medida.year_over_year_pesados_monetario"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_demanda"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demandas_have_year_over_year_pesados_monetario",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_demanda": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_demanda"
-                    }
-                  },
-                  "medida.year_over_year_pesados_monetario": {
-                    "Target": {
-                      "Entity": "medida.year_over_year_pesados_monetario"
                     }
                   }
                 },
@@ -11725,6 +11846,39 @@
                 },
                 "State": "Generated"
               },
+              "medida_has_EAD_fixo": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.EAD_fixo"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_EAD_fixo",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.EAD_fixo": {
+                    "Target": {
+                      "Entity": "medida.EAD_fixo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "medida_has_ano_tratado": {
                 "Binding": {
                   "ConceptualEntity": "Medidas"
@@ -11753,6 +11907,204 @@
                   "medida.ano_tratado": {
                     "Target": {
                       "Entity": "medida.ano_tratado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_boxs_pesados": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.boxs_pesados"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_boxs_pesados_entrega_cliente",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.boxs_pesados": {
+                    "Target": {
+                      "Entity": "medida.boxs_pesados"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_boxs_pesados_ead": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.boxs_pesados_ead"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_boxs_pesados_ead",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.boxs_pesados_ead": {
+                    "Target": {
+                      "Entity": "medida.boxs_pesados_ead"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_boxs_pesados_fracionado": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.boxs_pesados_fracionado"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_boxs_pesados_fracionado",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.boxs_pesados_fracionado": {
+                    "Target": {
+                      "Entity": "medida.boxs_pesados_fracionado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_boxs_pesados_geal": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.boxs_pesados_geal"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_boxs_pesados_geal",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.boxs_pesados_geal": {
+                    "Target": {
+                      "Entity": "medida.boxs_pesados_geal"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_boxs_pesados_pp": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.boxs_pesados_pp"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_boxs_pesados_pp",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.boxs_pesados_pp": {
+                    "Target": {
+                      "Entity": "medida.boxs_pesados_pp"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_boxs_pesados_ribeirao": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.boxs_pesados_ribeirao"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_boxs_pesados_ribeirao",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.boxs_pesados_ribeirao": {
+                    "Target": {
+                      "Entity": "medida.boxs_pesados_ribeirao"
                     }
                   }
                 },
@@ -11956,6 +12308,39 @@
                 },
                 "State": "Generated"
               },
+              "medida_has_day_over_day_pesados_monetario": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.day_over_day_pesados_monetario"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_day_over_day_pesados_monetario1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.day_over_day_pesados_monetario": {
+                    "Target": {
+                      "Entity": "medida.day_over_day_pesados_monetario"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "medida_has_day_over_day_pesados_monetario1": {
                 "Binding": {
                   "ConceptualEntity": "Medidas"
@@ -12154,6 +12539,39 @@
                 },
                 "State": "Generated"
               },
+              "medida_has_fracionado": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.fracionado"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_fracionado",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.fracionado": {
+                    "Target": {
+                      "Entity": "medida.fracionado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "medida_has_hora": {
                 "Binding": {
                   "ConceptualEntity": "Medidas"
@@ -12182,6 +12600,39 @@
                   "medida.hora": {
                     "Target": {
                       "Entity": "medida.hora"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_medida": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.medida"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_medida",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.medida": {
+                    "Target": {
+                      "Entity": "medida.medida"
                     }
                   }
                 },
@@ -12418,6 +12869,39 @@
                 },
                 "State": "Generated"
               },
+              "medida_has_month_over_month_pesados_monetario": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.month_over_month_pesados_monetario"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_month_over_month_pesados_monetario1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.month_over_month_pesados_monetario": {
+                    "Target": {
+                      "Entity": "medida.month_over_month_pesados_monetario"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "medida_has_month_over_month_pesados_monetario1": {
                 "Binding": {
                   "ConceptualEntity": "Medidas"
@@ -12446,6 +12930,72 @@
                   "medida.month_over_month_pesados_monetario1": {
                     "Target": {
                       "Entity": "medida.month_over_month_pesados_monetario1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_pesados_ead_fixo": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.pesados_ead_fixo"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_pesados_ead_fixo",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.pesados_ead_fixo": {
+                    "Target": {
+                      "Entity": "medida.pesados_ead_fixo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_pesados_fixo": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.pesados_fixo"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_pesados_fixo",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.pesados_fixo": {
+                    "Target": {
+                      "Entity": "medida.pesados_fixo"
                     }
                   }
                 },
@@ -12545,6 +13095,72 @@
                   "medida.pi_online_tratado": {
                     "Target": {
                       "Entity": "medida.pi_online_tratado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_porta_porta_fixo": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.porta_porta_fixo"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_porta_porta_fixo",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.porta_porta_fixo": {
+                    "Target": {
+                      "Entity": "medida.porta_porta_fixo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_ribeirao_fixo": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.ribeirao_fixo"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_ribeirao_fixo",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.ribeirao_fixo": {
+                    "Target": {
+                      "Entity": "medida.ribeirao_fixo"
                     }
                   }
                 },
@@ -12748,39 +13364,6 @@
                 },
                 "State": "Generated"
               },
-              "medida_has_v__box_box": {
-                "Binding": {
-                  "ConceptualEntity": "Medidas"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "medida.v__box_box"
-                      },
-                      "Subject": {
-                        "Role": "medida"
-                      }
-                    },
-                    "ID": "medidas_have__box",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "medida": {
-                    "Target": {
-                      "Entity": "medida"
-                    }
-                  },
-                  "medida.v__box_box": {
-                    "Target": {
-                      "Entity": "medida.v__box_box"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
               "medida_has_v__cap_entrega_cap_entrega": {
                 "Binding": {
                   "ConceptualEntity": "Medidas"
@@ -12809,6 +13392,105 @@
                   "medida.v__cap_entrega_cap_entrega": {
                     "Target": {
                       "Entity": "medida.v__cap_entrega_cap_entrega"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_valor_monetario": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.valor_monetario"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_valor_monetario",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.valor_monetario": {
+                    "Target": {
+                      "Entity": "medida.valor_monetario"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_valor_pesados_hj": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.valor_pesados_hj"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_valor_pesados_hj",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.valor_pesados_hj": {
+                    "Target": {
+                      "Entity": "medida.valor_pesados_hj"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_valor_pesados_ontem": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.valor_pesados_ontem"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_valor_pesados_ontem",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.valor_pesados_ontem": {
+                    "Target": {
+                      "Entity": "medida.valor_pesados_ontem"
                     }
                   }
                 },
@@ -12875,6 +13557,39 @@
                   "medida.year_over_year_pesados1": {
                     "Target": {
                       "Entity": "medida.year_over_year_pesados1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_year_over_year_pesados_monetario": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.year_over_year_pesados_monetario"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_year_over_year_pesados_monetario1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.year_over_year_pesados_monetario": {
+                    "Target": {
+                      "Entity": "medida.year_over_year_pesados_monetario"
                     }
                   }
                 },
@@ -14259,7 +14974,7 @@
               "",
               "",
               "[vol_pesados]",
-              "/SELECTEDVALUE(dbox[cubage_m3])"
+              "/MAX(dbox[cubage_m3])"
             ],
             "formatString": "0.00%;-0.00%;0.00%",
             "lineageTag": "d1e48b84-8bd4-4a90-8b33-5ea6d6f4c871"
@@ -14328,12 +15043,6 @@
           },
           {
             "name": "vol_pesados",
-            "annotations": [
-              {
-                "name": "PBI_FormatHint",
-                "value": "{\"isGeneralNumber\":true}"
-              }
-            ],
             "displayFolder": "Pesados",
             "expression": [
               "",
@@ -14345,6 +15054,7 @@
               "",
               ""
             ],
+            "formatString": "0.00",
             "lineageTag": "16a7ba53-1e63-43f8-bf7c-28598c62f877"
           },
           {
@@ -15279,7 +15989,7 @@
               }
             ],
             "dataType": "int64",
-            "formatString": "0",
+            "formatString": "#,0",
             "lineageTag": "ef40a554-8d9d-4c8a-8cfc-4510a05d418f",
             "sourceColumn": "qtd_pecas",
             "summarizeBy": "sum"
@@ -15521,11 +16231,28 @@
                 "value": "Automatic"
               }
             ],
-            "dataType": "int64",
-            "formatString": "0",
+            "dataType": "string",
             "lineageTag": "856fa3c1-f1c2-41b3-8aa2-2e8115986de1",
             "sourceColumn": "dbox.porta",
-            "summarizeBy": "sum"
+            "summarizeBy": "none"
+          },
+          {
+            "name": "hora",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Time"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Time",
+            "lineageTag": "f0c5e39e-8d5b-4735-80d7-054c59ad9815",
+            "sourceColumn": "hora",
+            "summarizeBy": "none"
           }
         ],
         "lineageTag": "86f80c0f-1098-475d-857e-3f299ac54dc7",
@@ -15553,7 +16280,11 @@
                 "    #\"Dividir Coluna por Delimitador\" = Table.SplitColumn(#\"Colunas Removidas\", \"Tipo de pedido\", Splitter.SplitTextByDelimiter(\" \", QuoteStyle.Csv), {\"Tipo de pedido.1\", \"Tipo de pedido.2\", \"Tipo de pedido.3\", \"Tipo de pedido.4\", \"Tipo de pedido.5\", \"Tipo de pedido.6\"}),",
                 "    #\"Tipo Alterado1\" = Table.TransformColumnTypes(#\"Dividir Coluna por Delimitador\",{{\"Tipo de pedido.1\", type text}, {\"Tipo de pedido.2\", type text}, {\"Tipo de pedido.3\", type text}, {\"Tipo de pedido.4\", type text}, {\"Tipo de pedido.5\", type text}, {\"Tipo de pedido.6\", type text}}),",
                 "    #\"Colunas Removidas1\" = Table.RemoveColumns(#\"Tipo Alterado1\",{\"Tipo de pedido.2\", \"Tipo de pedido.3\", \"Tipo de pedido.4\", \"Tipo de pedido.5\", \"Tipo de pedido.6\", \"Wave\", \"Shipment\", \"Filial Destino\", \"Status Pedido\", \"Pedido de Venda\", \"oLPN\", \"TOTE\", \"Tarefa\", \"Tarefa Status\", \"Grupo de Tarefa\", \"Numero da Gaiola\", \"Marcação de EAD\", \"Data Prevista Entrega\", \"Inventory Type ID\", \"Cod Setor Item\", \"Audit Status\"}),",
-                "    #\"Tipo Alterado2\" = Table.TransformColumnTypes(#\"Colunas Removidas1\",{{\"Data locação pedido\", type date}, {\"Último Update oLPN\", type date}, {\"Data Limite Expedição\", type date}}),",
+                "    #\"Coluna Duplicada\" = Table.DuplicateColumn(#\"Colunas Removidas1\", \"Último Update oLPN\", \"Último Update oLPN - Copiar\"),",
+                "    #\"Tipo Alterado6\" = Table.TransformColumnTypes(#\"Coluna Duplicada\",{{\"Último Update oLPN - Copiar\", type time}}),",
+                "    #\"Início da Hora Calculado\" = Table.TransformColumns(#\"Tipo Alterado6\",{{\"Último Update oLPN - Copiar\", Time.StartOfHour, type time}}),",
+                "    #\"Colunas Renomeadas2\" = Table.RenameColumns(#\"Início da Hora Calculado\",{{\"Último Update oLPN - Copiar\", \"hora\"}}),",
+                "    #\"Tipo Alterado2\" = Table.TransformColumnTypes(#\"Colunas Renomeadas2\",{{\"Data locação pedido\", type date}, {\"Último Update oLPN\", type date}, {\"Data Limite Expedição\", type date}}),",
                 "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Tipo Alterado2\",{{\"Filial\", \"filial\"}, {\"Tipo de pedido.1\", \"tipo_pedido\"}, {\"Último Update oLPN\", \"data\"}, {\"Qtde. Peças Item\", \"qtd_pecas\"}, {\"Desc Setor Item\", \"setor\"}, {\"BOX\", \"box\"}, {\"Local de Picking\", \"local_de_picking\"}, {\"Data locação pedido\", \"data_locacao\"}, {\"Data Limite Expedição\", \"data_limite\"}}),",
                 "    sep_setor = Table.AddColumn(#\"Colunas Renomeadas\", \"sep_setor\", each if [tipo_pedido] = \"S01\" or [tipo_pedido] = \"S04\" or [tipo_pedido] = \"S02\" then \"Entrega a Clientes\" ",
                 "else if [tipo_pedido] = \"S05\" then \"EAD\" ",
@@ -17007,8 +17738,7 @@
                 "value": "Automatic"
               }
             ],
-            "dataType": "int64",
-            "formatString": "0",
+            "dataType": "string",
             "lineageTag": "0aab5a80-4615-4bf8-84e4-118027dc660f",
             "sourceColumn": "porta",
             "summarizeBy": "none"
@@ -17075,9 +17805,10 @@
                 "    #\"Colunas Removidas\" = Table.RemoveColumns(#\"Tipo Alterado\",{\"Column6\", \"Column7\"}),",
                 "    #\"Tipo Alterado1\" = Table.TransformColumnTypes(#\"Colunas Removidas\",{{\"box\", type text}}),",
                 "    #\"Duplicatas Removidas\" = Table.Distinct(#\"Tipo Alterado1\", {\"box\"}),",
-                "    #\"Linhas Filtradas\" = Table.SelectRows(#\"Duplicatas Removidas\", each [box] <> null and [box] <> \"\")",
+                "    #\"Linhas Filtradas\" = Table.SelectRows(#\"Duplicatas Removidas\", each [box] <> null and [box] <> \"\"),",
+                "    #\"Tipo Alterado2\" = Table.TransformColumnTypes(#\"Linhas Filtradas\",{{\"porta\", type text}})",
                 "in",
-                "    #\"Linhas Filtradas\""
+                "    #\"Tipo Alterado2\""
               ],
               "type": "m"
             }
