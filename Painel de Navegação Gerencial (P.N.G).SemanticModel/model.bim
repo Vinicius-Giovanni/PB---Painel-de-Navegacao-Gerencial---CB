@@ -6406,7 +6406,7 @@
                     }
                   },
                   {
-                    "H\\Anterior": {
+                    "Hora Anterior": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -15341,25 +15341,19 @@
               "",
               "",
               "",
-              "VAR B = ",
-              "IF( ",
-              "    (SELECTEDVALUE(dcalendario[calendario]) >= DATE(2024,10,1)) && (SELECTEDVALUE(dcalendario[calendario]) <= DATE(2024,12,31)),",
-              "DISTINCTCOUNT(dcalendario[dia])*6000,",
-              "DISTINCTCOUNT(dcalendario[dia])*3000)",
-              "",
-              "VAR A = ",
-              "IF( ",
-              "    (SELECTEDVALUE(dcalendario[calendario]) >= DATE(2024,10,1)) && (SELECTEDVALUE(dcalendario[calendario]) <= DATE(2024,12,31)),",
-              "    SUM(fbase_online_pesados_abs_demanda[qtd_pecas])/B,",
-              "    SUM(fbase_online_pesados_abs_demanda[qtd_pecas])/B)",
+              "VAR A2 = ",
+              "IF(",
+              "    (SELECTEDVALUE(dcalendario[nome_mes]) = \"dezembro\" || SELECTEDVALUE(dcalendario[nome_mes]) = \"outubro\" || SELECTEDVALUE(dcalendario[nome_mes]) = \"novembro\"),",
+              "    SUM(fbase_online_pesados_abs_demanda[qtd_pecas])/(DISTINCTCOUNT(dcalendario[dia])*6000),",
+              "    DISTINCTCOUNT(dcalendario[dia])*3000)",
               "",
               "",
               "",
-              "RETURN B",
+              "RETURN A2",
               "",
               " "
             ],
-            "formatString": "0",
+            "formatString": "0.00%;-0.00%;0.00%",
             "lineageTag": "b46bd144-2f1b-49c2-a35e-fde8eb241e61"
           },
           {
@@ -16496,12 +16490,12 @@
               "CALCULATE(",
               "[demanda_pesados],",
               "dhora[hora_num] = SELECTEDVALUE(dhora[hora_num]))",
-              "/",
+              "-",
               "CALCULATE(",
               "[demanda_pesados],",
               "dhora[hora_num] = SELECTEDVALUE(dhora[hora_num]) - 1)"
             ],
-            "formatString": "0.00%;-0.00%;0.00%",
+            "formatString": "0",
             "lineageTag": "2532507c-6b12-48c3-9a55-dbb4f86fbd8c"
           }
         ],
