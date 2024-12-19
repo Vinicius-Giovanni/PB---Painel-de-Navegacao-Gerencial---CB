@@ -4189,6 +4189,45 @@
                   }
                 ]
               },
+              "medida.RS_movimentado_dia": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "RS_movimentado_dia?"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "RS_movimentado_dia?": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medida.RS_movimentado_hoje": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "RS_Movimentado_hoje"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "RS movimentado hoje": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "RS_Movimentado_hoje": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
               "medida.ano_tratado": {
                 "Definition": {
                   "Binding": {
@@ -5247,6 +5286,29 @@
                   }
                 ]
               },
+              "medida.demanda_abastecimento_olpn": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "demanda_abastecimento_olpn"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "demanda abastecimento olpn": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "demanda_abastecimento_olpn": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
               "medida.demanda_abs_olpn": {
                 "Definition": {
                   "Binding": {
@@ -5266,6 +5328,49 @@
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Abastecimento |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.demanda_balanco_olpn": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "demanda_balanco_olpn"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "demanda balanco olpn": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "demanda_balanco_olpn": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Balanço |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ]
@@ -5418,6 +5523,139 @@
                   },
                   {
                     "Mês |": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.demanda_par": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "demanda_par"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "demanda par": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "demanda_par": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "demanda parity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "demanda equivalence": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "demanda equality": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "demanda similarity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "demanda balance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "demanda norm": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "demanda average": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "demanda standard": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "demanda mean": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "demanda median": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "P.A.R |": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -6142,6 +6380,39 @@
                       "State": "Suggested",
                       "Type": "Noun",
                       "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "medida.performance_hora_pesados": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "performance_hora_pesados"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "performance hora pesados": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "performance_hora_pesados": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "H\\Anterior": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ]
@@ -10664,6 +10935,52 @@
                 },
                 "State": "Generated"
               },
+              "fbase_online_pesados_demanda_has_dhora": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dhora"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_dhoras",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fbase_online_pesados_demanda"
+                      },
+                      "Subject": {
+                        "Role": "dhora"
+                      }
+                    },
+                    "ID": "dhoras_have_fbase_online_pesados_abs_demandas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dhora": {
+                    "Target": {
+                      "Entity": "dhora"
+                    }
+                  },
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "fbase_online_pesados_demanda_has_dzona": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_demanda"
@@ -10994,6 +11311,39 @@
                 },
                 "State": "Generated"
               },
+              "fbase_online_pesados_demanda_has_medida_demanda_abastecimento_olpn": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.demanda_abastecimento_olpn"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_demanda_abastecimento_olpn",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.demanda_abastecimento_olpn": {
+                    "Target": {
+                      "Entity": "medida.demanda_abastecimento_olpn"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "fbase_online_pesados_demanda_has_medida_demanda_abs_olpn": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_demanda"
@@ -11022,6 +11372,39 @@
                   "medida.demanda_abs_olpn": {
                     "Target": {
                       "Entity": "medida.demanda_abs_olpn"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_demanda_balanco_olpn": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.demanda_balanco_olpn"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_demanda_balanco_olpn",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.demanda_balanco_olpn": {
+                    "Target": {
+                      "Entity": "medida.demanda_balanco_olpn"
                     }
                   }
                 },
@@ -11121,6 +11504,39 @@
                   "medida.demanda_on": {
                     "Target": {
                       "Entity": "medida.demanda_on"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_demanda_par": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.demanda_par"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_demanda_par",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.demanda_par": {
+                    "Target": {
+                      "Entity": "medida.demanda_par"
                     }
                   }
                 },
@@ -11253,6 +11669,39 @@
                   "medida.month_over_month_pesados": {
                     "Target": {
                       "Entity": "medida.month_over_month_pesados"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_performance_hora_pesados": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.performance_hora_pesados"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_performance_hora_pesados",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.performance_hora_pesados": {
+                    "Target": {
+                      "Entity": "medida.performance_hora_pesados"
                     }
                   }
                 },
@@ -11874,6 +12323,72 @@
                   "medida.EAD_fixo": {
                     "Target": {
                       "Entity": "medida.EAD_fixo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_RS_movimentado_dia": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.RS_movimentado_dia"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_RS_movimentado_dia",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.RS_movimentado_dia": {
+                    "Target": {
+                      "Entity": "medida.RS_movimentado_dia"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_RS_movimentado_hoje": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.RS_movimentado_hoje"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_RS_movimentado_hoje",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.RS_movimentado_hoje": {
+                    "Target": {
+                      "Entity": "medida.RS_movimentado_hoje"
                     }
                   }
                 },
@@ -14135,6 +14650,13 @@
         "fromTable": "fbase_online_pesados_abs_demanda",
         "toColumn": "local",
         "toTable": "dzona"
+      },
+      {
+        "name": "d1f682d2-8dff-b940-573a-3322615595be",
+        "fromColumn": "hora",
+        "fromTable": "fbase_online_pesados_abs_demanda",
+        "toColumn": "hora",
+        "toTable": "dhora"
       }
     ],
     "sourceQueryCulture": "pt-BR",
@@ -14665,7 +15187,7 @@
               "",
               "CALCULATE(",
               "    SUM(fbase_online_pesados_abs_demanda[qtd_pecas]),",
-              "    dsetor[sep_setor] = \"Abastecimento de lojas\")"
+              "    fbase_online_pesados_abs_demanda[sep_setor] = \"Abastecimento de lojas\")"
             ],
             "formatString": "#,0",
             "lineageTag": "fa0e80cd-0759-4ed6-9bea-7fb7ca9e0e0b"
@@ -14818,14 +15340,26 @@
             "expression": [
               "",
               "",
+              "",
+              "VAR B = ",
               "IF( ",
               "    (SELECTEDVALUE(dcalendario[calendario]) >= DATE(2024,10,1)) && (SELECTEDVALUE(dcalendario[calendario]) <= DATE(2024,12,31)),",
-              "    SUM(fbase_online_pesados_abs_demanda[qtd_pecas])/6000,",
-              "    SUM(fbase_online_pesados_abs_demanda[qtd_pecas])/3000)",
+              "DISTINCTCOUNT(dcalendario[dia])*6000,",
+              "DISTINCTCOUNT(dcalendario[dia])*3000)",
+              "",
+              "VAR A = ",
+              "IF( ",
+              "    (SELECTEDVALUE(dcalendario[calendario]) >= DATE(2024,10,1)) && (SELECTEDVALUE(dcalendario[calendario]) <= DATE(2024,12,31)),",
+              "    SUM(fbase_online_pesados_abs_demanda[qtd_pecas])/B,",
+              "    SUM(fbase_online_pesados_abs_demanda[qtd_pecas])/B)",
+              "",
+              "",
+              "",
+              "RETURN B",
               "",
               " "
             ],
-            "formatString": "0.00%;-0.00%;0.00%",
+            "formatString": "0",
             "lineageTag": "b46bd144-2f1b-49c2-a35e-fde8eb241e61"
           },
           {
@@ -14873,12 +15407,6 @@
           },
           {
             "name": "black_pesados_2024",
-            "annotations": [
-              {
-                "name": "PBI_FormatHint",
-                "value": "{\"isGeneralNumber\":true}"
-              }
-            ],
             "displayFolder": "Pesados",
             "expression": [
               "",
@@ -14890,6 +15418,7 @@
               "        dcalendario[calendario] >= DATE(2024,10,1) &&",
               "        dcalendario[calendario] <= DATE(2024,12,31)))"
             ],
+            "formatString": "#,0",
             "lineageTag": "56660b81-a598-454d-bf0e-f1e575928e1d"
           },
           {
@@ -15090,20 +15619,22 @@
             "annotations": [
               {
                 "name": "PBI_FormatHint",
-                "value": "{\"currencyCulture\":\"es-BR\"}"
+                "value": "{\"isGeneralNumber\":true}"
               }
             ],
             "displayFolder": "Pesados",
             "expression": [
               "",
-              "",
+              "IF(SELECTEDVALUE(dcalendario[calendario]) = TODAY(),",
               "CALCULATE(",
               "    [valor_monetario],",
               "    DATEADD(dcalendario[calendario], 0, DAY),",
-              "    fbase_online_pesados_abs_demanda[Status oLPN] <> \"Shipped\")",
+              "    fbase_online_pesados_abs_demanda[Status oLPN] <> \"Shipped\"),",
+              "    CALCULATE(",
+              "    [valor_monetario],",
+              "    DATEADD(dcalendario[calendario], 0, DAY)))",
               ""
             ],
-            "formatString": "\"R$\"#,0.00;-\"R$\"#,0.00;\"R$\"#,0.00",
             "lineageTag": "b474d135-b7d5-4346-9522-e43bb812d0a0"
           },
           {
@@ -15903,6 +16434,75 @@
               "\"Porta: \"&B&\" Box: \"&A&\" | \"&FORMAT(C,\"0\")&\" M³ \"&F"
             ],
             "lineageTag": "a1979943-00ce-4994-ae33-eb397f516b82"
+          },
+          {
+            "name": "demanda_par",
+            "expression": [
+              "",
+              "",
+              "CALCULATE(",
+              "    [demanda_abs_olpn],",
+              "    fbase_online_pesados_abs_demanda[salao_or_par] = \"par\")"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "ba382bf7-e3e0-481b-bb59-536d2be08d5f"
+          },
+          {
+            "name": "demanda_balanco_olpn",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    SUM(fbase_online_pesados_abs_demanda[qtd_pecas]),",
+              "    fbase_online_pesados_abs_demanda[sep_setor] = \"Balanco\")"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "e79eff4d-3cf8-4c54-bbcf-5dd2e8367d88"
+          },
+          {
+            "name": "demanda_abastecimento_olpn",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    SUM(fbase_online_pesados_abs_demanda[qtd_pecas]),",
+              "    fbase_online_pesados_abs_demanda[sep_setor] = \"Balanco\" || fbase_online_pesados_abs_demanda[sep_setor] = \"Abastecimento de lojas\" )"
+            ],
+            "formatString": "0",
+            "lineageTag": "c7d846f0-2cc1-4ffe-afe1-570a8d09a07c"
+          },
+          {
+            "name": "RS_movimentado_dia?",
+            "expression": [
+              "",
+              "",
+              "\"R$ Movimentado no(a) \"&FORMAT(DATEADD(dcalendario[calendario], -1, DAY),\"dddd\")&\" D-1\""
+            ],
+            "lineageTag": "36d8faf2-5038-4ee9-bb80-a0616a32a621"
+          },
+          {
+            "name": "RS_Movimentado_hoje",
+            "expression": [
+              "",
+              "",
+              "\"R$ Movimentado no(a) \"&FORMAT(DATEADD(dcalendario[calendario], 0, DAY),\"dddd\")&\" D0\"",
+              ""
+            ],
+            "lineageTag": "bb284b63-20f6-4096-959f-bf01f69284ac"
+          },
+          {
+            "name": "performance_hora_pesados",
+            "expression": [
+              "",
+              "",
+              "CALCULATE(",
+              "[demanda_pesados],",
+              "dhora[hora_num] = SELECTEDVALUE(dhora[hora_num]))",
+              "/",
+              "CALCULATE(",
+              "[demanda_pesados],",
+              "dhora[hora_num] = SELECTEDVALUE(dhora[hora_num]) - 1)"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "2532507c-6b12-48c3-9a55-dbb4f86fbd8c"
           }
         ],
         "partitions": [
@@ -17063,7 +17663,7 @@
               }
             ],
             "dataType": "dateTime",
-            "formatString": "Long Date",
+            "formatString": "Short Date",
             "lineageTag": "dec510e1-0f8e-4a40-b64f-b6c06dd557ac",
             "sourceColumn": "data",
             "summarizeBy": "none"
@@ -17545,7 +18145,7 @@
             "formatString": "0",
             "lineageTag": "a676ac1c-05d8-43c2-b9c6-0b50fb2e46de",
             "sourceColumn": "hora_num",
-            "summarizeBy": "sum"
+            "summarizeBy": "none"
           },
           {
             "name": "minuto_num",
@@ -17559,7 +18159,7 @@
             "formatString": "0",
             "lineageTag": "94406f59-4c61-4afa-b193-74c73c534b40",
             "sourceColumn": "minuto_num",
-            "summarizeBy": "sum"
+            "summarizeBy": "none"
           },
           {
             "name": "segundo_num",
@@ -17573,7 +18173,7 @@
             "formatString": "0",
             "lineageTag": "daf45d7c-422b-4526-aa83-aa31363ffd47",
             "sourceColumn": "segundo_num",
-            "summarizeBy": "sum"
+            "summarizeBy": "none"
           },
           {
             "name": "am_pm",
