@@ -42,7 +42,7 @@ Este dashboard irá se tornar uma ferramenta essencial para que gestores e anali
 
 - [x] 1. Visão Geral da Demanda e Capacidade Diária: Oferecer uma visão rápida e agregada do nível de demanda diária por operação, com indicadores de capacidade versus demanda realizada.
 
-- [ ] 2. Comparações Temporais (Day-over-Day, Month-over-Month, Year-over-Year): Fornecer uma análise detalhada da evolução dos dados em diferentes intervalos de tempo, permitindo comparar a performance entre dias, meses e anos.
+- [x] 2. Comparações Temporais (Day-over-Day, Month-over-Month, Year-over-Year): Fornecer uma análise detalhada da evolução dos dados em diferentes intervalos de tempo, permitindo comparar a performance entre dias, meses e anos.
 
 - [ ] 3. Análise de Produtividade e Eficiência: Monitorar a produtividade da equipe e a eficiência operacional em cada uma das três operações.
 
