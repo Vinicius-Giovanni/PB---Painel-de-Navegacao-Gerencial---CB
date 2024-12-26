@@ -12,7 +12,7 @@
       },
       {
         "name": "PBI_QueryOrder",
-        "value": "[\"dhora_din\",\"Medidas\",\"fbase_online_pesados_abs_demanda\",\"Arquivo de Amostra\",\"Parâmetro1\",\"Transformar o Arquivo de Exemplo\",\"Transformar Arquivo\",\"fbase_online_pesados_abs_cancelamentos\",\"Arquivo de Amostra (2)\",\"Parâmetro2\",\"Transformar o Arquivo de Exemplo (2)\",\"Transformar Arquivo (2)\",\"Consulta1\",\"dcalendario\",\"fbase_abastecimento_demanda\",\"fbase_abastecimento_cancelamentos\",\"dsetor\",\"fbase_hc_abastecimento\",\"fbase_expedicoes_abs\",\"dhora\",\"dzona\",\"dvalor_monetario\",\"dbox\",\"Arquivo de Amostra (4)\",\"Parâmetro3\",\"Transformar o Arquivo de Exemplo (3)\",\"Transformar Arquivo (4)\"]"
+        "value": "[\"dhora_din\",\"Medidas\",\"fbase_online_pesados_abs_demanda\",\"Arquivo de Amostra\",\"Parâmetro1\",\"Transformar o Arquivo de Exemplo\",\"Transformar Arquivo\",\"fbase_online_pesados_abs_cancelamentos\",\"Arquivo de Amostra (2)\",\"Parâmetro2\",\"Transformar o Arquivo de Exemplo (2)\",\"Transformar Arquivo (2)\",\"Consulta1\",\"dcalendario\",\"fbase_abastecimento_demanda\",\"fbase_abastecimento_cancelamentos\",\"dsetor\",\"fbase_hc_abastecimento\",\"fbase_expedicoes_abs\",\"dhora\",\"dzona\",\"dvalor_monetario\",\"dbox\",\"Arquivo de Amostra (4)\",\"Parâmetro3\",\"Transformar o Arquivo de Exemplo (3)\",\"Transformar Arquivo (4)\",\"Arquivo de Amostra (3)\",\"Parâmetro4\",\"Transformar o Arquivo de Exemplo (4)\",\"Transformar Arquivo (3)\"]"
       },
       {
         "name": "__PBI_TimeIntelligenceEnabled",
@@ -5990,6 +5990,52 @@
                   }
                 ]
               },
+              "medida.media_dia_ead_mes": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "media_dia_ead_mes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "media dia ead mes": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "media_dia_ead_mes": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.media_dia_ead_week": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "media_dia_ead_week"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "media dia ead week": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "media_dia_ead_week": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
               "medida.media_dia_entrega_hist": {
                 "Definition": {
                   "Binding": {
@@ -6013,6 +6059,52 @@
                   }
                 ]
               },
+              "medida.media_dia_entrega_mes": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "media_dia_entrega_mes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "media dia entrega mes": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "media_dia_entrega_mes": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.media_dia_entrega_week": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "media_dia_entrega_week"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "media dia entrega week": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "media_dia_entrega_week": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
               "medida.media_dia_pesados_hist": {
                 "Definition": {
                   "Binding": {
@@ -6029,6 +6121,52 @@
                   },
                   {
                     "media_dia_pesados_hist": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.media_dia_pesados_mes": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "media_dia_pesados_mes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "media dia pesados mes": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "media_dia_pesados_mes": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.media_dia_pesados_week": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "media_dia_pesados_week"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "media dia pesados week": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "media_dia_pesados_week": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
@@ -6442,39 +6580,6 @@
                       "State": "Suggested",
                       "Type": "Noun",
                       "Weight": 0.582
-                    }
-                  }
-                ]
-              },
-              "medida.performance_hora_pesados": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "Medidas",
-                    "ConceptualProperty": "performance_hora_pesados"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "performance hora pesados": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "performance_hora_pesados": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.99
-                    }
-                  },
-                  {
-                    "Hora Anterior": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
                     }
                   }
                 ]
@@ -7526,6 +7631,52 @@
                   }
                 ]
               },
+              "medida.v__cap_pesados_v2_cap_pesados_v2": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "%_cap_pesados_v2"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "%_cap_pesados_v2": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage _cap_pesados_v2": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "pct _cap_pesados_v2": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "% Pçs X Cap": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
               "medida.v__dia_x_semana_dia_x_semana": {
                 "Definition": {
                   "Binding": {
@@ -8411,6 +8562,72 @@
                 },
                 "State": "Generated"
               },
+              "dcalendario_has_medida_media_dia_ead_mes": {
+                "Binding": {
+                  "ConceptualEntity": "dcalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.media_dia_ead_mes"
+                      },
+                      "Subject": {
+                        "Role": "dcalendario"
+                      }
+                    },
+                    "ID": "dcalendarios_have_media_dia_ead_mes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dcalendario": {
+                    "Target": {
+                      "Entity": "dcalendario"
+                    }
+                  },
+                  "medida.media_dia_ead_mes": {
+                    "Target": {
+                      "Entity": "medida.media_dia_ead_mes"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dcalendario_has_medida_media_dia_ead_week": {
+                "Binding": {
+                  "ConceptualEntity": "dcalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.media_dia_ead_week"
+                      },
+                      "Subject": {
+                        "Role": "dcalendario"
+                      }
+                    },
+                    "ID": "dcalendarios_have_media_dia_ead_week",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dcalendario": {
+                    "Target": {
+                      "Entity": "dcalendario"
+                    }
+                  },
+                  "medida.media_dia_ead_week": {
+                    "Target": {
+                      "Entity": "medida.media_dia_ead_week"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "dcalendario_has_medida_media_dia_entrega_hist": {
                 "Binding": {
                   "ConceptualEntity": "dcalendario"
@@ -8444,6 +8661,72 @@
                 },
                 "State": "Generated"
               },
+              "dcalendario_has_medida_media_dia_entrega_mes": {
+                "Binding": {
+                  "ConceptualEntity": "dcalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.media_dia_entrega_mes"
+                      },
+                      "Subject": {
+                        "Role": "dcalendario"
+                      }
+                    },
+                    "ID": "dcalendarios_have_media_dia_entrega_mes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dcalendario": {
+                    "Target": {
+                      "Entity": "dcalendario"
+                    }
+                  },
+                  "medida.media_dia_entrega_mes": {
+                    "Target": {
+                      "Entity": "medida.media_dia_entrega_mes"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dcalendario_has_medida_media_dia_entrega_week": {
+                "Binding": {
+                  "ConceptualEntity": "dcalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.media_dia_entrega_week"
+                      },
+                      "Subject": {
+                        "Role": "dcalendario"
+                      }
+                    },
+                    "ID": "dcalendarios_have_media_dia_entrega_week",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dcalendario": {
+                    "Target": {
+                      "Entity": "dcalendario"
+                    }
+                  },
+                  "medida.media_dia_entrega_week": {
+                    "Target": {
+                      "Entity": "medida.media_dia_entrega_week"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "dcalendario_has_medida_media_dia_pesados_hist": {
                 "Binding": {
                   "ConceptualEntity": "dcalendario"
@@ -8472,6 +8755,72 @@
                   "medida.media_dia_pesados_hist": {
                     "Target": {
                       "Entity": "medida.media_dia_pesados_hist"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dcalendario_has_medida_media_dia_pesados_mes": {
+                "Binding": {
+                  "ConceptualEntity": "dcalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.media_dia_pesados_mes"
+                      },
+                      "Subject": {
+                        "Role": "dcalendario"
+                      }
+                    },
+                    "ID": "dcalendarios_have_media_dia_pesados_mes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dcalendario": {
+                    "Target": {
+                      "Entity": "dcalendario"
+                    }
+                  },
+                  "medida.media_dia_pesados_mes": {
+                    "Target": {
+                      "Entity": "medida.media_dia_pesados_mes"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dcalendario_has_medida_media_dia_pesados_week": {
+                "Binding": {
+                  "ConceptualEntity": "dcalendario"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.media_dia_pesados_week"
+                      },
+                      "Subject": {
+                        "Role": "dcalendario"
+                      }
+                    },
+                    "ID": "dcalendarios_have_media_dia_pesados_week",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dcalendario": {
+                    "Target": {
+                      "Entity": "dcalendario"
+                    }
+                  },
+                  "medida.media_dia_pesados_week": {
+                    "Target": {
+                      "Entity": "medida.media_dia_pesados_week"
                     }
                   }
                 },
@@ -12121,6 +12470,72 @@
                 },
                 "State": "Generated"
               },
+              "fbase_online_pesados_demanda_has_medida_media_dia_ead_mes": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.media_dia_ead_mes"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_media_dia_ead_mes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.media_dia_ead_mes": {
+                    "Target": {
+                      "Entity": "medida.media_dia_ead_mes"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_media_dia_ead_week": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.media_dia_ead_week"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_media_dia_ead_week",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.media_dia_ead_week": {
+                    "Target": {
+                      "Entity": "medida.media_dia_ead_week"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "fbase_online_pesados_demanda_has_medida_media_dia_entrega_hist": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_demanda"
@@ -12154,6 +12569,72 @@
                 },
                 "State": "Generated"
               },
+              "fbase_online_pesados_demanda_has_medida_media_dia_entrega_mes": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.media_dia_entrega_mes"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_media_dia_entrega_mes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.media_dia_entrega_mes": {
+                    "Target": {
+                      "Entity": "medida.media_dia_entrega_mes"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_media_dia_entrega_week": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.media_dia_entrega_week"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_media_dia_entrega_week",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.media_dia_entrega_week": {
+                    "Target": {
+                      "Entity": "medida.media_dia_entrega_week"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "fbase_online_pesados_demanda_has_medida_media_dia_pesados_hist": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_demanda"
@@ -12182,6 +12663,72 @@
                   "medida.media_dia_pesados_hist": {
                     "Target": {
                       "Entity": "medida.media_dia_pesados_hist"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_media_dia_pesados_mes": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.media_dia_pesados_mes"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_media_dia_pesados_mes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.media_dia_pesados_mes": {
+                    "Target": {
+                      "Entity": "medida.media_dia_pesados_mes"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_media_dia_pesados_week": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.media_dia_pesados_week"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_media_dia_pesados_week",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.media_dia_pesados_week": {
+                    "Target": {
+                      "Entity": "medida.media_dia_pesados_week"
                     }
                   }
                 },
@@ -14722,6 +15269,39 @@
                 },
                 "State": "Generated"
               },
+              "medida_has_v__cap_pesados_v2_cap_pesados_v2": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.v__cap_pesados_v2_cap_pesados_v2"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have__cap_pesados_v2",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.v__cap_pesados_v2_cap_pesados_v2": {
+                    "Target": {
+                      "Entity": "medida.v__cap_pesados_v2_cap_pesados_v2"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "medida_has_valor_monetario": {
                 "Binding": {
                   "ConceptualEntity": "Medidas"
@@ -15328,8 +15908,89 @@
         ],
         "kind": "m",
         "lineageTag": "8c46858f-5c97-41d3-80f2-a47ba480b391",
-        "mAttributes": "[ FunctionQueryBinding = \"{\"\"exemplarFormulaName\"\":\"\"Transformar o Arquivo de Exemplo (3)\"\"}\" ]",
         "queryGroup": "Transformar Arquivo de fbase_online_pesados_abs_demanda (2)\\Consultas Auxiliares"
+      },
+      {
+        "name": "Arquivo de Amostra (3)",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Binary"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Fonte = SharePoint.Contents(\"https://viavarejo.sharepoint.com/sites/grupo_de_dados_wave\", [ApiVersion = 15]),",
+          "    #\"Atualizaes de Relatrios Gerais\" = Fonte{[Name=\"Atualizaes de Relatrios Gerais\"]}[Content],",
+          "    #\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\" = #\"Atualizaes de Relatrios Gerais\"{[Name=\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\"]}[Content],",
+          "    #\"Relatórios rotativos\" = #\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\"{[Name=\"Relatórios rotativos\"]}[Content],",
+          "    #\"Painel Online - ADMs - Vinicius & Almeida\" = #\"Relatórios rotativos\"{[Name=\"Painel Online - ADMs - Vinicius & Almeida\"]}[Content],",
+          "    #\"Carteira - ADMs - Vinicius & Almeida\" = #\"Painel Online - ADMs - Vinicius & Almeida\"{[Name=\"Carteira - ADMs - Vinicius & Almeida\"]}[Content],",
+          "    Navegação1 = #\"Carteira - ADMs - Vinicius & Almeida\"{0}[Content]",
+          "in",
+          "    Navegação1"
+        ],
+        "kind": "m",
+        "lineageTag": "f9f684f4-33e8-420f-a59f-fd576cf2a887",
+        "queryGroup": "Transformar Arquivo de Consulta2\\Consultas Auxiliares"
+      },
+      {
+        "name": "Parâmetro4",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Binary"
+          }
+        ],
+        "expression": "#\"Arquivo de Amostra (3)\" meta [IsParameterQuery=true, BinaryIdentifier=#\"Arquivo de Amostra (3)\", Type=\"Binary\", IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "f148bfdb-23a6-4305-aaf9-429da2457089",
+        "queryGroup": "Transformar Arquivo de Consulta2\\Consultas Auxiliares"
+      },
+      {
+        "name": "Transformar o Arquivo de Exemplo (4)",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Fonte = Csv.Document(Parâmetro4,[Delimiter=\";\", Columns=54, Encoding=1252]),",
+          "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true])",
+          "in",
+          "    #\"Cabeçalhos Promovidos\""
+        ],
+        "kind": "m",
+        "lineageTag": "f92001b2-6475-4cd2-a9dc-7f5c6bc4045f",
+        "queryGroup": "Transformar Arquivo de Consulta2"
+      },
+      {
+        "name": "Transformar Arquivo (3)",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Function"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Fonte = (Parâmetro4 as binary) => let",
+          "    Fonte = Csv.Document(Parâmetro4,[Delimiter=\";\", Columns=54, Encoding=1252]),",
+          "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true])",
+          "in",
+          "    #\"Cabeçalhos Promovidos\"",
+          "in",
+          "    Fonte"
+        ],
+        "kind": "m",
+        "lineageTag": "7b32569a-e3b7-4f48-9839-2c4197416db1",
+        "queryGroup": "Transformar Arquivo de Consulta2\\Consultas Auxiliares"
       }
     ],
     "queryGroups": [
@@ -15395,6 +16056,24 @@
           }
         ],
         "folder": "Transformar Arquivo de fbase_online_pesados_abs_demanda (3)"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "7"
+          }
+        ],
+        "folder": "Transformar Arquivo de Consulta2"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "0"
+          }
+        ],
+        "folder": "Transformar Arquivo de Consulta2\\Consultas Auxiliares"
       }
     ],
     "relationships": [
@@ -17294,23 +17973,6 @@
             "lineageTag": "bb284b63-20f6-4096-959f-bf01f69284ac"
           },
           {
-            "name": "performance_hora_pesados",
-            "displayFolder": "Pesados",
-            "expression": [
-              "",
-              "",
-              "CALCULATE(",
-              "[demanda_pesados],",
-              "dhora[hora_num] = SELECTEDVALUE(dhora[hora_num]))",
-              "-",
-              "CALCULATE(",
-              "[demanda_pesados],",
-              "dhora[hora_num] = SELECTEDVALUE(dhora[hora_num]) - 1)"
-            ],
-            "formatString": "0",
-            "lineageTag": "2532507c-6b12-48c3-9a55-dbb4f86fbd8c"
-          },
-          {
             "name": "pi_entrega_ead_month",
             "displayFolder": "Pesados",
             "expression": [
@@ -17404,111 +18066,281 @@
           },
           {
             "name": "media_dia_ead_hist",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
+              "VAR A = ",
               "CALCULATE(",
-              " [demanda_ead]/DISTINCTCOUNT(dcalendario[dia]),",
-              " ALL(dcalendario))"
+              "    DISTINCTCOUNT(fbase_online_pesados_abs_demanda[data]),",
+              "    fbase_online_pesados_abs_demanda[sep_setor] = \"EAD\")",
+              "    ",
+              "VAR B = [demanda_pesados]/A",
+              "",
+              "",
+              "RETURN B"
             ],
             "formatString": "#,0",
             "lineageTag": "4413b3c4-fcf6-4e54-9962-eb0d11c57a2e"
           },
           {
             "name": "media_dia_entrega_hist",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
+              "VAR A = ",
               "CALCULATE(",
-              " [demanda_entrega_cliente]/DISTINCTCOUNT(dcalendario[dia]),",
-              " ALL(dcalendario))"
+              "    DISTINCTCOUNT(fbase_online_pesados_abs_demanda[data]),",
+              "    fbase_online_pesados_abs_demanda[sep_setor] = \"Entrega a Clientes\")",
+              "    ",
+              "VAR B = [demanda_pesados]/A",
+              "",
+              "",
+              "RETURN B"
             ],
             "formatString": "#,0",
             "lineageTag": "675eb60f-f864-44c0-86ec-9473cd2b2df4"
           },
           {
             "name": "media_dia_pesados_hist",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
+              "VAR A = ",
               "CALCULATE(",
-              " [demanda_pesados]/DISTINCTCOUNT(dcalendario[dia]),",
-              " ALL(dcalendario))"
+              "    DISTINCTCOUNT(fbase_online_pesados_abs_demanda[data]),",
+              "    fbase_online_pesados_abs_demanda[sep_setor] = \"EAD\" || fbase_online_pesados_abs_demanda[sep_setor] = \"Entrega a Clientes\")",
+              "    ",
+              "VAR B = [demanda_pesados]/A",
+              "",
+              "",
+              "RETURN B"
             ],
             "formatString": "#,0",
             "lineageTag": "95c117f4-83b6-431b-ac20-e4a2b7f0424d"
           },
           {
             "name": "media_dia_ead_mes",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
               "CALCULATE(",
               "    [demanda_ead]/DISTINCTCOUNT(dcalendario[dia]),",
-              "    dcalendario[mes] = SELECTEDVALUE(dcalendario[mes]))"
+              "    dcalendario[mes] = SELECTEDVALUE(dcalendario[mes]),",
+              "    ALL(dcalendario[semana]),",
+              "    ALL(dcalendario[dia]))"
             ],
             "formatString": "#,0",
             "lineageTag": "83c48195-ed92-468b-9299-871a6e2da4f5"
           },
           {
             "name": "media_dia_entrega_mes",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
               "CALCULATE(",
               "    [demanda_entrega_cliente]/DISTINCTCOUNT(dcalendario[dia]),",
-              "    dcalendario[mes] = SELECTEDVALUE(dcalendario[mes]))"
+              "    dcalendario[mes] = SELECTEDVALUE(dcalendario[mes]),",
+              "    ALL(dcalendario[semana]),",
+              "    ALL(dcalendario[dia]))"
             ],
             "formatString": "#,0",
             "lineageTag": "4ca5e242-493f-4d7d-9cd5-3ca7510a34c2"
           },
           {
             "name": "media_dia_pesados_mes",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
               "CALCULATE(",
               "    [demanda_pesados]/DISTINCTCOUNT(dcalendario[dia]),",
-              "    dcalendario[mes] = SELECTEDVALUE(dcalendario[mes]))"
+              "    dcalendario[mes] = SELECTEDVALUE(dcalendario[mes]),",
+              "    ALL(dcalendario[semana]),",
+              "    ALL(dcalendario[dia]))"
             ],
             "formatString": "#,0",
             "lineageTag": "20bb9440-4246-46a6-8178-b7e9368622a1"
           },
           {
             "name": "media_dia_entrega_week",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
               "CALCULATE(",
               "    [demanda_entrega_cliente]/DISTINCTCOUNT(dcalendario[dia]),",
-              "    dcalendario[semana] = SELECTEDVALUE(dcalendario[semana]))"
+              "    dcalendario[semana] = SELECTEDVALUE(dcalendario[semana]),",
+              "    ALL(dcalendario[dia]))"
             ],
             "formatString": "#,0",
             "lineageTag": "6de55056-9216-4b88-bb98-6283f39228a7"
           },
           {
             "name": "media_dia_ead_week",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
               "CALCULATE(",
               "    [demanda_ead]/DISTINCTCOUNT(dcalendario[dia]),",
-              "    dcalendario[semana] = SELECTEDVALUE(dcalendario[semana]))"
+              "    dcalendario[semana] = SELECTEDVALUE(dcalendario[semana]),",
+              "    ALL(dcalendario[dia]))"
             ],
             "formatString": "#,0",
             "lineageTag": "1443ebc3-ab6f-4813-9732-17ff0c606696"
           },
           {
             "name": "media_dia_pesados_week",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
               "CALCULATE(",
               "    [demanda_pesados]/DISTINCTCOUNT(dcalendario[dia]),",
-              "    dcalendario[semana] = SELECTEDVALUE(dcalendario[semana]))"
+              "    dcalendario[semana] = SELECTEDVALUE(dcalendario[semana]),",
+              "    ALL(dcalendario[dia]))"
             ],
             "formatString": "#,0",
             "lineageTag": "105801ab-b52e-4f48-b037-785f9b12450a"
+          },
+          {
+            "name": "%_cap_pesados_v2",
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "",
+              "",
+              "VAR A2 = ",
+              "IF(",
+              "    (SELECTEDVALUE(dcalendario[nome_mes]) = \"outubro\" || SELECTEDVALUE(dcalendario[nome_mes]) = \"novembro\"),",
+              "    SUM(fbase_online_pesados_abs_demanda[qtd_pecas])/(DISTINCTCOUNT(dcalendario[dia])*12000),",
+              "    SUM(fbase_online_pesados_abs_demanda[qtd_pecas])/(DISTINCTCOUNT(dcalendario[dia])*6000))",
+              "",
+              "",
+              "",
+              "RETURN A2",
+              ""
+            ],
+            "formatString": "0%;-0%;0%",
+            "lineageTag": "d40977d4-91fe-44e5-a7f4-9c517bad21bb"
+          },
+          {
+            "name": "format_fundo_v3",
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "",
+              "IF([%_cap_pesados_v2] > 1,  \"#EE7F7F\", \"\"",
+              ") "
+            ],
+            "lineageTag": "c14bfb4c-1932-4a65-ae70-3700b7c02780"
+          },
+          {
+            "name": "media_hora_pesados_hist",
+            "expression": [
+              "",
+              "",
+              "[media_dia_pesados_hist] / 24",
+              ""
+            ],
+            "formatString": "#,0",
+            "lineageTag": "be3f1a6d-0414-4d9f-863d-78b5e5928f30"
+          },
+          {
+            "name": "media_hora_pesados_hist_mes",
+            "expression": [
+              "",
+              "",
+              "CALCULATE(",
+              "    [media_hora_pesados_hist],",
+              "    dcalendario[mes] = SELECTEDVALUE(dcalendario[mes]),",
+              "    ALL(dcalendario[dia]),",
+              "    ALL(dcalendario[semana]))"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "41e3b22b-6b2c-43d8-8a86-ac52c1cbbf01"
+          },
+          {
+            "name": "media_hora_pesados_hist_dia",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "",
+              "CALCULATE(",
+              "    [media_hora_pesados_hist],",
+              "    dcalendario[dia] = SELECTEDVALUE(dcalendario[dia]))"
+            ],
+            "lineageTag": "3337fe41-f4cb-4820-9989-8456aec3a495"
+          },
+          {
+            "name": "media_hora_pesados_hist_sem",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "",
+              "CALCULATE(",
+              "    [media_hora_pesados_hist],",
+              "    dcalendario[semana] = SELECTEDVALUE(dcalendario[semana]),",
+              "    ALL(dcalendario[dia]))"
+            ],
+            "lineageTag": "039c33cd-34a1-4ca3-b3aa-adfa750b8f7b"
+          },
+          {
+            "name": "%media_dia_pesados_hist",
+            "expression": [
+              "",
+              "",
+              "VAR A = ",
+              "CALCULATE(",
+              "[demanda_pesados],",
+              "dcalendario[calendario] = SELECTEDVALUE(dcalendario[calendario]))",
+              "",
+              "VAR B = ",
+              "CALCULATE(",
+              "[media_dia_pesados_hist],",
+              "ALL(dcalendario))",
+              "",
+              "VAR C = ",
+              "A/B",
+              "",
+              "VAR D = ",
+              "",
+              "IF(",
+              "    A>B,",
+              "    FORMAT(DIVIDE(A,B),\"0.00%\")&\" ⬆️\",",
+              "    FORMAT(DIVIDE(A,B),\"0.00%\")&\" ⬇️\")",
+              "",
+              "",
+              "RETURN D"
+            ],
+            "lineageTag": "4e2d1472-f0eb-4182-91ac-1bc674eb243f"
+          },
+          {
+            "name": "demanda_pesados_hoje",
+            "expression": [
+              "",
+              "",
+              "CALCULATE(",
+              "[demanda_pesados],",
+              "dcalendario[calendario] = SELECTEDVALUE(dcalendario[calendario]))"
+            ],
+            "formatString": "0",
+            "lineageTag": "82f4c9f3-b332-4ca8-910a-70c0d385ed52"
           }
         ],
         "partitions": [
