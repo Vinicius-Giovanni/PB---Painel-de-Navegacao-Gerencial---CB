@@ -18322,8 +18322,8 @@
               "",
               "IF(",
               "    A>B,",
-              "    FORMAT(DIVIDE(A,B),\"0.00%\")&\" ⬆️\",",
-              "    FORMAT(DIVIDE(A,B),\"0.00%\")&\" ⬇️\")",
+              "    \" ~ \"&FORMAT(DIVIDE(A,B),\"0.00%\")&\" ⬆️\",",
+              "    \" ~ \"&FORMAT(DIVIDE(A,B),\"0.00%\")&\" ⬇️\")",
               "",
               "",
               "RETURN D"
@@ -18339,8 +18339,122 @@
               "[demanda_pesados],",
               "dcalendario[calendario] = SELECTEDVALUE(dcalendario[calendario]))"
             ],
-            "formatString": "0",
+            "formatString": "#,0",
             "lineageTag": "82f4c9f3-b332-4ca8-910a-70c0d385ed52"
+          },
+          {
+            "name": "demanda_ead_hoje",
+            "expression": [
+              "",
+              "",
+              "CALCULATE(",
+              "[demanda_ead],",
+              "dcalendario[calendario] = SELECTEDVALUE(dcalendario[calendario]))"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "87ea4069-6455-4435-bd42-c57adff3efa9"
+          },
+          {
+            "name": "%media_dia_ead_hist",
+            "expression": [
+              "",
+              "",
+              "VAR A = ",
+              "CALCULATE(",
+              "[demanda_ead],",
+              "dcalendario[calendario] = SELECTEDVALUE(dcalendario[calendario]))",
+              "",
+              "VAR B = ",
+              "CALCULATE(",
+              "[media_dia_ead_hist],",
+              "ALL(dcalendario))",
+              "",
+              "VAR C = ",
+              "A/B",
+              "",
+              "VAR D = ",
+              "",
+              "IF(",
+              "    A>B,",
+              "    \" ~ \"&FORMAT(DIVIDE(A,B),\"0.00%\")&\" ⬆️\",",
+              "    \" ~ \"&FORMAT(DIVIDE(A,B),\"0.00%\")&\" ⬇️\")",
+              "",
+              "",
+              "RETURN D"
+            ],
+            "lineageTag": "4fdbd094-a7dd-4ab9-8d93-775eff8de91b"
+          },
+          {
+            "name": "demanda_entrega_hoje",
+            "expression": [
+              "",
+              "",
+              "CALCULATE(",
+              "[demanda_entrega_cliente],",
+              "dcalendario[calendario] = SELECTEDVALUE(dcalendario[calendario]))"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "d43ac761-e691-4875-a7fb-062ec1de2c78"
+          },
+          {
+            "name": "%media_dia_entrega_hist",
+            "expression": [
+              "",
+              "",
+              "VAR A = ",
+              "CALCULATE(",
+              "[demanda_entrega_cliente],",
+              "dcalendario[calendario] = SELECTEDVALUE(dcalendario[calendario]))",
+              "",
+              "VAR B = ",
+              "CALCULATE(",
+              "[media_dia_entrega_hist],",
+              "ALL(dcalendario))",
+              "",
+              "VAR C = ",
+              "A/B",
+              "",
+              "VAR D = ",
+              "",
+              "IF(",
+              "    A>B,",
+              "    \" ~ \"&FORMAT(DIVIDE(A,B),\"0.00%\")&\" ⬆️\",",
+              "    \" ~ \"&FORMAT(DIVIDE(A,B),\"0.00%\")&\" ⬇️\")",
+              "",
+              "",
+              "RETURN D"
+            ],
+            "lineageTag": "fb74821c-2082-4938-9a3a-bb29c9eddd8b"
+          },
+          {
+            "name": "%media_dia_pesados_mes",
+            "expression": [
+              "",
+              "",
+              "VAR A = ",
+              "CALCULATE(",
+              "[demanda_pesados],",
+              "dcalendario[calendario] = SELECTEDVALUE(dcalendario[calendario]))",
+              "",
+              "VAR B = ",
+              "",
+              "[media_dia_pesados_mes]",
+              "",
+              "",
+              "VAR C = ",
+              "A/B",
+              "",
+              "VAR D = ",
+              "",
+              "IF(",
+              "    A>B,",
+              "    \" ~ \"&FORMAT(DIVIDE(A,B),\"0.00%\")&\" ⬆️\",",
+              "    \" ~ \"&FORMAT(DIVIDE(A,B),\"0.00%\")&\" ⬇️\")",
+              "",
+              "",
+              "RETURN D"
+            ],
+            "lineageTag": "925ac23c-5d28-437b-89f0-f8873ea84101"
           }
         ],
         "partitions": [
