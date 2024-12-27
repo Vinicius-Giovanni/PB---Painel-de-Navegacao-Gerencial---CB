@@ -209,16 +209,6 @@
                       "Type": "Noun",
                       "Weight": 0.609
                     }
-                  },
-                  {
-                    "Tipo Exp | Hora": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
                   }
                 ]
               },
@@ -5423,6 +5413,29 @@
                   }
                 ]
               },
+              "medida.demanda_ead_hoje": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "demanda_ead_hoje"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "demanda ead hoje": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "demanda_ead_hoje": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
               "medida.demanda_entrega_cliente": {
                 "Definition": {
                   "Binding": {
@@ -5462,6 +5475,29 @@
                       },
                       "State": "Suggested",
                       "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.demanda_entrega_hoje": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "demanda_entrega_hoje"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "demanda entrega hoje": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "demanda_entrega_hoje": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
                     }
                   }
                 ]
@@ -5718,6 +5754,29 @@
                   }
                 ]
               },
+              "medida.demanda_pesados_hoje": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "demanda_pesados_hoje"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "demanda pesados hoje": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "demanda_pesados_hoje": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
               "medida.dia_tratado": {
                 "Definition": {
                   "Binding": {
@@ -5902,6 +5961,52 @@
                   }
                 ]
               },
+              "medida.format_fundo_v_3": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "format_fundo_v3"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "format fundo v 3": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "format_fundo_v3": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "v 3": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "fundo v 3": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "fundo": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "3": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
               "medida.format_fundov_2": {
                 "Definition": {
                   "Binding": {
@@ -5979,13 +6084,49 @@
                     }
                   },
                   {
-                    "Média Histórica - EAD": {
+                    "Dia x Média Histórica - EAD": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
                       },
                       "State": "Suggested",
                       "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.media_dia_ead_hist1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "%media_dia_ead_hist"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "%media_dia_ead_hist": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage media_dia_ead_hist": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "pct media_dia_ead_hist": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
                     }
                   }
                 ]
@@ -6009,6 +6150,42 @@
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.media_dia_ead_mes1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "%media_dia_ead_mes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "%media_dia_ead_mes": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage media_dia_ead_me": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "pct media_dia_ead_me": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
                     }
                   }
                 ]
@@ -6059,6 +6236,42 @@
                   }
                 ]
               },
+              "medida.media_dia_entrega_hist1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "%media_dia_entrega_hist"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "%media_dia_entrega_hist": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage media_dia_entrega_hist": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "pct media_dia_entrega_hist": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
               "medida.media_dia_entrega_mes": {
                 "Definition": {
                   "Binding": {
@@ -6078,6 +6291,42 @@
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.media_dia_entrega_mes1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "%media_dia_entrega_mes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "%media_dia_entrega_mes": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage media_dia_entrega_me": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "pct media_dia_entrega_me": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
                     }
                   }
                 ]
@@ -6128,6 +6377,42 @@
                   }
                 ]
               },
+              "medida.media_dia_pesados_hist1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "%media_dia_pesados_hist"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "%media_dia_pesados_hist": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage media_dia_pesados_hist": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "pct media_dia_pesados_hist": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
               "medida.media_dia_pesados_mes": {
                 "Definition": {
                   "Binding": {
@@ -6151,6 +6436,42 @@
                   }
                 ]
               },
+              "medida.media_dia_pesados_mes1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "%media_dia_pesados_mes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "%media_dia_pesados_mes": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage media_dia_pesados_me": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "pct media_dia_pesados_me": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
               "medida.media_dia_pesados_week": {
                 "Definition": {
                   "Binding": {
@@ -6167,6 +6488,98 @@
                   },
                   {
                     "media_dia_pesados_week": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.media_hora_pesados_hist": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "media_hora_pesados_hist"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "media hora pesados hist": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "media_hora_pesados_hist": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.media_hora_pesados_hist_dia": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "media_hora_pesados_hist_dia"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "media hora pesados hist dia": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "media_hora_pesados_hist_dia": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.media_hora_pesados_hist_mes": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "media_hora_pesados_hist_mes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "media hora pesados hist mes": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "media_hora_pesados_hist_mes": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.media_hora_pesados_hist_sem": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "media_hora_pesados_hist_sem"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "media hora pesados hist sem": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "media_hora_pesados_hist_sem": {
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
@@ -8529,39 +8942,6 @@
                 },
                 "State": "Generated"
               },
-              "dcalendario_has_medida_media_dia_ead_hist": {
-                "Binding": {
-                  "ConceptualEntity": "dcalendario"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "medida.media_dia_ead_hist"
-                      },
-                      "Subject": {
-                        "Role": "dcalendario"
-                      }
-                    },
-                    "ID": "dcalendarios_have_media_dia_ead_hist",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "dcalendario": {
-                    "Target": {
-                      "Entity": "dcalendario"
-                    }
-                  },
-                  "medida.media_dia_ead_hist": {
-                    "Target": {
-                      "Entity": "medida.media_dia_ead_hist"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
               "dcalendario_has_medida_media_dia_ead_mes": {
                 "Binding": {
                   "ConceptualEntity": "dcalendario"
@@ -8628,39 +9008,6 @@
                 },
                 "State": "Generated"
               },
-              "dcalendario_has_medida_media_dia_entrega_hist": {
-                "Binding": {
-                  "ConceptualEntity": "dcalendario"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "medida.media_dia_entrega_hist"
-                      },
-                      "Subject": {
-                        "Role": "dcalendario"
-                      }
-                    },
-                    "ID": "dcalendarios_have_media_dia_entrega_hist",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "dcalendario": {
-                    "Target": {
-                      "Entity": "dcalendario"
-                    }
-                  },
-                  "medida.media_dia_entrega_hist": {
-                    "Target": {
-                      "Entity": "medida.media_dia_entrega_hist"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
               "dcalendario_has_medida_media_dia_entrega_mes": {
                 "Binding": {
                   "ConceptualEntity": "dcalendario"
@@ -8722,39 +9069,6 @@
                   "medida.media_dia_entrega_week": {
                     "Target": {
                       "Entity": "medida.media_dia_entrega_week"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "dcalendario_has_medida_media_dia_pesados_hist": {
-                "Binding": {
-                  "ConceptualEntity": "dcalendario"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "medida.media_dia_pesados_hist"
-                      },
-                      "Subject": {
-                        "Role": "dcalendario"
-                      }
-                    },
-                    "ID": "dcalendarios_have_media_dia_pesados_hist",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "dcalendario": {
-                    "Target": {
-                      "Entity": "dcalendario"
-                    }
-                  },
-                  "medida.media_dia_pesados_hist": {
-                    "Target": {
-                      "Entity": "medida.media_dia_pesados_hist"
                     }
                   }
                 },
@@ -12734,6 +13048,138 @@
                 },
                 "State": "Generated"
               },
+              "fbase_online_pesados_demanda_has_medida_media_hora_pesados_hist": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.media_hora_pesados_hist"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_media_hora_pesados_hist",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.media_hora_pesados_hist": {
+                    "Target": {
+                      "Entity": "medida.media_hora_pesados_hist"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_media_hora_pesados_hist_dia": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.media_hora_pesados_hist_dia"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_media_hora_pesados_hist_dia",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.media_hora_pesados_hist_dia": {
+                    "Target": {
+                      "Entity": "medida.media_hora_pesados_hist_dia"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_media_hora_pesados_hist_mes": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.media_hora_pesados_hist_mes"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_media_hora_pesados_hist_mes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.media_hora_pesados_hist_mes": {
+                    "Target": {
+                      "Entity": "medida.media_hora_pesados_hist_mes"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_media_hora_pesados_hist_sem": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.media_hora_pesados_hist_sem"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_media_hora_pesados_hist_sem",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.media_hora_pesados_hist_sem": {
+                    "Target": {
+                      "Entity": "medida.media_hora_pesados_hist_sem"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "fbase_online_pesados_demanda_has_medida_month_over_month_pesados": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_demanda"
@@ -12762,39 +13208,6 @@
                   "medida.month_over_month_pesados": {
                     "Target": {
                       "Entity": "medida.month_over_month_pesados"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_demanda_has_medida_performance_hora_pesados": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "medida.performance_hora_pesados"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_demanda"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demandas_have_performance_hora_pesados",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_demanda": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_demanda"
-                    }
-                  },
-                  "medida.performance_hora_pesados": {
-                    "Target": {
-                      "Entity": "medida.performance_hora_pesados"
                     }
                   }
                 },
@@ -13982,6 +14395,105 @@
                 },
                 "State": "Generated"
               },
+              "medida_has_demanda_ead_hoje": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.demanda_ead_hoje"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_demanda_ead_hoje",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.demanda_ead_hoje": {
+                    "Target": {
+                      "Entity": "medida.demanda_ead_hoje"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_demanda_entrega_hoje": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.demanda_entrega_hoje"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_demanda_entrega_hoje",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.demanda_entrega_hoje": {
+                    "Target": {
+                      "Entity": "medida.demanda_entrega_hoje"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_demanda_pesados_hoje": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.demanda_pesados_hoje"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_demanda_pesados_hoje",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.demanda_pesados_hoje": {
+                    "Target": {
+                      "Entity": "medida.demanda_pesados_hoje"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "medida_has_dia_tratado": {
                 "Binding": {
                   "ConceptualEntity": "Medidas"
@@ -14114,6 +14626,59 @@
                 },
                 "State": "Generated"
               },
+              "medida_has_format_fundo_v_3": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.format_fundo_v_3"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_format_fundo_v_3",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "medidas_are_v_format_fundo_v_3",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "medida.format_fundo_v_3"
+                      },
+                      "Prepositions": [
+                        {
+                          "v": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.format_fundo_v_3": {
+                    "Target": {
+                      "Entity": "medida.format_fundo_v_3"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "medida_has_format_fundov_2": {
                 "Binding": {
                   "ConceptualEntity": "Medidas"
@@ -14208,6 +14773,204 @@
                   "medida.hora": {
                     "Target": {
                       "Entity": "medida.hora"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_media_dia_ead_hist1": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.media_dia_ead_hist1"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_media_dia_ead_hist",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.media_dia_ead_hist1": {
+                    "Target": {
+                      "Entity": "medida.media_dia_ead_hist1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_media_dia_ead_mes1": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.media_dia_ead_mes1"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_media_dia_ead_mes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.media_dia_ead_mes1": {
+                    "Target": {
+                      "Entity": "medida.media_dia_ead_mes1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_media_dia_entrega_hist1": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.media_dia_entrega_hist1"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_media_dia_entrega_hist",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.media_dia_entrega_hist1": {
+                    "Target": {
+                      "Entity": "medida.media_dia_entrega_hist1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_media_dia_entrega_mes1": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.media_dia_entrega_mes1"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_media_dia_entrega_mes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.media_dia_entrega_mes1": {
+                    "Target": {
+                      "Entity": "medida.media_dia_entrega_mes1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_media_dia_pesados_hist1": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.media_dia_pesados_hist1"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_media_dia_pesados_hist",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.media_dia_pesados_hist1": {
+                    "Target": {
+                      "Entity": "medida.media_dia_pesados_hist1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_media_dia_pesados_mes1": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.media_dia_pesados_mes1"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_media_dia_pesados_mes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.media_dia_pesados_mes1": {
+                    "Target": {
+                      "Entity": "medida.media_dia_pesados_mes1"
                     }
                   }
                 },
@@ -16367,7 +17130,7 @@
           },
           {
             "name": "demanda_entrega_cliente",
-            "displayFolder": "Entrega Cliente",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "CALCULATE(",
@@ -16379,7 +17142,7 @@
           },
           {
             "name": "entrega_cliente_s01",
-            "displayFolder": "Entrega Cliente",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "CALCULATE([demanda_entrega_cliente],",
@@ -16390,7 +17153,7 @@
           },
           {
             "name": "entrega_cliente_s04",
-            "displayFolder": "Entrega Cliente",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "CALCULATE([demanda_entrega_cliente],",
@@ -16467,7 +17230,7 @@
           },
           {
             "name": "cancelados_entrega_cliente",
-            "displayFolder": "Entrega Cliente",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "CALCULATE(",
@@ -16479,7 +17242,7 @@
           },
           {
             "name": "pi_entrega_cliente_tratado",
-            "displayFolder": "Entrega Cliente",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -16509,7 +17272,7 @@
           },
           {
             "name": "demanda_ead",
-            "displayFolder": "EAD",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "CALCULATE(",
@@ -16521,7 +17284,7 @@
           },
           {
             "name": "cancelados_ead",
-            "displayFolder": "EAD",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "CALCULATE(",
@@ -16533,7 +17296,7 @@
           },
           {
             "name": "pi_entrega_ead",
-            "displayFolder": "EAD",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -16617,7 +17380,7 @@
           },
           {
             "name": "black_entrega_clientes_2024",
-            "displayFolder": "Entrega Cliente",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -16639,7 +17402,7 @@
           },
           {
             "name": "black_ead_2024",
-            "displayFolder": "EAD",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -18242,6 +19005,7 @@
           },
           {
             "name": "media_hora_pesados_hist",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -18253,6 +19017,7 @@
           },
           {
             "name": "media_hora_pesados_hist_mes",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -18273,6 +19038,7 @@
                 "value": "{\"isGeneralNumber\":true}"
               }
             ],
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -18290,6 +19056,7 @@
                 "value": "{\"isGeneralNumber\":true}"
               }
             ],
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -18302,15 +19069,22 @@
           },
           {
             "name": "%media_dia_pesados_hist",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
               "VAR A = ",
+              "",
+              "IF( NOT(ISFILTERED(dcalendario[dia])),",
               "CALCULATE(",
-              "[demanda_pesados],",
-              "dcalendario[calendario] = SELECTEDVALUE(dcalendario[calendario]))",
+              "    [demanda_pesados_hoje],",
+              "    dcalendario[calendario] = TODAY()),",
+              "CALCULATE(",
+              "[demanda_pesados_hoje],",
+              "dcalendario[dia] = SELECTEDVALUE(dcalendario[dia])))",
               "",
               "VAR B = ",
+              "",
               "CALCULATE(",
               "[media_dia_pesados_hist],",
               "ALL(dcalendario))",
@@ -18332,39 +19106,60 @@
           },
           {
             "name": "demanda_pesados_hoje",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
+              "IF( NOT(ISFILTERED(dcalendario[dia])),",
+              "CALCULATE(",
+              "    [demanda_pesados],",
+              "    dcalendario[calendario] = TODAY()),",
               "CALCULATE(",
               "[demanda_pesados],",
-              "dcalendario[calendario] = SELECTEDVALUE(dcalendario[calendario]))"
+              "dcalendario[dia] = SELECTEDVALUE(dcalendario[dia]))",
+              "",
+              ")"
             ],
             "formatString": "#,0",
             "lineageTag": "82f4c9f3-b332-4ca8-910a-70c0d385ed52"
           },
           {
             "name": "demanda_ead_hoje",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
+              "IF( NOT(ISFILTERED(dcalendario[dia])),",
               "CALCULATE(",
-              "[demanda_ead],",
-              "dcalendario[calendario] = SELECTEDVALUE(dcalendario[calendario]))"
+              "    [demanda_ead],",
+              "    dcalendario[calendario] = TODAY()),",
+              "    CALCULATE(",
+              "    [demanda_ead],",
+              "    dcalendario[calendario] = SELECTEDVALUE(dcalendario[calendario]))",
+              "",
+              ")"
             ],
             "formatString": "#,0",
             "lineageTag": "87ea4069-6455-4435-bd42-c57adff3efa9"
           },
           {
             "name": "%media_dia_ead_hist",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
               "VAR A = ",
+              "",
+              "IF( NOT(ISFILTERED(dcalendario[dia])),",
               "CALCULATE(",
-              "[demanda_ead],",
-              "dcalendario[calendario] = SELECTEDVALUE(dcalendario[calendario]))",
+              "    [demanda_ead],",
+              "    dcalendario[calendario] = TODAY()),",
+              "CALCULATE(",
+              "[demanda_pesados_hoje],",
+              "dcalendario[dia] = SELECTEDVALUE(dcalendario[dia])))",
               "",
               "VAR B = ",
+              "",
               "CALCULATE(",
               "[media_dia_ead_hist],",
               "ALL(dcalendario))",
@@ -18386,27 +19181,43 @@
           },
           {
             "name": "demanda_entrega_hoje",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
+              "",
+              "",
+              "IF( NOT(ISFILTERED(dcalendario[dia])),",
               "CALCULATE(",
-              "[demanda_entrega_cliente],",
-              "dcalendario[calendario] = SELECTEDVALUE(dcalendario[calendario]))"
+              "    [demanda_entrega_cliente],",
+              "    dcalendario[calendario] = TODAY()),",
+              "    CALCULATE(",
+              "    [demanda_entrega_cliente],",
+              "    dcalendario[calendario] = SELECTEDVALUE(dcalendario[calendario]))",
+              "",
+              ")"
             ],
             "formatString": "#,0",
             "lineageTag": "d43ac761-e691-4875-a7fb-062ec1de2c78"
           },
           {
             "name": "%media_dia_entrega_hist",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
               "VAR A = ",
+              "",
+              "IF( NOT(ISFILTERED(dcalendario[dia])),",
+              "CALCULATE(",
+              "    [demanda_entrega_cliente],",
+              "    dcalendario[calendario] = TODAY()),",
               "CALCULATE(",
               "[demanda_entrega_cliente],",
-              "dcalendario[calendario] = SELECTEDVALUE(dcalendario[calendario]))",
+              "dcalendario[dia] = SELECTEDVALUE(dcalendario[dia])))",
               "",
               "VAR B = ",
+              "",
               "CALCULATE(",
               "[media_dia_entrega_hist],",
               "ALL(dcalendario))",
@@ -18428,18 +19239,23 @@
           },
           {
             "name": "%media_dia_pesados_mes",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
               "VAR A = ",
+              "",
+              "IF( NOT(ISFILTERED(dcalendario[dia])),",
+              "CALCULATE(",
+              "    [demanda_pesados],",
+              "    dcalendario[calendario] = TODAY()),",
               "CALCULATE(",
               "[demanda_pesados],",
-              "dcalendario[calendario] = SELECTEDVALUE(dcalendario[calendario]))",
+              "dcalendario[dia] = SELECTEDVALUE(dcalendario[dia])))",
               "",
               "VAR B = ",
               "",
               "[media_dia_pesados_mes]",
-              "",
               "",
               "VAR C = ",
               "A/B",
@@ -18455,6 +19271,528 @@
               "RETURN D"
             ],
             "lineageTag": "925ac23c-5d28-437b-89f0-f8873ea84101"
+          },
+          {
+            "name": "%media_dia_ead_mes",
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "",
+              "VAR A = ",
+              "",
+              "IF( NOT(ISFILTERED(dcalendario[dia])),",
+              "CALCULATE(",
+              "    [demanda_ead],",
+              "    dcalendario[calendario] = TODAY()),",
+              "CALCULATE(",
+              "[demanda_ead],",
+              "dcalendario[dia] = SELECTEDVALUE(dcalendario[dia])))",
+              "",
+              "VAR B = ",
+              "",
+              "[media_dia_ead_mes]",
+              "",
+              "VAR C = ",
+              "A/B",
+              "",
+              "VAR D = ",
+              "",
+              "IF(",
+              "    A>B,",
+              "    \" ~ \"&FORMAT(DIVIDE(A,B),\"0.00%\")&\" ⬆️\",",
+              "    \" ~ \"&FORMAT(DIVIDE(A,B),\"0.00%\")&\" ⬇️\")",
+              "",
+              "",
+              "RETURN D"
+            ],
+            "lineageTag": "3ee6a0bb-8ef4-4610-8d4d-91f79a196281"
+          },
+          {
+            "name": "%media_dia_entrega_mes",
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "",
+              "VAR A = ",
+              "",
+              "IF( NOT(ISFILTERED(dcalendario[dia])),",
+              "CALCULATE(",
+              "    [demanda_entrega_cliente],",
+              "    dcalendario[calendario] = TODAY()),",
+              "CALCULATE(",
+              "[demanda_entrega_cliente],",
+              "dcalendario[dia] = SELECTEDVALUE(dcalendario[dia])))",
+              "",
+              "VAR B = ",
+              "",
+              "[media_dia_entrega_mes]",
+              "",
+              "VAR C = ",
+              "A/B",
+              "",
+              "VAR D = ",
+              "",
+              "IF(",
+              "    A>B,",
+              "    \" ~ \"&FORMAT(DIVIDE(A,B),\"0.00%\")&\" ⬆️\",",
+              "    \" ~ \"&FORMAT(DIVIDE(A,B),\"0.00%\")&\" ⬇️\")",
+              "",
+              "",
+              "RETURN D"
+            ],
+            "lineageTag": "22d1dcdf-6556-4ddf-95a0-b97ff7848793"
+          },
+          {
+            "name": "media_ead_exp_hist",
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "",
+              "VAR A = ",
+              "CALCULATE(",
+              "    [demanda_ead],",
+              "    dbox[desc.1] = \"Expedição\")",
+              "",
+              "VAR B = ",
+              "CALCULATE(",
+              "    DISTINCTCOUNT(fbase_online_pesados_abs_demanda[data]),",
+              "    dbox[setor] = \"EAD\",",
+              "    dbox[desc.1] = \"Expedição\")",
+              "",
+              "VAR C = ",
+              "A/B",
+              "",
+              "RETURN",
+              "C"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "f87b271e-fe72-4233-b5e2-4d4c04f87ae3"
+          },
+          {
+            "name": "media_ead_rec_hist",
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "",
+              "VAR A = ",
+              "CALCULATE(",
+              "    [demanda_ead],",
+              "    dbox[desc.1] = \"Recebimento\")",
+              "",
+              "VAR B = ",
+              "CALCULATE(",
+              "    DISTINCTCOUNT(fbase_online_pesados_abs_demanda[data]),",
+              "    dbox[setor] = \"EAD\",",
+              "    dbox[desc.1] = \"Recebimento\")",
+              "",
+              "VAR C = ",
+              "A/B",
+              "",
+              "RETURN",
+              "C"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "dc914145-95d9-415d-adb5-a46d22d6e89a"
+          },
+          {
+            "name": "media_pesados_frac_hist",
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "",
+              "VAR A = ",
+              "CALCULATE(",
+              "    [demanda_pesados],",
+              "    dbox[desc.1] = \"Fracionado\")",
+              "",
+              "VAR B = ",
+              "CALCULATE(",
+              "    DISTINCTCOUNT(fbase_online_pesados_abs_demanda[data]),",
+              "    dbox[desc.1] = \"Fracionado\")",
+              "",
+              "VAR C = ",
+              "A/B",
+              "",
+              "RETURN",
+              "C"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "c2f8167c-66a5-46de-97b2-3cd108d15f26"
+          },
+          {
+            "name": "media_pesados_ribeirao_hist",
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "",
+              "VAR A = ",
+              "CALCULATE(",
+              "    [demanda_pesados],",
+              "    dbox[desc.1] = \"Polo Ribeirão Preto\")",
+              "",
+              "VAR B = ",
+              "CALCULATE(",
+              "    DISTINCTCOUNT(fbase_online_pesados_abs_demanda[data]),",
+              "    dbox[desc.1] = \"Polo Ribeirão Preto\")",
+              "",
+              "VAR C = ",
+              "A/B",
+              "",
+              "RETURN",
+              "C"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "05f86521-9d93-49f5-9313-1c525f9cd703"
+          },
+          {
+            "name": "media_pesados_porta_hist",
+            "displayFolder": "Pesados",
+            "expression": [
+              "",
+              "",
+              "VAR A = ",
+              "CALCULATE(",
+              "    [demanda_pesados],",
+              "    dbox[desc.1] = \"Porta-Porta 24H - Polo\")",
+              "",
+              "VAR B = ",
+              "CALCULATE(",
+              "    DISTINCTCOUNT(fbase_online_pesados_abs_demanda[data]),",
+              "    dbox[desc.1] = \"Porta-Porta 24H - Polo\")",
+              "",
+              "VAR C = ",
+              "A/B",
+              "",
+              "RETURN",
+              "C"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "4df4055f-8e14-4da8-bc61-692f781de75a"
+          },
+          {
+            "name": "demanda_exp_ead",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    [demanda_ead],",
+              "    dbox[desc.1] = \"Expedição\")"
+            ],
+            "formatString": "0",
+            "lineageTag": "3a392a68-b1ba-490b-95f7-2e1ee6b06517"
+          },
+          {
+            "name": "demanda_rec_ead",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    [demanda_ead],",
+              "    dbox[desc.1] = \"Recebimento\")"
+            ],
+            "formatString": "0",
+            "lineageTag": "e6044773-6325-4285-b21d-4ed7f1c9c765"
+          },
+          {
+            "name": "demanda_fracionado",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    [demanda_pesados],",
+              "    dbox[desc.1] = \"Fracionado\")"
+            ],
+            "formatString": "0",
+            "lineageTag": "0974aea0-ad25-4d41-a209-a2ff81f266d1"
+          },
+          {
+            "name": "demanda_ribeirao",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    [demanda_pesados],",
+              "    dbox[desc.1] = \"Polo Ribeirão Preto\")"
+            ],
+            "formatString": "0",
+            "lineageTag": "c0288bea-eef0-4d58-b8bd-4a2750306070"
+          },
+          {
+            "name": "demanda_polo24",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    [demanda_pesados],",
+              "    dbox[desc.1] = \"Porta-Porta 24H - Polo\")"
+            ],
+            "formatString": "0",
+            "lineageTag": "7fea15c3-440b-45b3-84f2-b3585b573e64"
+          },
+          {
+            "name": "demanda_ead_exp_hoje",
+            "expression": [
+              "",
+              "",
+              "IF( NOT(ISFILTERED(dcalendario[dia])),",
+              "CALCULATE(",
+              "    [demanda_exp_ead],",
+              "    dcalendario[calendario] = TODAY()),",
+              "CALCULATE(",
+              "[demanda_exp_ead],",
+              "dcalendario[dia] = SELECTEDVALUE(dcalendario[dia]))",
+              "",
+              ")"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "60deb041-49bf-4267-911a-a7bd8752e080"
+          },
+          {
+            "name": "demanda_ead_rec_hoje",
+            "expression": [
+              "",
+              "",
+              "IF( NOT(ISFILTERED(dcalendario[dia])),",
+              "CALCULATE(",
+              "    [demanda_rec_ead],",
+              "    dcalendario[calendario] = TODAY()),",
+              "CALCULATE(",
+              "[demanda_rec_ead],",
+              "dcalendario[dia] = SELECTEDVALUE(dcalendario[dia]))",
+              "",
+              ")"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "03fdffc8-2852-47d8-9478-23c36e45898f"
+          },
+          {
+            "name": "demanda_pesados_fracionado_hoje",
+            "expression": [
+              "",
+              "",
+              "IF( NOT(ISFILTERED(dcalendario[dia])),",
+              "CALCULATE(",
+              "    [demanda_fracionado],",
+              "    dcalendario[calendario] = TODAY()),",
+              "CALCULATE(",
+              "[demanda_fracionado],",
+              "dcalendario[dia] = SELECTEDVALUE(dcalendario[dia]))",
+              "",
+              ")"
+            ],
+            "formatString": "0",
+            "lineageTag": "2bf814be-4ed8-4dd3-8b5a-7598e368c05e"
+          },
+          {
+            "name": "demanda_pesados_polo_ribeirao_hoje",
+            "expression": [
+              "",
+              "",
+              "IF( NOT(ISFILTERED(dcalendario[dia])),",
+              "CALCULATE(",
+              "    [demanda_ribeirao],",
+              "    dcalendario[calendario] = TODAY()),",
+              "CALCULATE(",
+              "[demanda_ribeirao],",
+              "dcalendario[dia] = SELECTEDVALUE(dcalendario[dia]))",
+              "",
+              ")"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "29c09fd5-5455-4f7f-8740-96e9f4baf73f"
+          },
+          {
+            "name": "demanda_pesados_polo24_hoje",
+            "expression": [
+              "",
+              "",
+              "IF( NOT(ISFILTERED(dcalendario[dia])),",
+              "CALCULATE(",
+              "    [demanda_polo24],",
+              "    dcalendario[calendario] = TODAY()),",
+              "CALCULATE(",
+              "[demanda_polo24],",
+              "dcalendario[dia] = SELECTEDVALUE(dcalendario[dia]))",
+              "",
+              ")"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "83ccd67f-6c1d-4dcb-9a7d-1cebfa55bfca"
+          },
+          {
+            "name": "%media_ead_exp_hist",
+            "expression": [
+              "",
+              "",
+              "VAR A = ",
+              "",
+              "IF( NOT(ISFILTERED(dcalendario[dia])),",
+              "CALCULATE(",
+              "    [demanda_ead_exp_hoje],",
+              "    dcalendario[calendario] = TODAY()),",
+              "CALCULATE(",
+              "[demanda_ead_exp_hoje],",
+              "dcalendario[dia] = SELECTEDVALUE(dcalendario[dia])))",
+              "",
+              "VAR B = ",
+              "",
+              "CALCULATE(",
+              "[media_ead_exp_hist],",
+              "ALL(dcalendario))",
+              "",
+              "VAR C = ",
+              "A/B",
+              "",
+              "VAR D = ",
+              "",
+              "IF(",
+              "    A>B,",
+              "    \" ~ \"&FORMAT(DIVIDE(A,B),\"0.00%\")&\" ⬆️\",",
+              "    \" ~ \"&FORMAT(DIVIDE(A,B),\"0.00%\")&\" ⬇️\")",
+              "",
+              "",
+              "RETURN D"
+            ],
+            "lineageTag": "67d78a3b-59de-4056-9d78-7b0321cabb1c"
+          },
+          {
+            "name": "%media_ead_rec_hist",
+            "expression": [
+              "",
+              "",
+              "VAR A = ",
+              "",
+              "IF( NOT(ISFILTERED(dcalendario[dia])),",
+              "CALCULATE(",
+              "    [demanda_ead_rec_hoje],",
+              "    dcalendario[calendario] = TODAY()),",
+              "CALCULATE(",
+              "[demanda_ead_rec_hoje],",
+              "dcalendario[dia] = SELECTEDVALUE(dcalendario[dia])))",
+              "",
+              "VAR B = ",
+              "",
+              "CALCULATE(",
+              "[media_ead_rec_hist],",
+              "ALL(dcalendario))",
+              "",
+              "VAR C = ",
+              "A/B",
+              "",
+              "VAR D = ",
+              "",
+              "IF(",
+              "    A>B,",
+              "    \" ~ \"&FORMAT(DIVIDE(A,B),\"0.00%\")&\" ⬆️\",",
+              "    \" ~ \"&FORMAT(DIVIDE(A,B),\"0.00%\")&\" ⬇️\")",
+              "",
+              "",
+              "RETURN D"
+            ],
+            "lineageTag": "b32362f1-8ba4-4147-ada1-940ea2f1097a"
+          },
+          {
+            "name": "%media_pesados_fracionados_hist",
+            "expression": [
+              "",
+              "",
+              "VAR A = ",
+              "",
+              "IF( NOT(ISFILTERED(dcalendario[dia])),",
+              "CALCULATE(",
+              "    [demanda_pesados_fracionado_hoje],",
+              "    dcalendario[calendario] = TODAY()),",
+              "CALCULATE(",
+              "[demanda_pesados_fracionado_hoje],",
+              "dcalendario[dia] = SELECTEDVALUE(dcalendario[dia])))",
+              "",
+              "VAR B = ",
+              "",
+              "CALCULATE(",
+              "[media_pesados_frac_hist],",
+              "ALL(dcalendario))",
+              "",
+              "VAR C = ",
+              "A/B",
+              "",
+              "VAR D = ",
+              "",
+              "IF(",
+              "    A>B,",
+              "    \" ~ \"&FORMAT(DIVIDE(A,B),\"0.00%\")&\" ⬆️\",",
+              "    \" ~ \"&FORMAT(DIVIDE(A,B),\"0.00%\")&\" ⬇️\")",
+              "",
+              "",
+              "RETURN D"
+            ],
+            "lineageTag": "052288b0-266f-4e54-8fc6-1fb102459fba"
+          },
+          {
+            "name": "%media_pesados_ribeirao_hist",
+            "expression": [
+              "",
+              "",
+              "VAR A = ",
+              "",
+              "IF( NOT(ISFILTERED(dcalendario[dia])),",
+              "CALCULATE(",
+              "    [demanda_pesados_polo_ribeirao_hoje],",
+              "    dcalendario[calendario] = TODAY()),",
+              "CALCULATE(",
+              "[demanda_pesados_polo_ribeirao_hoje],",
+              "dcalendario[dia] = SELECTEDVALUE(dcalendario[dia])))",
+              "",
+              "VAR B = ",
+              "",
+              "CALCULATE(",
+              "[media_pesados_ribeirao_hist],",
+              "ALL(dcalendario))",
+              "",
+              "VAR C = ",
+              "A/B",
+              "",
+              "VAR D = ",
+              "",
+              "IF(",
+              "    A>B,",
+              "    \" ~ \"&FORMAT(DIVIDE(A,B),\"0.00%\")&\" ⬆️\",",
+              "    \" ~ \"&FORMAT(DIVIDE(A,B),\"0.00%\")&\" ⬇️\")",
+              "",
+              "",
+              "RETURN D"
+            ],
+            "lineageTag": "f8881727-b9c7-4a72-839d-66b49423f9d9"
+          },
+          {
+            "name": "%media_pesados_porta24_hist",
+            "expression": [
+              "",
+              "",
+              "VAR A = ",
+              "",
+              "IF( NOT(ISFILTERED(dcalendario[dia])),",
+              "CALCULATE(",
+              "    [demanda_pesados_polo24_hoje],",
+              "    dcalendario[calendario] = TODAY()),",
+              "CALCULATE(",
+              "[demanda_pesados_polo24_hoje],",
+              "dcalendario[dia] = SELECTEDVALUE(dcalendario[dia])))",
+              "",
+              "VAR B = ",
+              "",
+              "CALCULATE(",
+              "[media_pesados_porta_hist],",
+              "ALL(dcalendario))",
+              "",
+              "VAR C = ",
+              "A/B",
+              "",
+              "VAR D = ",
+              "",
+              "IF(",
+              "    A>B,",
+              "    \" ~ \"&FORMAT(DIVIDE(A,B),\"0.00%\")&\" ⬆️\",",
+              "    \" ~ \"&FORMAT(DIVIDE(A,B),\"0.00%\")&\" ⬇️\")",
+              "",
+              "",
+              "RETURN D"
+            ],
+            "lineageTag": "fbe7ec61-5af7-4ff9-9d68-179041c93947"
           }
         ],
         "partitions": [
