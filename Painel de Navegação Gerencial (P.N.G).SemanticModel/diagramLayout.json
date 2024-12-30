@@ -176,6 +176,19 @@
             "width": 234
           },
           "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 2007.0184615867067,
+            "y": 252.81970402012325
+          },
+          "nodeIndex": "fbase_online_pesados_abs_demanda_hoje",
+          "nodeLineageTag": "3e9b1d12-779b-4cd5-898e-32b0d9a4758c",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
         }
       ],
       "name": "Todas as tabelas",
