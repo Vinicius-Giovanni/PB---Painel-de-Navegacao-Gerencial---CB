@@ -12,7 +12,7 @@
       },
       {
         "name": "PBI_QueryOrder",
-        "value": "[\"dhora_din\",\"Medidas\",\"fbase_online_pesados_abs_demanda\",\"Arquivo de Amostra\",\"Parâmetro1\",\"Transformar o Arquivo de Exemplo\",\"Transformar Arquivo\",\"fbase_online_pesados_abs_cancelamentos\",\"Arquivo de Amostra (2)\",\"Parâmetro2\",\"Transformar o Arquivo de Exemplo (2)\",\"Transformar Arquivo (2)\",\"Consulta1\",\"dcalendario\",\"fbase_abastecimento_demanda\",\"fbase_abastecimento_cancelamentos\",\"dsetor\",\"fbase_hc_abastecimento\",\"fbase_expedicoes_abs\",\"dhora\",\"dzona\",\"dvalor_monetario\",\"dbox\",\"fbase_online_pesados_abs_demanda_hoje\",\"Arquivo de Amostra (5)\",\"Parâmetro5\",\"Transformar o Arquivo de Exemplo (5)\",\"Transformar Arquivo (5)\"]"
+        "value": "[\"dhora_din\",\"Medidas\",\"fbase_online_pesados_abs_demanda\",\"Arquivo de Amostra\",\"Parâmetro1\",\"Transformar o Arquivo de Exemplo\",\"Transformar Arquivo\",\"fbase_online_pesados_abs_cancelamentos\",\"Arquivo de Amostra (2)\",\"Parâmetro2\",\"Transformar o Arquivo de Exemplo (2)\",\"Transformar Arquivo (2)\",\"Consulta1\",\"dcalendario\",\"dhora\",\"dvalor_monetario\",\"fbase_abastecimento_demanda\",\"fbase_abastecimento_cancelamentos\",\"fbase_expedicoes_abs\",\"dzona\",\"dbox\",\"dsetor\",\"fbase_online_pesados_abs_demanda_hoje\",\"fbase_hc_abastecimento\",\"Arquivo de Amostra (5)\",\"Parâmetro5\",\"Transformar o Arquivo de Exemplo (5)\",\"Transformar Arquivo (5)\",\"ffotos\"]"
       },
       {
         "name": "__PBI_TimeIntelligenceEnabled",
@@ -2398,2060 +2398,6 @@
                       "State": "Suggested",
                       "Type": "Noun",
                       "Weight": 0.476
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "fbase online pesados abs demanda hoje": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "fbase online pesado abs demanda hoje": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.78
-                    }
-                  },
-                  {
-                    "fbase_online_pesados_abs_demanda_hoje": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.99
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.audit_status": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "Audit Status"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "audit status": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "audit category": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.75
-                    }
-                  },
-                  {
-                    "audit importance": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.75
-                    }
-                  },
-                  {
-                    "audit prestige": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.75
-                    }
-                  },
-                  {
-                    "audit prominence": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.75
-                    }
-                  },
-                  {
-                    "audit condition": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  },
-                  {
-                    "audit class": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  },
-                  {
-                    "audit grade": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  },
-                  {
-                    "audit level": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  },
-                  {
-                    "audit position": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  },
-                  {
-                    "audit rank": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.box": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "BOX"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "box": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "container": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "carton": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "strongbox": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "case": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "chest": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "packet": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "package": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "rectangle": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.466
-                    }
-                  },
-                  {
-                    "square": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.452
-                    }
-                  },
-                  {
-                    "frame": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.452
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.cod_setor_item": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "Cod Setor Item"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "cod setor item": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "cod setor product": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.762
-                    }
-                  },
-                  {
-                    "cod setor element": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.762
-                    }
-                  },
-                  {
-                    "cod setor entry": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.762
-                    }
-                  },
-                  {
-                    "cod setor article": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.739
-                    }
-                  },
-                  {
-                    "cod setor object": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.739
-                    }
-                  },
-                  {
-                    "cod setor piece": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.739
-                    }
-                  },
-                  {
-                    "cod setor token": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.739
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.data_do_pedido": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "Data do Pedido"
-                  }
-                },
-                "SemanticType": "Time",
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "data do pedido": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "date": {
-                      "State": "Generated",
-                      "Weight": 0.7
-                    }
-                  },
-                  {
-                    "information do pedido": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.609
-                    }
-                  },
-                  {
-                    "fact do pedido": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.609
-                    }
-                  },
-                  {
-                    "info do pedido": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.609
-                    }
-                  },
-                  {
-                    "statistic do pedido": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.609
-                    }
-                  },
-                  {
-                    "document do pedido": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.591
-                    }
-                  },
-                  {
-                    "figure do pedido": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.591
-                    }
-                  },
-                  {
-                    "record do pedido": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.591
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.data_limite_expedição": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "Data Limite Expedição"
-                  }
-                },
-                "SemanticType": "Time",
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "data limite expedição": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "date": {
-                      "State": "Generated",
-                      "Weight": 0.7
-                    }
-                  },
-                  {
-                    "information limite expedição": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.609
-                    }
-                  },
-                  {
-                    "fact limite expedição": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.609
-                    }
-                  },
-                  {
-                    "info limite expedição": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.609
-                    }
-                  },
-                  {
-                    "statistic limite expedição": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.609
-                    }
-                  },
-                  {
-                    "document limite expedição": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.591
-                    }
-                  },
-                  {
-                    "figure limite expedição": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.591
-                    }
-                  },
-                  {
-                    "record limite expedição": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.591
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.data_locação_pedido": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "Data locação pedido"
-                  }
-                },
-                "SemanticType": "Time",
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "data locação pedido": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "date": {
-                      "State": "Generated",
-                      "Weight": 0.7
-                    }
-                  },
-                  {
-                    "information locação pedido": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.609
-                    }
-                  },
-                  {
-                    "fact locação pedido": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.609
-                    }
-                  },
-                  {
-                    "info locação pedido": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.609
-                    }
-                  },
-                  {
-                    "statistic locação pedido": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.609
-                    }
-                  },
-                  {
-                    "document locação pedido": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.591
-                    }
-                  },
-                  {
-                    "figure locação pedido": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.591
-                    }
-                  },
-                  {
-                    "record locação pedido": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.591
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.data_prevista_entrega": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "Data Prevista Entrega"
-                  }
-                },
-                "SemanticType": "Time",
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "data prevista entrega": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "date": {
-                      "State": "Generated",
-                      "Weight": 0.7
-                    }
-                  },
-                  {
-                    "information prevista entrega": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.609
-                    }
-                  },
-                  {
-                    "fact prevista entrega": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.609
-                    }
-                  },
-                  {
-                    "info prevista entrega": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.609
-                    }
-                  },
-                  {
-                    "statistic prevista entrega": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.609
-                    }
-                  },
-                  {
-                    "document prevista entrega": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.591
-                    }
-                  },
-                  {
-                    "figure prevista entrega": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.591
-                    }
-                  },
-                  {
-                    "record prevista entrega": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.591
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.desc_setor_item": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "Desc Setor Item"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "desc setor item": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "desc setor product": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.762
-                    }
-                  },
-                  {
-                    "desc setor element": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.762
-                    }
-                  },
-                  {
-                    "desc setor entry": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.762
-                    }
-                  },
-                  {
-                    "desc setor article": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.739
-                    }
-                  },
-                  {
-                    "desc setor object": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.739
-                    }
-                  },
-                  {
-                    "desc setor piece": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.739
-                    }
-                  },
-                  {
-                    "desc setor token": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.739
-                    }
-                  },
-                  {
-                    "description setor item": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.609
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.descrição": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "Descrição"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "descrição": {
-                      "State": "Generated"
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.filial": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "Filial"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "filial": {
-                      "State": "Generated"
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.filial_destino": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "Filial Destino"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "filial destino": {
-                      "State": "Generated"
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.grupo_de_tarefa": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "Grupo de Tarefa"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "grupo de tarefa": {
-                      "State": "Generated"
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.inventory_type_ID": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "Inventory Type ID"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "inventory type ID": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "type": {
-                      "State": "Generated",
-                      "Weight": 0.97
-                    }
-                  },
-                  {
-                    "inventory type": {
-                      "State": "Generated",
-                      "Weight": 0.97
-                    }
-                  },
-                  {
-                    "type ID": {
-                      "State": "Generated",
-                      "Weight": 0.97
-                    }
-                  },
-                  {
-                    "inventory type identification": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.762
-                    }
-                  },
-                  {
-                    "inventory type identity": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.762
-                    }
-                  },
-                  {
-                    "inventory type identifier": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.762
-                    }
-                  },
-                  {
-                    "inventory category": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.75
-                    }
-                  },
-                  {
-                    "inventory genre": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.75
-                    }
-                  },
-                  {
-                    "inventory manner": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.75
-                    }
-                  },
-                  {
-                    "inventory variety": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.75
-                    }
-                  },
-                  {
-                    "type identification": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.75
-                    }
-                  },
-                  {
-                    "type identity": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.75
-                    }
-                  },
-                  {
-                    "type identifier": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.75
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.item": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "Item"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "item": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "product": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.736
-                    }
-                  },
-                  {
-                    "element": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.736
-                    }
-                  },
-                  {
-                    "entry": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.736
-                    }
-                  },
-                  {
-                    "article": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.714
-                    }
-                  },
-                  {
-                    "object": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.714
-                    }
-                  },
-                  {
-                    "piece": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.714
-                    }
-                  },
-                  {
-                    "token": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.714
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.local_de_picking": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "Local de Picking"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "local de picking": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "local de selection": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.508
-                    }
-                  },
-                  {
-                    "local de preference": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.508
-                    }
-                  },
-                  {
-                    "local de option": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.492
-                    }
-                  },
-                  {
-                    "local de alternative": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.492
-                    }
-                  },
-                  {
-                    "local de pick": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.492
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.marcação_de_EAD": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "Marcação de EAD"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "marcação de EAD": {
-                      "State": "Generated"
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.nome_da_origem": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "Nome da Origem"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "nome da origem": {
-                      "State": "Generated"
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.numero_da_gaiola": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "Numero da Gaiola"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "numero da gaiola": {
-                      "State": "Generated"
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.o_LPN": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "oLPN"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "o LPN": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "oLPN": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.99
-                    }
-                  },
-                  {
-                    "LPN": {
-                      "State": "Generated",
-                      "Weight": 0.97
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.pedido": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "Pedido"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "pedido": {
-                      "State": "Generated"
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.pedido_de_venda": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "Pedido de Venda"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "pedido de venda": {
-                      "State": "Generated"
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.qtde__peças_item": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "Qtde. Peças Item"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "qtde. peças item": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "qtde. peça item": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.78
-                    }
-                  },
-                  {
-                    "qtde. peça product": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.771
-                    }
-                  },
-                  {
-                    "qtde. peça element": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.771
-                    }
-                  },
-                  {
-                    "qtde. peça entry": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.771
-                    }
-                  },
-                  {
-                    "qtde. peça article": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.748
-                    }
-                  },
-                  {
-                    "qtde. peça object": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.748
-                    }
-                  },
-                  {
-                    "qtde. peça piece": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.748
-                    }
-                  },
-                  {
-                    "qtde. peça token": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.748
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.shipment": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "Shipment"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "shipment": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "consignment": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "cargo": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "delivery": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "batch": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "load": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "freight": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.status_oLPN": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "Status oLPN"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "status oLPN": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "category olpn": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.6
-                    }
-                  },
-                  {
-                    "importance olpn": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.6
-                    }
-                  },
-                  {
-                    "prestige olpn": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.6
-                    }
-                  },
-                  {
-                    "prominence olpn": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.6
-                    }
-                  },
-                  {
-                    "condition olpn": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.582
-                    }
-                  },
-                  {
-                    "class olpn": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.582
-                    }
-                  },
-                  {
-                    "grade olpn": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.582
-                    }
-                  },
-                  {
-                    "level olpn": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.582
-                    }
-                  },
-                  {
-                    "position olpn": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.582
-                    }
-                  },
-                  {
-                    "rank olpn": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.582
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.status_pedido": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "Status Pedido"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "status pedido": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "category pedido": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.6
-                    }
-                  },
-                  {
-                    "importance pedido": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.6
-                    }
-                  },
-                  {
-                    "prestige pedido": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.6
-                    }
-                  },
-                  {
-                    "prominence pedido": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.6
-                    }
-                  },
-                  {
-                    "condition pedido": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.582
-                    }
-                  },
-                  {
-                    "class pedido": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.582
-                    }
-                  },
-                  {
-                    "grade pedido": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.582
-                    }
-                  },
-                  {
-                    "level pedido": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.582
-                    }
-                  },
-                  {
-                    "position pedido": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.582
-                    }
-                  },
-                  {
-                    "rank pedido": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.582
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.tarefa": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "Tarefa"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "tarefa": {
-                      "State": "Generated"
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.tarefa_status": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "Tarefa Status"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "tarefa status": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "tarefa category": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.75
-                    }
-                  },
-                  {
-                    "tarefa importance": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.75
-                    }
-                  },
-                  {
-                    "tarefa prestige": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.75
-                    }
-                  },
-                  {
-                    "tarefa prominence": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.75
-                    }
-                  },
-                  {
-                    "tarefa condition": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  },
-                  {
-                    "tarefa class": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  },
-                  {
-                    "tarefa grade": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  },
-                  {
-                    "tarefa level": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  },
-                  {
-                    "tarefa position": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  },
-                  {
-                    "tarefa rank": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.727
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.tipo_de_pedido": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "Tipo de pedido"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "tipo de pedido": {
-                      "State": "Generated"
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.tote": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "TOTE"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "tote": {
-                      "State": "Generated"
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.volume": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "Volume"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "volume": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "capacity": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "size": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "bulk": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "tome": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.466
-                    }
-                  },
-                  {
-                    "book": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.452
-                    }
-                  },
-                  {
-                    "work": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.452
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.wave": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "Wave"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "wave": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "groundswell": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "tendency": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "movement": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "breaker": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "roller": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "upsurge": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "trend": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "surge": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "flood": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "surf": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  }
-                ]
-              },
-              "fbase_online_pesados_abs_demanda_hoje.último_update_oLPN": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje",
-                    "ConceptualProperty": "Último Update oLPN"
-                  }
-                },
-                "SemanticType": "Time",
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "último update oLPN": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "date": {
-                      "State": "Generated",
-                      "Weight": 0.7
                     }
                   }
                 ]
@@ -14204,1082 +12150,6 @@
                 },
                 "State": "Generated"
               },
-              "fbase_online_pesados_abs_demanda_hoje_has_audit_status": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.audit_status"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_audit_statuses",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.audit_status": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.audit_status"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_box": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.box"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_boxes",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.box": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.box"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_cod_setor_item": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.cod_setor_item"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_cod_setor_items",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.cod_setor_item": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.cod_setor_item"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_data_do_pedido": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.data_do_pedido"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_data_do_pedidos",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.data_do_pedido": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.data_do_pedido"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_data_limite_expedição": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.data_limite_expedição"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_data_limite_expediçãos",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.data_limite_expedição": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.data_limite_expedição"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_data_locação_pedido": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.data_locação_pedido"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_data_locação_pedidos",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.data_locação_pedido": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.data_locação_pedido"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_data_prevista_entrega": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.data_prevista_entrega"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_data_prevista_entregas",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.data_prevista_entrega": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.data_prevista_entrega"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_desc_setor_item": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.desc_setor_item"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_desc_setor_items",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.desc_setor_item": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.desc_setor_item"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_descrição": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.descrição"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_descriçãos",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.descrição": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.descrição"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_filial": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.filial"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_filial",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  },
-                  {
-                    "Adjective": {
-                      "Adjectives": [
-                        {
-                          "filial": {
-                            "State": "Generated"
-                          }
-                        }
-                      ],
-                      "Measurement": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.filial"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "filial_indicates_how_filial_fbase_online_pesados_abs_demanda_hojes_are",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.filial": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.filial"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_filial_destino": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.filial_destino"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_filial_destinos",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.filial_destino": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.filial_destino"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_grupo_de_tarefa": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.grupo_de_tarefa"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_grupo_de_tarefas",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.grupo_de_tarefa": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.grupo_de_tarefa"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_inventory_type_ID": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.inventory_type_ID"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_inventory_type_ID",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.inventory_type_ID": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.inventory_type_ID"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_item": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.item"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_items",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.item": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.item"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_local_de_picking": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.local_de_picking"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_local_de_picking",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.local_de_picking": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.local_de_picking"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_marcação_de_EAD": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.marcação_de_EAD"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_marcação_de_EADs",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.marcação_de_EAD": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.marcação_de_EAD"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_nome_da_origem": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.nome_da_origem"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_nome_da_origems",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.nome_da_origem": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.nome_da_origem"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_numero_da_gaiola": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.numero_da_gaiola"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_numero_da_gaiolas",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.numero_da_gaiola": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.numero_da_gaiola"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_o_LPN": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.o_LPN"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_o_LPNs",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.o_LPN": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.o_LPN"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_pedido": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.pedido"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_pedidos",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.pedido": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.pedido"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_pedido_de_venda": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.pedido_de_venda"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_pedido_de_venda",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.pedido_de_venda": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.pedido_de_venda"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_qtde__peças_item": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.qtde__peças_item"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_qtde__peças_items",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.qtde__peças_item": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.qtde__peças_item"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_shipment": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.shipment"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_shipments",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.shipment": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.shipment"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_status_oLPN": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.status_oLPN"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_status_oLPNs",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.status_oLPN": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.status_oLPN"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_status_pedido": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.status_pedido"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_status_pedidos",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.status_pedido": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.status_pedido"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_tarefa": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.tarefa"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_tarefas",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.tarefa": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.tarefa"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_tarefa_status": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.tarefa_status"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_tarefa_statuses",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.tarefa_status": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.tarefa_status"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_tipo_de_pedido": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.tipo_de_pedido"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_tipo_de_pedidos",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.tipo_de_pedido": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.tipo_de_pedido"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_tote": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.tote"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_totes",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.tote": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.tote"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_volume": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.volume"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_volumes",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.volume": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.volume"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_wave": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.wave"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_waves",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.wave": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.wave"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "fbase_online_pesados_abs_demanda_hoje_has_último_update_oLPN": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda_hoje"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje.último_update_oLPN"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_abs_demanda_hoje"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demanda_hojes_have_último_update_oLPNs",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_abs_demanda_hoje": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje"
-                    }
-                  },
-                  "fbase_online_pesados_abs_demanda_hoje.último_update_oLPN": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_abs_demanda_hoje.último_update_oLPN"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
               "fbase_online_pesados_cancelamento_has_codigo_cancelamento": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_cancelamentos"
@@ -21571,7 +18441,7 @@
         ],
         "kind": "m",
         "lineageTag": "feef2ac3-325f-4b09-8f59-e5df3f6c07af",
-        "queryGroup": "Transformar Arquivo de fbase_online_pesados_demanda\\Consultas Auxiliares"
+        "queryGroup": "Parâmetro\\Transformar Arquivo de fbase_online_pesados_demanda\\Consultas Auxiliares"
       },
       {
         "name": "Parâmetro1",
@@ -21584,7 +18454,7 @@
         "expression": "#\"Arquivo de Amostra\" meta [IsParameterQuery=true, BinaryIdentifier=#\"Arquivo de Amostra\", Type=\"Binary\", IsParameterQueryRequired=true]",
         "kind": "m",
         "lineageTag": "2867a508-aeb9-4aa1-bcc6-8c0d778ad949",
-        "queryGroup": "Transformar Arquivo de fbase_online_pesados_demanda\\Consultas Auxiliares"
+        "queryGroup": "Parâmetro\\Transformar Arquivo de fbase_online_pesados_demanda\\Consultas Auxiliares"
       },
       {
         "name": "Transformar o Arquivo de Exemplo",
@@ -21603,7 +18473,7 @@
         ],
         "kind": "m",
         "lineageTag": "8a234d44-9fda-4a34-93ff-880f3123ca86",
-        "queryGroup": "Transformar Arquivo de fbase_online_pesados_demanda"
+        "queryGroup": "Parâmetro\\Transformar Arquivo de fbase_online_pesados_demanda"
       },
       {
         "name": "Transformar Arquivo",
@@ -21625,7 +18495,7 @@
         ],
         "kind": "m",
         "lineageTag": "f98e5337-3dcd-443a-801e-6ef46c3a7ce1",
-        "queryGroup": "Transformar Arquivo de fbase_online_pesados_demanda\\Consultas Auxiliares"
+        "queryGroup": "Parâmetro\\Transformar Arquivo de fbase_online_pesados_demanda\\Consultas Auxiliares"
       },
       {
         "name": "Arquivo de Amostra (2)",
@@ -21650,7 +18520,7 @@
         ],
         "kind": "m",
         "lineageTag": "a7337b92-4648-430a-823a-538e6bc65bf4",
-        "queryGroup": "Transformar Arquivo de Consulta1\\Consultas Auxiliares"
+        "queryGroup": "Parâmetro\\Transformar Arquivo de Consulta1\\Consultas Auxiliares"
       },
       {
         "name": "Parâmetro2",
@@ -21663,7 +18533,7 @@
         "expression": "#\"Arquivo de Amostra (2)\" meta [IsParameterQuery=true, BinaryIdentifier=#\"Arquivo de Amostra (2)\", Type=\"Binary\", IsParameterQueryRequired=true]",
         "kind": "m",
         "lineageTag": "39133742-5bfb-4ef4-88f0-ef58f785f522",
-        "queryGroup": "Transformar Arquivo de Consulta1\\Consultas Auxiliares"
+        "queryGroup": "Parâmetro\\Transformar Arquivo de Consulta1\\Consultas Auxiliares"
       },
       {
         "name": "Transformar o Arquivo de Exemplo (2)",
@@ -21682,7 +18552,7 @@
         ],
         "kind": "m",
         "lineageTag": "de8d6c71-5892-4ba1-83a7-07cbdc35def7",
-        "queryGroup": "Transformar Arquivo de Consulta1"
+        "queryGroup": "Parâmetro\\Transformar Arquivo de Consulta1"
       },
       {
         "name": "Transformar Arquivo (2)",
@@ -21704,7 +18574,7 @@
         ],
         "kind": "m",
         "lineageTag": "455645b2-64d8-46df-8e90-51003a1608ae",
-        "queryGroup": "Transformar Arquivo de Consulta1\\Consultas Auxiliares"
+        "queryGroup": "Parâmetro\\Transformar Arquivo de Consulta1\\Consultas Auxiliares"
       },
       {
         "name": "Consulta1",
@@ -21725,7 +18595,8 @@
           "    Fonte"
         ],
         "kind": "m",
-        "lineageTag": "ad0511ee-a594-4749-bfb1-deef04705852"
+        "lineageTag": "ad0511ee-a594-4749-bfb1-deef04705852",
+        "queryGroup": "Bases"
       },
       {
         "name": "dvalor_monetario",
@@ -21760,7 +18631,8 @@
           "    #\"Duplicatas Removidas\""
         ],
         "kind": "m",
-        "lineageTag": "fa793fd6-e619-4369-b947-507abc2b15ee"
+        "lineageTag": "fa793fd6-e619-4369-b947-507abc2b15ee",
+        "queryGroup": "Bases"
       },
       {
         "name": "Arquivo de Amostra (5)",
@@ -21787,7 +18659,7 @@
         ],
         "kind": "m",
         "lineageTag": "d8df9bd1-d0f5-4e88-9981-b6307847dd0f",
-        "queryGroup": "Transformar Arquivo de Consulta2 (2)\\Consultas Auxiliares"
+        "queryGroup": "Parâmetro\\Transformar Arquivo de Consulta2 (2)\\Consultas Auxiliares"
       },
       {
         "name": "Parâmetro5",
@@ -21800,7 +18672,7 @@
         "expression": "#\"Arquivo de Amostra (5)\" meta [IsParameterQuery=true, BinaryIdentifier=#\"Arquivo de Amostra (5)\", Type=\"Binary\", IsParameterQueryRequired=true]",
         "kind": "m",
         "lineageTag": "d606c37b-5423-4601-b674-dfc233c548ec",
-        "queryGroup": "Transformar Arquivo de Consulta2 (2)\\Consultas Auxiliares"
+        "queryGroup": "Parâmetro\\Transformar Arquivo de Consulta2 (2)\\Consultas Auxiliares"
       },
       {
         "name": "Transformar o Arquivo de Exemplo (5)",
@@ -21819,7 +18691,7 @@
         ],
         "kind": "m",
         "lineageTag": "6df0a2a5-bc6d-4d31-bb86-113ee263eb0b",
-        "queryGroup": "Transformar Arquivo de Consulta2 (2)"
+        "queryGroup": "Parâmetro\\Transformar Arquivo de Consulta2 (2)"
       },
       {
         "name": "Transformar Arquivo (5)",
@@ -21842,7 +18714,39 @@
         "kind": "m",
         "lineageTag": "37bf2241-4bb9-4fdf-8a4d-837a92c81e1a",
         "mAttributes": "[ FunctionQueryBinding = \"{\"\"exemplarFormulaName\"\":\"\"Transformar o Arquivo de Exemplo (5)\"\"}\" ]",
-        "queryGroup": "Transformar Arquivo de Consulta2 (2)\\Consultas Auxiliares"
+        "queryGroup": "Parâmetro\\Transformar Arquivo de Consulta2 (2)\\Consultas Auxiliares"
+      },
+      {
+        "name": "fbase_online_pesados_abs_demanda_hoje",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Fonte = SharePoint.Contents(\"https://viavarejo.sharepoint.com/sites/grupo_de_dados_wave\", [ApiVersion = 15]),",
+          "    #\"Atualizaes de Relatrios Gerais\" = Fonte{[Name=\"Atualizaes de Relatrios Gerais\"]}[Content],",
+          "    #\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\" = #\"Atualizaes de Relatrios Gerais\"{[Name=\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\"]}[Content],",
+          "    #\"Relatórios rotativos\" = #\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\"{[Name=\"Relatórios rotativos\"]}[Content],",
+          "    #\"Status oLPN - Todos os templates\" = #\"Relatórios rotativos\"{[Name=\"Status oLPN - Todos os templates\"]}[Content],",
+          "    #\"Arquivos Ocultos Filtrados1\" = Table.SelectRows(#\"Status oLPN - Todos os templates\", each [Attributes]?[Hidden]? <> true),",
+          "    #\"Invocar Função Personalizada1\" = Table.AddColumn(#\"Arquivos Ocultos Filtrados1\", \"Transformar Arquivo (5)\", each #\"Transformar Arquivo (5)\"([Content])),",
+          "    #\"Colunas Renomeadas1\" = Table.RenameColumns(#\"Invocar Função Personalizada1\", {\"Name\", \"Nome da Origem\"}),",
+          "    #\"Outras Colunas Removidas1\" = Table.SelectColumns(#\"Colunas Renomeadas1\", {\"Nome da Origem\", \"Transformar Arquivo (5)\"}),",
+          "    #\"Coluna de Tabela Expandida1\" = Table.ExpandTableColumn(#\"Outras Colunas Removidas1\", \"Transformar Arquivo (5)\", Table.ColumnNames(#\"Transformar Arquivo (5)\"(#\"Arquivo de Amostra (5)\"))),",
+          "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Coluna de Tabela Expandida1\",{{\"Nome da Origem\", type text}, {\"Filial\", Int64.Type}, {\"Data do Pedido\", type datetime}, {\"Tipo de pedido\", type text}, {\"Wave\", type text}, {\"Data locação pedido\", type datetime}, {\"Shipment\", Int64.Type}, {\"Filial Destino\", Int64.Type}, {\"Pedido\", Int64.Type}, {\"Status Pedido\", type text}, {\"Pedido de Venda\", Int64.Type}, {\"oLPN\", Int64.Type}, {\"Último Update oLPN\", type datetime}, {\"TOTE\", type text}, {\"Tarefa\", type text}, {\"Tarefa Status\", type text}, {\"Grupo de Tarefa\", type text}, {\"Item\", Int64.Type}, {\"Descrição\", type text}, {\"Local de Picking\", type text}, {\"Qtde. Peças Item\", Int64.Type}, {\"Volume\", type number}, {\"Status oLPN\", type text}, {\"Numero da Gaiola\", Int64.Type}, {\"BOX\", Int64.Type}, {\"Marcação de EAD\", type any}, {\"Data Prevista Entrega\", type date}, {\"Data Limite Expedição\", type date}, {\"Inventory Type ID\", Int64.Type}, {\"Cod Setor Item\", Int64.Type}, {\"Desc Setor Item\", type text}, {\"Audit Status\", type any}})",
+          "in",
+          "    #\"Tipo Alterado\""
+        ],
+        "kind": "m",
+        "lineageTag": "cd9224e5-fffb-4c62-9dee-66ac60dab263",
+        "queryGroup": "Bases"
       }
     ],
     "queryGroups": [
@@ -21853,16 +18757,16 @@
             "value": "0"
           }
         ],
-        "folder": "Transformar Arquivo de fbase_online_pesados_demanda"
+        "folder": "Parâmetro\\Transformar Arquivo de fbase_online_pesados_demanda"
       },
       {
         "annotations": [
           {
             "name": "PBI_QueryGroupOrder",
-            "value": "0"
+            "value": "1"
           }
         ],
-        "folder": "Transformar Arquivo de fbase_online_pesados_demanda\\Consultas Auxiliares"
+        "folder": "Parâmetro\\Transformar Arquivo de Consulta1"
       },
       {
         "annotations": [
@@ -21871,7 +18775,7 @@
             "value": "2"
           }
         ],
-        "folder": "Transformar Arquivo de Consulta1"
+        "folder": "Parâmetro\\Transformar Arquivo de Consulta2 (2)"
       },
       {
         "annotations": [
@@ -21880,16 +18784,7 @@
             "value": "0"
           }
         ],
-        "folder": "Transformar Arquivo de Consulta1\\Consultas Auxiliares"
-      },
-      {
-        "annotations": [
-          {
-            "name": "PBI_QueryGroupOrder",
-            "value": "9"
-          }
-        ],
-        "folder": "Transformar Arquivo de Consulta2 (2)"
+        "folder": "Parâmetro\\Transformar Arquivo de fbase_online_pesados_demanda\\Consultas Auxiliares"
       },
       {
         "annotations": [
@@ -21898,7 +18793,34 @@
             "value": "0"
           }
         ],
-        "folder": "Transformar Arquivo de Consulta2 (2)\\Consultas Auxiliares"
+        "folder": "Parâmetro\\Transformar Arquivo de Consulta1\\Consultas Auxiliares"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "0"
+          }
+        ],
+        "folder": "Parâmetro\\Transformar Arquivo de Consulta2 (2)\\Consultas Auxiliares"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "6"
+          }
+        ],
+        "folder": "Parâmetro"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "7"
+          }
+        ],
+        "folder": "Bases"
       }
     ],
     "relationships": [
@@ -22012,6 +18934,7 @@
           {
             "name": "dhora_din",
             "mode": "import",
+            "queryGroup": "Bases",
             "source": {
               "expression": [
                 "let",
@@ -22033,6 +18956,10 @@
           {
             "name": "PBI_ResultType",
             "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
           }
         ],
         "columns": [
@@ -25038,12 +21965,22 @@
               "B"
             ],
             "lineageTag": "8c26e6fe-d28d-4dcd-ab52-90a7cf151801"
+          },
+          {
+            "name": "perfil",
+            "expression": [
+              "",
+              "LOOKUPVALUE(ffotos[cod_image],",
+              "ffotos[nome_completo], [username2])"
+            ],
+            "lineageTag": "cae32918-2f73-4604-b848-1bc7868bc0a1"
           }
         ],
         "partitions": [
           {
             "name": "Medidas",
             "mode": "import",
+            "queryGroup": "Bases",
             "source": {
               "expression": [
                 "let",
@@ -25395,6 +22332,7 @@
           {
             "name": "fbase_online_pesados_abs_demanda",
             "mode": "import",
+            "queryGroup": "Bases",
             "source": {
               "expression": [
                 "let",
@@ -25635,6 +22573,7 @@
           {
             "name": "fbase_online_pesados_abs_cancelamentos",
             "mode": "import",
+            "queryGroup": "Bases",
             "source": {
               "expression": [
                 "let",
@@ -25750,7 +22689,7 @@
         "annotations": [
           {
             "name": "PBI_ResultType",
-            "value": "Table"
+            "value": "Exception"
           },
           {
             "name": "PBI_NavigationStepName",
@@ -25889,6 +22828,7 @@
           {
             "name": "dcalendario",
             "mode": "import",
+            "queryGroup": "Bases",
             "source": {
               "expression": [
                 "let",
@@ -25920,7 +22860,7 @@
         "annotations": [
           {
             "name": "PBI_ResultType",
-            "value": "Table"
+            "value": "Exception"
           },
           {
             "name": "PBI_NavigationStepName",
@@ -26017,6 +22957,7 @@
           {
             "name": "fbase_abastecimento_demanda",
             "mode": "import",
+            "queryGroup": "Bases",
             "source": {
               "expression": [
                 "let",
@@ -26043,7 +22984,11 @@
         "annotations": [
           {
             "name": "PBI_ResultType",
-            "value": "Table"
+            "value": "Exception"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
           }
         ],
         "columns": [
@@ -26114,6 +23059,7 @@
           {
             "name": "fbase_abastecimento_cancelamentos",
             "mode": "import",
+            "queryGroup": "Bases",
             "source": {
               "expression": [
                 "let",
@@ -26140,7 +23086,11 @@
         "annotations": [
           {
             "name": "PBI_ResultType",
-            "value": "Table"
+            "value": "Exception"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
           }
         ],
         "columns": [
@@ -26164,6 +23114,7 @@
           {
             "name": "dsetor",
             "mode": "import",
+            "queryGroup": "Bases",
             "source": {
               "expression": [
                 "let",
@@ -26183,6 +23134,10 @@
           {
             "name": "PBI_ResultType",
             "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
           }
         ],
         "columns": [
@@ -26490,6 +23445,7 @@
           {
             "name": "fbase_hc_abastecimento",
             "mode": "import",
+            "queryGroup": "Bases",
             "source": {
               "expression": [
                 "let",
@@ -26519,7 +23475,11 @@
         "annotations": [
           {
             "name": "PBI_ResultType",
-            "value": "Table"
+            "value": "Exception"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
           }
         ],
         "columns": [
@@ -26615,6 +23575,7 @@
           {
             "name": "fbase_expedicoes_abs",
             "mode": "import",
+            "queryGroup": "Bases",
             "source": {
               "expression": [
                 "let",
@@ -26744,6 +23705,7 @@
           {
             "name": "dhora",
             "mode": "import",
+            "queryGroup": "Bases",
             "source": {
               "expression": [
                 "let",
@@ -26817,6 +23779,7 @@
           {
             "name": "dzona",
             "mode": "import",
+            "queryGroup": "Bases",
             "source": {
               "expression": [
                 "let",
@@ -26926,6 +23889,7 @@
           {
             "name": "dbox",
             "mode": "import",
+            "queryGroup": "Bases",
             "source": {
               "expression": [
                 "let",
@@ -26952,7 +23916,7 @@
         ]
       },
       {
-        "name": "fbase_online_pesados_abs_demanda_hoje",
+        "name": "ffotos",
         "annotations": [
           {
             "name": "PBI_NavigationStepName",
@@ -26965,7 +23929,7 @@
         ],
         "columns": [
           {
-            "name": "Nome da Origem",
+            "name": "nome_completo",
             "annotations": [
               {
                 "name": "SummarizationSetBy",
@@ -26973,464 +23937,45 @@
               }
             ],
             "dataType": "string",
-            "lineageTag": "f13a5004-d5d4-46fd-ac54-71c518d64a37",
-            "sourceColumn": "Nome da Origem",
+            "lineageTag": "0e38ef0a-81ed-4605-8b63-e09b36009c1c",
+            "sourceColumn": "nome_completo",
             "summarizeBy": "none"
           },
           {
-            "name": "Filial",
+            "name": "cod_image",
             "annotations": [
               {
                 "name": "SummarizationSetBy",
                 "value": "Automatic"
               }
             ],
-            "dataType": "int64",
-            "formatString": "0",
-            "lineageTag": "d0bb86cb-a89f-4c6f-8735-b4115c4afcf6",
-            "sourceColumn": "Filial",
-            "summarizeBy": "sum"
-          },
-          {
-            "name": "Data do Pedido",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "dateTime",
-            "formatString": "General Date",
-            "lineageTag": "7baded90-dc76-4e63-ae99-a3d28eb46bfc",
-            "sourceColumn": "Data do Pedido",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Tipo de pedido",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
+            "dataCategory": "ImageUrl",
             "dataType": "string",
-            "lineageTag": "1f02833b-2446-42c9-8a41-730adf3e3107",
-            "sourceColumn": "Tipo de pedido",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Wave",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "f208d2ba-dd5c-46cc-9e6a-d1bc3e7ccddf",
-            "sourceColumn": "Wave",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Data locação pedido",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "dateTime",
-            "formatString": "General Date",
-            "lineageTag": "98945f7b-4ecb-405d-8c6c-2e8cad78640b",
-            "sourceColumn": "Data locação pedido",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Shipment",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "int64",
-            "formatString": "0",
-            "lineageTag": "88bc12ea-79f4-43ca-ad82-70a584ef3c4d",
-            "sourceColumn": "Shipment",
-            "summarizeBy": "sum"
-          },
-          {
-            "name": "Filial Destino",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "int64",
-            "formatString": "0",
-            "lineageTag": "17a43aea-29d3-42bf-8615-99ffebee4d22",
-            "sourceColumn": "Filial Destino",
-            "summarizeBy": "sum"
-          },
-          {
-            "name": "Pedido",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "int64",
-            "formatString": "0",
-            "lineageTag": "364b4c61-f7cb-432e-87b3-f26ee551f3e7",
-            "sourceColumn": "Pedido",
-            "summarizeBy": "sum"
-          },
-          {
-            "name": "Status Pedido",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "4b4253b4-1f52-4cdd-9d05-b11eb8b156a8",
-            "sourceColumn": "Status Pedido",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Pedido de Venda",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "int64",
-            "formatString": "0",
-            "lineageTag": "aedd460b-6cde-42ef-80b5-2bf084fa3896",
-            "sourceColumn": "Pedido de Venda",
-            "summarizeBy": "sum"
-          },
-          {
-            "name": "oLPN",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "int64",
-            "formatString": "0",
-            "lineageTag": "9e658f6e-aeac-43db-a430-53557441f671",
-            "sourceColumn": "oLPN",
-            "summarizeBy": "sum"
-          },
-          {
-            "name": "Último Update oLPN",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "dateTime",
-            "formatString": "General Date",
-            "lineageTag": "a9dc27e9-fbc8-442b-9e42-1a9ba98082fc",
-            "sourceColumn": "Último Update oLPN",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "TOTE",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "d4bbb6cb-3c90-41f9-aa09-ad6beee84bcb",
-            "sourceColumn": "TOTE",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Tarefa",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "aa78453b-90b9-45c5-a6e4-225aa8c91671",
-            "sourceColumn": "Tarefa",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Tarefa Status",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "9043212e-752e-4e80-afd8-1c9a7bfc761a",
-            "sourceColumn": "Tarefa Status",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Grupo de Tarefa",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "8765edfc-11a7-4cd8-b315-0fc57feeb4ce",
-            "sourceColumn": "Grupo de Tarefa",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Item",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "int64",
-            "formatString": "0",
-            "lineageTag": "cd35a192-70c0-4164-9c14-50c1ac4d1700",
-            "sourceColumn": "Item",
-            "summarizeBy": "sum"
-          },
-          {
-            "name": "Descrição",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "a6f4ce1d-4201-4672-9f3f-75f3060229a3",
-            "sourceColumn": "Descrição",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Local de Picking",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "fa7cc2a7-c759-4e95-a53e-c5fec485359d",
-            "sourceColumn": "Local de Picking",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Qtde. Peças Item",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "int64",
-            "formatString": "0",
-            "lineageTag": "6122dd94-2769-4576-805a-cdfc800d2bee",
-            "sourceColumn": "Qtde. Peças Item",
-            "summarizeBy": "sum"
-          },
-          {
-            "name": "Volume",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              },
-              {
-                "name": "PBI_FormatHint",
-                "value": "{\"isGeneralNumber\":true}"
-              }
-            ],
-            "dataType": "double",
-            "lineageTag": "d2d3fac1-61e4-480d-9244-8d4f7f5256f9",
-            "sourceColumn": "Volume",
-            "summarizeBy": "sum"
-          },
-          {
-            "name": "Status oLPN",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "c7e06215-3f41-4a7d-bb85-ac7d2d74cb05",
-            "sourceColumn": "Status oLPN",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Numero da Gaiola",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "int64",
-            "formatString": "0",
-            "lineageTag": "9aa7ab95-61a2-4ac9-bbab-559f6a525af7",
-            "sourceColumn": "Numero da Gaiola",
-            "summarizeBy": "sum"
-          },
-          {
-            "name": "BOX",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "int64",
-            "formatString": "0",
-            "lineageTag": "89b2a48f-d06e-4e0e-a06c-ee467d4c0b49",
-            "sourceColumn": "BOX",
-            "summarizeBy": "sum"
-          },
-          {
-            "name": "Marcação de EAD",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "fbcb5038-2494-409a-a78a-3090d2737224",
-            "sourceColumn": "Marcação de EAD",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Data Prevista Entrega",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              },
-              {
-                "name": "UnderlyingDateTimeDataType",
-                "value": "Date"
-              }
-            ],
-            "dataType": "dateTime",
-            "formatString": "Long Date",
-            "lineageTag": "29edf3b0-af85-47b0-9580-173dbda3f2c1",
-            "sourceColumn": "Data Prevista Entrega",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Data Limite Expedição",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              },
-              {
-                "name": "UnderlyingDateTimeDataType",
-                "value": "Date"
-              }
-            ],
-            "dataType": "dateTime",
-            "formatString": "Long Date",
-            "lineageTag": "11a0d7d0-1ec5-430e-8230-ddaea9dc3bf6",
-            "sourceColumn": "Data Limite Expedição",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Inventory Type ID",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "int64",
-            "formatString": "0",
-            "lineageTag": "a4b9178f-3f76-41c2-b920-d573f1eebdd6",
-            "sourceColumn": "Inventory Type ID",
-            "summarizeBy": "count"
-          },
-          {
-            "name": "Cod Setor Item",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "int64",
-            "formatString": "0",
-            "lineageTag": "102433f7-ae85-4832-85b4-7eb81e56c9eb",
-            "sourceColumn": "Cod Setor Item",
-            "summarizeBy": "sum"
-          },
-          {
-            "name": "Desc Setor Item",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "7dd60690-24fe-44b6-8ca1-477a33ca7cd1",
-            "sourceColumn": "Desc Setor Item",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Audit Status",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "69fb5921-18c8-42b1-a27b-15d2d39130d6",
-            "sourceColumn": "Audit Status",
+            "lineageTag": "ad9cf6c1-7f90-4406-8d61-157d0ed13a77",
+            "sourceColumn": "cod_image",
             "summarizeBy": "none"
           }
         ],
-        "lineageTag": "3e9b1d12-779b-4cd5-898e-32b0d9a4758c",
+        "lineageTag": "cf8b7d4c-05a5-4a4f-abc2-4155ed816353",
         "partitions": [
           {
-            "name": "fbase_online_pesados_abs_demanda_hoje",
+            "name": "ffotos",
             "mode": "import",
+            "queryGroup": "Bases",
             "source": {
               "expression": [
                 "let",
                 "    Fonte = SharePoint.Contents(\"https://viavarejo.sharepoint.com/sites/grupo_de_dados_wave\", [ApiVersion = 15]),",
                 "    #\"Atualizaes de Relatrios Gerais\" = Fonte{[Name=\"Atualizaes de Relatrios Gerais\"]}[Content],",
                 "    #\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\" = #\"Atualizaes de Relatrios Gerais\"{[Name=\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\"]}[Content],",
-                "    #\"Relatórios rotativos\" = #\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\"{[Name=\"Relatórios rotativos\"]}[Content],",
-                "    #\"Status oLPN - Todos os templates\" = #\"Relatórios rotativos\"{[Name=\"Status oLPN - Todos os templates\"]}[Content],",
-                "    #\"Arquivos Ocultos Filtrados1\" = Table.SelectRows(#\"Status oLPN - Todos os templates\", each [Attributes]?[Hidden]? <> true),",
-                "    #\"Invocar Função Personalizada1\" = Table.AddColumn(#\"Arquivos Ocultos Filtrados1\", \"Transformar Arquivo (5)\", each #\"Transformar Arquivo (5)\"([Content])),",
-                "    #\"Colunas Renomeadas1\" = Table.RenameColumns(#\"Invocar Função Personalizada1\", {\"Name\", \"Nome da Origem\"}),",
-                "    #\"Outras Colunas Removidas1\" = Table.SelectColumns(#\"Colunas Renomeadas1\", {\"Nome da Origem\", \"Transformar Arquivo (5)\"}),",
-                "    #\"Coluna de Tabela Expandida1\" = Table.ExpandTableColumn(#\"Outras Colunas Removidas1\", \"Transformar Arquivo (5)\", Table.ColumnNames(#\"Transformar Arquivo (5)\"(#\"Arquivo de Amostra (5)\"))),",
-                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Coluna de Tabela Expandida1\",{{\"Nome da Origem\", type text}, {\"Filial\", Int64.Type}, {\"Data do Pedido\", type datetime}, {\"Tipo de pedido\", type text}, {\"Wave\", type text}, {\"Data locação pedido\", type datetime}, {\"Shipment\", Int64.Type}, {\"Filial Destino\", Int64.Type}, {\"Pedido\", Int64.Type}, {\"Status Pedido\", type text}, {\"Pedido de Venda\", Int64.Type}, {\"oLPN\", Int64.Type}, {\"Último Update oLPN\", type datetime}, {\"TOTE\", type text}, {\"Tarefa\", type text}, {\"Tarefa Status\", type text}, {\"Grupo de Tarefa\", type text}, {\"Item\", Int64.Type}, {\"Descrição\", type text}, {\"Local de Picking\", type text}, {\"Qtde. Peças Item\", Int64.Type}, {\"Volume\", type number}, {\"Status oLPN\", type text}, {\"Numero da Gaiola\", Int64.Type}, {\"BOX\", Int64.Type}, {\"Marcação de EAD\", type any}, {\"Data Prevista Entrega\", type date}, {\"Data Limite Expedição\", type date}, {\"Inventory Type ID\", Int64.Type}, {\"Cod Setor Item\", Int64.Type}, {\"Desc Setor Item\", type text}, {\"Audit Status\", type any}})",
+                "    #\"Relatórios históricos\" = #\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\"{[Name=\"Relatórios históricos\"]}[Content],",
+                "    #\"Painel de Navegacao Gerencial - ADMS - Vinicius &  Almeida\" = #\"Relatórios históricos\"{[Name=\"Painel de Navegacao Gerencial - ADMS - Vinicius &  Almeida\"]}[Content],",
+                "    #\"SLA - Abastecimento de Lojas\" = #\"Painel de Navegacao Gerencial - ADMS - Vinicius &  Almeida\"{[Name=\"SLA - Abastecimento de Lojas\"]}[Content],",
+                "    #\"base_fotos xlsx\" = #\"SLA - Abastecimento de Lojas\"{[Name=\"base_fotos.xlsx\"]}[Content],",
+                "    #\"Pasta de Trabalho Importada do Excel\" = Excel.Workbook(#\"base_fotos xlsx\"),",
+                "    ttBase_Table = #\"Pasta de Trabalho Importada do Excel\"{[Item=\"ttBase\",Kind=\"Table\"]}[Data]",
                 "in",
-                "    #\"Tipo Alterado\""
+                "    ttBase_Table"
               ],
               "type": "m"
             }
