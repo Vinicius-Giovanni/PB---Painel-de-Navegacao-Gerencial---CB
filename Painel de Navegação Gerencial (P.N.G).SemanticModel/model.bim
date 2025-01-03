@@ -18893,6 +18893,13 @@
         "fromTable": "fbase_online_pesados_abs_demanda",
         "toColumn": "hora",
         "toTable": "dhora"
+      },
+      {
+        "name": "33ac1961-8090-5434-6946-09df484aae99",
+        "fromColumn": "sep_setor",
+        "fromTable": "fbase_online_pesados_abs_demanda",
+        "toColumn": "sep_setor",
+        "toTable": "dsetor"
       }
     ],
     "sourceQueryCulture": "pt-BR",
@@ -23086,7 +23093,7 @@
         "annotations": [
           {
             "name": "PBI_ResultType",
-            "value": "Exception"
+            "value": "Table"
           },
           {
             "name": "PBI_NavigationStepName",
@@ -23118,7 +23125,7 @@
             "source": {
               "expression": [
                 "let",
-                "    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i45WcnV0UYrViVZKzSspSk1PVEhUSM7JBHJSwaI5qWWpxUqxsQA=\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [sep_setor = _t]),",
+                "    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i45WcnV0UYrViVZKzSspSk1PVEhUSM7JBHJSwaI5qWWpxWCWY1JicUlqcmYuUC5fISVVISc/KxEoFQsA\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [sep_setor = _t]),",
                 "    #\"Tipo Alterado\" = Table.TransformColumnTypes(Fonte,{{\"sep_setor\", type text}})",
                 "in",
                 "    #\"Tipo Alterado\""
