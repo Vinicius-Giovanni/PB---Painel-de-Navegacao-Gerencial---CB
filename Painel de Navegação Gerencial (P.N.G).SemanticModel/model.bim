@@ -3788,7 +3788,10 @@
                       "Weight": 0.9
                     }
                   }
-                ]
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
               },
               "fbase_online_pesados_demanda.setor": {
                 "Definition": {
@@ -4136,6 +4139,173 @@
                       "State": "Suggested",
                       "Type": "Noun",
                       "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "ffoto": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "ffotos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ffoto": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "ffoto.cod_image": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "ffotos",
+                    "ConceptualProperty": "cod_image"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "cod image": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "cod_image": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "image": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "cod doppelgänger": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "doppelgänger": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "cod copy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "cod twin": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "cod double": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "cod duplicate": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "copy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "twin": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "double": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "duplicate": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "ffoto.nome_completo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "ffotos",
+                    "ConceptualProperty": "nome_completo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "nome completo": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "nome_completo": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
                     }
                   }
                 ]
@@ -7670,6 +7840,22 @@
                       "State": "Suggested",
                       "Type": "Noun",
                       "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "medida.perfil": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "perfil"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "perfil": {
+                      "State": "Generated"
                     }
                   }
                 ]
@@ -13074,6 +13260,52 @@
                 },
                 "State": "Generated"
               },
+              "fbase_online_pesados_demanda_has_dsetor": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dsetor"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_dsetors",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fbase_online_pesados_demanda"
+                      },
+                      "Subject": {
+                        "Role": "dsetor"
+                      }
+                    },
+                    "ID": "dsetors_have_fbase_online_pesados_abs_demandas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dsetor": {
+                    "Target": {
+                      "Entity": "dsetor"
+                    }
+                  },
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "fbase_online_pesados_demanda_has_dzona": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_demanda"
@@ -14922,39 +15154,6 @@
                 },
                 "State": "Generated"
               },
-              "fbase_online_pesados_demanda_has_sep_setor": {
-                "Binding": {
-                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "fbase_online_pesados_demanda.sep_setor"
-                      },
-                      "Subject": {
-                        "Role": "fbase_online_pesados_demanda"
-                      }
-                    },
-                    "ID": "fbase_online_pesados_abs_demandas_have_sep_setors",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "fbase_online_pesados_demanda": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_demanda"
-                    }
-                  },
-                  "fbase_online_pesados_demanda.sep_setor": {
-                    "Target": {
-                      "Entity": "fbase_online_pesados_demanda.sep_setor"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
               "fbase_online_pesados_demanda_has_setor": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_demanda"
@@ -15241,6 +15440,72 @@
                   "fbase_online_pesados_demanda.volume": {
                     "Target": {
                       "Entity": "fbase_online_pesados_demanda.volume"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "ffoto_has_cod_image": {
+                "Binding": {
+                  "ConceptualEntity": "ffotos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "ffoto.cod_image"
+                      },
+                      "Subject": {
+                        "Role": "ffoto"
+                      }
+                    },
+                    "ID": "ffotos_have_cod_images",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "ffoto": {
+                    "Target": {
+                      "Entity": "ffoto"
+                    }
+                  },
+                  "ffoto.cod_image": {
+                    "Target": {
+                      "Entity": "ffoto.cod_image"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "ffoto_has_nome_completo": {
+                "Binding": {
+                  "ConceptualEntity": "ffotos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "ffoto.nome_completo"
+                      },
+                      "Subject": {
+                        "Role": "ffoto"
+                      }
+                    },
+                    "ID": "ffotos_have_nome_completos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "ffoto": {
+                    "Target": {
+                      "Entity": "ffoto"
+                    }
+                  },
+                  "ffoto.nome_completo": {
+                    "Target": {
+                      "Entity": "ffoto.nome_completo"
                     }
                   }
                 },
@@ -17109,6 +17374,39 @@
                   "medida.month_over_month_pesados_monetario1": {
                     "Target": {
                       "Entity": "medida.month_over_month_pesados_monetario1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_perfil": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.perfil"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_perfil",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.perfil": {
+                    "Target": {
+                      "Entity": "medida.perfil"
                     }
                   }
                 },
