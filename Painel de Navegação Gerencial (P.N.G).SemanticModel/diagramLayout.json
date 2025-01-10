@@ -189,6 +189,19 @@
             "width": 234
           },
           "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2023.9813735090079,
+            "y": 254.81970402012325
+          },
+          "nodeIndex": "fProdutividade",
+          "nodeLineageTag": "686235c5-537f-4b1f-badb-67ad65005c8e",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
         }
       ],
       "name": "Todas as tabelas",
