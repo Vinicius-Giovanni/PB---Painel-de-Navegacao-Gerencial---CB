@@ -12,7 +12,7 @@
       },
       {
         "name": "PBI_QueryOrder",
-        "value": "[\"dhora_din\",\"Medidas\",\"fbase_online_pesados_abs_demanda\",\"Arquivo de Amostra\",\"Parâmetro1\",\"Transformar o Arquivo de Exemplo\",\"Transformar Arquivo\",\"fbase_online_pesados_abs_cancelamentos\",\"Arquivo de Amostra (2)\",\"Parâmetro2\",\"Transformar o Arquivo de Exemplo (2)\",\"Transformar Arquivo (2)\",\"Consulta1\",\"dcalendario\",\"dhora\",\"dvalor_monetario\",\"fbase_abastecimento_demanda\",\"fbase_abastecimento_cancelamentos\",\"fbase_expedicoes_abs\",\"dzona\",\"dbox\",\"dsetor\",\"fbase_online_pesados_abs_demanda_hoje\",\"fbase_hc_abastecimento\",\"Arquivo de Amostra (5)\",\"Parâmetro5\",\"Transformar o Arquivo de Exemplo (5)\",\"Transformar Arquivo (5)\",\"ffotos\",\"fProdutividade\",\"Arquivo de Amostra (3)\",\"Parâmetro3\",\"Transformar o Arquivo de Exemplo (3)\",\"Transformar Arquivo (3)\",\"Arquivo de Amostra (4)\",\"Parâmetro4\",\"Transformar o Arquivo de Exemplo (4)\",\"Transformar Arquivo (4)\"]"
+        "value": "[\"dhora_din\",\"Medidas\",\"fbase_online_pesados_abs_demanda\",\"Arquivo de Amostra\",\"Parâmetro1\",\"Transformar o Arquivo de Exemplo\",\"Transformar Arquivo\",\"fbase_online_pesados_abs_cancelamentos\",\"Arquivo de Amostra (2)\",\"Parâmetro2\",\"Transformar o Arquivo de Exemplo (2)\",\"Transformar Arquivo (2)\",\"Consulta1\",\"dcalendario\",\"dhora\",\"dvalor_monetario\",\"fbase_abastecimento_demanda\",\"fbase_abastecimento_cancelamentos\",\"fbase_expedicoes_abs\",\"dzona\",\"dbox\",\"dsetor\",\"fbase_online_pesados_abs_demanda_hoje\",\"fbase_hc_abastecimento\",\"Arquivo de Amostra (5)\",\"Parâmetro5\",\"Transformar o Arquivo de Exemplo (5)\",\"Transformar Arquivo (5)\",\"fProdutividade\",\"Arquivo de Amostra (4)\",\"Parâmetro4\",\"Transformar o Arquivo de Exemplo (4)\",\"Transformar Arquivo (4)\",\"dHierarquia\"]"
       },
       {
         "name": "__PBI_TimeIntelligenceEnabled",
@@ -4155,173 +4155,6 @@
                       "State": "Suggested",
                       "Type": "Noun",
                       "Weight": 0.452
-                    }
-                  }
-                ]
-              },
-              "ffoto": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "ffotos"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "ffoto": {
-                      "State": "Generated"
-                    }
-                  }
-                ]
-              },
-              "ffoto.cod_image": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "ffotos",
-                    "ConceptualProperty": "cod_image"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "cod image": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "cod_image": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.99
-                    }
-                  },
-                  {
-                    "image": {
-                      "State": "Generated",
-                      "Weight": 0.97
-                    }
-                  },
-                  {
-                    "cod doppelgänger": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.5
-                    }
-                  },
-                  {
-                    "doppelgänger": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.491
-                    }
-                  },
-                  {
-                    "cod copy": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.485
-                    }
-                  },
-                  {
-                    "cod twin": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.485
-                    }
-                  },
-                  {
-                    "cod double": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.485
-                    }
-                  },
-                  {
-                    "cod duplicate": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.485
-                    }
-                  },
-                  {
-                    "copy": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "twin": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "double": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  },
-                  {
-                    "duplicate": {
-                      "Source": {
-                        "Agent": "Thesaurus"
-                      },
-                      "State": "Suggested",
-                      "Type": "Noun",
-                      "Weight": 0.476
-                    }
-                  }
-                ]
-              },
-              "ffoto.nome_completo": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "ffotos",
-                    "ConceptualProperty": "nome_completo"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "nome completo": {
-                      "State": "Generated"
-                    }
-                  },
-                  {
-                    "nome_completo": {
-                      "State": "Generated",
-                      "Type": "Noun",
-                      "Weight": 0.99
                     }
                   }
                 ]
@@ -15494,72 +15327,6 @@
                 },
                 "State": "Generated"
               },
-              "ffoto_has_cod_image": {
-                "Binding": {
-                  "ConceptualEntity": "ffotos"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "ffoto.cod_image"
-                      },
-                      "Subject": {
-                        "Role": "ffoto"
-                      }
-                    },
-                    "ID": "ffotos_have_cod_images",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "ffoto": {
-                    "Target": {
-                      "Entity": "ffoto"
-                    }
-                  },
-                  "ffoto.cod_image": {
-                    "Target": {
-                      "Entity": "ffoto.cod_image"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "ffoto_has_nome_completo": {
-                "Binding": {
-                  "ConceptualEntity": "ffotos"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "ffoto.nome_completo"
-                      },
-                      "Subject": {
-                        "Role": "ffoto"
-                      }
-                    },
-                    "ID": "ffotos_have_nome_completos",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "ffoto": {
-                    "Target": {
-                      "Entity": "ffoto"
-                    }
-                  },
-                  "ffoto.nome_completo": {
-                    "Target": {
-                      "Entity": "ffoto.nome_completo"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
               "medida_has_EAD_fixo": {
                 "Binding": {
                   "ConceptualEntity": "Medidas"
@@ -19096,88 +18863,6 @@
         "queryGroup": "Bases"
       },
       {
-        "name": "Arquivo de Amostra (3)",
-        "annotations": [
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navegação"
-          },
-          {
-            "name": "PBI_ResultType",
-            "value": "Binary"
-          }
-        ],
-        "expression": [
-          "let",
-          "    Fonte = SharePoint.Contents(\"https://viavarejo.sharepoint.com/sites/grupo_de_dados_wave\", [ApiVersion = 15]),",
-          "    #\"Atualizaes de Relatrios Gerais\" = Fonte{[Name=\"Atualizaes de Relatrios Gerais\"]}[Content],",
-          "    #\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\" = #\"Atualizaes de Relatrios Gerais\"{[Name=\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\"]}[Content],",
-          "    #\"Relatórios históricos\" = #\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\"{[Name=\"Relatórios históricos\"]}[Content],",
-          "    #\"Produtividade Picking - ADMs - Almeida\" = #\"Relatórios históricos\"{[Name=\"Produtividade Picking - ADMs - Almeida\"]}[Content],",
-          "    Navegação1 = #\"Produtividade Picking - ADMs - Almeida\"{0}[Content]",
-          "in",
-          "    Navegação1"
-        ],
-        "kind": "m",
-        "lineageTag": "413841d1-2f7a-477c-9da9-befe6575f187",
-        "queryGroup": "Bases\\Transformar Arquivo de Consulta2\\Consultas Auxiliares"
-      },
-      {
-        "name": "Parâmetro3",
-        "annotations": [
-          {
-            "name": "PBI_ResultType",
-            "value": "Binary"
-          }
-        ],
-        "expression": "#\"Arquivo de Amostra (3)\" meta [IsParameterQuery=true, BinaryIdentifier=#\"Arquivo de Amostra (3)\", Type=\"Binary\", IsParameterQueryRequired=true]",
-        "kind": "m",
-        "lineageTag": "2bcafe6d-164d-4430-9747-ba197122aaab",
-        "queryGroup": "Bases\\Transformar Arquivo de Consulta2\\Consultas Auxiliares"
-      },
-      {
-        "name": "Transformar o Arquivo de Exemplo (3)",
-        "annotations": [
-          {
-            "name": "PBI_ResultType",
-            "value": "Table"
-          }
-        ],
-        "expression": [
-          "let",
-          "    Fonte = Csv.Document(Parâmetro3,[Delimiter=\"\t\", Columns=29, Encoding=1200, QuoteStyle=QuoteStyle.None]),",
-          "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true])",
-          "in",
-          "    #\"Cabeçalhos Promovidos\""
-        ],
-        "kind": "m",
-        "lineageTag": "f1bfc4ca-44b4-4d6f-9218-7db761994d51",
-        "queryGroup": "Bases\\Transformar Arquivo de Consulta2"
-      },
-      {
-        "name": "Transformar Arquivo (3)",
-        "annotations": [
-          {
-            "name": "PBI_ResultType",
-            "value": "Function"
-          }
-        ],
-        "expression": [
-          "let",
-          "    Fonte = (Parâmetro3) => let",
-          "        Fonte = Csv.Document(Parâmetro3,[Delimiter=\"\t\", Columns=29, Encoding=1200, QuoteStyle=QuoteStyle.None]),",
-          "        #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true])",
-          "    in",
-          "        #\"Cabeçalhos Promovidos\"",
-          "in",
-          "    Fonte"
-        ],
-        "kind": "m",
-        "lineageTag": "439931cd-06d3-4caf-b335-57bdceed15a8",
-        "mAttributes": "[ FunctionQueryBinding = \"{\"\"exemplarFormulaName\"\":\"\"Transformar o Arquivo de Exemplo (3)\"\"}\" ]",
-        "queryGroup": "Bases\\Transformar Arquivo de Consulta2\\Consultas Auxiliares"
-      },
-      {
         "name": "Arquivo de Amostra (4)",
         "annotations": [
           {
@@ -19202,7 +18887,7 @@
         ],
         "kind": "m",
         "lineageTag": "9fdfbd83-afa4-4984-bb79-f53326e97a49",
-        "queryGroup": "Bases\\Transformar Arquivo de fProdutividade\\Consultas Auxiliares"
+        "queryGroup": "Parâmetro\\Transformar Arquivo de fProdutividade\\Consultas Auxiliares"
       },
       {
         "name": "Parâmetro4",
@@ -19215,7 +18900,7 @@
         "expression": "#\"Arquivo de Amostra (4)\" meta [IsParameterQuery=true, BinaryIdentifier=#\"Arquivo de Amostra (4)\", Type=\"Binary\", IsParameterQueryRequired=true]",
         "kind": "m",
         "lineageTag": "2708dae7-ef42-48af-8f40-943119a92a09",
-        "queryGroup": "Bases\\Transformar Arquivo de fProdutividade\\Consultas Auxiliares"
+        "queryGroup": "Parâmetro\\Transformar Arquivo de fProdutividade\\Consultas Auxiliares"
       },
       {
         "name": "Transformar o Arquivo de Exemplo (4)",
@@ -19234,7 +18919,7 @@
         ],
         "kind": "m",
         "lineageTag": "5fccb182-0b01-43f3-b6dc-209887445ad3",
-        "queryGroup": "Bases\\Transformar Arquivo de fProdutividade"
+        "queryGroup": "Parâmetro\\Transformar Arquivo de fProdutividade"
       },
       {
         "name": "Transformar Arquivo (4)",
@@ -19246,18 +18931,18 @@
         ],
         "expression": [
           "let",
-          "    Fonte = (Parâmetro4) => let",
-          "        Fonte = Csv.Document(Parâmetro4,[Delimiter=\"\t\", Columns=29, Encoding=1200, QuoteStyle=QuoteStyle.None]),",
-          "        #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true])",
-          "    in",
-          "        #\"Cabeçalhos Promovidos\"",
+          "    Fonte = (Parâmetro4 as binary) => let",
+          "    Fonte = Csv.Document(Parâmetro4,[Delimiter=\"\t\", Columns=29, Encoding=1200, QuoteStyle=QuoteStyle.None]),",
+          "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true])",
+          "in",
+          "    #\"Cabeçalhos Promovidos\"",
           "in",
           "    Fonte"
         ],
         "kind": "m",
         "lineageTag": "55a766f3-ae96-471d-8486-d235bbdb26af",
         "mAttributes": "[ FunctionQueryBinding = \"{\"\"exemplarFormulaName\"\":\"\"Transformar o Arquivo de Exemplo (4)\"\"}\" ]",
-        "queryGroup": "Bases\\Transformar Arquivo de fProdutividade\\Consultas Auxiliares"
+        "queryGroup": "Parâmetro\\Transformar Arquivo de fProdutividade\\Consultas Auxiliares"
       }
     ],
     "queryGroups": [
@@ -19337,10 +19022,10 @@
         "annotations": [
           {
             "name": "PBI_QueryGroupOrder",
-            "value": "0"
+            "value": "3"
           }
         ],
-        "folder": "Bases\\Transformar Arquivo de Consulta2"
+        "folder": "Parâmetro\\Transformar Arquivo de fProdutividade"
       },
       {
         "annotations": [
@@ -19349,25 +19034,7 @@
             "value": "0"
           }
         ],
-        "folder": "Bases\\Transformar Arquivo de Consulta2\\Consultas Auxiliares"
-      },
-      {
-        "annotations": [
-          {
-            "name": "PBI_QueryGroupOrder",
-            "value": "1"
-          }
-        ],
-        "folder": "Bases\\Transformar Arquivo de fProdutividade"
-      },
-      {
-        "annotations": [
-          {
-            "name": "PBI_QueryGroupOrder",
-            "value": "0"
-          }
-        ],
-        "folder": "Bases\\Transformar Arquivo de fProdutividade\\Consultas Auxiliares"
+        "folder": "Parâmetro\\Transformar Arquivo de fProdutividade\\Consultas Auxiliares"
       }
     ],
     "relationships": [
@@ -24036,7 +23703,7 @@
         "annotations": [
           {
             "name": "PBI_ResultType",
-            "value": "Exception"
+            "value": "Table"
           },
           {
             "name": "PBI_NavigationStepName",
@@ -25092,73 +24759,6 @@
         ]
       },
       {
-        "name": "ffotos",
-        "annotations": [
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navegação"
-          },
-          {
-            "name": "PBI_ResultType",
-            "value": "Table"
-          }
-        ],
-        "columns": [
-          {
-            "name": "nome_completo",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "0e38ef0a-81ed-4605-8b63-e09b36009c1c",
-            "sourceColumn": "nome_completo",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "cod_image",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataCategory": "ImageUrl",
-            "dataType": "string",
-            "lineageTag": "ad9cf6c1-7f90-4406-8d61-157d0ed13a77",
-            "sourceColumn": "cod_image",
-            "summarizeBy": "none"
-          }
-        ],
-        "lineageTag": "cf8b7d4c-05a5-4a4f-abc2-4155ed816353",
-        "partitions": [
-          {
-            "name": "ffotos",
-            "mode": "import",
-            "queryGroup": "Bases",
-            "source": {
-              "expression": [
-                "let",
-                "    Fonte = SharePoint.Contents(\"https://viavarejo.sharepoint.com/sites/grupo_de_dados_wave\", [ApiVersion = 15]),",
-                "    #\"Atualizaes de Relatrios Gerais\" = Fonte{[Name=\"Atualizaes de Relatrios Gerais\"]}[Content],",
-                "    #\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\" = #\"Atualizaes de Relatrios Gerais\"{[Name=\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\"]}[Content],",
-                "    #\"Relatórios históricos\" = #\"Relatórios dinâmicos - ADMs - Vinicius & Almeida\"{[Name=\"Relatórios históricos\"]}[Content],",
-                "    #\"Painel de Navegacao Gerencial - ADMS - Vinicius &  Almeida\" = #\"Relatórios históricos\"{[Name=\"Painel de Navegacao Gerencial - ADMS - Vinicius &  Almeida\"]}[Content],",
-                "    #\"SLA - Abastecimento de Lojas\" = #\"Painel de Navegacao Gerencial - ADMS - Vinicius &  Almeida\"{[Name=\"SLA - Abastecimento de Lojas\"]}[Content],",
-                "    #\"base_fotos xlsx\" = #\"SLA - Abastecimento de Lojas\"{[Name=\"base_fotos.xlsx\"]}[Content],",
-                "    #\"Pasta de Trabalho Importada do Excel\" = Excel.Workbook(#\"base_fotos xlsx\"),",
-                "    ttBase_Table = #\"Pasta de Trabalho Importada do Excel\"{[Item=\"ttBase\",Kind=\"Table\"]}[Data]",
-                "in",
-                "    ttBase_Table"
-              ],
-              "type": "m"
-            }
-          }
-        ]
-      },
-      {
         "name": "fProdutividade",
         "annotations": [
           {
@@ -25211,53 +24811,16 @@
             "summarizeBy": "none"
           },
           {
-            "name": "Usuário.1",
+            "name": "usuario",
             "annotations": [
               {
                 "name": "SummarizationSetBy",
                 "value": "Automatic"
               }
             ],
-            "dataType": "int64",
-            "formatString": "0",
+            "dataType": "string",
             "lineageTag": "36cbf916-6983-42af-98f7-bf833550cc3e",
-            "sourceColumn": "Usuário.1",
-            "summarizeBy": "sum"
-          },
-          {
-            "name": "in_taks",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              },
-              {
-                "name": "UnderlyingDateTimeDataType",
-                "value": "Time"
-              }
-            ],
-            "dataType": "dateTime",
-            "formatString": "Long Time",
-            "lineageTag": "02f2d890-e304-4aeb-807f-6a60b4ee9e51",
-            "sourceColumn": "in_taks",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "end_task",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              },
-              {
-                "name": "UnderlyingDateTimeDataType",
-                "value": "Time"
-              }
-            ],
-            "dataType": "dateTime",
-            "formatString": "Long Time",
-            "lineageTag": "f5ca5b8e-aa30-4f1d-a043-a1697b9abc64",
-            "sourceColumn": "end_task",
+            "sourceColumn": "usuario",
             "summarizeBy": "none"
           },
           {
@@ -25304,6 +24867,24 @@
             "lineageTag": "aae1e098-0818-4099-b1c0-9a85d6f44147",
             "sourceColumn": "box",
             "summarizeBy": "sum"
+          },
+          {
+            "name": "hora",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Time"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Time",
+            "lineageTag": "6de15f0d-37e1-4fd7-ac65-a8b60487f9cf",
+            "sourceColumn": "hora",
+            "summarizeBy": "none"
           }
         ],
         "lineageTag": "686235c5-537f-4b1f-badb-67ad65005c8e",
@@ -25334,18 +24915,117 @@
                 "    #\"Colunas Removidas2\" = Table.RemoveColumns(#\"Tipo Alterado1\",{\"status_tarefa.1\", \"status_tarefa.2\"}),",
                 "    #\"Colunas Renomeadas2\" = Table.RenameColumns(#\"Colunas Removidas2\",{{\"status_tarefa.3\", \"status_tarefa\"}}),",
                 "    #\"Dividir Coluna por Delimitador1\" = Table.SplitColumn(#\"Colunas Renomeadas2\", \"Usuário\", Splitter.SplitTextByDelimiter(\"@\", QuoteStyle.Csv), {\"Usuário.1\", \"Usuário.2\"}),",
-                "    #\"Tipo Alterado2\" = Table.TransformColumnTypes(#\"Dividir Coluna por Delimitador1\",{{\"Usuário.1\", Int64.Type}, {\"Usuário.2\", type text}}),",
+                "    #\"Tipo Alterado2\" = Table.TransformColumnTypes(#\"Dividir Coluna por Delimitador1\",{{\"Usuário.2\", type text}}),",
                 "    #\"Colunas Removidas3\" = Table.RemoveColumns(#\"Tipo Alterado2\",{\"Usuário.2\"}),",
                 "    #\"Horário Extraído\" = Table.TransformColumns(#\"Colunas Removidas3\",{{\"Data do Inicio da Tarefa\", DateTime.Time, type time}, {\"Data de Finalização da Tarefa\", DateTime.Time, type time}}),",
                 "    #\"Colunas Renomeadas3\" = Table.RenameColumns(#\"Horário Extraído\",{{\"Data do Inicio da Tarefa\", \"in_taks\"}, {\"Data de Finalização da Tarefa\", \"end_task\"}}),",
-                "    #\"Data Extraída\" = Table.TransformColumns(#\"Colunas Renomeadas3\",{{\"Data de Finalização da oLPN\", DateTime.Date, type date}}),",
+                "    #\"Coluna Duplicada\" = Table.DuplicateColumn(#\"Colunas Renomeadas3\", \"Data de Finalização da oLPN\", \"Data de Finalização da oLPN - Copiar\"),",
+                "    #\"Início da Hora Calculado\" = Table.TransformColumns(#\"Coluna Duplicada\",{{\"Data de Finalização da oLPN - Copiar\", Time.StartOfHour, type datetime}}),",
+                "    #\"Horário Extraído1\" = Table.TransformColumns(#\"Início da Hora Calculado\",{{\"Data de Finalização da oLPN - Copiar\", DateTime.Time, type time}}),",
+                "    #\"Colunas Renomeadas7\" = Table.RenameColumns(#\"Horário Extraído1\",{{\"Data de Finalização da oLPN - Copiar\", \"hora\"}}),",
+                "    #\"Data Extraída\" = Table.TransformColumns(#\"Colunas Renomeadas7\",{{\"Data de Finalização da oLPN\", DateTime.Date, type date}}),",
                 "    #\"Colunas Renomeadas4\" = Table.RenameColumns(#\"Data Extraída\",{{\"Data de Finalização da oLPN\", \"data\"}}),",
                 "    #\"Dividir Coluna por Delimitador2\" = Table.SplitColumn(#\"Colunas Renomeadas4\", \"tipo_pedido\", Splitter.SplitTextByDelimiter(\" \", QuoteStyle.Csv), {\"tipo_pedido.1\", \"tipo_pedido.2\", \"tipo_pedido.3\", \"tipo_pedido.4\"}),",
                 "    #\"Tipo Alterado3\" = Table.TransformColumnTypes(#\"Dividir Coluna por Delimitador2\",{{\"tipo_pedido.1\", type text}, {\"tipo_pedido.2\", type text}, {\"tipo_pedido.3\", type text}, {\"tipo_pedido.4\", type text}}),",
                 "    #\"Colunas Removidas4\" = Table.RemoveColumns(#\"Tipo Alterado3\",{\"tipo_pedido.2\", \"tipo_pedido.3\", \"tipo_pedido.4\"}),",
-                "    #\"Colunas Renomeadas5\" = Table.RenameColumns(#\"Colunas Removidas4\",{{\"tipo_pedido.1\", \"tipo_pedido\"}})",
+                "    #\"Colunas Renomeadas5\" = Table.RenameColumns(#\"Colunas Removidas4\",{{\"tipo_pedido.1\", \"tipo_pedido\"}}),",
+                "    #\"Colunas Removidas5\" = Table.RemoveColumns(#\"Colunas Renomeadas5\",{\"end_task\", \"in_taks\"}),",
+                "    #\"Colunas Renomeadas6\" = Table.RenameColumns(#\"Colunas Removidas5\",{{\"Usuário.1\", \"usuario\"}})",
                 "in",
-                "    #\"Colunas Renomeadas5\""
+                "    #\"Colunas Renomeadas6\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dHierarquia",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "matricula",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "cd18f8e8-e8dc-4c35-bf47-3a43ec84343a",
+            "sourceColumn": "matricula",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "nome",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b9830480-efbd-4fda-b10f-978a72e79e46",
+            "sourceColumn": "nome",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "funcao",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9400f6f2-5c26-4656-b691-490deee70049",
+            "sourceColumn": "funcao",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "chefia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "45e224bf-e863-46fb-934e-5d7ff3c91c0f",
+            "sourceColumn": "chefia",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "7a443e59-e9b3-46b8-8d6e-128f52446707",
+        "partitions": [
+          {
+            "name": "dHierarquia",
+            "mode": "import",
+            "queryGroup": "Bases",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = SharePoint.Contents(\"https://viavarejo.sharepoint.com/sites/grupo_de_dados_wave\", [ApiVersion = 15]),",
+                "    #\"Atualizaes de Relatrios Gerais\" = Fonte{[Name=\"Atualizaes de Relatrios Gerais\"]}[Content],",
+                "    #\"Relatórios estáticos - ADMs - Vinicius & Almeida\" = #\"Atualizaes de Relatrios Gerais\"{[Name=\"Relatórios estáticos - ADMs - Vinicius & Almeida\"]}[Content],",
+                "    #\"Painel de Navegacao Gerencial - ADMS - Vinicius & Almeida\" = #\"Relatórios estáticos - ADMs - Vinicius & Almeida\"{[Name=\"Painel de Navegacao Gerencial - ADMS - Vinicius & Almeida\"]}[Content],",
+                "    #\"hierarquia xlsx\" = #\"Painel de Navegacao Gerencial - ADMS - Vinicius & Almeida\"{[Name=\"hierarquia.xlsx\"]}[Content],",
+                "    #\"Pasta de Trabalho Importada do Excel\" = Excel.Workbook(#\"hierarquia xlsx\"),",
+                "    Planilha1_Sheet = #\"Pasta de Trabalho Importada do Excel\"{[Item=\"Planilha1\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Planilha1_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\",{{\"matricula\", Int64.Type}, {\"nome\", type text}, {\"funcao\", type text}, {\"chefia\", type text}})",
+                "in",
+                "    #\"Tipo Alterado\""
               ],
               "type": "m"
             }
