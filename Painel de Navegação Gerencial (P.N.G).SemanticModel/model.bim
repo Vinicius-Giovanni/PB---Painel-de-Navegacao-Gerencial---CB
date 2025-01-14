@@ -26,6 +26,92 @@
         "linguisticMetadata": {
           "content": {
             "Entities": {
+              "d_hierarquia": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dHierarquia"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "d hierarquia": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dHierarquia": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "d_hierarquia.chefia": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dHierarquia",
+                    "ConceptualProperty": "chefia"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "chefia": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "d_hierarquia.funcao": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dHierarquia",
+                    "ConceptualProperty": "funcao"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "funcao": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "d_hierarquia.matricula": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dHierarquia",
+                    "ConceptualProperty": "matricula"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "matricula": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "d_hierarquia.nome": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dHierarquia",
+                    "ConceptualProperty": "nome"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "nome": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
               "dbox": {
                 "Definition": {
                   "Binding": {
@@ -910,6 +996,554 @@
                       },
                       "State": "Suggested",
                       "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "f_produtividade": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fProdutividade"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "f produtividade": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fProdutividade": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "f_produtividade.box": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fProdutividade",
+                    "ConceptualProperty": "box"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "box": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "container": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "carton": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "strongbox": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "case": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "chest": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "packet": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "package": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "rectangle": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "square": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "frame": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "f_produtividade.data": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fProdutividade",
+                    "ConceptualProperty": "data"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "data": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "information": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "fact": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "info": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "statistic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "document": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "figure": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "record": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "f_produtividade.hora": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fProdutividade",
+                    "ConceptualProperty": "hora"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "hora": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "time": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  }
+                ]
+              },
+              "f_produtividade.status_tarefa": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fProdutividade",
+                    "ConceptualProperty": "status_tarefa"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "status tarefa": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "status_tarefa": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "category tarefa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "importance tarefa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "prestige tarefa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "prominence tarefa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "condition tarefa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "class tarefa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "grade tarefa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "level tarefa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "position tarefa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "rank tarefa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "f_produtividade.tarefa": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fProdutividade",
+                    "ConceptualProperty": "tarefa"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tarefa": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "f_produtividade.tipo_pedido": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fProdutividade",
+                    "ConceptualProperty": "tipo_pedido"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tipo pedido": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "tipo_pedido": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "f_produtividade.usuario": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fProdutividade",
+                    "ConceptualProperty": "usuario"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "usuario": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "f_produtividade.wave": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fProdutividade",
+                    "ConceptualProperty": "wave"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "wave": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "groundswell": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "tendency": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "movement": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "breaker": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "roller": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "upsurge": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "trend": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "surge": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "flood": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "surf": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
                     }
                   }
                 ]
@@ -2672,6 +3306,22 @@
                   }
                 ]
               },
+              "fbase_online_pesados_cancelamento.pedido": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fbase_online_pesados_abs_cancelamentos",
+                    "ConceptualProperty": "Pedido"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "pedido": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
               "fbase_online_pesados_cancelamento.qtd_peca": {
                 "Definition": {
                   "Binding": {
@@ -3848,6 +4498,82 @@
                   }
                 ]
               },
+              "fbase_online_pesados_demanda.shipment": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fbase_online_pesados_abs_demanda",
+                    "ConceptualProperty": "Shipment"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "shipment": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "consignment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "cargo": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "delivery": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "batch": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "load": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "freight": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
               "fbase_online_pesados_demanda.status_oLPN": {
                 "Definition": {
                   "Binding": {
@@ -4278,6 +5004,1134 @@
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.S01_demanda": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "S01_demanda"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "S01 demanda": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "S01_demanda": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.S01_media": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "S01_media"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "S01 media": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "S01_media": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "media": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "s01 television": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "s01 radio": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "s01 broadcasting": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "television": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "radio": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "broadcasting": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "s01 vehicle": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "s01 mode": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "s01 method": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "s01 avenue": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  }
+                ]
+              },
+              "medida.S01_media1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "%S01_media"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "%S01_media": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage s01_media": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "pct s01_media": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "medida.S02_demanda": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "S02_demanda"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "S02 demanda": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "S02_demanda": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.S02_media": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "S02_media"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "S02 media": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "S02_media": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "media": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "s02 television": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "s02 radio": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "s02 broadcasting": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "television": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "radio": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "broadcasting": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "s02 vehicle": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "s02 mode": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "s02 method": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "s02 avenue": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  }
+                ]
+              },
+              "medida.S02_media1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "%S02_media"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "%S02_media": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage s02_media": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "pct s02_media": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "medida.S04_demanda": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "S04_demanda"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "S04 demanda": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "S04_demanda": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.S04_media": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "S04_media"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "S04 media": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "S04_media": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "media": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "s04 television": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "s04 radio": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "s04 broadcasting": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "television": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "radio": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "broadcasting": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "s04 vehicle": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "s04 mode": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "s04 method": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "s04 avenue": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  }
+                ]
+              },
+              "medida.S04_media1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "%S04_media"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "%S04_media": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage s04_media": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "pct s04_media": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "medida.S05_demanda": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "S05_demanda"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "S05 demanda": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "S05_demanda": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.S05_media": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "S05_media"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "S05 media": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "S05_media": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "media": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "s05 television": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "s05 radio": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "s05 broadcasting": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "television": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "radio": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "broadcasting": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "s05 vehicle": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "s05 mode": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "s05 method": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "s05 avenue": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  }
+                ]
+              },
+              "medida.S05_media1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "%S05_media"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "%S05_media": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage s05_media": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "pct s05_media": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "medida.S13_demanda": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "S13_demanda"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "S13 demanda": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "S13_demanda": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.S13_media": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "S13_media"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "S13 media": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "S13_media": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "media": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "s13 television": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "s13 radio": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "s13 broadcasting": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "television": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "radio": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "broadcasting": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "s13 vehicle": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "s13 mode": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "s13 method": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "s13 avenue": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  }
+                ]
+              },
+              "medida.S13_media1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "%S13_media"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "%S13_media": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage s13_media": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "pct s13_media": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "medida.S14_demanda": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "S14_demanda"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "S14 demanda": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "S14_demanda": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.S14_media": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "S14_media"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "S14 media": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "S14_media": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "media": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "s14 television": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "s14 radio": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "s14 broadcasting": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "television": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "radio": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "broadcasting": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "s14 vehicle": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "s14 mode": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "s14 method": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "s14 avenue": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  }
+                ]
+              },
+              "medida.S14_media1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "%S14_media"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "%S14_media": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage s14_media": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "pct s14_media": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
                     }
                   }
                 ]
@@ -5429,6 +7283,144 @@
                       "State": "Suggested",
                       "Type": "Noun",
                       "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "medida.demanda_S01_hoje": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "demanda_S01_hoje"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "demanda S01 hoje": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "demanda_S01_hoje": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.demanda_S02_hoje": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "demanda_S02_hoje"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "demanda S02 hoje": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "demanda_S02_hoje": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.demanda_S04_hoje": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "demanda_S04_hoje"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "demanda S04 hoje": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "demanda_S04_hoje": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.demanda_S05_hoje": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "demanda_S05_hoje"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "demanda S05 hoje": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "demanda_S05_hoje": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.demanda_S13_hoje": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "demanda_S13_hoje"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "demanda S13 hoje": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "demanda_S13_hoje": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.demanda_S14_hoje": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "demanda_S14_hoje"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "demanda S14 hoje": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "demanda_S14_hoje": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
                     }
                   }
                 ]
@@ -9531,6 +11523,138 @@
             },
             "Language": "en-US",
             "Relationships": {
+              "d_hierarquia_has_chefia": {
+                "Binding": {
+                  "ConceptualEntity": "dHierarquia"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_hierarquia.chefia"
+                      },
+                      "Subject": {
+                        "Role": "d_hierarquia"
+                      }
+                    },
+                    "ID": "d_hierarquias_have_chefias",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_hierarquia": {
+                    "Target": {
+                      "Entity": "d_hierarquia"
+                    }
+                  },
+                  "d_hierarquia.chefia": {
+                    "Target": {
+                      "Entity": "d_hierarquia.chefia"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_hierarquia_has_funcao": {
+                "Binding": {
+                  "ConceptualEntity": "dHierarquia"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_hierarquia.funcao"
+                      },
+                      "Subject": {
+                        "Role": "d_hierarquia"
+                      }
+                    },
+                    "ID": "d_hierarquias_have_funcaos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_hierarquia": {
+                    "Target": {
+                      "Entity": "d_hierarquia"
+                    }
+                  },
+                  "d_hierarquia.funcao": {
+                    "Target": {
+                      "Entity": "d_hierarquia.funcao"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_hierarquia_has_matricula": {
+                "Binding": {
+                  "ConceptualEntity": "dHierarquia"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_hierarquia.matricula"
+                      },
+                      "Subject": {
+                        "Role": "d_hierarquia"
+                      }
+                    },
+                    "ID": "d_hierarquias_have_matriculas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_hierarquia": {
+                    "Target": {
+                      "Entity": "d_hierarquia"
+                    }
+                  },
+                  "d_hierarquia.matricula": {
+                    "Target": {
+                      "Entity": "d_hierarquia.matricula"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "d_hierarquia_has_nome": {
+                "Binding": {
+                  "ConceptualEntity": "dHierarquia"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "d_hierarquia.nome"
+                      },
+                      "Subject": {
+                        "Role": "d_hierarquia"
+                      }
+                    },
+                    "ID": "d_hierarquias_have_nome",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "d_hierarquia": {
+                    "Target": {
+                      "Entity": "d_hierarquia"
+                    }
+                  },
+                  "d_hierarquia.nome": {
+                    "Target": {
+                      "Entity": "d_hierarquia.nome"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "dbox_has_box": {
                 "Binding": {
                   "ConceptualEntity": "dbox"
@@ -10549,6 +12673,270 @@
                   "dzona.zona": {
                     "Target": {
                       "Entity": "dzona.zona"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_produtividade_has_box": {
+                "Binding": {
+                  "ConceptualEntity": "fProdutividade"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_produtividade.box"
+                      },
+                      "Subject": {
+                        "Role": "f_produtividade"
+                      }
+                    },
+                    "ID": "f_produtividades_have_boxes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_produtividade": {
+                    "Target": {
+                      "Entity": "f_produtividade"
+                    }
+                  },
+                  "f_produtividade.box": {
+                    "Target": {
+                      "Entity": "f_produtividade.box"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_produtividade_has_data": {
+                "Binding": {
+                  "ConceptualEntity": "fProdutividade"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_produtividade.data"
+                      },
+                      "Subject": {
+                        "Role": "f_produtividade"
+                      }
+                    },
+                    "ID": "f_produtividades_have_data",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_produtividade": {
+                    "Target": {
+                      "Entity": "f_produtividade"
+                    }
+                  },
+                  "f_produtividade.data": {
+                    "Target": {
+                      "Entity": "f_produtividade.data"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_produtividade_has_hora": {
+                "Binding": {
+                  "ConceptualEntity": "fProdutividade"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_produtividade.hora"
+                      },
+                      "Subject": {
+                        "Role": "f_produtividade"
+                      }
+                    },
+                    "ID": "f_produtividades_have_horas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_produtividade": {
+                    "Target": {
+                      "Entity": "f_produtividade"
+                    }
+                  },
+                  "f_produtividade.hora": {
+                    "Target": {
+                      "Entity": "f_produtividade.hora"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_produtividade_has_status_tarefa": {
+                "Binding": {
+                  "ConceptualEntity": "fProdutividade"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_produtividade.status_tarefa"
+                      },
+                      "Subject": {
+                        "Role": "f_produtividade"
+                      }
+                    },
+                    "ID": "f_produtividades_have_status_tarefas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_produtividade": {
+                    "Target": {
+                      "Entity": "f_produtividade"
+                    }
+                  },
+                  "f_produtividade.status_tarefa": {
+                    "Target": {
+                      "Entity": "f_produtividade.status_tarefa"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_produtividade_has_tarefa": {
+                "Binding": {
+                  "ConceptualEntity": "fProdutividade"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_produtividade.tarefa"
+                      },
+                      "Subject": {
+                        "Role": "f_produtividade"
+                      }
+                    },
+                    "ID": "f_produtividades_have_tarefas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_produtividade": {
+                    "Target": {
+                      "Entity": "f_produtividade"
+                    }
+                  },
+                  "f_produtividade.tarefa": {
+                    "Target": {
+                      "Entity": "f_produtividade.tarefa"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_produtividade_has_tipo_pedido": {
+                "Binding": {
+                  "ConceptualEntity": "fProdutividade"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_produtividade.tipo_pedido"
+                      },
+                      "Subject": {
+                        "Role": "f_produtividade"
+                      }
+                    },
+                    "ID": "f_produtividades_have_tipo_pedidos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_produtividade": {
+                    "Target": {
+                      "Entity": "f_produtividade"
+                    }
+                  },
+                  "f_produtividade.tipo_pedido": {
+                    "Target": {
+                      "Entity": "f_produtividade.tipo_pedido"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_produtividade_has_usuario": {
+                "Binding": {
+                  "ConceptualEntity": "fProdutividade"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_produtividade.usuario"
+                      },
+                      "Subject": {
+                        "Role": "f_produtividade"
+                      }
+                    },
+                    "ID": "f_produtividades_have_usuarios",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_produtividade": {
+                    "Target": {
+                      "Entity": "f_produtividade"
+                    }
+                  },
+                  "f_produtividade.usuario": {
+                    "Target": {
+                      "Entity": "f_produtividade.usuario"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_produtividade_has_wave": {
+                "Binding": {
+                  "ConceptualEntity": "fProdutividade"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_produtividade.wave"
+                      },
+                      "Subject": {
+                        "Role": "f_produtividade"
+                      }
+                    },
+                    "ID": "f_produtividades_have_waves",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_produtividade": {
+                    "Target": {
+                      "Entity": "f_produtividade"
+                    }
+                  },
+                  "f_produtividade.wave": {
+                    "Target": {
+                      "Entity": "f_produtividade.wave"
                     }
                   }
                 },
@@ -12634,6 +15022,39 @@
                 },
                 "State": "Generated"
               },
+              "fbase_online_pesados_cancelamento_has_pedido": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_cancelamentos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fbase_online_pesados_cancelamento.pedido"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_cancelamento"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_cancelamentos_have_pedidos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_cancelamento": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_cancelamento"
+                    }
+                  },
+                  "fbase_online_pesados_cancelamento.pedido": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_cancelamento.pedido"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "fbase_online_pesados_cancelamento_has_qtd_peca": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_cancelamentos"
@@ -13381,6 +15802,402 @@
                   "medida.PI_pesados_mes": {
                     "Target": {
                       "Entity": "medida.PI_pesados_mes"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_S01_demanda": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.S01_demanda"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_S01_demanda",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.S01_demanda": {
+                    "Target": {
+                      "Entity": "medida.S01_demanda"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_S01_media": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.S01_media"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_S01_media",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.S01_media": {
+                    "Target": {
+                      "Entity": "medida.S01_media"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_S02_demanda": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.S02_demanda"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_S02_demanda",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.S02_demanda": {
+                    "Target": {
+                      "Entity": "medida.S02_demanda"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_S02_media": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.S02_media"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_S02_media",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.S02_media": {
+                    "Target": {
+                      "Entity": "medida.S02_media"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_S04_demanda": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.S04_demanda"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_S04_demanda",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.S04_demanda": {
+                    "Target": {
+                      "Entity": "medida.S04_demanda"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_S04_media": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.S04_media"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_S04_media",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.S04_media": {
+                    "Target": {
+                      "Entity": "medida.S04_media"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_S05_demanda": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.S05_demanda"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_S05_demanda",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.S05_demanda": {
+                    "Target": {
+                      "Entity": "medida.S05_demanda"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_S05_media": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.S05_media"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_S05_media",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.S05_media": {
+                    "Target": {
+                      "Entity": "medida.S05_media"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_S13_demanda": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.S13_demanda"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_S13_demanda",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.S13_demanda": {
+                    "Target": {
+                      "Entity": "medida.S13_demanda"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_S13_media": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.S13_media"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_S13_media",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.S13_media": {
+                    "Target": {
+                      "Entity": "medida.S13_media"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_S14_demanda": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.S14_demanda"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_S14_demanda",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.S14_demanda": {
+                    "Target": {
+                      "Entity": "medida.S14_demanda"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fbase_online_pesados_demanda_has_medida_S14_media": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.S14_media"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_S14_media",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "medida.S14_media": {
+                    "Target": {
+                      "Entity": "medida.S14_media"
                     }
                   }
                 },
@@ -15102,6 +17919,39 @@
                 },
                 "State": "Generated"
               },
+              "fbase_online_pesados_demanda_has_shipment": {
+                "Binding": {
+                  "ConceptualEntity": "fbase_online_pesados_abs_demanda"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fbase_online_pesados_demanda.shipment"
+                      },
+                      "Subject": {
+                        "Role": "fbase_online_pesados_demanda"
+                      }
+                    },
+                    "ID": "fbase_online_pesados_abs_demandas_have_shipments",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fbase_online_pesados_demanda": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda"
+                    }
+                  },
+                  "fbase_online_pesados_demanda.shipment": {
+                    "Target": {
+                      "Entity": "fbase_online_pesados_demanda.shipment"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "fbase_online_pesados_demanda_has_status_oLPN": {
                 "Binding": {
                   "ConceptualEntity": "fbase_online_pesados_abs_demanda"
@@ -15421,6 +18271,204 @@
                   "medida.RS_movimentado_hoje": {
                     "Target": {
                       "Entity": "medida.RS_movimentado_hoje"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_S01_media1": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.S01_media1"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_S01_media",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.S01_media1": {
+                    "Target": {
+                      "Entity": "medida.S01_media1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_S02_media1": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.S02_media1"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_S02_media",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.S02_media1": {
+                    "Target": {
+                      "Entity": "medida.S02_media1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_S04_media1": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.S04_media1"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_S04_media",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.S04_media1": {
+                    "Target": {
+                      "Entity": "medida.S04_media1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_S05_media1": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.S05_media1"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_S05_media",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.S05_media1": {
+                    "Target": {
+                      "Entity": "medida.S05_media1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_S13_media1": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.S13_media1"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_S13_media",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.S13_media1": {
+                    "Target": {
+                      "Entity": "medida.S13_media1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_S14_media1": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.S14_media1"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_S14_media",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.S14_media1": {
+                    "Target": {
+                      "Entity": "medida.S14_media1"
                     }
                   }
                 },
@@ -15949,6 +18997,204 @@
                   "medida.day_over_day_pesados_monetario1": {
                     "Target": {
                       "Entity": "medida.day_over_day_pesados_monetario1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_demanda_S01_hoje": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.demanda_S01_hoje"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_demanda_S01_hoje",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.demanda_S01_hoje": {
+                    "Target": {
+                      "Entity": "medida.demanda_S01_hoje"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_demanda_S02_hoje": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.demanda_S02_hoje"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_demanda_S02_hoje",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.demanda_S02_hoje": {
+                    "Target": {
+                      "Entity": "medida.demanda_S02_hoje"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_demanda_S04_hoje": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.demanda_S04_hoje"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_demanda_S04_hoje",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.demanda_S04_hoje": {
+                    "Target": {
+                      "Entity": "medida.demanda_S04_hoje"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_demanda_S05_hoje": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.demanda_S05_hoje"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_demanda_S05_hoje",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.demanda_S05_hoje": {
+                    "Target": {
+                      "Entity": "medida.demanda_S05_hoje"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_demanda_S13_hoje": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.demanda_S13_hoje"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_demanda_S13_hoje",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.demanda_S13_hoje": {
+                    "Target": {
+                      "Entity": "medida.demanda_S13_hoje"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_demanda_S14_hoje": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.demanda_S14_hoje"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_demanda_S14_hoje",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.demanda_S14_hoje": {
+                    "Target": {
+                      "Entity": "medida.demanda_S14_hoje"
                     }
                   }
                 },
@@ -22211,6 +25457,7 @@
           },
           {
             "name": "S01_media",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -22234,6 +25481,7 @@
           },
           {
             "name": "demanda_S01_hoje",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -22256,6 +25504,7 @@
           },
           {
             "name": "%S01_media",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -22292,6 +25541,7 @@
           },
           {
             "name": "S01_demanda",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -22304,6 +25554,7 @@
           },
           {
             "name": "S02_demanda",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -22316,6 +25567,7 @@
           },
           {
             "name": "S02_media",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -22339,6 +25591,7 @@
           },
           {
             "name": "demanda_S02_hoje",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -22360,6 +25613,7 @@
           },
           {
             "name": "%S02_media",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -22396,6 +25650,7 @@
           },
           {
             "name": "S04_demanda",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -22408,6 +25663,7 @@
           },
           {
             "name": "S04_media",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -22431,6 +25687,7 @@
           },
           {
             "name": "demanda_S04_hoje",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -22453,6 +25710,7 @@
           },
           {
             "name": "%S04_media",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -22489,6 +25747,7 @@
           },
           {
             "name": "S05_demanda",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -22503,6 +25762,7 @@
           },
           {
             "name": "S05_media",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -22526,6 +25786,7 @@
           },
           {
             "name": "demanda_S05_hoje",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -22548,6 +25809,7 @@
           },
           {
             "name": "%S05_media",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -22584,6 +25846,7 @@
           },
           {
             "name": "S13_demanda",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -22599,6 +25862,7 @@
           },
           {
             "name": "S13_media",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -22623,6 +25887,7 @@
           },
           {
             "name": "demanda_S13_hoje",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -22644,6 +25909,7 @@
           },
           {
             "name": "%S13_media",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -22680,6 +25946,7 @@
           },
           {
             "name": "S14_demanda",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -22692,6 +25959,7 @@
           },
           {
             "name": "S14_media",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -22715,6 +25983,7 @@
           },
           {
             "name": "demanda_S14_hoje",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
@@ -22737,6 +26006,7 @@
           },
           {
             "name": "%S14_media",
+            "displayFolder": "Pesados",
             "expression": [
               "",
               "",
